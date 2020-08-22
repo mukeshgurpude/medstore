@@ -1,8 +1,9 @@
 {% extends "base_bootstrap.html"%}
 {% load crispy_forms_tags %}
 {%block content%}
+<!--TODO: Provide custom classes in order to use bootstrap forms... Form helper to use-->
 <p>
-<form action="" method="post" id="upload_form" enctype="multipart/form-data">
+<form action="" method="post" id="upload_form" enctype="multipart/form-data" class="form-group">
     {% csrf_token %}
     {{form|crispy}}
     <input type="submit" value="Submit">

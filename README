@@ -1,1 +1,15 @@
-Medical Store built with Django
+<h3>Medical Store built with Django</h3>
+    <h4>on command line use</h4>
+<ol>
+<li><pre>py manage.py check</pre>
+    It checks for errors. If no errors follow next command</li>
+<li><pre>py manage.py makemigrations</pre>
+    Make basic migrations for all the models in installed apps in settings
+    basically, it shows the tables it'll create by master database in the following command</li>
+<li><pre>py manage.py migrate</pre>
+    Creates all the required tables 
+<li><pre>py manage.py runserver</pre>
+    Run the server for us to check the site
+    you can supply other arguments such as port as follows</li>
+<li><pre>py manage.py runserver localhost:80</pre></li>
+</ol>
