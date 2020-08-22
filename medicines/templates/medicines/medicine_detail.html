@@ -1,0 +1,17 @@
+{% extends "base_bootstrap.html" %}
+{% block content %}
+{% if medicine %}
+<h2>{{medicine.name}}</h2><span>{{medicine.category}}</span><br/>
+{% if medicine.picture %}
+<img src="{%url 'medicines:picture' medicine.id%}">
+{%endif%}
+Price:{{medicine.price}}<br/>
+{%if medicine.quantity > 0%}
+Quantity: <span id="quantity">{{medicine.quantity}}</span>
+{%else%}
+<p>Not available right Now :(</p>
+{%endif%}
+{%else%}
+<p>Invalid</p>
+{%endif%}
+{% endblock%}

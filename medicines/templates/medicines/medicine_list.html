@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Medicines</title>
-</head>
-<body>
+{% extends "base_bootstrap.html" %}
+{%block content%}
 <h3>Medicine List</h3>
 <ul>
 {%for med in medicine_list %}
-    <li>{{med.name}}</li>
+    <li><a href="{%url 'medicines:detail' med.id %}">{{med.name}}</a></li>
 {%endfor%}
 </ul>
-</body>
-</html>
+{%endblock%}
