@@ -2,3 +2,7 @@
 /home/templates/base_menu.html
 *.pyc
 */__pycache__/*.pyc
+__pycache__/
+*/__pycache__/
+.vscode/
+ngrok.exe

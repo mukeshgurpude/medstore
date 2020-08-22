@@ -1,9 +1,24 @@
 {% extends "base_bootstrap.html" %}
+{% load static%}
+{% block head %}
+<link rel="stylesheet" href="{% static 'style.css' %}"
+{%endblock%}
 {%block content%}
 <h3>Medicine List</h3>
-<ul>
+{%if medicine_list%}
+<table class="list_table">
+    <thead>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Category</td>
+    </thead>
 {%for med in medicine_list %}
-    <li><a href="{%url 'medicines:detail' med.id %}">{{med.name}}</a></li>
-{%endfor%}
-</ul>
+    <tr>
+        <td><a href="{%url 'medicines:detail' med.id %}">{{med.name}}</a></td>
+        <td>{{med.price}}</td>
+        <td>{{med.category}}</td>
+    </tr>
+    {%endfor%}
+</table>
+{%endif%}
 {%endblock%}
