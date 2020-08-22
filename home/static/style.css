@@ -1,3 +1,7 @@
 .list_table tr td{
     padding: 10px 20px;
 }
+
+#category{
+    font-size: initial;
+}

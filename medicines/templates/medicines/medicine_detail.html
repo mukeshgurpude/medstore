@@ -1,19 +1,23 @@
 {% extends "base_bootstrap.html" %}
+{% load static %}
+{%block head%}
+<link rel="stylesheet" href="{%static 'style.css'%}">
+{%endblock%}
 {% block content %}
 {% if medicine %}
-<h2>{{medicine.name}}</h2><span>{{medicine.category}}</span><br/>
+<h2>{{medicine.name}}(<span id="category">{{medicine.category}}</span>)</h2><br/>
 {% if medicine.picture %}
 <img id="thumb" src="{%url 'medicines:picture' medicine.id%}">
 {%endif%}
-Info:
-<p>{{medicine.description}}</p>
-Price:{{medicine.price}}<br/>
+Info: <p>{{medicine.description}}</p>
+Price: {{medicine.price}}<br/>
 {%if medicine.quantity > 0%}
-Quantity: <span id="quantity">{{medicine.quantity}}</span>
+Quantity: <span id="quantity">{{medicine.quantity}}</span><br/>
 {%else%}
 <p>Not available right Now :(</p>
 {%endif%}
 {%else%}
 <p>Invalid</p>
 {%endif%}
+<a href="{%url 'medicines:all' %}">Back to catalog</a>
 {% endblock%}
