@@ -1,1 +1,4 @@
 .idea/
+/home/templates/base_menu.html
+*.pyc
+*/__pycache__/*.pyc

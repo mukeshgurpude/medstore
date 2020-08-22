@@ -1,5 +1,6 @@
 from django.db import models
 from django.conf import settings
+from django.core.validators import MinValueValidator
 # Create your models here.
 
 
@@ -14,7 +15,7 @@ class Medicine(models.Model):
     name = models.CharField(max_length=20)
     category = models.ForeignKey(MedCat, on_delete=models.CASCADE)
     price = models.DecimalField(decimal_places=2, max_digits=5)
-    quantity = models.IntegerField()
+    quantity = models.PositiveBigIntegerField()
     thumbnail = models.BinaryField(null=True, editable=True, blank=True)
     thumb_content_type = models.CharField(max_length=256, null=True, blank=True, help_text="MIMEType for thumbnail")
     description = models.TextField()

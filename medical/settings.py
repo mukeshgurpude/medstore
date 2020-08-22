@@ -38,7 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'medicines.apps.MedicinesConfig'
+    # extensions
+    'crispy_forms',
+
+    # apps
+    'medicines.apps.MedicinesConfig',
+    'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE = [
