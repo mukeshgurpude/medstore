@@ -5,3 +5,25 @@
 #category{
     font-size: initial;
 }
+
+.product{
+    display: flex;
+    clear: both;
+    margin: 25px 0;
+    flex-wrap: wrap;
+}
+
+.product_image{
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+
+.desc{
+    float: left;
+    margin: 0 50px;
+}
+
+.no-style product{
+    text-decoration: none !important;
+}

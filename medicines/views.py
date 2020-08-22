@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404, HttpResponse
 from django.urls import reverse_lazy
 from .owner import *
 from .models import Medicine
@@ -20,7 +20,7 @@ class MedListView(OwnerListView):
         search = request.GET.get("search", False)
         if search:
             query = Q(name__contains=search)
-            query.add(Q(category__contains=search), Q.OR)
+            # query.add(Q(category__contains=search), Q.OR)
             query.add(Q(description__contains=search), Q.OR)
             medicine_list = Medicine.objects.filter(query).select_related()
         else:
@@ -83,3 +83,14 @@ class MedUpdateView(LoginRequiredMixin, View):
 class MedDeleteView(OwnerDeleteView):
     model = Medicine
     template_name = "medicines/medicine_delete.html"
+
+
+def stream_file(request, pk):
+    med = get_object_or_404(Medicine, id=pk)
+    response = HttpResponse()
+    if not med.thumbnail: return HttpResponse("No Thumbnail")
+    response['Content-Type'] = med.thumb_content_type
+    response['Content-Length'] = len(med.thumbnail)
+    response.write(med.thumbnail)
+    return response
+

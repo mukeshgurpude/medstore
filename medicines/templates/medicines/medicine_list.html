@@ -5,27 +5,23 @@
 {%endblock%}
 {%block content%}
 <h3>Medicine List</h3>
+<!--TODO: Make blocks look good-->
 {%if medicine_list%}
-<table class="list_table">
-    <thead>
-        <td>Name</td>
-        <td>Price</td>
-        <td>Category</td>
-        <td>Quantity</td>
-    </thead>
-{%for med in medicine_list %}
-    <tr>
-        <td><a href="{%url 'medicines:detail' med.id %}">{{med.name}}</a></td>
-        <td>{{med.price}}</td>
-        <td>{{med.category}}</td>
-        {%if med.quantity > 0 %}
-        <td>{{med.quantity}}</td>
-        {% else %}
-        <td>Not Available</td>
-        {%endif%}
-    </tr>
-    {%endfor%}
-</table>
-<br/><a href="/admin/">Add a file via Admin panel</a>
+{%for med in medicine_list%}
+<div class="product">
+    <img src="{%url 'medicines:picture' med.id%}" class="product_image" alt="{{med}}">
+    <div class="desc">
+        <span>{{med}} <br/><br/>
+            {{med.quantity}} available</span><br/>
+        <a href="{%url 'medicines:detail' med.id%}">View Details</a>
+    </div>
+    <div>
+        <span style="padding: 25px;">&#8377; {{med.price}}</span>
+    </div>
+</div>
+<hr>
+{%endfor%}
+{%else%}
+<p>No items Available</p>
 {%endif%}
 {%endblock%}

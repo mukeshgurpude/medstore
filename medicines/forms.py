@@ -16,7 +16,7 @@ class CreateForm(forms.ModelForm):
 
     class Meta:
         model = Medicine
-        fields = ['name', 'category', 'description', 'thumbnail', 'quantity', 'price']  # Picture is manual
+        fields = ['name', 'category', 'description', 'thumbnail', 'quantity', 'price']  # thumbnail is manual
 
     # Validate the size of the picture
     def clean(self):
@@ -24,7 +24,7 @@ class CreateForm(forms.ModelForm):
         pic = cleaned_data.get('thumbnail')
         if pic is None: return
         if len(pic) > self.max_upload_limit:
-            self.add_error('picture', "File must be < " + self.max_upload_limit_text + " bytes")
+            self.add_error('thumbnail', "File must be < " + self.max_upload_limit_text + " bytes")
 
     # Convert uploaded File object to a picture
     def save(self, commit=True):
@@ -35,7 +35,7 @@ class CreateForm(forms.ModelForm):
         if isinstance(f, InMemoryUploadedFile):  # Extract data from the form to the model
             bytearr = f.read()
             instance.content_type = f.content_type
-            instance.picture = bytearr  # Overwrite with the actual image data
+            instance.thumbnail = bytearr  # Overwrite with the actual image data
 
         if commit:
             instance.save()
