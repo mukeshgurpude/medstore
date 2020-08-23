@@ -10,6 +10,8 @@
     <input type="submit" onclick="window.location='{%url 'medicines:all' %}'; return false;" value="Cancel">
 </form>
 </p>
+{%endblock%}
+{%block js%}
 <script>
 $("#upload_form").submit(function() {
   console.log('Checking file size');

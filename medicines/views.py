@@ -26,6 +26,8 @@ class MedListView(OwnerListView):
         else:
             medicine_list = Medicine.objects.all()
         ctx = {'medicine_list': medicine_list, 'search': search}
+        if search:
+            ctx['messages'] = ["Showing results for " + search, ]
         return render(request, self.template_name, ctx)
 
 

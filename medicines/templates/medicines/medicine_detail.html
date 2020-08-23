@@ -5,14 +5,19 @@
 {%endblock%}
 {% block content %}
 {% if medicine %}
+<div class="info">
 <h2>{{medicine.name}}(<span id="category">{{medicine.category}}</span>)</h2><br/>
-{% if medicine.picture %}
-<img id="thumb" src="{%url 'medicines:picture' medicine.id%}">
-{%endif%}
 Info: <p>{{medicine.description}}</p>
 Price: {{medicine.price}}<br/>
 {%if medicine.quantity > 0%}
 Quantity: <span id="quantity">{{medicine.quantity}}</span><br/>
+</div>
+{%if medicine.thumbnail%}
+<div class="thumb">
+    <img src="{%url 'medicines:picture' medicine.id%}" height="15%" width="15%">
+    <br/>
+</div>
+{%endif%}
 {%else%}
 <p>Not available right Now :(</p>
 {%endif%}

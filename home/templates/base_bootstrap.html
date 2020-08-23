@@ -4,34 +4,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>{% block title %}{{ settings.APP_NAME }}{% endblock %}</title>
-<link rel="stylesheet"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
-    crossorigin="anonymous">
+    <title>{% block title %}{{ settings.APP_NAME }}{% endblock %}</title>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
 
-<link rel="stylesheet"
+    <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"
-    crossorigin="anonymous">
+    crossorigin="anonymous"/>
 
-<link rel="stylesheet"
-    href="https://code.jquery.com/ui/1.12.1/themes/ui-lightness/jquery-ui.css"
-     crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-    crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
-    crossorigin="anonymous"></script>
-
-<script
-  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-  crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
-
-{% block head %} {% endblock %}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+    {% block head %} {% endblock %}
 
 </head>
 <body>
@@ -52,9 +38,9 @@
 <!--            </ul>-->
             <form method="get" class="navbar-form navbar-right" action="{%url 'medicines:all'%}">
                 <div class="input-group form-group">
-                <input type="search" id="search" name="search" class="form-control">
+                <input type="search" id="search" name="search" class="form-control" placeholder="Search">
+                <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
                 </div>
-                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
             </form>
         </div>
     </nav>
@@ -65,7 +51,7 @@
     {% if messages %}
     {% for msg in messages %}
         <div class="alert alert-{{msg.level_tag}}" role="alert">
-        {{msg.message}}
+        {{msg}}
         </div>
     {% endfor %}
     {% endif %}
@@ -75,5 +61,16 @@
 </div>
 <!--TODO: Footer-->
 {% block footer %} {% endblock %}
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+{%block js%}
+{%endblock%}
 </body>
 </html>
