@@ -1,5 +1,6 @@
 {% extends "base_bootstrap.html"%}
 {% load crispy_forms_tags %}
+{% load static%}
 {%block content%}
 <!--TODO: Provide custom classes in order to use bootstrap forms... Form helper to use-->
 <p>
@@ -24,4 +25,5 @@ $("#upload_form").submit(function() {
   }
 });
 </script>
+<script src="{%static 'pikachu.js'%}"></script>
 {%endblock%}
