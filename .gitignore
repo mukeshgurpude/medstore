@@ -10,3 +10,4 @@ medicines/__pycache__/
 home/__pycache__/
 medical/__pycache__/
 !*/__pycache__/*.pyc
+db.sqlite3

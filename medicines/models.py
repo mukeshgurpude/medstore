@@ -10,6 +10,9 @@ class MedCat(models.Model):
     def __str__(self):
         return self.name
 
+    class Meta:
+        verbose_name = "Medicine Category"
+
 
 class Medicine(models.Model):
     name = models.CharField(max_length=20)
