@@ -6,6 +6,10 @@
 {%block content%}
 <h3>Medicine List</h3>
 <!--TODO: Make blocks look good-->
+{% if search %}
+<a href="{%url 'medicines:all'%}">All Medicines</a>
+<hr><hr>
+{%endif%}
 {%if medicine_list%}
 {%for med in medicine_list%}
 <div class="product">

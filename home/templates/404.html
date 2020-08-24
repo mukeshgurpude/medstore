@@ -1,0 +1,10 @@
+{%extends 'base_bootstrap.html'%}
+{%block content%}
+<h2>You're at the wrong page...</h2>
+<br/>
+Follow this links:
+<ul>
+    <li><a href="{%url 'home:home'%}">Home Page</a> </li>
+    <li><a href="{%url 'medicines:all'%}">Medicine Catalog</a> </li>
+</ul>
+{%endblock%}
