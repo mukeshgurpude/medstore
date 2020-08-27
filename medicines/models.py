@@ -1,5 +1,6 @@
 from django.db import models
 from django.conf import settings
+import random, string
 from django.core.validators import MinValueValidator
 # Create your models here.
 
@@ -23,6 +24,7 @@ class Medicine(models.Model):
     thumb_content_type = models.CharField(max_length=256, null=True, blank=True, help_text="MIMEType for thumbnail")
     description = models.TextField()
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    slug = models.SlugField(default="".join(random.sample(str(name)+str(category.name)+str(price)[:-3], 15)), unique=True)
 
     def __str__(self):
         return self.name

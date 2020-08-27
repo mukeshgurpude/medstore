@@ -1,10 +1,7 @@
-<!--TODO: Add Styling
-    TODO: Create Menu
--->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>{% block title %}{{ settings.APP_NAME }}{% endblock %}</title>
+    <meta name="viewport" content="width= device-width"/>
     <link rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -23,38 +20,22 @@
 <body>
 <div class="container">
 {% block navbar %}
-
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <!--Branding-->
-                <a href="{%url 'home:home' %}">
-                    <h2>GBT Store</h2>
-                </a>
-            </div>
-<!--            <ul class="nav navbar-nav">-->
-<!--                <li>Page 1 </li>-->
-<!--                <li>Page 2 </li>-->
-<!--            </ul>-->
-            <form method="get" class="navbar-form navbar-right" action="{%url 'medicines:all'%}">
-                <div class="input-group form-group">
-                <input type="search" id="search" name="search" class="form-control" placeholder="Search">
-                <button class="btn btn-default" type="submit"><i class="fas fa-search"></i></button>
-                </div>
-            </form>
-        </div>
-    </nav>
-
+    {% include 'header.html' %}
     {% endblock %}
 {% block welcome %} {% endblock %}
 {% block messages %}
     {% if messages %}
-    {% for msg in messages %}
-        <div class="alert alert-{{msg.level_tag}}" role="alert">
-        {{msg}}
+    <div class="messages container mt-2">
+        {% for message in messages %}
+        <div {% if message.tags == 'error' %} class="alert alert-danger" {%else%}} class="alert alert-{{ message.tags }}{% endif %}" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
         </div>
-    {% endfor %}
-    {% endif %}
+        {% endfor %}
+    </div>
+  {% endif %}
 {% endblock %}
 {% block content %}
 {% endblock %}

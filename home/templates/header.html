@@ -1,0 +1,41 @@
+{% load cart_tag %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+  <a class="navbar-brand" href="/">MedStore</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      {% if request.user.is_authenticated %}
+      <li class="nav-item">
+        <a class="nav-link" href="{%url 'cart:home' %}">
+          <i class="fa fa-shopping-cart"></i> Cart
+          <span class="badge badge-light">{{ request.user| cart_total }}</span>
+        </a>
+      </li>
+       <li class="nav-item">
+
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-user-tie"></i> {{ request.user.username }}
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="/">Dashboard</a>
+<!--          <a class="dropdown-item" href="{ url 'checkout:oderView' %}">Orders</a>-->
+          <div class="dropdown-divider"></div>
+<!--          <a class="dropdown-item" href="accounts/logout/">Logout</a>-->
+        </div>
+      </li>
+      {% else %}
+       <li class="nav-item">
+        <a  class="btn btn-primary" href="/accounts/login/">Login / Register</a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+  </div>
+</nav>
+

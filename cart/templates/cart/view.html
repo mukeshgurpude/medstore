@@ -1,0 +1,27 @@
+{%extends 'base_bootstrap.html' %}
+{%block content%}
+<h1 style="text-align: center; font-family: cursive; color: royalblue">Your MedCart</h1>
+{% if items %}
+<table class="table table-hover">
+    <tr>
+        <th>Medicine</th>
+        <th>Quantity</th>
+        <th>Amount</th>
+    </tr>
+{%for item in items %}
+    <tr>
+        <td>{{item.item}}</td>
+        <td><a href="{%url 'cart:remove' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
+            {{item.quantity}}
+            <a href="{%url 'cart:add' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
+        </td>
+        <td>{{item.total_amount}}</td>
+    </tr>
+    {%endfor%}
+</table>
+<a href="{%url 'medicines:all' %}" class="btn btn-success">Continue Shopping</a>
+{%else%}
+<h4>No Medicine here</h4>
+<a href="{%url 'medicines:all' %}" class="btn btn-success">Shop for Medicines</a>
+{%endif%}
+{%endblock%}

@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&)18nkt8)=um_+p('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     # apps
     'medicines.apps.MedicinesConfig',
     'home.apps.HomeConfig',
+    'cart',
 ]
 
 MIDDLEWARE = [
