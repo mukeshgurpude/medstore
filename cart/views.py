@@ -18,9 +18,9 @@ def cartview(request):
 
 def add_to_cart(request, slug):
     a = request.META.get("HTTP_REFERER")
-    if not a:
-        messages.error(request, "You cannot edit cart items this way")
-        return redirect(reverse_lazy("medicines:all"))
+    # if not a:
+    #     messages.error(request, "You cannot edit cart items this way")
+    #     return redirect(reverse_lazy("medicines:all"))
     item = get_object_or_404(Medicine, slug=slug)
     order_item, created = CartItem.objects.get_or_create(user=request.user, item=item)
     orders = Order.objects.filter(user=request.user, ordered=False)

@@ -31,4 +31,4 @@ class Order(models.Model):
         return self.user.username
 
     def get_order_total(self):
-        return sum([item.total_amount() for item in self.items])
+        return sum([item.total_amount() for item in self.items.all()])

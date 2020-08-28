@@ -20,6 +20,7 @@
     {%endfor%}
 </table>
 <a href="{%url 'medicines:all' %}" class="btn btn-success">Continue Shopping</a>
+<a style="float: right;" class="btn btn-warning" href="{%url 'checkout:order' %}">Checkout</a>
 {%else%}
 <h4>No Medicine here</h4>
 <a href="{%url 'medicines:all' %}" class="btn btn-success">Shop for Medicines</a>

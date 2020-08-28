@@ -1,0 +1,45 @@
+{% extends 'base_bootstrap.html' %}
+{%load crispy_forms_tags %}
+{%block content%}
+<div class="container mt-5">
+    <h2>Confirm Shipping Address > <span class="text-muted">Checkout</span></h2>
+    <div class="row">
+        <div class="col-md-9">
+            {%if savedAddress%}
+            <h4 class="saved">Saved Address</h4>
+            <div class="card mb-5 saved" style="height: auto">
+                <div class="card-body">
+                    <p><b>Address: </b>{{savedAddress.address}}</p>
+                    <p><b>PinCode: </b>{{savedAddress.pincode}}</p>
+                    <p><b>City: </b>{{savedAddress.city}}</p>
+                    {%if savedAddress.landmark %}
+                    <p><b>Landmark: </b>{{savedAddress.landmark}}</p>
+                    {%endif%}
+                    <div class="card-body">
+                        <a href="{%url 'checkout:pay'%}" class="btn btn-success float-right">Proceed to Pay</a>
+                    </div>
+                </div>
+            </div>
+            <button id= "change" type="button" class="btn btn-primary">New address</button>
+        {%endif%}
+            <div id="editaddr" class="card mb-5" style="{%if savedAddress%}height:auto; display:none{%else%}height:auto{%endif%}">
+                <div class="card-body">
+                    <form method="post">
+                        {%csrf_token%}
+                        {{form|crispy}}
+                        <button type="submit" class="btn btn-primary float-right">Next</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}
+{%block js%}
+<script>
+$('#change').click(function(){
+    $('#editaddr').toggle();
+    this.disabled = true;
+    })
+</script>
+{%endblock%}
