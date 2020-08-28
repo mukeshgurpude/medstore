@@ -33,6 +33,7 @@ def checkout_view(request):
             address = form.save(commit=False)
             address.user = request.user
             address.save()
+            ctx["savedAddress"] = address
         else:
             messages.error(request, "Unable to process form.. Check for errors at your side")
 
@@ -73,7 +74,7 @@ def create_checkout_session(request):
             session = stripe.checkout.Session.create(
                 success_url=url+'sucess?sessionID=CHECKOUT_SESSION_ID',
                 cancel_url=url+'cancelled/',
-                payment_method_types=["card", "ideal", "fpx", "bacs_debit", "bancontact", "giropay", "p24", "eps"],
+                payment_method_types=["card"],
                 mode='payment',
                 line_items=items
             )

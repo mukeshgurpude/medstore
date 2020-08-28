@@ -38,9 +38,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
 
     # extensions
     'crispy_forms',
+
+    # For Authentication
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 
     # apps
     'medicines.apps.MedicinesConfig',
@@ -91,6 +97,11 @@ DATABASES = {
 }
 
 
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend'
+]
+
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
 
@@ -128,6 +139,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+SITE_ID = 1
+login_redirect_url = "/"
 
 STR_PUB = STR.publishable_key
 STR_SEC = STR.secret_key
