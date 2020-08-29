@@ -72,12 +72,13 @@ def create_checkout_session(request):
         items.append({'name': item.item, 'quantity': item.quantity, 'currency': 'INR', 'amount': int(item.item.price*100)})
     if request.method == "GET":
         url = request.build_absolute_uri()
-        url = re.findall(r"^(http[s]?://[^\/]+)(/.)?", url)[0]
+        url = re.findall(r"^(http[s]?://[^\/]+)(/.)?", url)[0][0]
+        print(url)
         stripe.api_key = settings.STR_SEC
         try:
             session = stripe.checkout.Session.create(
-                success_url=url+'success?sessionID=CHECKOUT_SESSION_ID',
-                cancel_url=url+'cancelled/',
+                success_url=url+'/success?sessionID=CHECKOUT_SESSION_ID',
+                cancel_url=url+'/cancelled/',
                 payment_method_types=["card"],
                 mode='payment',
                 line_items=items
