@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
+ACCOUNT_FORMS = {
+    "signup": "home.forms.UserSignUp"
+}
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # Application definition
 
@@ -43,16 +47,16 @@ INSTALLED_APPS = [
     # extensions
     'crispy_forms',
 
-    # For Authentication
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-
     # apps
     'medicines.apps.MedicinesConfig',
     'home.apps.HomeConfig',
     'cart',
     'checkout',
+
+    # For Authentication
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
@@ -141,7 +145,15 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 SITE_ID = 1
-login_redirect_url = "/"
+LOGIN_REDIRECT_URL = "/"
 
 STR_PUB = STR.publishable_key
 STR_SEC = STR.secret_key
+
+# For SMTP Email
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = DEFAULT_FROM_EMAIL = 'medstore.email@gmail.com'
+EMAIL_HOST_PASSWORD = 'super30@M'

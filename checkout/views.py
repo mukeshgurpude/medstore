@@ -7,10 +7,13 @@ from django.conf import settings
 import stripe
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
+import re
 from django.urls import reverse_lazy
+from allauth.account.decorators import verified_email_required
 # Create your views here.
 
 
+@verified_email_required
 def checkout_view(request):
     form = BillingForm
     order = Order.objects.filter(user=request.user, ordered=False)[0]
@@ -68,11 +71,12 @@ def create_checkout_session(request):
     for item in order.items.all():
         items.append({'name': item.item, 'quantity': item.quantity, 'currency': 'INR', 'amount': int(item.item.price*100)})
     if request.method == "GET":
-        url = "http://localhost/"
+        url = request.build_absolute_uri()
+        url = re.findall(r"^(http[s]?://[^\/]+)(/.)?", url)[0]
         stripe.api_key = settings.STR_SEC
         try:
             session = stripe.checkout.Session.create(
-                success_url=url+'sucess?sessionID=CHECKOUT_SESSION_ID',
+                success_url=url+'success?sessionID=CHECKOUT_SESSION_ID',
                 cancel_url=url+'cancelled/',
                 payment_method_types=["card"],
                 mode='payment',

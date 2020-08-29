@@ -21,7 +21,9 @@
     </div>
     <div>
         <span style="padding: 25px;">&#8377; {{med.price}}</span>
+        {%if request.user.is_authenticated%}
         <a href="{%url 'cart:add' med.slug%}" class="btn btn-success">Add to Cart</a>
+        {%endif%}
     </div>
 </div>
 <hr>
