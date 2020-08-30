@@ -1,34 +1,46 @@
-{% extends "base_bootstrap.html" %}
-{% load static%}
-{% block head %}
+
+{% extends 'base_bootstrap.html' %}
+{% load crispy_forms_tags %}
+{%load static%}
+{%block head%}
 <link rel="stylesheet" href="{% static 'style.css' %}">
 {%endblock%}
-{%block content%}
-<h3>Medicine List</h3>
-<!--TODO: Make blocks look good-->
-{% if search %}
-<a href="{%url 'medicines:all'%}">All Medicines</a>
-<hr><hr>
-{%endif%}
-{%if medicine_list%}
-{%for med in medicine_list%}
-<div class="product">
-    <img src="{%url 'medicines:picture' med.id%}" class="product_image" alt="{{med}}">
-    <div class="desc">
-        <span>{{med}} <br/><br/>
-            {{med.quantity}} available</span><br/>
-        <a href="{%url 'medicines:detail' med.id%}">View Details</a>
-    </div>
-    <div>
-        <span style="padding: 25px;">&#8377; {{med.price}}</span>
-        {%if request.user.is_authenticated%}
-        <a href="{%url 'cart:add' med.slug%}" class="btn btn-success">Add to Cart</a>
-        {%endif%}
-    </div>
+{% block content %}
+<div class="container my-5">
+   <h2 class="my-5">Featured Products</h2>
+   <div class="row">
+      <div class="col-md-3">
+         <form method="get">
+            {{ filter.form| crispy }}
+            <button type="submit">Search</button>
+         </form>
+      </div>
+      <div class="col-md-9">
+         <div class="row">
+            {% for med in filter.qs %}
+            <div class="col-md-6 col-sm-12 col-lg-4">
+               <div class="product">
+                    <img src="{%url 'medicines:picture' med.id%}" class="product_image" alt="{{med}}">
+                   <div class="desc">
+                        <span>{{med}} <br/><br/>
+                            {{med.quantity}} available</span><br/>
+                        <a href="{%url 'medicines:detail' med.id%}">View Details</a>
+                    </div>
+                    <div>
+                        <span style="padding: 25px;">&#8377; {{med.price}}</span>
+                        {%if request.user.is_authenticated%}
+                        <a href="{%url 'cart:add' med.slug%}" class="btn btn-success">Add to Cart</a>
+                        {%endif%}
+                    </div>
+                </div>
+                <hr>
+
+               <!-- card // -->
+            </div>
+            <!-- col // -->
+            {% endfor %}
+         </div>
+      </div>
+   </div>
 </div>
-<hr>
-{%endfor%}
-{%else%}
-<p>No items Available</p>
-{%endif%}
-{%endblock%}
+{% endblock %}
