@@ -1,0 +1,23 @@
+{%extends 'base_bootstrap.html' %}
+{%block head%}<title>My Orders</title>{%endblock%}
+{%block content%}
+<h2>My Orders</h2>
+{% if orders %}
+<table class="table table-hover">
+    <tr>
+        <th>Date</th>
+        <th>Order ID</th>
+        <th>Payment ID</th>
+        <th>Amount</th>
+    </tr>
+    {%for item in orders%}
+    <tr>
+        <td>{{item.orderDate}}</td>
+        <td>{{item.orderID}}</td>
+        <td>{{item.paymentID}}</td>
+        <td>&#8377;{{item.get_order_total}}</td>
+    </tr>
+    {%endfor%}
+</table>
+{%endif%}
+{%endblock%}

@@ -8,7 +8,8 @@ import stripe
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import re
-from django.urls import reverse_lazy
+from django.http import HttpResponse
+from django.utils.crypto import get_random_string
 from allauth.account.decorators import verified_email_required
 # Create your views here.
 
@@ -77,7 +78,8 @@ def create_checkout_session(request):
         stripe.api_key = settings.STR_SEC
         try:
             session = stripe.checkout.Session.create(
-                success_url=url+'/success?sessionID=CHECKOUT_SESSION_ID',
+                client_reference_id=request.user.id,
+                success_url=url+'/success/?sessionID=CHECKOUT_SESSION_ID',
                 cancel_url=url+'/cancelled/',
                 payment_method_types=["card"],
                 mode='payment',
@@ -86,3 +88,51 @@ def create_checkout_session(request):
             return JsonResponse({'sessionId': session['id']})
         except Exception as e:
             return JsonResponse({'error': str(e)})
+
+
+@csrf_exempt
+def stripe_webhook(request):
+    stripe.api_key = settings.STR_SEC
+    endpoint_secret = 'whsec_ce2Vt94Hg3Og38Z3KcrbHZrHfQeCUNUg'
+    payload = request.body
+    sig_header = request.META['HTTP_STRIPE_SIGNATURE']
+    event = None
+
+    try:
+        event = stripe.Webhook.construct_event(
+            payload, sig_header, endpoint_secret
+        )
+    except ValueError as e:
+        # Invalid Payment
+        return HttpResponse(status=400)
+    except stripe.error.SignatureVerificationError as e:
+        # Invalid signature
+        return HttpResponse(status=400)
+
+    if event['type'] == 'checkout.session.completed':
+        print(event)
+        user_id = event["data"]["object"]["client_reference_id"]
+        order = Order.objects.filter(user__id=user_id, ordered=False)[0]
+        cart_items = CartItem.objects.filter(user__id=user_id, purchased=False)
+        order.orderID = "or_" + get_random_string(16)
+        order.paymentID = event["data"]["object"]["payment_intent"]
+        order.save()
+
+        for cart_item in cart_items:
+            cart_item.purchased = True
+            cart_item.item.quantity -= cart_item.quantity
+            cart_item.item.save()
+            cart_item.save()
+            print(cart_item.purchased)
+            print(cart_item.item.quantity)
+        print("Payment was successful.")
+
+    return HttpResponse(status=200)
+
+
+def success(request):
+    return render(request, "handle/success.html")
+
+
+def fail(request):
+    return render(request, "handle/fail.html")

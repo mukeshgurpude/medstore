@@ -11,6 +11,7 @@ class CartItem(models.Model):
     item = models.ForeignKey(Medicine, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1)
     created = models.DateTimeField(auto_now_add=True)
+    purchased = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.quantity} of {self.item}"
@@ -26,6 +27,7 @@ class Order(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     orderID = models.CharField(null=True, max_length=16)
     paymentID = models.CharField(null=True, max_length=50)
+    orderDate = models.DateTimeField(null=True, auto_now=True)
 
     def __str__(self):
         return self.user.username
