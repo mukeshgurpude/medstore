@@ -111,20 +111,24 @@ def stripe_webhook(request):
 
     if event['type'] == 'checkout.session.completed':
         print(event)
-        user_id = event["data"]["object"]["client_reference_id"]
+        user_id = int(event["data"]["object"]["client_reference_id"])
         order = Order.objects.filter(user__id=user_id, ordered=False)[0]
-        cart_items = CartItem.objects.filter(user__id=user_id, purchased=False)
+        cart_items = CartItem.objects.filter(user__id=user_id)
         order.orderID = "or_" + get_random_string(16)
         order.paymentID = event["data"]["object"]["payment_intent"]
+        order.ordered = True
+        order.total = order.get_order_total()
         order.save()
-
+        print(cart_items)
         for cart_item in cart_items:
+            print(cart_item)
             cart_item.purchased = True
             cart_item.item.quantity -= cart_item.quantity
             cart_item.item.save()
-            cart_item.save()
+            cart_item.delete()
             print(cart_item.purchased)
             print(cart_item.item.quantity)
+        cart_items.delete()
         print("Payment was successful.")
 
     return HttpResponse(status=200)

@@ -11,9 +11,9 @@
 {%for item in items %}
     <tr>
         <td>{{item.item}}</td>
-        <td><a href="{%url 'cart:remove' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
+        <td><a href="{%url 'cart:decrease' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
             {{item.quantity}}
-            <a href="{%url 'cart:add' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
+            <a href="{%url 'cart:increase' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
         </td>
         <td>{{item.total_amount}}</td>
     </tr>

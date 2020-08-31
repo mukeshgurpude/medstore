@@ -99,4 +99,3 @@ def stream_file(request, pk):
     response['Content-Length'] = len(med.thumbnail)
     response.write(med.thumbnail)
     return response
-
