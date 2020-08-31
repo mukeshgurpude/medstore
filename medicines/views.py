@@ -5,7 +5,7 @@ from .models import Medicine
 from .forms import CreateForm
 from django.views import View
 from .filters import ProductFilter
-
+from cart.models import Order
 # for search queries
 from django.db.models import Q
 
@@ -32,6 +32,10 @@ class MedListView(OwnerListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['filter'] = ProductFilter(self.request.GET, queryset=self.get_queryset())
+        cart_items = Order.objects.filter(user=self.request.user, ordered=False)[0].items.all()
+        a = [item.item for item in cart_items]
+        print(a)
+        context["items"] = a
         return context
 
 
@@ -99,4 +103,3 @@ def stream_file(request, pk):
     response['Content-Length'] = len(med.thumbnail)
     response.write(med.thumbnail)
     return response
-

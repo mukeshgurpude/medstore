@@ -7,6 +7,7 @@ user = get_user_model()
 
 
 class CartItem(models.Model):
+    objects = models.Manager()
     user = models.ForeignKey(user, on_delete=models.CASCADE)
     item = models.ForeignKey(Medicine, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1)
@@ -21,6 +22,7 @@ class CartItem(models.Model):
 
 
 class Order(models.Model):
+    objects = models.Manager()
     items = models.ManyToManyField(CartItem)
     user = models.ForeignKey(user, on_delete=models.CASCADE)
     ordered = models.BooleanField(default=False)
@@ -28,6 +30,7 @@ class Order(models.Model):
     orderID = models.CharField(null=True, max_length=16)
     paymentID = models.CharField(null=True, max_length=50)
     orderDate = models.DateTimeField(null=True, auto_now=True)
+    total = models.DecimalField(default=0, decimal_places=2, max_digits=10)
 
     def __str__(self):
         return self.user.username

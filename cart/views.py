@@ -22,7 +22,7 @@ def add_to_cart(request, slug):
     #     messages.error(request, "You cannot edit cart items this way")
     #     return redirect(reverse_lazy("medicines:all"))
     item = get_object_or_404(Medicine, slug=slug)
-    order_item, created = CartItem.objects.get_or_create(user=request.user, item=item)
+    order_item = CartItem.objects.create(user=request.user, item=item)
     orders = Order.objects.filter(user=request.user, ordered=False)
     if orders.exists():
         order = orders[0]
@@ -64,3 +64,59 @@ def remove_from_cart(request, slug):
     else:
         messages.error(request, "your cart is empty")
     return redirect(request.META.get("HTTP_REFERER"))
+
+
+def increase_cart(request, slug):
+    a = request.META.get("HTTP_REFERER")
+    # if not a:
+    #     messages.error(request, "You cannot edit cart items this way")
+    #     return redirect(reverse_lazy("medicines:all"))
+    item = get_object_or_404(Medicine, slug=slug)
+    order_item = CartItem.objects.get(user=request.user, item=item)
+    orders = Order.objects.filter(user=request.user, ordered=False)
+    if orders.exists():
+        order = orders[0]
+        if order.items.filter(item__slug=item.slug).exists():
+            order_item.quantity += 1
+            order_item.save()
+            messages.info(request, "Item quantity updated.")
+        else:
+            order.items.add(order_item)
+            messages.success(request, "Item added to the cart")
+    else:
+        order = Order.objects.create(user=request.user)
+        order.items.add(order_item)
+        messages.success(request, "Item added to the cart")
+    return redirect(request.META.get('HTTP_REFERER'))
+
+
+def decrease_cart(request, slug):
+    a = request.META.get("HTTP_REFERER")
+    if not a:
+        messages.error(request, "You cannot edit cart items this way")
+        return redirect(reverse_lazy("medicines:all"))
+    item = get_object_or_404(Medicine, slug=slug)
+    orders = Order.objects.filter(user=request.user, ordered=False)
+    if orders.exists():
+        order = orders[0]
+        if order.items.filter(item__slug=item.slug).exists():
+            order_item = CartItem.objects.filter(user=request.user, item=item)[0]
+            if order_item.quantity > 1:
+                order_item.quantity -= 1
+                order_item.save()
+                messages.info(request, "Item quantity updated")
+            else:
+                order.items.remove(order_item)
+                order_item.delete()
+                messages.success(request, "Item deleted from the cart")
+        else:
+            messages.error(request, "Item was not in your cart")
+    else:
+        messages.error(request, "your cart is empty")
+    return redirect(request.META.get("HTTP_REFERER"))
+
+
+def order_view(request):
+    orders = Order.objects.filter(user=request.user, ordered=True)
+    ctx = {"orders": orders}
+    return render(request, "order/view.html", ctx)
