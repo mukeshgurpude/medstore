@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&)18nkt8)=um_+p('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
 
@@ -150,6 +150,7 @@ LOGIN_REDIRECT_URL = "/"
 
 STR_PUB = STR.publishable_key
 STR_SEC = STR.secret_key
+STRIPE_ENDPOINT_SECRET = "whsec_SkFT6onhhXhcGQc6B3DLKoru84PE4VZe"
 
 # For SMTP Email
 
