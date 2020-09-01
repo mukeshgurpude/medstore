@@ -32,10 +32,14 @@ class MedListView(OwnerListView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context['filter'] = ProductFilter(self.request.GET, queryset=self.get_queryset())
-        cart_items = Order.objects.filter(user=self.request.user, ordered=False)[0].items.all()
-        a = [item.item for item in cart_items]
-        print(a)
-        context["items"] = a
+        if self.request.user.is_authenticated:
+            print(self.request.user)
+            orders = Order.objects.filter(user=self.request.user, ordered=False)
+            if orders.exists():
+                cart_items = orders[0].items.all()
+                a = [item.item for item in cart_items]
+                print(a)
+                context["items"] = a
         return context
 
 
