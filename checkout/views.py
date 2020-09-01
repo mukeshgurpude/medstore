@@ -93,7 +93,7 @@ def create_checkout_session(request):
 @csrf_exempt
 def stripe_webhook(request):
     stripe.api_key = settings.STR_SEC
-    endpoint_secret = 'whsec_ce2Vt94Hg3Og38Z3KcrbHZrHfQeCUNUg'
+    endpoint_secret = settings.STRIPE_ENDPOINT_KEY
     payload = request.body
     sig_header = request.META['HTTP_STRIPE_SIGNATURE']
     event = None

@@ -6,6 +6,7 @@ from django.core.validators import MinValueValidator
 
 
 class MedCat(models.Model):
+    objects = models.Manager()
     name = models.CharField(max_length=20)
 
     def __str__(self):
@@ -16,6 +17,7 @@ class MedCat(models.Model):
 
 
 class Medicine(models.Model):
+    objects = models.Manager()
     name = models.CharField(max_length=20)
     category = models.ForeignKey(MedCat, on_delete=models.CASCADE)
     price = models.DecimalField(decimal_places=2, max_digits=5)

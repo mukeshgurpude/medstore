@@ -150,6 +150,7 @@ LOGIN_REDIRECT_URL = "/"
 
 STR_PUB = STR.publishable_key
 STR_SEC = STR.secret_key
+STRIPE_ENDPOINT_KEY = "whsec_ce2Vt94Hg3Og38Z3KcrbHZrHfQeCUNUg"
 
 # For SMTP Email
 
