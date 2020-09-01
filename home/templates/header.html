@@ -24,7 +24,7 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="/">Dashboard</a>
-<!--          <a class="dropdown-item" href="{ url 'checkout:oderView' %}">Orders</a>-->
+          <a class="dropdown-item" href="{% url 'cart:my_orders' %}">Orders</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/logout/">Logout</a>
         </div>
