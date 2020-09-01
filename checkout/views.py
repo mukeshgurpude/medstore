@@ -81,7 +81,7 @@ def create_checkout_session(request):
                 client_reference_id=request.user.id,
                 success_url=url+'/success/?sessionID=CHECKOUT_SESSION_ID',
                 cancel_url=url+'/cancelled/',
-                payment_method_types=["card"],
+                payment_method_types=["card", ],
                 mode='payment',
                 line_items=items
             )
@@ -94,6 +94,7 @@ def create_checkout_session(request):
 def stripe_webhook(request):
     stripe.api_key = settings.STR_SEC
     endpoint_secret = settings.STRIPE_ENDPOINT_KEY
+    endpoint_secret = 'whsec_SkFT6onhhXhcGQc6B3DLKoru84PE4VZe'
     payload = request.body
     sig_header = request.META['HTTP_STRIPE_SIGNATURE']
     event = None
@@ -135,6 +136,24 @@ def stripe_webhook(request):
 
 
 def success(request):
+    user_id = request.user.id
+    order = Order.objects.filter(user__id=user_id, ordered=False)[0]
+    cart_items = CartItem.objects.filter(user__id=user_id)
+    order.orderID = "or_" + get_random_string(16)
+    order.paymentID = "pi_" + get_random_string(16)
+    order.ordered = True
+    order.total = order.get_order_total()
+    order.save()
+    print(cart_items)
+    for cart_item in cart_items:
+        print(cart_item)
+        cart_item.purchased = True
+        cart_item.item.quantity -= cart_item.quantity
+        cart_item.item.save()
+        cart_item.delete()
+        print(cart_item.purchased)
+        print(cart_item.item.quantity)
+    cart_items.delete()
     return render(request, "handle/success.html")
 
 
