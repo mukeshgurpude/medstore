@@ -8,6 +8,7 @@ from .filters import ProductFilter
 from cart.models import Order
 # for search queries
 from django.db.models import Q
+from django.contrib.auth.mixins import PermissionRequiredMixin
 
 # Create your views here.
 
@@ -33,12 +34,10 @@ class MedListView(OwnerListView):
         context = super().get_context_data(**kwargs)
         context['filter'] = ProductFilter(self.request.GET, queryset=self.get_queryset())
         if self.request.user.is_authenticated:
-            print(self.request.user)
             orders = Order.objects.filter(user=self.request.user, ordered=False)
             if orders.exists():
                 cart_items = orders[0].items.all()
                 a = [item.item for item in cart_items]
-                print(a)
                 context["items"] = a
         return context
 
@@ -51,8 +50,10 @@ class MedDetailView(OwnerDetailView):
     #     x = Medicine.objects.get(id=pk)
 
 
-class MedCreateView(LoginRequiredMixin, View):
+class MedCreateView(LoginRequiredMixin, PermissionRequiredMixin, View):
     model = Medicine
+    permission_required = 'medicines.add_medicine'
+    permission_denied_message = "No Access"
     success_url = reverse_lazy("medicines:all")
     template_name = "medicines/medicine_add.html"
 

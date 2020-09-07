@@ -53,12 +53,13 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'cart',
     'checkout',
+    'accounts',
 
     # I want to use builtin templates therefore no allauth
     # For Authentication
-    # 'allauth',
-    # 'allauth.account',
-    # 'allauth.socialaccount',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
@@ -148,6 +149,7 @@ STATIC_URL = '/static/'
 
 SITE_ID = 1
 LOGIN_REDIRECT_URL = "/"
+LOGIN_URL = "/login/"
 
 STR_PUB = STR.publishable_key
 STR_SEC = STR.secret_key

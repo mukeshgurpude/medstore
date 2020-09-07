@@ -2,7 +2,7 @@
 {%load crispy_forms_tags %}
 {%load static%}
 {%block head%}
-<title>SignUp</title>
+<title>Login</title>
 <link rel="stylesheet" href="{%static 'style.css'%}"/>
 {%endblock%}
 {%block content%}
@@ -10,17 +10,20 @@
     <div class="row">
         <div class="col-md-4 form">
             <h2>Please Login</h2>
-            <form method="post" action="/signup/">
+            <form method="post" action="/login/">
                 {%csrf_token%}
                 {{form|crispy}}
-                <button class="btn btn-success float-right">Register</button>
+                {%comment%}
+                <a href="{%url 'account_reset_password'%}">Forgot Password?</a>
+                {%endcomment%}
+                <button class="btn btn-success">Login</button>
             </form>
         </div>
       <div class="col-md-3" style="align-self: center;">
         <div id="links">
         <ul>
-            <li><a class="btn btn-primary log" href="{%url 'login'%}"><span>Login</span></a> </li>
-            <li><a class="btn btn-primary log" href="{%url 'Account:register'%}"><span>SignUp</span></a> </li>
+            <li><a class="btn btn-primary log" href="{%url 'account_login'%}"><span>Login</span></a> </li>
+            <li><a class="btn btn-primary log" href="{%url 'account_signup'%}"><span>SignUp</span></a> </li>
         </ul>
         </div>
       </div>
