@@ -22,5 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('medicines/', include("medicines.urls")),
     path("", include("checkout.urls")),
-    path("", include("allauth.urls")),
+    path("", include("django.contrib.auth.urls")),  # Builtins
 ]

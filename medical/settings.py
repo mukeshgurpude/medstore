@@ -54,10 +54,11 @@ INSTALLED_APPS = [
     'cart',
     'checkout',
 
+    # I want to use builtin templates therefore no allauth
     # For Authentication
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
+    # 'allauth',
+    # 'allauth.account',
+    # 'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [

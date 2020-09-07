@@ -13,15 +13,17 @@
             <form method="post" action="/login/">
                 {%csrf_token%}
                 {{form|crispy}}
+                {%comment%}
                 <a href="{%url 'account_reset_password'%}">Forgot Password?</a>
+                {%endcomment%}
                 <button class="btn btn-success">Login</button>
             </form>
         </div>
       <div class="col-md-3" style="align-self: center;">
         <div id="links">
         <ul>
-            <li><a class="btn btn-primary log" href="{%url 'account_login'%}"><span>Login</span></a> </li>
-            <li><a class="btn btn-primary log" href="{%url 'account_signup'%}"><span>SignUp</span></a> </li>
+            <li><a class="btn btn-primary log" href="{url 'account_login'%}"><span>Login</span></a> </li>
+            <li><a class="btn btn-primary log" href="{url 'account_signup'%}"><span>SignUp</span></a> </li>
         </ul>
         </div>
       </div>
