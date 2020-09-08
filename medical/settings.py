@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django_filters',
+    'django.contrib.sitemaps',  # For SiteMap
 
     # extensions
     'crispy_forms',
