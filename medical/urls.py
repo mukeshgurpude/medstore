@@ -31,6 +31,6 @@ urlpatterns = [
     path('medicines/', include("medicines.urls")),
     path("", include("checkout.urls")),
     # path("", include("django.contrib.auth.urls")),  # Builtins
-    # path("", include("accounts.urls")),
+    path("", include("accounts.urls")),
     path("", include("allauth.urls")),
 ]

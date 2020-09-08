@@ -1,0 +1,19 @@
+{%extends 'base_bootstrap.html' %}
+{%load crispy_forms_tags%}
+{%load static%}
+{%block content%}
+<form method="post">
+    {%csrf_token%}
+    <p><h2>Basic</h2><button type="button" class="btn float-right" id="hide">Edit</button>
+    {{user|crispy}}
+    </p>
+    <p><h2>Other Details</h2>
+    {{profile|crispy}}
+    </p>
+    <button class="btn float-right" id="submit" type="submit" style="display:none">Save Changes</button>
+</form>
+<a class="btn float-right" href="{%url 'account_change_password'%}">Change Password</a>
+{%endblock%}
+{%block js%}
+<script src="{%static 'pikachu.js'%}"></script>
+{%endblock%}
