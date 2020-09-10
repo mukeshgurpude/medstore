@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: /pay
+Disallow: /order
+Disallow: /orders
+Disallow: /profile
+Disallow: /add/
+Disallow: /remove/
+Disallow: /increase/
+Disallow: /decrease/
+Sitemap: http://localhost/sitemap.xml/
