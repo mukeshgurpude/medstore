@@ -7,4 +7,4 @@ Disallow: /add/
 Disallow: /remove/
 Disallow: /increase/
 Disallow: /decrease/
-Sitemap: http://localhost/sitemap.xml/
+Sitemap: https://medstore.pythonanywhere.com/sitemap.xml/

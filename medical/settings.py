@@ -154,7 +154,7 @@ LOGIN_URL = "/login/"
 
 STR_PUB = STR.publishable_key
 STR_SEC = STR.secret_key
-STRIPE_ENDPOINT_KEY = "whsec_##################################"                # replace with stripe endpoint key
+STRIPE_ENDPOINT_KEY = "whsec_SkFT6onhhXhcGQc6B3DLKoru84PE4VZe"                # replace with stripe endpoint key
 
 # For SMTP Email
 
