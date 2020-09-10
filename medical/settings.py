@@ -161,5 +161,5 @@ STRIPE_ENDPOINT_KEY = "whsec_SkFT6onhhXhcGQc6B3DLKoru84PE4VZe"                # 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = DEFAULT_FROM_EMAIL = 'medstore.email@gmail.com'                 # email
-EMAIL_HOST_PASSWORD = 'super30@M'                                         # Gmail_password
+EMAIL_HOST_USER = DEFAULT_FROM_EMAIL = 'test@gmail.com'                 # email
+EMAIL_HOST_PASSWORD = 'testing'                                         # Gmail_password
