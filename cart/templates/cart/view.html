@@ -1,4 +1,8 @@
 {%extends 'base_bootstrap.html' %}
+{%block head%}
+<title>MedStore|Cart</title>
+<meta name="description" content="MedStore|Cart of {{request.user.username}}">
+{%endblock%}
 {%block content%}
 <h1 style="text-align: center; font-family: cursive; color: royalblue">Your MedCart</h1>
 {% if items %}

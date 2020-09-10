@@ -1,6 +1,10 @@
 {%extends 'base_bootstrap.html' %}
 {%load crispy_forms_tags%}
 {%load static%}
+{%block head%}
+<title>{{request.user.username}}|MedStore</title>
+<meta name="description" content="{{request.user.username}} Profile on MedStore">
+{%endblock%}
 {%block content%}
 <form method="post">
     {%csrf_token%}

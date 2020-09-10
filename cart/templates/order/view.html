@@ -1,5 +1,8 @@
 {%extends 'base_bootstrap.html' %}
-{%block head%}<title>My Orders</title>{%endblock%}
+{%block head%}
+<title>My Orders</title>
+<meta name="description" content="{{request.user.username}} orders">
+{%endblock%}
 {%block content%}
 <h2>My Orders</h2>
 {% if orders %}

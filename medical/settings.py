@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&)18nkt8)=um_+p('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -161,5 +161,5 @@ STRIPE_ENDPOINT_KEY = "whsec_##################################"                
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = DEFAULT_FROM_EMAIL = 'test@gmail.com'                 # email
-EMAIL_HOST_PASSWORD = 'testing'                                         # Gmail_password
+EMAIL_HOST_USER = DEFAULT_FROM_EMAIL = 'medstore.email@gmail.com'                 # email
+EMAIL_HOST_PASSWORD = 'super30@M'                                         # Gmail_password

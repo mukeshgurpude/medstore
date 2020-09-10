@@ -1,6 +1,8 @@
 {% extends "base_bootstrap.html" %}
 {% load static %}
 {%block head%}
+<title>{{medicine}}|MedStore</title>
+<meta name="description" content="{{medicine}}|{{medicine.description|truncatewords:10}}">
 <link rel="stylesheet" href="{%static 'style.css'%}">
 {%endblock%}
 {% block content %}
