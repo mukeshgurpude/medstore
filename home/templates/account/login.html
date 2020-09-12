@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col-md-4 form">
             <h2>Please Login</h2>
-            <form method="post" action="/login/">
+            <form method="post" action="/login/" autocomplete="off">
                 {%csrf_token%}
                 {{form|crispy}}
                 {%comment%}
