@@ -1,0 +1,13 @@
+{%extends 'base_bootstrap.html' %}
+{%load crispy_forms_tags%}
+{%block welcome%}
+<h1>Sell at MedStore</h1>
+<p>Register your pharmacy below..</p>
+{%endblock%}
+{%block content%}
+<form method="post">
+    {%csrf_token%}
+    {{seller|crispy}}
+    <button type="submit" class="btn btn-primary float-right">Submit</button>
+</form>
+{%endblock%}

@@ -8,7 +8,7 @@ hide.addEventListener("click", function(){
     if(sub.style.display == "none"){
         hide.innerHTML = "Cancel";
         sub.style.display = "";
-        for(var tag=0; tag<tags.length; tag++){
+        for(var tag=0; tag<4; tag++){
             tags[tag].removeAttribute("readonly");
             tags[tag].removeAttribute("disabled");
         };
@@ -16,7 +16,7 @@ hide.addEventListener("click", function(){
     else{
         hide.innerHTML = "Edit";
         sub.style.display = "none";
-        for(var tag=0; tag<tags.length; tag++){
+        for(var tag=0; tag<4; tag++){
             tags[tag].setAttribute("readonly", "");
             tags[tag].setAttribute("disabled", "");
         };

@@ -8,15 +8,26 @@
 {%block content%}
 <form method="post">
     {%csrf_token%}
-    <p><h2>Basic</h2><button type="button" class="btn float-right" id="hide">Edit</button>
+    <p><h2>Basic</h2><button type="button" class="btn float-right btn-primary" id="hide">Edit</button>
     {{user|crispy}}
     </p>
-    <p><h2>Other Details</h2>
+    <p>
     {{profile|crispy}}
     </p>
-    <button class="btn float-right" id="submit" type="submit" style="display:none">Save Changes</button>
+    <button class="btn float-right btn-success" id="submit" type="submit" style="display:none">Save Changes</button>
+<a class="btn float-right btn-primary" style="margin-right: 1vw" href="{%url 'account_change_password'%}">Change Password</a>
 </form>
-<a class="btn float-right" href="{%url 'account_change_password'%}">Change Password</a>
+    {%if is_seller and request.user.is_superuser%}
+    <h2 style="clear:both">Seller Account</h2>
+    <p><span style="color: red; font-style: italic">Note: </span>Click <a href="{%url 'Account:apply'%}"><em>here</em></a>
+    to change your pharmacy details</p>
+    {{seller|crispy}}
+    {%elif request.user.is_superuser%}
+    <section><h2>Welcome Boss</h2></section>
+    <a type="button" href="{%url 'Account:apply'%}">Register Seller Profile</a>
+    {%else%}
+    <a type="button" href="{%url 'Account:apply'%}">Own a Pharmacy... Apply for a seller account</a>
+    {%endif%}
 {%endblock%}
 {%block js%}
 <script src="{%static 'pikachu.js'%}"></script>
