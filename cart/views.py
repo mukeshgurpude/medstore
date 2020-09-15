@@ -4,6 +4,7 @@ from .models import Order, CartItem
 from medicines.models import Medicine
 from django.contrib import messages
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
 
@@ -156,6 +157,7 @@ def decrease_cart_test(request, slug):
                 order_item.quantity -= 1
                 order_item.save()
                 messages.info(request, "Item quantity updated")
+                return JsonResponse({"quantity": order_item.quantity})
             else:
                 order.items.remove(order_item)
                 order_item.delete()
@@ -164,4 +166,4 @@ def decrease_cart_test(request, slug):
             messages.error(request, "Item was not in your cart")
     else:
         messages.error(request, "your cart is empty")
-    return redirect(request.META.get("HTTP_REFERER"))
+    return JsonResponse({"quantity": 0})

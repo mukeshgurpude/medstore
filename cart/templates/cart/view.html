@@ -13,11 +13,11 @@
         <th>Amount</th>
     </tr>
 {%for item in items %}
-    <tr>
+    <tr id="row{{item.id}}">
         <td>{{item.item}}</td>
-        <td><a role="button" href="{%url 'cart:decrease' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
-            {{item.quantity}}
-            <a role="button" href="{%url 'cart:increase' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
+        <td><a class="ab5 sc{{item.id}}" role="button" href="{%url 'cart:decrease' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
+            <span id="sc{{item.id}}">{{item.quantity}}</span>
+            <a class="ab5 sc{{item.id}}" role="button" href="{%url 'cart:increase' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
         </td>
         <td>{{item.total_amount}}</td>
     </tr>
@@ -29,4 +29,33 @@
 <h4>No Medicine here</h4>
 <a href="{%url 'medicines:all' %}" class="btn btn-success">Shop for Medicines</a>
 {%endif%}
+{%endblock%}
+{%block js%}
+<script>
+    loader = document.getElementById("quickloader");
+    page = document.getElementsByTagName("div")[1];
+    send = obj =>{
+      p = new XMLHttpRequest();
+      loader.style.display = "";
+      page.style.opacity = 0.7;
+      p.onreadystatechange= function(){
+        if(this.readyState==4 && this.status==200){
+          $(".messages").load(location.href+" .messages>*","");
+          loader.style.display = "none";
+          page.style.opacity = 1;
+          cl = obj.classList[1];
+          q = JSON.parse(this.response)["quantity"];
+          if(q==0){document.getElementById("row"+cl.slice(2,)).remove();}
+          else{document.getElementById(cl).innerHTML = q};
+          $(".messages").load(location.href + " .messages>*", "");
+      }
+      };
+      p.open("GET", obj.href,true);
+      p.send();
+    };
+    tags = $(".ab5");
+    for(var i=0; i<tags.length; i++){
+        tags[i].onclick= function(){send(this);return false;};
+        }
+</script>
 {%endblock%}
