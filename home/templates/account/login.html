@@ -1,81 +1,77 @@
-{%extends 'base_bootstrap.html' %}
-{%load crispy_forms_tags %}
-{%load static%}
-{%block head%}
+{% extends 'base_bootstrap.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block head %}
 <title>Login|MedStore</title>
-<meta name="description" content="Login to MedStore">
-<link rel="stylesheet" href="{%static 'style.css'%}"/>
-{%endblock%}
-{%block content%}
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-4 form">
-            <h2>Please Login</h2>
-            <form method="post" action="/login/" autocomplete="off">
-                {%csrf_token%}
-                {{form|crispy}}
-                {%comment%}
-                <a href="{%url 'account_reset_password'%}">Forgot Password?</a>
-                {%endcomment%}
-                <button class="btn btn-success">Login</button>
-            </form>
-        </div>
-      <div class="col-md-3" style="align-self: center;">
-        <div id="links">
-        <ul>
-            <li><a class="btn btn-primary log" href="{%url 'account_login'%}"><span>Login</span></a> </li>
-            <li><a class="btn btn-primary log" href="{%url 'account_signup'%}"><span>SignUp</span></a> </li>
-        </ul>
-        </div>
-      </div>
-    </div>
-</div>
+<meta name="description" content="Login to a sample site to view additional features of this project site">
 <style>
-    .form{
-    margin: 0 20%;
+    body{
+        background: #292727;
     }
-    #links{
-    align-items: center;
-    align-self: center;
+    .form-c{
+        position: absolute;
+        left: 33vw;
+        top: 25vh;
+        background: #1d1c1c;
+        padding: 75px 100px;
+        box-shadow: 2px 2px 5px 10px #000;
+        color: #fff !important;
     }
-    ul{
-    list-style: none
+    input{
+        background: transparent !important;
+        border: solid 2px #4040c7 !important;
+        border-radius: 25px !important;
+        color: #e8dfdf !important;
     }
-    .log {
-      border-radius: 4px;
-      border: none;
-      text-align: center;
-      padding: 15px 20px;
-      width: 150px;
-      transition: all 0.5s;
-      cursor: pointer;
-      margin: 5px;
-      font-size: 20px;
+    .btn{
+        position: absolute;
+        border: 2px solid green;
+        padding: 5px 15px;
+        border-radius: 25px;
     }
-
-    .log span {
-      cursor: pointer;
-      display: inline-block;
-      position: relative;
-      transition: 0.5s;
+    input:focus{
+        box-shadow: inset 1px 1px 2px 1px #f00 !important;
     }
-
-    .log span:after {
-      content: '\00bb';
-      position: absolute;
-      opacity: 0;
-      top: 0;
-      right: -20px;
-      transition: 0.5s;
+    button.btn:hover{
+        background: #2ebd2e !important;
+        border-color: #1d1c1c;
+        transition: 1s;
+        color: #f1f1f1 !important;
     }
-
-    .log:hover span {
-      padding-right: 25px;
-    }
-
-    .log:hover span:after {
-      opacity: 1;
-      right: 0;
+    @media only screen and (max-width: 980px){
+        .form-c{
+            left: 15%;
+            right: 15%
+        }
     }
 </style>
-{%endblock%}
+{% endblock %}
+
+{% block content %}
+<div id="ref" class="alert" style="color: #fff; position: fixed; bottom: 0; left: 42%">New here? <a href="{% url 'account_signup' %}">Signup</a> </div>
+<div class="form-c">
+    <h1 style="text-align: center; margin-bottom: 20px; border-bottom: 2px double #f00; opacity: .8; text-shadow: 1px 1px 5px #f4f6ff"> Login </h1>
+    <form method="post" autocomplete="off">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <button class="btn btn-pre" type="submit" style="color: #fff;">Login</button>
+    </form>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script>
+    var labels = document.getElementsByTagName("label")
+    for(var i=0; i<2; i++){
+        labels[i].style.display = "none";
+    }
+    for(var pass of document.querySelectorAll("input[type=password]")){
+        pass.setAttribute("autocomplete", "off");
+    }
+    if(location.pathname=="/login/"){
+        document.getElementById("log").remove();
+    }
+</script>
+{% endblock %}

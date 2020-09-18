@@ -6,7 +6,8 @@
 {%block content%}
 <h2>My Orders</h2>
 {% if orders %}
-<table class="table table-hover">
+<div style="overflow: auto;">
+<table class="table table-hover" style="scroll: auto">
     <tr>
         <th>Date</th>
         <th>Order ID</th>
@@ -22,5 +23,6 @@
     </tr>
     {%endfor%}
 </table>
+</div>
 {%endif%}
 {%endblock%}

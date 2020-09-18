@@ -1,0 +1,15 @@
+{% extends "base_bootstrap.html" %}
+
+{% load i18n %}
+
+{% block head %}
+<title>{% trans "Verify Your E-mail Address" %}
+</title>
+{% endblock %}
+
+{% block content %}
+    <h1>{% trans "Verify Your E-mail Address" %}</h1>
+
+    <p>{% blocktrans %}We have sent you an e-mail for verification. Follow the link provided to verify your email. Please contact us if you do not receive it within a few minutes.{% endblocktrans %}</p>
+
+{% endblock %}

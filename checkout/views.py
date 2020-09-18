@@ -10,11 +10,11 @@ from django.views.decorators.csrf import csrf_exempt
 import re
 from django.http import HttpResponse
 from django.utils.crypto import get_random_string
-# from allauth.account.decorators import verified_email_required
+from allauth.account.decorators import verified_email_required
 # Create your views here.
 
 
-# @verified_email_required
+@verified_email_required
 def checkout_view(request):
     form = BillingForm
     order = Order.objects.filter(user=request.user, ordered=False)[0]
@@ -73,7 +73,7 @@ def create_checkout_session(request):
         items.append({'name': item.item, 'quantity': item.quantity, 'currency': 'INR', 'amount': int(item.item.price*100)})
     if request.method == "GET":
         url = request.build_absolute_uri()
-        url = re.findall(r"^(http[s]?://[^\/]+)(/.)?", url)[0][0]
+        url = re.findall(r"^(http[s]?://[^/]+)(/.)?", url)[0][0]
         print(url)
         stripe.api_key = settings.STR_SEC
         try:
