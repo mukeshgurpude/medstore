@@ -9,11 +9,13 @@
         background: #292727;
     }
     .form-c{
+        margin-top: 20px;
         position: absolute;
-        left: 33vw;
+        left: 20vw;
+        right: 20vw;
         top: 25vh;
         background: #1d1c1c;
-        padding: 75px 100px;
+        padding: 50px 100px;
         box-shadow: 2px 2px 5px 10px #000;
         color: #fff !important;
     }
@@ -38,17 +40,43 @@
         transition: 1s;
         color: #f1f1f1 !important;
     }
-    @media only screen and (max-width: 980px){
+    .inline{
+        display: inline-block;
+        margin-left: 0;
+        margin-right: 0;
+        width: 49.2%;
+        text-align: center;
+    }
+    @media screen and (max-width: 980px){
         .form-c{
             left: 15%;
-            right: 15%
+            right: 15%;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .inline{
+            display: block;
+            width: 100%;
+            text-align: unset;
+        }
+    }
+    @media screen and (max-width: 480px){
+        .form-c{
+            left: 5px;
+            right: 5px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .inline{
+            display: block;
+            width: 100%;
+            text-align: unset;
         }
     }
 </style>
 {% endblock %}
 
 {% block content %}
-<div id="ref" class="alert" style="color: #fff; position: fixed; bottom: 0; left: 42%; z-index=2;">Already have an account? <a href="{% url 'account_login' %}">Login</a> </div>
 <div class="form-c">
     <h1 style="text-align: center; margin-bottom: 20px; border-bottom: 2px double #f00; opacity: .8; text-shadow: 1px 1px 5px #f4f6ff"> SignUp </h1>
     <form method="post" autocomplete="off">
@@ -57,6 +85,7 @@
         <button class="btn btn-pre" type="submit" style="color: #fff;">Sign up</button>
     </form>
     </div>
+<div id="ref" class="alert" style="color: #fff; position: relative; text-align: center; display: block; clear: both; width: 100%">Already have an account? <a href="{% url 'account_login' %}">Login</a> </div>
 </div>
 {% endblock %}
 
@@ -72,5 +101,9 @@
     if(location.pathname=="/login/" || location.pathname=="/signup/"){
         document.getElementById("log").remove();
     }
+    inputs = document.getElementsByClassName("form-group");
+    console.log(inputs);
+    inputs[3].classList.add("inline");
+    inputs[2].classList.add("inline");
 </script>
 {% endblock %}

@@ -59,28 +59,32 @@
     <script src="https://kit.fontawesome.com/17fa2b8ca0.js" crossorigin="anonymous"></script>
     {% block head %} {% endblock %}
     <style>
-        #preloader, #quickloader {
-      border: 16px solid #f3f3f3; /* Light grey */
-      position: fixed;
-      border-top: 16px solid #3498db; /* Blue */
-      border-radius: 50%;
-      left: 50%;
-      top: 50%;
-      width: 120px;
-      height: 120px;
-      animation: spin 2s linear infinite;
+    #preloader, #quickloader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        position: fixed;
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        left: 45%;
+        right: 45%;
+        top: 40vh;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
     }
 
     @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    .asteriskField{
+        color: red;
     }
     </style>
 </head>
 <body>
 {%block preloader%}
-<span id="quickloader" style="width: 50px; height: 50px; display: none; z-index=1"></span>
-<div id="preloader"></div>
+<span id="quickloader" style="width: 50px; height: 50px; display: none; z-index=3"></span>
+<div id="preloader" style="z-index: 2;"></div>
 {%endblock%}
 <div class="container next" style="display:none">
 {% block navbar %}
