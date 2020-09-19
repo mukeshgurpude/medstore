@@ -7,24 +7,33 @@
 {% block head %}
 <title>{% trans "E-mail Addresses" %}</title>
 <style>
-    .verified, .primary, .unverified{
-        background: #95f107;
-        color: #332d2d !important;
-        padding: 0 .5em;
-        border-radius: 1vw;
-        font-size: 12px !important;
+.verified, .primary, .unverified{
+    background: #95f107;
+    color: #332d2d !important;
+    padding: 0 .5em;
+    border-radius: 1vw;
+    font-size: 12px !important;
+}
+.verified:hover{
+    font-size: 15px !important;
+    color: #0d9411 !important;
+    font-family: cursive, monospace;
+    background: #c9d6ab7d !important;
+}
+.verified:hover.verified::before, .unverified:hover.unverified::before{
+    content: "Email ";
+}
+.primary{background: #2b9cff;}
+.unverified{background: #ce3e3ef0 !important; color: #fff !important;}
+
+@media (max-width: 480px){
+    button{
+        line-height: 16px !important;
+        width: 28vw !important;
+        min-width: 100px;
+        margin-bottom: 1em;
     }
-    .verified:hover{
-        font-size: 15px !important;
-        color: #0d9411 !important;
-        font-family: cursive, monospace;
-        background: #c9d6ab7d !important;
-    }
-    .verified:hover.verified::before, .unverified:hover.unverified::before{
-        content: "Email ";
-    }
-    .primary{background: #2b9cff;}
-    .unverified{background: #ce3e3ef0 !important; color: #fff !important;}
+}
 </style>
 {% endblock %}
 
@@ -64,11 +73,10 @@
 </form>
 
 {% else %}
-<p class="alert alert-warning"><strong>{% trans 'Warning:'%}</strong> {% trans "You currently do not have any e-mail address set up. You should really add an e-mail address so you can receive notifications, reset your password, etc." %}</p>
+<p class="alert alert-warning" style="text-align: justify;"><strong>{% trans 'Warning:'%}</strong> {% trans "You currently do not have any e-mail address set up. You should really add an e-mail address so you can receive notifications, reset your password, etc." %}</p>
 
 {% endif %}
-
-
+<hr>
     <h2>{% trans "Add E-mail Address" %}</h2>
 
     <form method="post" action="{% url 'account_email' %}" class="add_email">

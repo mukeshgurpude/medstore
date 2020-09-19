@@ -13,3 +13,4 @@ __pycache__/*.pyc
 db.sqlite3
 tasks.txt
 /medical/settings.py
+tasks.md
