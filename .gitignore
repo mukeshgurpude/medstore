@@ -14,3 +14,4 @@ db.sqlite3
 tasks.txt
 /medical/settings.py
 tasks.md
+/medstore_env
