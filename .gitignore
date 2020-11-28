@@ -12,6 +12,6 @@ medical/__pycache__/
 __pycache__/*.pyc
 db.sqlite3
 tasks.txt
-/medical/settings.py
+medical/settings.py
 tasks.md
 /medstore_env
