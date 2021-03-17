@@ -4,6 +4,7 @@
 **/__pycache__/*.pyc
 __pycache__/
 **/__pycache__/
+**/migrations/
 .vscode/
 ngrok.exe
 medicines/__pycache__/
@@ -15,3 +16,4 @@ tasks.txt
 medical/settings.py
 tasks.md
 /medstore_env
+/local
