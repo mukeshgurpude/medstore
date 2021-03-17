@@ -32,30 +32,25 @@
 {%endblock%}
 {%block js%}
 <script>
-    loader = document.getElementById("quickloader");
-    page = document.getElementsByTagName("div")[1];
-    send = obj =>{
-      p = new XMLHttpRequest();
-      loader.style.display = "";
-      page.style.opacity = 0.7;
-      p.onreadystatechange= function(){
-        if(this.readyState==4 && this.status==200){
-          $(".messages").load(location.href+" .messages>*","");
-          loader.style.display = "none";
-          page.style.opacity = 1;
-          cl = obj.classList[1];
-          q = JSON.parse(this.response)["quantity"];
-          if(q==0){document.getElementById("row"+cl.slice(2,)).remove();}
-          else{document.getElementById(cl).innerHTML = q};
-          $(".messages").load(location.href + " .messages>*", "");
-      }
-      };
-      p.open("GET", obj.href,true);
-      p.send();
-    };
-    tags = $(".ab5");
-    for(var i=0; i<tags.length; i++){
-        tags[i].onclick= function(){send(this);return false;};
-        }
+    const loader = document.getElementById("quickloader");
+    const page = document.getElementsByTagName("div")[1];
+
+    const incdecbuttons = document.querySelectorAll('td>a[role=button]')
+    function changeValue(e){
+        e.preventDefault();
+        const itemId = this.classList[1].slice(2,);
+        console.log(itemId);
+        fetch(this.href)
+            .then(response=>response.json())
+            .then(response=>{
+                if(response.quantity===0){document.querySelector(`#row${itemId}`).remove()}
+                else document.querySelector(`span#sc${itemId}`).textContent = response.quantity;
+            })
+            .catch(err=>console.log('Error: ',err));
+    }
+
+    incdecbuttons.forEach(button=>{
+        button.addEventListener('click', changeValue);
+    })
 </script>
 {%endblock%}
