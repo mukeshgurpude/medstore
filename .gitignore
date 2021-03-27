@@ -11,9 +11,11 @@ medicines/__pycache__/
 home/__pycache__/
 medical/__pycache__/
 __pycache__/*.pyc
+
+# Local changes
 db.sqlite3
 tasks.txt
-medical/settings.py
 tasks.md
-/medstore_env
+/venv
 /local
+/medical/settings.py

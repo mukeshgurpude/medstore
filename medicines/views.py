@@ -6,9 +6,10 @@ from .forms import CreateForm
 from django.views import View
 from .filters import ProductFilter
 from cart.models import Order
-# for search queries
-from django.db.models import Q
 from django.contrib.auth.mixins import PermissionRequiredMixin
+
+from django.http import JsonResponse
+from django.core.serializers import serialize
 
 # Create your views here.
 
@@ -103,8 +104,23 @@ class MedDeleteView(OwnerDeleteView):
 def stream_file(request, pk):
     med = get_object_or_404(Medicine, id=pk)
     response = HttpResponse()
-    if not med.thumbnail: return HttpResponse("No Thumbnail")
+    if not med.thumbnail:
+        return HttpResponse("No Thumbnail")
     response['Content-Type'] = med.thumb_content_type
     response['Content-Length'] = len(med.thumbnail)
     response.write(med.thumbnail)
     return response
+
+
+class APIListView(View):
+
+    def get(self, request, *args, **kwargs):
+        qs = Medicine.objects.all()
+        medicines_json = serialize('json', qs, fields=('name', 'price', 'slug', ))
+        return JsonResponse(medicines_json, safe=False)
+
+
+class APIDetailView(View):
+    def get(self, request, pk, *args, **kwargs):
+        med = Medicine.objects.get(id=pk)
+        return JsonResponse(serialize('json', [med], fields=('name', 'price', 'slug')), safe=False)

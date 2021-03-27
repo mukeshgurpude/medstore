@@ -75,14 +75,14 @@
 
 {% block js %}
 <script>
-    var labels = document.getElementsByTagName("label")
-    for(var i=0; i<2; i++){
+    const labels = document.getElementsByTagName("label")
+    for(let i=0; i<2; i++){
         labels[i].style.display = "none";
     }
-    for(var pass of document.querySelectorAll("input[type=password]")){
+    for(let pass of document.querySelectorAll("input[type=password]")){
         pass.setAttribute("autocomplete", "off");
     }
-    if(location.pathname=="/login/"){
+    if( location.pathname === "/login/" ){
         document.getElementById("log").remove();
     }
 </script>
