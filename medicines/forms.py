@@ -22,7 +22,8 @@ class CreateForm(forms.ModelForm):
     def clean(self):
         cleaned_data = super().clean()
         pic = cleaned_data.get('thumbnail')
-        if pic is None: return
+        if not pic:
+            return
         if len(pic) > self.max_upload_limit:
             self.add_error('thumbnail', "File must be < " + self.max_upload_limit_text + " bytes")
 
