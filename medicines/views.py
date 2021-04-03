@@ -9,7 +9,6 @@ from cart.models import Order
 from django.contrib.auth.mixins import PermissionRequiredMixin
 
 
-# Rest Framework
 
 # Create your views here.
 
