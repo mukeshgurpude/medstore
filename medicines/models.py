@@ -1,6 +1,7 @@
 from django.db import models
 from django.conf import settings
 import random
+from django.utils.text import slugify
 # from django.core.validators import MinValueValidator
 
 
@@ -26,11 +27,18 @@ class Medicine(models.Model):
                                           blank=True, help_text="MIMEType for thumbnail")
     description = models.TextField()
     owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    slug = models.SlugField(default="".join(random.sample(str(name)+str(category.name)+str(price)[:-3], 15)),
-                            unique=True)
+    slug = models.SlugField(unique=True)
 
     def __str__(self):
         return self.name
 
     class Meta:
         ordering = ["-price"]
+
+    def save(self, *args, **kwargs):
+        slug = slugify(self.name + '-' + self.category.name)
+        while Medicine.objects.filter(slug=slug):
+            slug = "".join(random.sample(slug, len(slug)))
+        self.slug = slug
+        super(Medicine, self).save(*args, **kwargs)
+

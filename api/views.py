@@ -45,12 +45,14 @@ class CreateView(MedCreateView):
     def post(self, request, pk=None):
         form = CreateForm(request.POST, request.FILES or None)
         if not form.is_valid():
-            ctx = {'form': form}
-            return JsonResponse(ctx, safe=False, status=200)
+            print(form)
+            fields = form.base_fields
+            form_details = [field for field in fields.keys()]
+            return JsonResponse({'fields': form_details}, status=200)
         med = form.save(commit=False)
         med.owner = self.request.user
         med.save()
-        return JsonResponse({'msg': 'created'}, status=201)
+        return JsonResponse({'msg': 'created', 'newID': med.id}, status=201)
 
 
 # INFO: This function will return current user details in json format
