@@ -19,3 +19,4 @@ tasks.md
 /venv
 /local
 /medical/settings.py
+**/credentials.py

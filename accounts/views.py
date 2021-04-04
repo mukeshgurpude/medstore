@@ -3,13 +3,14 @@ from .forms import UserForm, ProfileForm, SellerForm
 from .models import UserProfile, SellerProfile
 from django.contrib.auth.decorators import login_required
 import re
+from django.http import HttpRequest
 from django.contrib.auth.models import Group
 from django.contrib import messages
 # Create your views here.
 
 
 @login_required
-def profile(request):
+def profile(request: HttpRequest):
 
     if request.method == "POST":
         data = request.POST
@@ -17,7 +18,7 @@ def profile(request):
         last = data.get("last_name", None)
         gender = data.get("gender", None)
         phone = data.get("phone", None)
-        if not re.match("^\d{10}$", phone):
+        if not re.match(r'^\d{10}$', phone):
             messages.error(request, "Phone must be Numeric and 10 characters in length")
         else:
             user = request.user
@@ -29,7 +30,7 @@ def profile(request):
                 user.userprofile.phone = phone
                 user.userprofile.save()
                 user.save()
-            except:
+            except Exception:
                 prof = UserProfile(user=user, gender=gender, phone=phone)
                 prof.save()
 
@@ -42,11 +43,11 @@ def profile(request):
             has_profile = True
         else:
             has_profile = False
-    except:
+    except Exception:
         has_profile = False
     try:
         seller = SellerForm(instance=request.user.sellerprofile)
-    except:
+    except Exception:
         pass
     ctx = {"user": user_data, "profile": profile_data, 'has_profile': has_profile,
            "is_seller": request.user.has_perm("medicines.add_medicine"), "seller": seller}
@@ -57,12 +58,10 @@ def profile(request):
 def be_seller(request):
     if request.method == "POST":
         data = request.POST
-        print(data)
         user = request.user
         store = data.get("store_name", None)
         address = data.get("address", None)
         pin = data.get("pincode", None)
-        print(store, address, pin)
         try:
             user.sellerprofile.store_name = store
             user.sellerprofile.address = address
@@ -70,7 +69,7 @@ def be_seller(request):
             user.sellerprofile.save()
             user.save()
             messages.success(request, "Your profile edited")
-        except:
+        except Exception:
             messages.success(request, "Congratulations! You are now seller at medstore")
             seller = SellerProfile(user=user, store_name=store, address=address, pincode=pin)
             seller.save()
