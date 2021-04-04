@@ -1,4 +1,4 @@
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpRequest
 from medicines.models import Medicine
 from django.core.serializers.json import Serializer
 from django.views.decorators.csrf import csrf_exempt
@@ -6,7 +6,6 @@ from django.utils.decorators import method_decorator
 
 from medicines.forms import CreateForm
 from medicines.views import MedCreateView
-# Create your views here.
 
 # API Version 1
 # Without rest framework, {#SASTA}
@@ -16,12 +15,31 @@ class CreateView(MedCreateView):
     # Inherited from MedCreateView, as to incorporate the Login required and Permission required Mixin
 
     def get(self, request, pk=None):
+        """
+        Get the medicine details
+
+        :param request: Request to get the current detail for medicine
+        :type request: HttpRequest
+        :param pk: ID of the medicine
+        :return: Data of the current medicine detail
+        :rtype: JsonResponse
+        """
         form = CreateForm()
         fields = form.base_fields
         form_details = [field for field in fields.keys()]
         return JsonResponse({'fields': form_details}, status=200)
 
-    def post(self, request, pk=None):
+    def post(self, request: HttpRequest, pk=None) -> JsonResponse:
+        """
+        Create a medicine using formData
+
+        :param request: request with the new medicine data
+        :type request: HttpRequest
+        :param pk: ID of the medicine whose, data is to be altered
+        :return: Respond if the query was successful
+        :rtype: JsonResponse
+        """
+        # TODO: handle updating of med
         # Same process as the MedCreateView, but with customization for the JSON response
         form = CreateForm(request.POST, request.FILES or None)
         if not form.is_valid():
@@ -45,7 +63,14 @@ class MedicineView(CreateView):
         # TODO: Handle the filters
         return Medicine.objects.all()
 
-    def get(self, request, *args, **kwargs):
+    def get(self, request: HttpRequest, *args, **kwargs) -> JsonResponse:
+        """
+        GET the medicines list
+        :param request: request to get the list as json
+        :type request: HttpRequest
+        :return: List containing basic medicine data
+        :rtype: JsonResponse
+        """
         qs = self.get_queryset()
         serialized = Serializer().serialize(qs, fields=('name', 'price'))
         return JsonResponse(serialized, safe=False)
