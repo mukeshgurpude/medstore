@@ -1,9 +1,13 @@
-from unittest import TestCase
-
 from django.test.client import Client
-from django.test.utils import TestCase
-from . import credentials
+from django.test import TestCase
 from django.http import JsonResponse
+from django.contrib.auth.models import User
+
+
+USER_CREDENTIALS = {
+   "username": "newUser",
+   "password": "myPasswordWith."
+}
 
 
 class ProfileTestCase(TestCase):
@@ -13,12 +17,15 @@ class ProfileTestCase(TestCase):
         self.longMessage = False
 
     def setUp(self) -> None:
-        self.client = Client()
-        self.client.login(username=credentials.username, password=credentials.password)
+        """
+            Setup the test user, and log in with the test user to access the profile page
+        """
+        self.user = User.objects.create_user(**USER_CREDENTIALS)
+        self.client.login(**USER_CREDENTIALS)
 
     def test_get_output(self):
         """
-        Tests if the GET requests to profile are working and also returning the correct response
+            Tests if the GET requests to profile are working and also returning the correct response
         """
         res = self.client.get('/api/v1/profile/')
         self.assertEqual(res.status_code, 200)  # Check if response is returned
