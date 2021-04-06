@@ -24,6 +24,16 @@ class ProfileTestCase(TestCase):
         self.user = User.objects.create_user(**USER_CREDENTIALS)
         self.client.login(**USER_CREDENTIALS)
 
+    @method_decorator(check_response(path="/api/v1/user/"))
+    def test_get_user(self):
+        res: JsonResponse = self.client.get("/api/v1/user/")
+        self.assertEqual(self.user.username, res.json()['username'])
+
+        self.client.logout()
+        res: JsonResponse = self.client.get("/api/v1/user/")
+        self.assertEqual('anonymous', res.json()['username'])
+        self.client.login(**USER_CREDENTIALS)
+
     @method_decorator(check_response(path="/api/v1/profile/"))
     def test_get_output(self):
         """
@@ -43,10 +53,6 @@ class ProfileTestCase(TestCase):
         """
         Tests if the POST requests to profile are working and also returning the correct response
         """
-        res = self.client.post('/api/v1/profile/')
-        self.assertEqual(res.status_code, 200)  # Check if response is returned
-        self.assertIsInstance(res, JsonResponse)  # check if json is returned
+        res: JsonResponse = self.client.post('/api/v1/profile/', {})
+        # TODO: Test the POST output
 
-    def tearDown(self) -> None:
-        self.user.delete()
-        print('Finished user profile tests')

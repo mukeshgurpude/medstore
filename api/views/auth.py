@@ -5,11 +5,12 @@ from django.http.request import HttpRequest
 from accounts.models import UserProfile
 from django.views.generic import View
 from django.contrib.auth.mixins import LoginRequiredMixin
-from accounts.forms import UserForm
+# from accounts.forms import UserForm
+from django.core.exceptions import ObjectDoesNotExist
 
 # Update this variable to change the default data to be sent for the anonymous user
 NotLoggedIn: Dict[str, Union[str, bool]] = {
-    'name': 'anonymous',
+    'username': 'anonymous',
     'loggedIn': False,
     'first_name': 'Anonymous',
     'last_name': ''
@@ -33,11 +34,9 @@ def get_current_user(request: HttpRequest) -> JsonResponse:
     if user.is_anonymous:
         return JsonResponse(NotLoggedIn, status=200)
     else:
-        return JsonResponse({'full_name': request.user.get_full_name(),
-                             'short_name': request.user.get_short_name(),
-                             'email': request.user.email,
-                             'loggedIn': not user.is_anonymous
-                             }, status=200)
+        return JsonResponse(dict(username=request.user.username, full_name=request.user.get_full_name(),
+                                 short_name=request.user.get_short_name(), email=request.user.email,
+                                 loggedIn=not user.is_anonymous), status=200)
 
 
 class ProfileView(LoginRequiredMixin, View):
@@ -53,7 +52,7 @@ class ProfileView(LoginRequiredMixin, View):
         # First check if the user has a profile configured, or else create a new profile
         try:
             p = self.request.user.userprofile
-        except Exception:
+        except ObjectDoesNotExist:
             request.user.userprofile = UserProfile()
             p = request.user.userprofile
         data = dict()

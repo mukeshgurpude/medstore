@@ -26,7 +26,7 @@ def check_response(path="/", login_required=True, method="GET", post_data=None) 
     if post_data is None:
         post_data = dict()
 
-    def wrapper(function):
+    def wrapper(function: func):
         @wraps(function)
         def run(client=Client(), *args, **kwargs):
             if login_required:
