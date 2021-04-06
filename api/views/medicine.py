@@ -3,7 +3,7 @@ from medicines.models import Medicine
 from django.core.serializers.json import Serializer
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
-
+from django.views.generic import View
 from medicines.forms import CreateForm
 from medicines.views import MedCreateView
 
@@ -51,8 +51,15 @@ class CreateView(MedCreateView):
         med.save()
         return JsonResponse({'msg': 'created', 'newID': med.id}, status=201)
 
+    @method_decorator(csrf_exempt)
+    def dispatch(self, request, *args, **kwargs):
+        # Just to turn off the csrf verification for this view only...
+        # In future, another ( process | algorithm | method ) must be incorporated without blocking
+        # the CSRF
+        return super().dispatch(request, *args, **kwargs)
 
-class MedicineView(CreateView):
+
+class MedicineView(View):
     # As this is inherited from { CreateView }, POST requests on this
     # view will also be able to add a new medicine
     def get_queryset(self, *args, **kwargs):
@@ -74,10 +81,3 @@ class MedicineView(CreateView):
         qs = self.get_queryset()
         serialized = Serializer().serialize(qs, fields=('name', 'price'))
         return JsonResponse(serialized, safe=False)
-
-    @method_decorator(csrf_exempt)
-    def dispatch(self, request, *args, **kwargs):
-        # Just to turn off the csrf verification for this view only...
-        # In future, another ( process | algorithm | method ) must be incorporated without blocking
-        # the CSRF
-        return super().dispatch(request, *args, **kwargs)

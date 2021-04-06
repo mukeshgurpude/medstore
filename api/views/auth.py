@@ -80,6 +80,5 @@ class ProfileView(LoginRequiredMixin, View):
         :rtype: JsonResponse
         """
         form_data = request.POST
-        print(self.request, request, form_data)
         # TODO: process this data
         return JsonResponse({})

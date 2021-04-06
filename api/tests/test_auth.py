@@ -1,7 +1,8 @@
-from django.test.client import Client
 from django.test import TestCase
 from django.http import JsonResponse
 from django.contrib.auth.models import User
+from api.decorators import check_response
+from django.utils.decorators import method_decorator
 
 
 USER_CREDENTIALS = {
@@ -23,14 +24,21 @@ class ProfileTestCase(TestCase):
         self.user = User.objects.create_user(**USER_CREDENTIALS)
         self.client.login(**USER_CREDENTIALS)
 
+    @method_decorator(check_response(path="/api/v1/profile/"))
     def test_get_output(self):
         """
             Tests if the GET requests to profile are working and also returning the correct response
         """
         res = self.client.get('/api/v1/profile/')
-        self.assertEqual(res.status_code, 200)  # Check if response is returned
-        self.assertIsInstance(res, JsonResponse)  # check if json is returned
+        self.assert_('first_name' in res.json(), 'First name is not returned')
+        self.assert_('last_name' in res.json(), 'Last name is not returned')
+        self.assert_('phone' in res.json(), 'Phone number is not returned')
+        self.assert_('gender' in res.json(), 'Gender is not returned')
+        self.assert_('is_seller' in res.json(), 'Seller details are not returned')
+        is_seller = res.json()['is_seller']
+        self.assertIsInstance(is_seller, bool)
 
+    @method_decorator(check_response(path="/api/v1/profile/", method="POST", post_data={}))
     def test_post_output(self):
         """
         Tests if the POST requests to profile are working and also returning the correct response
@@ -39,5 +47,6 @@ class ProfileTestCase(TestCase):
         self.assertEqual(res.status_code, 200)  # Check if response is returned
         self.assertIsInstance(res, JsonResponse)  # check if json is returned
 
-    # TODO: test the data
-    # TODO: teardown
+    def tearDown(self) -> None:
+        self.user.delete()
+        print('Finished user profile tests')
