@@ -5,8 +5,10 @@ from django.http.request import HttpRequest
 from accounts.models import UserProfile
 from django.views.generic import View
 from django.contrib.auth.mixins import LoginRequiredMixin
-# from accounts.forms import UserForm
+# from accounts.forms import UserForm, ProfileForm, SellerForm
 from django.core.exceptions import ObjectDoesNotExist
+from django.contrib import messages
+import re
 
 # Update this variable to change the default data to be sent for the anonymous user
 NotLoggedIn: Dict[str, Union[str, bool]] = {
@@ -78,6 +80,30 @@ class ProfileView(LoginRequiredMixin, View):
         :return: Responds if the data has been updated, or request failed
         :rtype: JsonResponse
         """
-        form_data = request.POST
-        # TODO: process this data
-        return JsonResponse({})
+        data = request.POST
+        first = data.get("first_name", '')
+        last = data.get("last_name", '')
+        gender = data.get("gender", '')
+        phone = data.get("phone", '')
+        if not re.match(r'^\d{10}$', phone):
+            messages.error(request, "Phone must be Numeric and 10 characters in length")
+        else:
+            user = request.user
+            user.first_name = first
+            user.last_name = last
+            user.save()
+            try:
+                user.userprofile.gender = gender
+                user.userprofile.phone = phone
+                user.userprofile.save()
+                user.save()
+            except ObjectDoesNotExist:
+                prof = UserProfile(user=user, gender=gender, phone=phone)
+                prof.save()
+
+        # TODO: change the status code to modified
+        return JsonResponse({'status': 'Data updated'}, status=200)
+
+
+class SellerView(LoginRequiredMixin, View):
+    pass

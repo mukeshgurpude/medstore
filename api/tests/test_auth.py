@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Union
 from django.test import TestCase
 from django.http import JsonResponse
 from django.contrib.auth.models import User
@@ -9,6 +9,12 @@ from django.utils.decorators import method_decorator
 USER_CREDENTIALS: Dict[str, str] = {
    "username": "newUser",
    "password": "myPasswordWith."
+}
+
+UPDATED_CREDENTIALS: Dict[str, Union[str, int]] = {
+    'first_name': 'changedName',
+    'gender': 'Male',
+    'phone': 8456217463
 }
 
 
@@ -40,13 +46,13 @@ class ProfileTestCase(TestCase):
         """
             Tests if the GET requests to profile are working and also returning the correct response
         """
-        res = self.client.get('/api/v1/profile/')
-        self.assert_('first_name' in res.json(), 'First name is not returned')
-        self.assert_('last_name' in res.json(), 'Last name is not returned')
-        self.assert_('phone' in res.json(), 'Phone number is not returned')
-        self.assert_('gender' in res.json(), 'Gender is not returned')
-        self.assert_('is_seller' in res.json(), 'Seller details are not returned')
-        is_seller = res.json()['is_seller']
+        self.res = self.client.get('/api/v1/profile/')
+        self.assert_('first_name' in self.res.json(), 'First name is not returned')
+        self.assert_('last_name' in self.res.json(), 'Last name is not returned')
+        self.assert_('phone' in self.res.json(), 'Phone number is not returned')
+        self.assert_('gender' in self.res.json(), 'Gender is not returned')
+        self.assert_('is_seller' in self.res.json(), 'Seller details are not returned')
+        is_seller = self.res.json()['is_seller']
         self.assertIsInstance(is_seller, bool)
 
     @method_decorator(check_response(path="/api/v1/profile/", method="POST", post_data={}))
@@ -54,5 +60,18 @@ class ProfileTestCase(TestCase):
         """
         Tests if the POST requests to profile are working and also returning the correct response
         """
-        res: JsonResponse = self.client.post('/api/v1/profile/', {})
-        # TODO: Test the POST output
+        self.client.login(**USER_CREDENTIALS)
+        __res: JsonResponse = self.client.get('/api/v1/profile/')
+        _data: dict = __res.json()
+        _data.update(UPDATED_CREDENTIALS)
+
+        res: JsonResponse = self.client.post('/api/v1/profile/', _data)
+
+        # TODO: change status_code to modified
+        self.assertEqual(res.status_code, 200)
+
+        # Check if data has been modified
+        self.user.refresh_from_db()
+        self.assertEqual(self.user.first_name, UPDATED_CREDENTIALS['first_name'])
+        self.assertEqual(self.user.userprofile.gender, UPDATED_CREDENTIALS['gender'])
+        self.assertEqual(self.user.userprofile.phone, UPDATED_CREDENTIALS['phone'])
