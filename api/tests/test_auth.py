@@ -1,3 +1,4 @@
+from typing import Dict
 from django.test import TestCase
 from django.http import JsonResponse
 from django.contrib.auth.models import User
@@ -5,7 +6,7 @@ from api.decorators import check_response
 from django.utils.decorators import method_decorator
 
 
-USER_CREDENTIALS = {
+USER_CREDENTIALS: Dict[str, str] = {
    "username": "newUser",
    "password": "myPasswordWith."
 }
@@ -55,4 +56,3 @@ class ProfileTestCase(TestCase):
         """
         res: JsonResponse = self.client.post('/api/v1/profile/', {})
         # TODO: Test the POST output
-
