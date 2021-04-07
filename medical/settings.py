@@ -151,7 +151,7 @@ try:
     STR_PUB = stripe.publishable_key
     STR_SEC = stripe.secret_key
     STRIPE_ENDPOINT_KEY = stripe.end_key
-except ModuleNotFoundError:
+except (ModuleNotFoundError, ImportError):
     STR_PUB = ''
     STR_SEC = ''
     STRIPE_ENDPOINT_KEY = ''
@@ -167,5 +167,5 @@ try:
     # Check if there's a production environment file
     from .prod import *
 
-except ModuleNotFoundError:
+except (ModuleNotFoundError, ImportError):
     pass
