@@ -1,10 +1,12 @@
 from typing import Dict, Union
 from django.test import TestCase
 from django.http import JsonResponse
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
 
+
+User = get_user_model()
 
 USER_CREDENTIALS: Dict[str, str] = {
    "username": "newUser",
@@ -67,7 +69,6 @@ class ProfileTestCase(TestCase):
 
         res: JsonResponse = self.client.post('/api/v1/profile/', _data)
 
-        # TODO: change status_code to modified
         self.assertEqual(res.status_code, 200)
 
         # Check if data has been modified
@@ -75,3 +76,29 @@ class ProfileTestCase(TestCase):
         self.assertEqual(self.user.first_name, UPDATED_CREDENTIALS['first_name'])
         self.assertEqual(self.user.userprofile.gender, UPDATED_CREDENTIALS['gender'])
         self.assertEqual(self.user.userprofile.phone, UPDATED_CREDENTIALS['phone'])
+
+
+class TestLoginLogout(TestCase):
+    def setUp(self) -> None:
+        self.user = User.objects.create_user(**USER_CREDENTIALS)
+        # self.client.login(**USER_CREDENTIALS)
+
+    @method_decorator(check_response(path="/api/v1/login/"))
+    def test_login(self):
+        res = self.client.post('/api/v1/login/', USER_CREDENTIALS)
+        self.assertEqual(res.status_code, 200)       # Check the correct code
+
+        res = self.client.get('/api/v1/user/')
+        self.assertEqual(res.json()['loggedIn'], True, "User hasn't been logged out")
+
+    def test_logout(self):
+        # Currently the user is logged out
+        res = self.client.post('/api/v1/logout/')
+        self.assertEqual(res.status_code, 400, 'Not able to handle invalid logout request')
+
+        self.client.login(**USER_CREDENTIALS)
+        res = self.client.post('/api/v1/logout/')
+        self.assertEqual(res.status_code, 200, 'User is not able to logout')
+
+        res = self.client.get('/api/v1/user/')
+        self.assertEqual(res.json()['loggedIn'], False, "User hasn't been logged out")

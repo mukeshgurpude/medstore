@@ -8,6 +8,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 # from accounts.forms import UserForm, ProfileForm, SellerForm
 from django.core.exceptions import ObjectDoesNotExist
 from django.contrib import messages
+from django.contrib.auth import (authenticate, login, logout)
 import re
 
 # Update this variable to change the default data to be sent for the anonymous user
@@ -75,6 +76,7 @@ class ProfileView(LoginRequiredMixin, View):
     def post(self, request: HttpRequest) -> JsonResponse:
         """
         Processes the formData to update the profile data in database
+
         :param request: POST data to update the profile
         :type request: HttpRequest
         :return: Responds if the data has been updated, or request failed
@@ -101,9 +103,36 @@ class ProfileView(LoginRequiredMixin, View):
                 prof = UserProfile(user=user, gender=gender, phone=phone)
                 prof.save()
 
-        # TODO: change the status code to modified
         return JsonResponse({'status': 'Data updated'}, status=200)
 
 
+# TODO: Handle Seller requests
 class SellerView(LoginRequiredMixin, View):
     pass
+
+
+class APILoginView(View):
+    def get(self, request: HttpRequest) -> JsonResponse:
+        if request.user.is_anonymous:
+            return JsonResponse({'loggedIn': False})
+        return JsonResponse({'msg': 'already Logged in', 'loggedIn': True})
+
+    def post(self, request: HttpRequest) -> JsonResponse:
+        data = self.request.POST
+        username = data['username']
+        password = data['password']
+
+        user = authenticate(request, username=username, password=password)
+        if user is not None:
+            login(request, user)
+            return JsonResponse({'msg': 'Successfully logged In'})
+        else:
+            return JsonResponse({'msg': 'invalid credentials'})
+
+
+def api_logout(request: HttpRequest):
+    if request.user.is_anonymous:
+        return JsonResponse({'msg': 'Invalid request'}, status=400)
+
+    logout(request)
+    return JsonResponse({'msg': 'Logged out successfully'}, status=200)
