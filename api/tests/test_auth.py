@@ -102,3 +102,29 @@ class TestLoginLogout(TestCase):
 
         res = self.client.get('/api/v1/user/')
         self.assertEqual(res.json()['loggedIn'], False, "User hasn't been logged out")
+
+    @method_decorator(check_response(path="/api/v1/register/", method='POST', post_data={}))
+    def test_register(self):
+
+        # Check invalid data first
+        __fake_data: Dict = {
+            'username': 'ashketcham',
+            'email': 'ashKetchum_does_not_exist.gmail.com',
+            'first_name': 'Ash',
+            'last_name': 'Ketchum',
+            'password1': 'PikachuIsMy4378Friend',
+            'password2': 'PikachuIsMy4378Friend',
+        }
+        res = self.client.post('/api/v1/register/', __fake_data)
+        self.assertEqual(res.status_code, 200)
+        errors = res.json().get('errors', '')
+        self.assertIsInstance(errors, dict, 'Error list is not returned')
+        self.assert_(len(errors) > 0, 'There are no errors thrown')
+
+        __fake_data['email'] = 'ashKetchum_does_not_exist@gmail.com'
+        res = self.client.post('/api/v1/register/', __fake_data)
+        self.assertEqual(res.status_code, 201)
+
+        # We're getting the pk of new user in response
+        new_user: User = User.objects.get(pk=res.json()['id'])
+        self.assertEqual(new_user.first_name, __fake_data['first_name'], 'No user is created')
