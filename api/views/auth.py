@@ -3,7 +3,9 @@ from typing import Dict, Union
 from django.contrib.auth.models import User
 from django.http import JsonResponse
 from django.http.request import HttpRequest
-from accounts.models import UserProfile
+
+from accounts.forms import SellerForm
+from accounts.models import UserProfile, SellerProfile
 from django.views.generic import View
 from django.contrib.auth.mixins import LoginRequiredMixin
 # from accounts.forms import UserForm, ProfileForm, SellerForm
@@ -110,9 +112,33 @@ class ProfileView(LoginRequiredMixin, View):
         return JsonResponse({'status': 'Data updated'}, status=200)
 
 
-# TODO: Handle Seller requests
 class SellerView(LoginRequiredMixin, View):
-    pass
+
+    def get(self, request):
+        self.user: User = self.request.user
+        try:
+            sp: SellerProfile = self.user.sellerprofile
+            return JsonResponse({'is_seller': True, 'store_name': sp.store_name,
+                                 'address': sp.address, 'pincode': sp.pincode}, status=200)
+        except ObjectDoesNotExist:
+            return JsonResponse({'is_seller': False}, status=400)
+
+    def post(self, request):
+        self.user = self.request.user
+        data = SellerForm(request.POST)
+        try:
+            if data.is_valid():
+                post_data = request.POST
+
+                p = SellerProfile(user=self.request.user,
+                                  address=post_data['address'],
+                                  store_name=post_data['store_name'],
+                                  pincode=post_data['pincode'])
+                p.save()
+                return JsonResponse({'msg': 'Data updated'}, status=200)
+        except TypeError as e:
+            pass
+        return JsonResponse({'msg': 'Invalid data', 'errors': data.errors}, status=400)
 
 
 class APILoginView(View):
