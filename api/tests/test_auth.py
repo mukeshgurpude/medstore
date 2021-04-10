@@ -5,12 +5,11 @@ from django.contrib.auth import get_user_model
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
 
-
 User = get_user_model()
 
 USER_CREDENTIALS: Dict[str, str] = {
-   "username": "newUser",
-   "password": "myPasswordWith."
+    "username": "newUser",
+    "password": "myPasswordWith."
 }
 
 UPDATED_CREDENTIALS: Dict[str, Union[str, int]] = {
@@ -86,7 +85,7 @@ class TestLoginLogout(TestCase):
     @method_decorator(check_response(path="/api/v1/login/"))
     def test_login(self):
         res = self.client.post('/api/v1/login/', USER_CREDENTIALS)
-        self.assertEqual(res.status_code, 200)       # Check the correct code
+        self.assertEqual(res.status_code, 200)  # Check the correct code
 
         res = self.client.get('/api/v1/user/')
         self.assertEqual(res.json()['loggedIn'], True, "User hasn't been logged out")
@@ -105,7 +104,6 @@ class TestLoginLogout(TestCase):
 
     @method_decorator(check_response(path="/api/v1/register/", method='POST', post_data={}))
     def test_register(self):
-
         # Check invalid data first
         __fake_data: Dict = {
             'username': 'ashketcham',
@@ -128,3 +126,32 @@ class TestLoginLogout(TestCase):
         # We're getting the pk of new user in response
         new_user: User = User.objects.get(pk=res.json()['id'])
         self.assertEqual(new_user.first_name, __fake_data['first_name'], 'No user is created')
+
+
+class TestSellerViews(TestCase):
+    def setUp(self) -> None:
+        self.user: User = User.objects.create_user(**USER_CREDENTIALS)
+        self.store_data = {
+            'store_name': 'Medstore',
+            'address': 'Internet',
+            'pincode': 101010,
+        }
+        self.client.login(**USER_CREDENTIALS)
+
+    def test_response(self):
+        res = self.client.get('/api/v1/sell/')
+        self.assertEqual(res.status_code, 400)
+
+        self.apply()
+
+        res: JsonResponse = self.client.get('/api/v1/sell/')
+        print(res.json())
+        self.assertEqual(res.status_code, 200)
+        self.assertEqual(res.json()['store_name'], self.store_data['store_name'])
+
+    def apply(self):
+        res = self.client.post('/api/v1/sell/', {**self.store_data, 'pincode': 'dummy'})
+        self.assertEqual(res.status_code, 400)
+
+        res = self.client.post('/api/v1/sell/', self.store_data)
+        self.assertEqual(res.status_code, 200)
