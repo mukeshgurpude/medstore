@@ -1,18 +1,7 @@
 /.idea
 /.vscode
 /home/templates/base_menu.html
-*.pyc
-**/__pycache__/*.pyc
-__pycache__/
 **/__pycache__/
-**/migrations/
-.vscode/
-ngrok.exe
-medicines/__pycache__/
-home/__pycache__/
-medical/__pycache__/
-/**/__pycache__
-__pycache__/*.pyc
 
 # Local changes
 db.sqlite3
@@ -21,3 +10,4 @@ tasks.md
 /venv
 /local
 **/credentials.py
+ngrok.exe
