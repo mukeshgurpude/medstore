@@ -1,14 +1,22 @@
-from typing import Dict
+from typing import Dict, Union
 from django.test import TestCase
 from django.http import JsonResponse
-from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
 
 
+User = get_user_model()
+
 USER_CREDENTIALS: Dict[str, str] = {
    "username": "newUser",
    "password": "myPasswordWith."
+}
+
+UPDATED_CREDENTIALS: Dict[str, Union[str, int]] = {
+    'first_name': 'changedName',
+    'gender': 'Male',
+    'phone': 8456217463
 }
 
 
@@ -40,13 +48,13 @@ class ProfileTestCase(TestCase):
         """
             Tests if the GET requests to profile are working and also returning the correct response
         """
-        res = self.client.get('/api/v1/profile/')
-        self.assert_('first_name' in res.json(), 'First name is not returned')
-        self.assert_('last_name' in res.json(), 'Last name is not returned')
-        self.assert_('phone' in res.json(), 'Phone number is not returned')
-        self.assert_('gender' in res.json(), 'Gender is not returned')
-        self.assert_('is_seller' in res.json(), 'Seller details are not returned')
-        is_seller = res.json()['is_seller']
+        self.res = self.client.get('/api/v1/profile/')
+        self.assert_('first_name' in self.res.json(), 'First name is not returned')
+        self.assert_('last_name' in self.res.json(), 'Last name is not returned')
+        self.assert_('phone' in self.res.json(), 'Phone number is not returned')
+        self.assert_('gender' in self.res.json(), 'Gender is not returned')
+        self.assert_('is_seller' in self.res.json(), 'Seller details are not returned')
+        is_seller = self.res.json()['is_seller']
         self.assertIsInstance(is_seller, bool)
 
     @method_decorator(check_response(path="/api/v1/profile/", method="POST", post_data={}))
@@ -54,5 +62,69 @@ class ProfileTestCase(TestCase):
         """
         Tests if the POST requests to profile are working and also returning the correct response
         """
-        res: JsonResponse = self.client.post('/api/v1/profile/', {})
-        # TODO: Test the POST output
+        self.client.login(**USER_CREDENTIALS)
+        __res: JsonResponse = self.client.get('/api/v1/profile/')
+        _data: dict = __res.json()
+        _data.update(UPDATED_CREDENTIALS)
+
+        res: JsonResponse = self.client.post('/api/v1/profile/', _data)
+
+        self.assertEqual(res.status_code, 200)
+
+        # Check if data has been modified
+        self.user.refresh_from_db()
+        self.assertEqual(self.user.first_name, UPDATED_CREDENTIALS['first_name'])
+        self.assertEqual(self.user.userprofile.gender, UPDATED_CREDENTIALS['gender'])
+        self.assertEqual(self.user.userprofile.phone, UPDATED_CREDENTIALS['phone'])
+
+
+class TestLoginLogout(TestCase):
+    def setUp(self) -> None:
+        self.user = User.objects.create_user(**USER_CREDENTIALS)
+        # self.client.login(**USER_CREDENTIALS)
+
+    @method_decorator(check_response(path="/api/v1/login/"))
+    def test_login(self):
+        res = self.client.post('/api/v1/login/', USER_CREDENTIALS)
+        self.assertEqual(res.status_code, 200)       # Check the correct code
+
+        res = self.client.get('/api/v1/user/')
+        self.assertEqual(res.json()['loggedIn'], True, "User hasn't been logged out")
+
+    def test_logout(self):
+        # Currently the user is logged out
+        res = self.client.post('/api/v1/logout/')
+        self.assertEqual(res.status_code, 400, 'Not able to handle invalid logout request')
+
+        self.client.login(**USER_CREDENTIALS)
+        res = self.client.post('/api/v1/logout/')
+        self.assertEqual(res.status_code, 200, 'User is not able to logout')
+
+        res = self.client.get('/api/v1/user/')
+        self.assertEqual(res.json()['loggedIn'], False, "User hasn't been logged out")
+
+    @method_decorator(check_response(path="/api/v1/register/", method='POST', post_data={}))
+    def test_register(self):
+
+        # Check invalid data first
+        __fake_data: Dict = {
+            'username': 'ashketcham',
+            'email': 'ashKetchum_does_not_exist.gmail.com',
+            'first_name': 'Ash',
+            'last_name': 'Ketchum',
+            'password1': 'PikachuIsMy4378Friend',
+            'password2': 'PikachuIsMy4378Friend',
+        }
+        res = self.client.post('/api/v1/register/', __fake_data)
+        self.assertEqual(res.status_code, 200)
+        errors = res.json().get('errors', '')
+        self.assertIsInstance(errors, dict, 'Error list is not returned')
+        self.assert_(len(errors) > 0, 'There are no errors thrown')
+
+        __fake_data['email'] = 'ashKetchum_does_not_exist@gmail.com'
+        res = self.client.post('/api/v1/register/', __fake_data)
+        self.assertEqual(res.status_code, 201)
+
+        # We're getting the pk of new user in response
+        new_user: User = User.objects.get(pk=res.json()['id'])
+        self.assertEqual(new_user.first_name, __fake_data['first_name'], 'No user is created')

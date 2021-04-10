@@ -11,4 +11,7 @@ urlpatterns = [
     # Regarding user details
     path('user/', views.get_current_user, name="user"),
     path('profile/', views.ProfileView.as_view(), name="profile"),
+    path('login/', views.APILoginView.as_view(), name="login"),
+    path('logout/', views.api_logout, name="logout"),
+    path('register/', views.APISignupView.as_view(), name='register'),
 ]
