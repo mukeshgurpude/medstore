@@ -6,7 +6,8 @@ app_name = 'api'
 urlpatterns = [
     # Medicines
     path('', views.MedicineView.as_view(), name="APIv1"),
-    path('add/', views.CreateView.as_view(), name='medicine_add'),
+    path('detail/<int:pk>/', views.APIDetailView.as_view(), name="medicine_detail"),
+    path('detail/<str:slug>/', views.APIDetailView.as_view(), name="medicine_detail"),
 
     # Regarding user details
     path('user/', views.get_current_user, name="user"),
