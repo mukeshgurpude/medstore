@@ -1,9 +1,13 @@
 from typing import Dict, Union
+
+from django.contrib.auth.models import Group, Permission
 from django.test import TestCase
 from django.http import JsonResponse
 from django.contrib.auth import get_user_model
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
+
+from api.tests.utils import create_merchant
 
 User = get_user_model()
 
@@ -16,6 +20,11 @@ UPDATED_CREDENTIALS: Dict[str, Union[str, int]] = {
     'first_name': 'changedName',
     'gender': 'Male',
     'phone': 8456217463
+}
+STORE_DATA = {
+    'store_name': 'Medstore',
+    'address': 'Internet',
+    'pincode': 101010,
 }
 
 
@@ -131,11 +140,6 @@ class TestLoginLogout(TestCase):
 class TestSellerViews(TestCase):
     def setUp(self) -> None:
         self.user: User = User.objects.create_user(**USER_CREDENTIALS)
-        self.store_data = {
-            'store_name': 'Medstore',
-            'address': 'Internet',
-            'pincode': 101010,
-        }
         self.client.login(**USER_CREDENTIALS)
 
     def test_response(self):
@@ -145,13 +149,19 @@ class TestSellerViews(TestCase):
         self.apply()
 
         res: JsonResponse = self.client.get('/api/v1/sell/')
-        print(res.json())
         self.assertEqual(res.status_code, 200)
-        self.assertEqual(res.json()['store_name'], self.store_data['store_name'])
+        self.assertEqual(res.json()['store_name'], STORE_DATA['store_name'])
 
     def apply(self):
-        res = self.client.post('/api/v1/sell/', {**self.store_data, 'pincode': 'dummy'})
+        create_merchant()
+        res = self.client.post('/api/v1/sell/', {**STORE_DATA, 'pincode': 'dummy'})
         self.assertEqual(res.status_code, 400)
 
-        res = self.client.post('/api/v1/sell/', self.store_data)
+        res = self.client.post('/api/v1/sell/', STORE_DATA)
         self.assertEqual(res.status_code, 200)
+
+        # We need to re-fetch the user as to update the user permissions
+        # Simple `refresh_from_db` will not work in this case, because it updates only the
+        # direct attributes
+        self.user = User.objects.get(username=USER_CREDENTIALS['username'])
+        self.assert_(self.user.has_perm('medicines.add_medicine'), msg="Permission hasn't been updated")

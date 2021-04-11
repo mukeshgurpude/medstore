@@ -1,13 +1,13 @@
+from django.core.exceptions import ObjectDoesNotExist
 from django.db import models
 from django.conf import settings
 import random
 from django.utils.text import slugify
-# from django.core.validators import MinValueValidator
 
 
 class MedCat(models.Model):
     objects = models.Manager()
-    name = models.CharField(max_length=20)
+    name: str = models.CharField(max_length=20)
 
     def __str__(self):
         return self.name
@@ -42,3 +42,19 @@ class Medicine(models.Model):
         self.slug = slug
         super(Medicine, self).save(*args, **kwargs)
 
+    @property
+    def as_json(self):
+        try:
+            owner = self.owner.sellerprofile.store_name
+        except ObjectDoesNotExist:
+            owner = 'Medstore'
+        return {
+            'id': self.id,
+            'name': self.name,
+            'category': self.category.name,
+            'price': self.price,
+            'quantity': self.quantity,
+            'description': self.description,
+            'owner': owner,
+            'slug': self.slug
+        }
