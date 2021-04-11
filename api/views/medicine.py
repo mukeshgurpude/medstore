@@ -1,7 +1,6 @@
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import JsonResponse, HttpRequest
 from medicines.models import Medicine
-from django.core.serializers.json import Serializer
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from django.views.generic import View
@@ -30,9 +29,6 @@ class MedicineView(View):
         :rtype: JsonResponse
         """
         qs = self.get_queryset()
-        # serialized = Serializer().serialize(qs, fields=('name', 'price', 'category.name'))
-        # print(serialized[0], type(serialized))
-        # json = {med['id']: med['fields'] for med in serialized}
 
         json = {med.id: {'name': med.name,
                          'price': med.price,
@@ -104,6 +100,8 @@ class APIDetailView(View):
         # TODO: Update med
         try:
             med: Medicine = self.get_med(pk=pk, slug=slug)
+            f = CreateForm(instance=med)
+            print(f.data)
             return JsonResponse({'msg': 'Got it', 'name': med.name})
 
         except ObjectDoesNotExist:

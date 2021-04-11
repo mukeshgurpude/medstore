@@ -2,7 +2,6 @@ from django.contrib.auth.models import User
 from django.test import TestCase
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
-
 from api.tests.test_auth import USER_CREDENTIALS, STORE_DATA
 from api.tests.utils import create_merchant
 from medicines.models import Medicine, MedCat
@@ -17,6 +16,8 @@ NEW_Medicine = {
 
 
 class TestCreateView(TestCase):
+    fixtures = ['api/tests/med_initial.json']
+
     def setUp(self) -> None:
         self.user = User.objects.create_user(**USER_CREDENTIALS)
 
@@ -33,7 +34,10 @@ class TestCreateView(TestCase):
 
     @method_decorator(check_response(path="/api/v1/", login_required=False))
     def test_get_list(self):
-        pass
+        res = self.client.get('/api/v1/')
+        self.assertEqual(Medicine.objects.count(), len(res.json()))
+        self.assertDictEqual(res.json(),
+                             {'1': {'name': 'New Med', 'price': '5.00', 'category': 'Fever'}})
 
     def test_new_add(self):
         """
@@ -59,3 +63,8 @@ class TestCreateView(TestCase):
         # Check duplicate request
         res = self.client.post('/api/v1/', {**NEW_Medicine, 'category': m.id})
         self.assertEqual(res.status_code, 400, 'Duplicate medicines are being created')
+
+    @method_decorator(check_response("/api/v1/detail/1/", login_required=False))
+    def test_detail_data(self):
+        res = self.client.get("/api/v1/detail/1/")
+        self.assertEqual(res.json()['name'], 'New Med')
