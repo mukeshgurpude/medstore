@@ -3,19 +3,19 @@ from django.test import TestCase
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
 from api.tests.test_auth import USER_CREDENTIALS, STORE_DATA
-from api.tests.utils import create_merchant
 from medicines.models import Medicine, MedCat
 
 NEW_Medicine = {
     'name': 'Dummy for testing',
     'price': 100.5,
-    'category': 'fever',
+    'category': 1,
     'description': 'This is intended for testing only',
     'quantity': 200
 }
 
 
 class TestCreateView(TestCase):
+    # Initial data for testing
     fixtures = ['api/tests/med_initial.json']
 
     def setUp(self) -> None:
@@ -43,10 +43,6 @@ class TestCreateView(TestCase):
         """
         Test if the POST requests to create new medicines are working
         """
-        # Create the necessary models
-        create_merchant()
-        m = MedCat.objects.create(name='fever')
-        m.save()
 
         # Login
         self.handle_permit()
@@ -56,15 +52,21 @@ class TestCreateView(TestCase):
         # Become seller | Get permissions
         self.client.post('/api/v1/sell/', STORE_DATA)
 
-        res = self.client.post('/api/v1/', {**NEW_Medicine, 'category': m.id})
+        res = self.client.post('/api/v1/', {**NEW_Medicine, 'category': 1})
         self.assertEqual(res.status_code, 201, res.json().get('errors', res.json().get('msg', 'No message')))
         self.assertTrue(Medicine.objects.filter(name=NEW_Medicine['name']), 'Medicine not created')
 
         # Check duplicate request
-        res = self.client.post('/api/v1/', {**NEW_Medicine, 'category': m.id})
+        res = self.client.post('/api/v1/', {**NEW_Medicine, 'category': 1})
         self.assertEqual(res.status_code, 400, 'Duplicate medicines are being created')
 
     @method_decorator(check_response("/api/v1/detail/1/", login_required=False))
     def test_detail_data(self):
-        res = self.client.get("/api/v1/detail/1/")
+        res = self.client.get("/api/v1/detail/new-med/")
         self.assertEqual(res.json()['name'], 'New Med')
+
+    def test_update_med(self):
+        # Don't know why but this is not working as expected
+        res = self.client.post('/api/v1/detail/1/', {**NEW_Medicine, 'name': 'Dummy changed name'})
+        print(res.json(), MedCat.objects.all())
+        self.assertEqual(res.json()['name'], 'Dummy changed name')

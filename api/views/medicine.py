@@ -94,15 +94,17 @@ class APIDetailView(View):
             med = self.get_med(pk=pk, slug=slug)
             return JsonResponse(med.as_json)
         except ObjectDoesNotExist:
-            return JsonResponse({'msg': 'invalid'}, status=400)
+            return JsonResponse({'msg': 'Medicine not found'}, status=400)
 
     def post(self, request, pk=None, slug=None):
         # TODO: Update med
         try:
             med: Medicine = self.get_med(pk=pk, slug=slug)
-            f = CreateForm(instance=med)
-            print(f.data)
-            return JsonResponse({'msg': 'Got it', 'name': med.name})
-
+            f = CreateForm(request.POST or None, request.FILES or None, instance=med)
+            print(f.data, request.POST)
+            if f.is_valid():
+                return JsonResponse({'msg': 'Got it', 'name': med.name})
+            else:
+                return JsonResponse({'msg': "No, you can't fool me", 'errors': f.errors})
         except ObjectDoesNotExist:
             return JsonResponse({'msg': 'Are you kidding me?'})

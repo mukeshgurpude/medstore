@@ -1,12 +1,9 @@
 from typing import Dict, Union
-
-from django.contrib.auth.models import Group, Permission
 from django.test import TestCase
 from django.http import JsonResponse
 from django.contrib.auth import get_user_model
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
-
 from api.tests.utils import create_merchant
 
 User = get_user_model()
