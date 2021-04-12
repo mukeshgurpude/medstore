@@ -1,4 +1,4 @@
-from django.core.exceptions import ObjectDoesNotExist
+from django.core.exceptions import ObjectDoesNotExist, FieldError
 from django.http import JsonResponse, HttpRequest
 from medicines.models import Medicine
 from django.views.decorators.csrf import csrf_exempt
@@ -12,13 +12,26 @@ from medicines.forms import CreateForm
 
 class MedicineView(View):
     @classmethod
-    def get_queryset(cls, *args, **kwargs):
+    def get_queryset(cls, filters=None):
         # It's better to use this method separately, as we might want to do another queries,
         # or may need to order the data, or may need to sort the data, all of this will be
         # handled in this method
-
-        # TODO: Handle the filters
-        return Medicine.objects.all()
+        """
+        Expected keys:
+            owner | category | price__lt | price__gt | quantity__gt | quantity__lt
+        """
+        m = Medicine.objects.all()
+        for key, value in filters.items():
+            try:
+                if key == 'owner':
+                    m = m.filter(owner__sellerprofile__store_name=value)
+                elif key == 'category':
+                    m = m.filter(category__name=value)
+                else:
+                    m = m.filter(key=value)
+            except (FieldError, ValueError):
+                pass
+        return m
 
     def get(self, request: HttpRequest, *args, **kwargs) -> JsonResponse:
         """
@@ -28,7 +41,7 @@ class MedicineView(View):
         :return: List containing basic medicine data
         :rtype: JsonResponse
         """
-        qs = self.get_queryset()
+        qs = self.get_queryset(request.GET)
 
         json = {med.id: {'name': med.name,
                          'price': med.price,
@@ -94,17 +107,17 @@ class APIDetailView(View):
             med = self.get_med(pk=pk, slug=slug)
             return JsonResponse(med.as_json)
         except ObjectDoesNotExist:
-            return JsonResponse({'msg': 'Medicine not found'}, status=400)
+            return JsonResponse({'msg': 'Medicine not found'}, status=404)
 
     def post(self, request, pk=None, slug=None):
-        # TODO: Update med
         try:
             med: Medicine = self.get_med(pk=pk, slug=slug)
             f = CreateForm(request.POST or None, request.FILES or None, instance=med)
-            print(f.data, request.POST)
             if f.is_valid():
+                f.save()
                 return JsonResponse({'msg': 'Got it', 'name': med.name})
             else:
                 return JsonResponse({'msg': "No, you can't fool me", 'errors': f.errors})
         except ObjectDoesNotExist:
-            return JsonResponse({'msg': 'Are you kidding me?'})
+            return JsonResponse({'msg': "Are you kidding me?, that medicine doesn't exists at all"},
+                                status=404)
