@@ -3,7 +3,9 @@ from django.test import TestCase
 from api.decorators import check_response
 from django.utils.decorators import method_decorator
 from api.tests.test_auth import USER_CREDENTIALS, STORE_DATA
-from medicines.models import Medicine, MedCat
+from medicines.models import Medicine
+from api.views.medicine import MedicineView
+from django.http import QueryDict
 
 NEW_Medicine = {
     'name': 'Dummy for testing',
@@ -14,7 +16,7 @@ NEW_Medicine = {
 }
 
 
-class TestCreateView(TestCase):
+class TestMedViews(TestCase):
     # Initial data for testing
     fixtures = ['api/tests/med_initial.json']
 
@@ -36,8 +38,14 @@ class TestCreateView(TestCase):
     def test_get_list(self):
         res = self.client.get('/api/v1/')
         self.assertEqual(Medicine.objects.count(), len(res.json()))
-        self.assertDictEqual(res.json(),
-                             {'1': {'name': 'New Med', 'price': '5.00', 'category': 'Fever'}})
+
+        query = QueryDict('price__lt=5')
+        res = MedicineView.get_queryset(query)
+        self.assertTrue(all(m.price <= 5 for m in res))
+
+        query = QueryDict('category=Fever')
+        res = MedicineView.get_queryset(query)
+        self.assertTrue(all(m.category.name == 'Fever' for m in res))
 
     def test_new_add(self):
         """
@@ -66,7 +74,6 @@ class TestCreateView(TestCase):
         self.assertEqual(res.json()['name'], 'New Med')
 
     def test_update_med(self):
-        # Don't know why but this is not working as expected
         res = self.client.post('/api/v1/detail/1/', {**NEW_Medicine, 'name': 'Dummy changed name'})
-        print(res.json(), MedCat.objects.all())
         self.assertEqual(res.json()['name'], 'Dummy changed name')
+        self.assertEqual(Medicine.objects.get(pk=1).name, 'Dummy changed name')
