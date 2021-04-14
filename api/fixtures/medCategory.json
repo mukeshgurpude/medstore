@@ -1,0 +1,16 @@
+[
+{
+  "model": "medicines.medcat",
+  "pk": 1,
+  "fields": {
+    "name": "Fever"
+  }
+},
+{
+  "model": "medicines.medcat",
+  "pk": 2,
+  "fields": {
+    "name": "Cough"
+  }
+}
+]

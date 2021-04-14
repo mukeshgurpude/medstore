@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from api import views
 
 app_name = 'api'
 
@@ -16,4 +16,8 @@ urlpatterns = [
     path('logout/', views.api_logout, name="logout"),
     path('register/', views.APISignupView.as_view(), name='register'),
     path('sell/', views.SellerView.as_view(), name='sell'),
+
+    # Cart, Orders related views
+    path('cart/', views.CartView.as_view(), name='cart'),
+    path('orders/', views.OrderView.as_view(), name='orders'),
 ]

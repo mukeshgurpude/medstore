@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render
 from .forms import BillingForm
 from cart.models import CartItem, Order
 from .models import BillingAddress
@@ -8,6 +8,7 @@ import stripe
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import re
+import json
 from django.http import HttpResponse
 from django.utils.crypto import get_random_string
 from allauth.account.decorators import verified_email_required
@@ -19,25 +20,25 @@ def checkout_view(request):
     form = BillingForm
     order = Order.objects.filter(user=request.user, ordered=False)[0]
     order_items = order.items.all()
-    order_total = order.get_order_total()
+    order_total = order.order_total
     item_count = sum([item.quantity for item in order_items])
     ctx = {'form': form, 'order_items': order_items, 'item_count': item_count, 'total_amount': order_total}
-    saved_Address = BillingAddress.objects.filter(user=request.user)
-    if saved_Address.exists():
-        savedAddress = saved_Address.first()
-        ctx['savedAddress'] = savedAddress
+    saved_address = BillingAddress.objects.filter(user=request.user)
+    if saved_address.exists():
+        saved_address = saved_address.first()
+        ctx['saved_address'] = saved_address
 
     if request.method == "POST":
-        saved_Address = BillingAddress.objects.filter(user=request.user)
-        if saved_Address.exists():
-            form = BillingForm(request.POST, instance=saved_Address.first())
+        saved_address = BillingAddress.objects.filter(user=request.user)
+        if saved_address.exists():
+            form = BillingForm(request.POST, instance=saved_address.first())
         else:
             form = BillingForm(request.POST)
         if form.is_valid():
             address = form.save(commit=False)
             address.user = request.user
             address.save()
-            ctx["savedAddress"] = address
+            ctx["saved_address"] = address
         else:
             messages.error(request, "Unable to process form.. Check for errors at your side")
 
@@ -47,7 +48,7 @@ def checkout_view(request):
 def payment(request, web=True):
     key = settings.STR_PUB
     order = Order.objects.filter(user=request.user, ordered=False)[0]
-    order_total = order.get_order_total()
+    order_total = order.order_total
     pay_amount = round(order_total*100, 2)
     if web:
         return render(request, "checkout/payment.html", {'key': key, 'pay': pay_amount})
@@ -70,7 +71,7 @@ def create_checkout_session(request):
     order, amount = payment(request, web=False)
     items = []
     for item in order.items.all():
-        items.append({'name': item.item, 'quantity': item.quantity, 'currency': 'INR', 'amount': int(item.item.price*100)})
+        items.append(dict(name=item.item, quantity=item.quantity, currency='INR', amount=int(item.item.price * 100)))
     if request.method == "GET":
         url = request.build_absolute_uri()
         url = re.findall(r"^(http[s]?://[^/]+)(/.)?", url)[0][0]
@@ -102,34 +103,29 @@ def stripe_webhook(request):
         event = stripe.Webhook.construct_event(
             payload, sig_header, endpoint_secret
         )
-    except ValueError as e:
+    except ValueError:
         # Invalid Payment
         return HttpResponse(status=400)
-    except stripe.error.SignatureVerificationError as e:
+    except stripe.error.SignatureVerificationError:
         # Invalid signature
         return HttpResponse(status=400)
 
     if event['type'] == 'checkout.session.completed':
-        print(event)
         user_id = int(event["data"]["object"]["client_reference_id"])
         order = Order.objects.filter(user__id=user_id, ordered=False)[0]
         cart_items = CartItem.objects.filter(user__id=user_id)
         order.orderID = "or_" + get_random_string(16)
         order.paymentID = event["data"]["object"]["payment_intent"]
         order.ordered = True
-        order.total = order.get_order_total()
+        order.total = order.order_total
         order.save()
-        print(cart_items)
+        order.order_now()
         for cart_item in cart_items:
-            print(cart_item)
             cart_item.purchased = True
             cart_item.item.quantity -= cart_item.quantity
             cart_item.item.save()
             cart_item.delete()
-            print(cart_item.purchased)
-            print(cart_item.item.quantity)
-        cart_items.delete()
-        print("Payment was successful.")
+        order.save()
 
     return HttpResponse(status=200)
 
@@ -137,22 +133,19 @@ def stripe_webhook(request):
 def success(request):
     user_id = request.user.id
     order = Order.objects.filter(user__id=user_id, ordered=False)[0]
-    cart_items = CartItem.objects.filter(user__id=user_id)
+    # cart_items = CartItem.objects.filter(user__id=user_id)
     order.orderID = "or_" + get_random_string(16)
     order.paymentID = "pi_" + get_random_string(16)
     order.ordered = True
-    order.total = order.get_order_total()
+    order.total = order.order_total
     order.save()
-    print(cart_items)
-    for cart_item in cart_items:
-        print(cart_item)
-        cart_item.purchased = True
-        cart_item.item.quantity -= cart_item.quantity
-        cart_item.item.save()
-        cart_item.delete()
-        print(cart_item.purchased)
-        print(cart_item.item.quantity)
-    cart_items.delete()
+    # Below things should be handled with webhook
+    # for cart_item in cart_items:
+    #     cart_item.purchased = True
+    #     cart_item.item.quantity -= cart_item.quantity
+    #     cart_item.item.save()
+    #     cart_item.delete()
+    # cart_items.delete()
     return render(request, "handle/success.html")
 
 

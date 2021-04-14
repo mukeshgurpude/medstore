@@ -1,5 +1,6 @@
 /.idea
 /.vscode
+/.coverage
 /home/templates/base_menu.html
 **/__pycache__/
 

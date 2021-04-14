@@ -30,9 +30,6 @@ class MedDetailView(OwnerDetailView):
     model = Medicine
     template_name = "medicines/medicine_detail.html"
 
-    # def get(self, request, pk):
-    #     x = Medicine.objects.get(id=pk)
-
 
 class MedCreateView(LoginRequiredMixin, PermissionRequiredMixin, View):
     model = Medicine

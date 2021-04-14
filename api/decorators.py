@@ -34,7 +34,7 @@ def check_response(path="/", login_required=True, method="GET", post_data=None) 
                 User.objects.create_user(**data)
                 client.login(**data)
             if method == 'GET':
-                res = client.get(path)
+                res = client.get(path, follow=True)
             else:
                 res = client.post(path, post_data)
             assert (res.status_code == 200)
