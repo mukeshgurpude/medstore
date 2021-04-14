@@ -119,14 +119,12 @@ def stripe_webhook(request):
         order.ordered = True
         order.total = order.order_total
         order.save()
-        temp = []
+        order.order_now()
         for cart_item in cart_items:
-            temp.append(cart_item.as_json)
             cart_item.purchased = True
             cart_item.item.quantity -= cart_item.quantity
             cart_item.item.save()
             cart_item.delete()
-        order.postOrder = f"[{','.join(temp)}]"
         order.save()
 
     return HttpResponse(status=200)

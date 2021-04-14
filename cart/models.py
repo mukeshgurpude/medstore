@@ -43,10 +43,16 @@ class Order(models.Model):
 
     @property
     def order_total(self):
-        return sum([item.total_amount() for item in self.items.all()])
+        if not self.ordered:
+            return sum([item.total_amount() for item in self.items.all()])
+        return self.total
 
     @property
     def as_json(self):
         if not self.ordered:
             return {item.item.name: item.as_json for item in self.items.all()}
-        return json.dumps(self.postOrder)
+        return json.loads(self.postOrder)
+
+    def order_now(self):
+        items = [item.as_json for item in self.items.all()]
+        self.postOrder = json.dumps(items)

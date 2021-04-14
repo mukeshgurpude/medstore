@@ -65,5 +65,5 @@ class TestCart(TestCase):
 
     def test_post_request(self):
         self.client.login(**self.credentials)
-        res = self.client.post('/api/v1/cart/', {'id': 4, 'action': 'increase'})
+        self.client.post('/api/v1/cart/', {'id': 4, 'action': 'increase'})
         self.assertEqual(len(CartItem.objects.filter(user=16)), 2)
