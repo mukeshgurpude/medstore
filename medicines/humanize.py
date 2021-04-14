@@ -1,12 +1,13 @@
 # TO convert size into readable text
 def naturalsize(count):
-    fcount = float(count)
+    f_count = float(count)
     k = 1024
     m = k * k
     g = m * k
-    if fcount < k: return str(count) + 'B'
-    if k <= fcount < m:
-        return str(int(fcount / (k / 10.0)) / 10.0) + 'KB'
-    if m <= fcount < g:
-        return str(int(fcount / (m / 10.0)) / 10.0) + 'MB'
-    return str(int(fcount / (g / 10.0)) / 10.0) + 'GB'
+    if f_count < k:
+        return str(count) + 'B'
+    if k <= f_count < m:
+        return str(int(f_count / (k / 10.0)) / 10.0) + 'KB'
+    if m <= f_count < g:
+        return str(int(f_count / (m / 10.0)) / 10.0) + 'MB'
+    return str(int(f_count / (g / 10.0)) / 10.0) + 'GB'
