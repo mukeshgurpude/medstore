@@ -1,0 +1,46 @@
+[
+{
+  "model": "cart.cartitem",
+  "pk": 25,
+  "fields": {
+    "user": 1,
+    "item": 2,
+    "quantity": 5,
+    "created": "2020-09-15T11:18:36.660Z",
+    "purchased": false
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 37,
+  "fields": {
+    "user": 16,
+    "item": 2,
+    "quantity": 1,
+    "created": "2021-03-17T11:32:36.261Z",
+    "purchased": false
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 38,
+  "fields": {
+    "user": 16,
+    "item": 4,
+    "quantity": 1,
+    "created": "2021-04-03T00:48:09.604Z",
+    "purchased": false
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 40,
+  "fields": {
+    "user": 29,
+    "item": 4,
+    "quantity": 1,
+    "created": "2021-04-14T01:54:42.700Z",
+    "purchased": false
+  }
+}
+]
