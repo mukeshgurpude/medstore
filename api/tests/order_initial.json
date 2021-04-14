@@ -1,0 +1,16 @@
+[
+{
+  "model": "cart.order",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "ordered": false,
+    "created": "2020-08-31T09:01:47.340Z",
+    "orderID": "or_kEQQVZMx8a8x7Fqy",
+    "paymentID": "pi_1HM8u2EJoeCmuBTab0tMv1JN",
+    "orderDate": "2020-08-31T09:02:36.154Z",
+    "total": "37.19",
+    "items": []
+  }
+}
+]

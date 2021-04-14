@@ -4,7 +4,6 @@ from .models import Order, CartItem
 from medicines.models import Medicine
 from django.contrib import messages
 from django.http import JsonResponse
-from django.views.decorators.csrf import csrf_exempt
 # Create your views here.
 
 
@@ -12,19 +11,16 @@ def cartview(request):
     orders = Order.objects.filter(user=request.user, ordered=False)
     items = CartItem.objects.filter(user=request.user)
     if orders.exists():
-        order = orders[0]
         return render(request, "cart/view.html", {"items": items})
 
     return redirect(reverse_lazy("medicines:all"))
 
 
 def add_to_cart(request, slug):
-    a = request.META.get("HTTP_REFERER")
-    # if not a:
-    #     messages.error(request, "You cannot edit cart items this way")
-    #     return redirect(reverse_lazy("medicines:all"))
+    request.META.get("HTTP_REFERER")
     item = get_object_or_404(Medicine, slug=slug)
     order_item = CartItem.objects.create(user=request.user, item=item)
+
     orders = Order.objects.filter(user=request.user, ordered=False)
     if orders.exists():
         order = orders[0]
@@ -43,8 +39,7 @@ def add_to_cart(request, slug):
 
 
 def remove_from_cart(request, slug):
-    a = request.META.get("HTTP_REFERER")
-    if not a:
+    if not request.META.get('HTTP_REFERER'):
         messages.error(request, "You cannot edit cart items this way")
         return redirect(reverse_lazy("medicines:all"))
     item = get_object_or_404(Medicine, slug=slug)
@@ -64,10 +59,9 @@ def remove_from_cart(request, slug):
 
 
 def increase_cart(request, slug):
-    a = request.META.get("HTTP_REFERER")
-    # if not a:
-    #     messages.error(request, "You cannot edit cart items this way")
-    #     return redirect(reverse_lazy("medicines:all"))
+    if not request.META.get('HTTP_REFERER'):
+        messages.error(request, "You cannot edit cart items this way")
+        return redirect(reverse_lazy("medicines:all"))
     item = get_object_or_404(Medicine, slug=slug)
     order_item = CartItem.objects.get(user=request.user, item=item)
     orders = Order.objects.filter(user=request.user, ordered=False)
@@ -120,10 +114,6 @@ def order_view(request):
 
 
 def increase_cart_test(request, slug):
-    a = request.META.get("HTTP_REFERER")
-    # if not a:
-    #     messages.error(request, "You cannot edit cart items this way")
-    #     return redirect(reverse_lazy("medicines:all"))
     q = 0
     item = get_object_or_404(Medicine, slug=slug)
     order_item = CartItem.objects.get(user=request.user, item=item)
@@ -143,10 +133,6 @@ def increase_cart_test(request, slug):
 
 
 def decrease_cart_test(request, slug):
-    a = request.META.get("HTTP_REFERER")
-    if not a:
-        messages.error(request, "You cannot edit cart items this way")
-        return redirect(reverse_lazy("medicines:all"))
     item = get_object_or_404(Medicine, slug=slug)
     orders = Order.objects.filter(user=request.user, ordered=False)
     if orders.exists():

@@ -1,3 +1,4 @@
+from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render, redirect
 from .forms import UserForm, ProfileForm, SellerForm
 from .models import UserProfile, SellerProfile
@@ -30,7 +31,7 @@ def profile(request: HttpRequest):
                 user.userprofile.phone = phone
                 user.userprofile.save()
                 user.save()
-            except Exception:
+            except ObjectDoesNotExist:
                 prof = UserProfile(user=user, gender=gender, phone=phone)
                 prof.save()
 
@@ -43,11 +44,11 @@ def profile(request: HttpRequest):
             has_profile = True
         else:
             has_profile = False
-    except Exception:
+    except ObjectDoesNotExist:
         has_profile = False
     try:
         seller = SellerForm(instance=request.user.sellerprofile)
-    except Exception:
+    except ObjectDoesNotExist:
         pass
     ctx = {"user": user_data, "profile": profile_data, 'has_profile': has_profile,
            "is_seller": request.user.has_perm("medicines.add_medicine"), "seller": seller}
@@ -69,7 +70,7 @@ def be_seller(request):
             user.sellerprofile.save()
             user.save()
             messages.success(request, "Your profile edited")
-        except Exception:
+        except ObjectDoesNotExist:
             messages.success(request, "Congratulations! You are now seller at medstore")
             seller = SellerProfile(user=user, store_name=store, address=address, pincode=pin)
             seller.save()
@@ -80,7 +81,7 @@ def be_seller(request):
     seller = SellerForm()
     try:
         seller = SellerForm(instance=SellerProfile.objects.get(user=request.user))
-    except Exception as e:
+    except ObjectDoesNotExist as e:
         print(e)
 
     ctx = {"seller": seller}
