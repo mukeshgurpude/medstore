@@ -32,7 +32,7 @@ class TestBillingAddress(TestCase):
 
 class Test(TestCase):
     def test_get_stripe_conf(self):
-        self.fail()
+        res = self.client.get('/conf/')
+        self.assertEqual(res.status_code, 200)
+        self.assertTrue('publicKey' in res.json())
 
-    def test_order_success(self):
-        self.fail()

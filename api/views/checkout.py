@@ -1,9 +1,13 @@
 from typing import Dict, Any, Optional, Tuple
-from django.core.exceptions import ObjectDoesNotExist
 from django.views.generic import View
 from django.http import HttpRequest, JsonResponse
 from checkout.forms import BillingForm
 from checkout.models import BillingAddress
+
+'''
+1. `configuration` view at [conf/](../../checkout/views.py)
+2. `checkout session` view at [new/](../../checkout/views.py)
+'''
 
 
 class APIBillingAddress(View):
@@ -43,17 +47,7 @@ class APIBillingAddress(View):
                             status=400 if form.errors else 200)
 
 
-def get_stripe_conf(request):
-    """
-    stripe configuration with public key
-
-    :param request: Get the stripe configuration
-    :type request: HttpRequest
-    """
-    # Get stripe public key
-    pass
-
-
+# Alternative to `hook/` in `checkout/views.py`
 def order_success(request):
     """
     Callback url from stripe
