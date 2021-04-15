@@ -5,15 +5,15 @@
     <h2>Confirm Shipping Address > <span class="text-muted">Checkout</span></h2>
     <div class="row">
         <div class="col-md-9">
-            {%if savedAddress%}
+            {%if saved_address%}
             <h4 class="saved">Saved Address</h4>
             <div class="card mb-5 saved" style="height: auto">
                 <div class="card-body">
-                    <p><b>Address: </b>{{savedAddress.address}}</p>
-                    <p><b>PinCode: </b>{{savedAddress.pincode}}</p>
-                    <p><b>City: </b>{{savedAddress.city}}</p>
-                    {%if savedAddress.landmark %}
-                    <p><b>Landmark: </b>{{savedAddress.landmark}}</p>
+                    <p><b>Address: </b>{{saved_address.address}}</p>
+                    <p><b>PinCode: </b>{{saved_address.pincode}}</p>
+                    <p><b>City: </b>{{saved_address.city}}</p>
+                    {%if saved_address.landmark %}
+                    <p><b>Landmark: </b>{{saved_address.landmark}}</p>
                     {%endif%}
                     <div class="card-body">
                         <a href="{%url 'checkout:pay'%}" class="btn btn-success float-right">Proceed to Pay</a>
@@ -22,7 +22,7 @@
             </div>
             <button id= "change" type="button" class="btn btn-primary">New address</button>
         {%endif%}
-            <div id="editaddr" class="card mb-5" style="{%if savedAddress%}height:auto; display:none{%else%}height:auto{%endif%}">
+            <div id="editaddr" class="card mb-5" style="{%if saved_address%}height:auto; display:none{%else%}height:auto{%endif%}">
                 <div class="card-body">
                     <form method="post">
                         {%csrf_token%}
