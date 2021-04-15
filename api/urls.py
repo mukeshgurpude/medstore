@@ -20,4 +20,5 @@ urlpatterns = [
     # Cart, Orders related views
     path('cart/', views.CartView.as_view(), name='cart'),
     path('orders/', views.OrderView.as_view(), name='orders'),
+    path('address/', views.APIBillingAddress.as_view(), name='orders'),
 ]

@@ -3,3 +3,4 @@ from .medicine import *
 from .auth import *
 from .cart import *
 from .order import *
+from .checkout import *

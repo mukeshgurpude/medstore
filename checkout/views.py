@@ -8,7 +8,6 @@ import stripe
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import re
-import json
 from django.http import HttpResponse
 from django.utils.crypto import get_random_string
 from allauth.account.decorators import verified_email_required
@@ -62,8 +61,8 @@ def payment(request, web=True):
 @csrf_exempt
 def stripe_conf(request):
     if request.method == "GET":
-        stripe_conf = {'publicKey': settings.STR_PUB}
-        return JsonResponse(stripe_conf, safe=False)
+        stripe_configuration = {'publicKey': settings.STR_PUB}
+        return JsonResponse(stripe_configuration, safe=False)
 
 
 @csrf_exempt
@@ -97,7 +96,6 @@ def stripe_webhook(request):
     endpoint_secret = settings.STRIPE_ENDPOINT_KEY
     payload = request.body
     sig_header = request.META['HTTP_STRIPE_SIGNATURE']
-    event = None
 
     try:
         event = stripe.Webhook.construct_event(

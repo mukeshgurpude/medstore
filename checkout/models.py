@@ -12,3 +12,7 @@ class BillingAddress(models.Model):
 
     def __str__(self):
         return f"{self.user.username} Billing Address"
+
+    @property
+    def as_json(self):
+        return dict(address=self.address, pincode=self.pincode, city=self.city, landmark=self.landmark)
