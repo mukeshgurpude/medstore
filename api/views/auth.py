@@ -3,7 +3,6 @@ from typing import Dict, Union
 from django.contrib.auth.models import User, Group
 from django.http import JsonResponse
 from django.http.request import HttpRequest
-
 from accounts.forms import SellerForm
 from accounts.models import UserProfile, SellerProfile
 from django.views.generic import View
