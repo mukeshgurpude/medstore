@@ -1,6 +1,7 @@
 {%extends 'base_bootstrap.html' %}
+{% load static %}
 {%block head%}
-<title>MedStore|Cart</title>
+<title>MedStore | Cart</title>
 <meta name="description" content="MedStore|Cart of {{request.user.username}}">
 {%endblock%}
 {%block content%}
@@ -10,18 +11,28 @@
     <tr>
         <th>Medicine</th>
         <th>Quantity</th>
+        <th>Cost/Item</th>
         <th>Amount</th>
     </tr>
 {%for item in items %}
     <tr id="row{{item.id}}">
         <td>{{item.item}}</td>
         <td><a class="ab5 sc{{item.id}}" role="button" href="{%url 'cart:decrease' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
-            <span id="sc{{item.id}}">{{item.quantity}}</span>
+            <span id="sc{{item.id}}" class="quantity">{{item.quantity}}</span>
             <a class="ab5 sc{{item.id}}" role="button" href="{%url 'cart:increase' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
         </td>
-        <td>{{item.total_amount}}</td>
+        <td>{{ item.item.price }}</td>
+        <td class="total">{{item.total_amount}}</td>
     </tr>
     {%endfor%}
+{% if items.count > 0 %}
+    <tfoot id="aggregate">
+        <td>Total: </td>
+        <td>0</td>
+        <td>-</td>
+        <td>0.00</td>
+    </tfoot>
+{% endif %}
 </table>
 <a href="{%url 'medicines:all' %}" class="btn btn-success">Continue Shopping</a>
 <a style="float: right;" class="btn btn-warning" href="{%url 'checkout:order' %}">Checkout</a>
@@ -31,26 +42,5 @@
 {%endif%}
 {%endblock%}
 {%block js%}
-<script>
-    const loader = document.getElementById("quickloader");
-    const page = document.getElementsByTagName("div")[1];
-
-    const incdecbuttons = document.querySelectorAll('td>a[role=button]')
-    function changeValue(e){
-        e.preventDefault();
-        const itemId = this.classList[1].slice(2,);
-        console.log(itemId);
-        fetch(this.href)
-            .then(response=>response.json())
-            .then(response=>{
-                if(response.quantity===0){document.querySelector(`#row${itemId}`).remove()}
-                else document.querySelector(`span#sc${itemId}`).textContent = response.quantity;
-            })
-            .catch(err=>console.log('Error: ',err));
-    }
-
-    incdecbuttons.forEach(button=>{
-        button.addEventListener('click', changeValue);
-    })
-</script>
+    <script src={% static 'cart.js' %}></script>
 {%endblock%}

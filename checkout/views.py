@@ -131,19 +131,19 @@ def stripe_webhook(request):
 def success(request):
     user_id = request.user.id
     order = Order.objects.filter(user__id=user_id, ordered=False)[0]
-    # cart_items = CartItem.objects.filter(user__id=user_id)
     order.orderID = "or_" + get_random_string(16)
     order.paymentID = "pi_" + get_random_string(16)
     order.ordered = True
     order.total = order.order_total
     order.save()
-    # Below things should be handled with webhook
-    # for cart_item in cart_items:
-    #     cart_item.purchased = True
-    #     cart_item.item.quantity -= cart_item.quantity
-    #     cart_item.item.save()
-    #     cart_item.delete()
-    # cart_items.delete()
+    order.order_now()
+    cart_items = CartItem.objects.filter(user_id=user_id)
+    for cart_item in cart_items:
+        cart_item.purchased = True
+        cart_item.item.quantity -= cart_item.quantity
+        cart_item.item.save()
+        cart_item.delete()
+    order.save()
     return render(request, "handle/success.html")
 
 
