@@ -1,0 +1,13 @@
+ports:
+- port: 8000
+  onOpen: open-preview
+tasks:
+- init: >
+    python3 -m pip install -r requirements.txt &&
+    python3 manage.py migrate
+  command: >
+    export DJANGO_SETTINGS_MODULE=medical.settings &&
+    python3 manage.py runserver 0.0.0.0:8000
+github:
+    prebuilds:
+        pullRequestsFromForks: true
