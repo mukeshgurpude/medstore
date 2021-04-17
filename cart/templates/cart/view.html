@@ -25,6 +25,14 @@
         <td class="total">{{item.total_amount}}</td>
     </tr>
     {%endfor%}
+{% if items.count > 0 %}
+    <tfoot id="aggregate">
+        <td>Total: </td>
+        <td>0</td>
+        <td>-</td>
+        <td>0.00</td>
+    </tfoot>
+{% endif %}
 </table>
 <a href="{%url 'medicines:all' %}" class="btn btn-success">Continue Shopping</a>
 <a style="float: right;" class="btn btn-warning" href="{%url 'checkout:order' %}">Checkout</a>
