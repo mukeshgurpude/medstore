@@ -3,6 +3,7 @@ Medstore
 [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mukeshgurpude/medstore)
 ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fmedstore.pythonanywhere.com)
 [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+
 Medstore is a Medical store alike website, built as the submission for the Minor project in the college.
 
 ## How to run Locally
