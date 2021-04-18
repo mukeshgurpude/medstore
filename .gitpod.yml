@@ -11,3 +11,6 @@ tasks:
 github:
     prebuilds:
         pullRequestsFromForks: true
+        pullRequests: true
+        addBadge: true
+        addComment: true
