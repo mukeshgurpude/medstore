@@ -10,6 +10,7 @@ from django.contrib import messages
 # Create your views here.
 
 
+# noinspection PyArgumentList,PyArgumentList,PyArgumentList,PyArgumentList
 @login_required
 def profile(request: HttpRequest):
 

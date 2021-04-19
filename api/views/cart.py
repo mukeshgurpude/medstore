@@ -53,6 +53,7 @@ class CartView(View):
         except ObjectDoesNotExist:
             return JsonResponse({'msg': 'No items in cart', 'items': []})
 
+    # noinspection PyArgumentList,PyArgumentList
     def post(self, request):
         """
         Request format, {id: Medicine id, action: (increase | decrease)}
