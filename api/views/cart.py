@@ -8,8 +8,10 @@ User = get_user_model()
 
 
 class CartView(View):
+
     @classmethod
-    def update_item(cls, pk=None, action=None, order: Order = None, user: User = None) -> dict:
+    def update_item(cls, pk: int = None, action: str = None,
+                    order: Order = None, user: User = None) -> dict:
         """
         Utility function to update the quantity of the cart item
 
@@ -66,6 +68,6 @@ class CartView(View):
             active_order: Order = Order.objects.get(user=request.user.id, ordered=False)
         except ObjectDoesNotExist:
             active_order: Order = Order.objects.create(user=request.user)
-        data = self.update_item(pk=request.POST.get('id'), action=request.POST.get('action'),
+        data = self.update_item(pk=request.POST.get(key='id'), action=request.POST.get(key='action'),
                                 order=active_order, user=request.user)
         return JsonResponse({'msg': 'Operation successful', 'detail': data})

@@ -1,7 +1,9 @@
 {% load static %}
 <!DOCTYPE html>
+<!--suppress ALL -->
 <html lang="en" dir="ltr">
 <head>
+    <title>Default title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width,initial-scale=1.0"/>
     <link rel="stylesheet"
@@ -10,13 +12,10 @@
           crossorigin="anonymous">
     <link rel="icon" href="{%static 'favicon.ico' %}">
 
-    {#    Bootstrap theme#}
+    {# Bootstrap theme#}
     <link rel="preload" as="style"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"
-    crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
-    {#    <noscript>#}
-    {#        Please enable javascript, to use this site, efficiently#}
-    {#    </noscript>#}
+    crossorigin="anonymous" onload="this.onload=null; this.rel='stylesheet'"/>
     <style>
         .btn-danger,.btn-default,.btn-info,.btn-primary,.btn-success,.btn-warning {
             text-shadow: 0 -1px 0 rgba(0,0,0,.2);
@@ -55,7 +54,9 @@
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"
     crossorigin="anonymous"/>
     <script src="https://kit.fontawesome.com/17fa2b8ca0.js" crossorigin="anonymous"></script>
+
     {% block head %} {% endblock %}
+
     <style>
     #preloader, #quickloader {
         border: 16px solid #f3f3f3; /* Light grey */
@@ -93,7 +94,7 @@
     <div class="messages container mt-2">
         {%if messages%}
         {% for message in messages %}
-        <div {% if message.tags == 'error' %} class="alert alert-danger" {%else%}} class="alert alert-{{ message.tags }}{% endif %}" role="alert">
+        <div {% if message.tags == 'error' %} class="alert alert-danger" {%else%} class="alert alert-{{ message.tags }}{% endif %}" role="alert">
           {{ message }}
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
@@ -119,10 +120,12 @@
 {%block js%}
 {%endblock%}
 <script>
-    pre = document.getElementById("preloader");
-    next = document.getElementsByClassName("next")[0];
-    pre.style.display = "none"
-    next.style.display = ""
+    window.addEventListener('load', _=>{
+        const preloader = document.getElementById("preloader");
+        const page = document.getElementsByClassName("next")[0];
+        preloader.style.display = "none"
+        page.style.display = ""
+    })
 </script>
 </body>
 </html>

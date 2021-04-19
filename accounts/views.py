@@ -15,10 +15,13 @@ def profile(request: HttpRequest):
 
     if request.method == "POST":
         data = request.POST
-        first = data.get("first_name", None)
-        last = data.get("last_name", None)
-        gender = data.get("gender", None)
-        phone = data.get("phone", None)
+
+        # data.get returns None by default ->
+        first = data.get(key="first_name")
+        last = data.get(key="last_name")
+        gender = data.get(key="gender")
+        phone = data.get(key="phone")
+
         if not re.match(r'^\d{10}$', phone):
             messages.error(request, "Phone must be Numeric and 10 characters in length")
         else:

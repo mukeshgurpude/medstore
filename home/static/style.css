@@ -27,7 +27,3 @@
 .no-style product{
     text-decoration: none !important;
 }
-
-input#id_price_0, input#id_price_1{
-    width: 47%;
-}
