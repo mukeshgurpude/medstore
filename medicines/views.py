@@ -38,12 +38,12 @@ class MedCreateView(LoginRequiredMixin, PermissionRequiredMixin, View):
     success_url = reverse_lazy("medicines:all")
     template_name = "medicines/medicine_add.html"
 
-    def get(self, request, pk=None):
+    def get(self, request):
         form = CreateForm()
         ctx = {'form': form}
         return render(request, self.template_name, ctx)
 
-    def post(self, request, pk=None):
+    def post(self, request):
         form = CreateForm(request.POST, request.FILES or None)
         if not form.is_valid():
             ctx = {'form': form}

@@ -55,4 +55,4 @@ def order_success(request):
     :param request: Callback request from stripe
     :type request: HttpRequest
     """
-    pass
+    print(request.POST)

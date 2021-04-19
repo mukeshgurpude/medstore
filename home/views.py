@@ -5,8 +5,12 @@ from django.conf import settings
 
 
 class HomeView(View):
+    def __init__(self, *args, **kwargs):
+        super().__init__(args, kwargs)
+        self.dev_env = settings.DEBUG
+
     def get(self, request, ):
         ctx = {
-            'installed': settings.INSTALLED_APPS,
+            "Dev_Env": self.dev_env,
         }
         return render(request, "home/main.html", ctx)
