@@ -1,4 +1,5 @@
 {%extends 'base_bootstrap.html' %}
+{% load crispy_forms_filters %}
 
 {%load crispy_forms_tags %}
 
@@ -87,24 +88,24 @@
         <button class="btn btn-pre" type="submit" style="color: #fff;">Sign up</button>
     </form>
     </div>
-<div id="ref" class="alert" style="color: #fff; position: relative; text-align: center; display: block; clear: both; width: 100%">Already have an account? <a href="{% url 'account_login' %}">Login</a> </div>
+<div id="ref" class="alert" style="color: #fff; position: relative; text-align: center; display: block; clear: both; width: 100%">
+    Already have an account? <a href="{% url 'account_login' %}">Login</a>
 </div>
 {% endblock %}
 
 {% block js %}
 <script>
-    var labels = document.getElementsByTagName("label")
-    for(var i=0; i<2; i++){
+    let labels = document.getElementsByTagName("label")
+    for(let i=0; i<2; i++){
         labels[i].style.display = "none";
     }
-    for(var pass of document.querySelectorAll("input[type=password]")){
+    for(let pass of document.querySelectorAll("input[type=password]")){
         pass.setAttribute("autocomplete", "off");
     }
-    if(location.pathname=="/login/" || location.pathname=="/signup/"){
+    if(location.pathname === "/login/" || location.pathname === "/signup/"){
         document.getElementById("log").remove();
     }
     inputs = document.getElementsByClassName("form-group");
-    console.log(inputs);
     inputs[3].classList.add("inline");
     inputs[2].classList.add("inline");
 </script>

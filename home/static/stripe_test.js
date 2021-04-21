@@ -4,6 +4,7 @@ fetch("/conf/")
     })
     .then((data) => {
         // Initialize Stripe.js
+        // noinspection JSUnresolvedFunction
         const stripe = Stripe(data.publicKey);
         document.querySelector("#submitBtn").addEventListener("click", () => {
             // Get Checkout Session ID
@@ -13,6 +14,7 @@ fetch("/conf/")
                 })
                 .then((data) => {
                     // Redirect to Stripe Checkout
+                    //eslint-disable-next-line
                     return stripe.redirectToCheckout({sessionId: data.sessionId})
                 })
                 .then((res) => {

@@ -1,19 +1,21 @@
 {%extends 'base_bootstrap.html' %}
+{% load crispy_forms_filters %}
 {%load crispy_forms_tags%}
 {%load static%}
 {%block head%}
-<title>{{request.user.username}}|MedStore</title>
-<meta name="description" content="{{request.user.username}} Profile on MedStore">
+    <title>{{request.user.username}} | MedStore</title>
+    <meta name="description" content="{{request.user.username}} Profile on MedStore">
 {%endblock%}
 {%block content%}
 <form method="post">
     {%csrf_token%}
-    <p><h2>Basic</h2><button type="button" class="btn float-right btn-primary" id="hide">Edit</button>
+    <div>
+    <h2>Basic</h2><button type="button" class="btn float-right btn-primary" id="hide">Edit</button>
     {{user|crispy}}
-    </p>
-    <p>
+    </div>
+    <div>
     {{profile|crispy}}
-    </p>
+    </div>
     <button class="btn float-right btn-success" id="submit" type="submit" style="display:none">Save Changes</button>
 <a class="btn float-right btn-primary" style="margin-right: 1vw" href="{%url 'account_change_password'%}">Change Password</a>
 </form>

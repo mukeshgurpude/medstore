@@ -7,7 +7,8 @@ User = get_user_model()
 
 class UserProfile(models.Model):
     user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    gender = models.CharField(null=True, choices=[("Male", "Male"), ("Female", "Female"), ("Prefer not to say", "Prefer not to say")], max_length=50)
+    gender = models.CharField(null=True, choices=[("Male", "Male"), ("Female", "Female"),
+                                                  ("Prefer not to say", "Prefer not to say")], max_length=50)
     phone = models.PositiveBigIntegerField(verbose_name="Mobile Number", null=True)
 
     def __str__(self):

@@ -1,32 +1,35 @@
-$("input[value=Submit").addClass("btn btn-default")
-$("input[value=Cancel").addClass("btn btn-danger")
+const submit_button = document.querySelector('input[value=submit]');
+const cancel_button = document.querySelector('input[value=submit]');
+['btn', 'btn-default'].forEach(cls => {
+    submit_button && submit_button.classList.add(cls);
+    cancel_button&& cancel_button.classList.add(cls);
+})
 
 tags = document.getElementsByClassName("form-control");
 hide = document.getElementById("hide");
-hide.addEventListener("click", function(){
-    sub = document.getElementById("submit");
-    if(sub.style.display == "none"){
+
+hide && hide.addEventListener("click", function () {
+    const submit_button = document.getElementById("submit");
+    if (submit_button.style.display === "none") {
         hide.innerHTML = "Cancel";
-        sub.style.display = "";
-        for(var tag=0; tag<4; tag++){
+        submit_button.style.display = "";
+        for (let tag = 0; tag < 4; tag++) {
             tags[tag].removeAttribute("readonly");
             tags[tag].removeAttribute("disabled");
-        };
-    }
-    else{
+        }
+    } else {
         hide.innerHTML = "Edit";
-        sub.style.display = "none";
-        for(var tag=0; tag<4; tag++){
+        submit_button.style.display = "none";
+        for (let tag = 0; tag < 4; tag++) {
             tags[tag].setAttribute("readonly", "");
             tags[tag].setAttribute("disabled", "");
-        };
+        }
     }
     return false;
 })
-
-for(var p=0; p<tags.length;){
-    tags[p].setAttribute("readonly", "");
-    tags[p].setAttribute("disabled", "");
-    p++;
+if (hide) {  // Only apply if, required buttons are present
+    for (let p = 0; p < tags.length; p++) {
+        tags[p].setAttribute("readonly", "");
+        tags[p].setAttribute("disabled", "");
+    }
 }
-

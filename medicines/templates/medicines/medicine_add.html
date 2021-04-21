@@ -1,4 +1,5 @@
 {% extends "base_bootstrap.html"%}
+{% load crispy_forms_filters %}
 {% load crispy_forms_tags %}
 {% load static%}
 {%block head%}
@@ -7,27 +8,25 @@
 seller profile to access this feature">
 {% endblock %}
 {%block content%}
-<p>
-<form action="" method="post" id="upload_form" enctype="multipart/form-data" class="form-group">
+<form id="med_add" method="post" id="upload_form" enctype="multipart/form-data" class="form-group">
     {% csrf_token %}
     {{form|crispy}}
     <input type="submit" value="Submit">
     <input type="submit" onclick="window.location='{%url 'medicines:all' %}'; return false;" value="Cancel">
 </form>
-</p>
 {%endblock%}
 {%block js%}
 <script>
-$("#upload_form").submit(function() {
-  console.log('Checking file size');
-  if (window.File && window.FileReader && window.FileList && window.Blob) {
-      var file = $('#id_{{ form.upload_field_name }}')[0].files[0];
-      if (file && file.size > {{ form.max_upload_limit }} ) {
-          alert("File " + file.name + " of type " + file.type + " must be < {{ form.max_upload_limit_text }}");
-      return false;
-    }
-  }
-});
+    document.querySelector('form#med_add').addEventListener('submit', function() {
+      if (window.File && window.FileReader && window.FileList && window.Blob) {
+          let file = document.querySelector('#id_thumbnail').files[0];
+          if (file && file.size > {{ form.max_upload_limit }} ) {
+              alert("File " + file.name + " of type " + file.type + " must be < {{ form.max_upload_limit_text }}");
+          return false;
+        }
+      }
+      return true;
+    });
 </script>
 <script src="{%static 'pikachu.js'%}"></script>
 {%endblock%}

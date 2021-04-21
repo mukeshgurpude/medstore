@@ -9,9 +9,9 @@ class OwnerListView(generic.ListView):
 class OwnerCreateView(LoginRequiredMixin, generic.CreateView):
 
     def form_valid(self, form):
-        object = form.save(commit=False)
-        object.owner = self.request.user
-        object.save()
+        form_object = form.save(commit=False)
+        form_object.owner = self.request.user
+        form_object.save()
         return super(OwnerCreateView, self).form_valid(form)
 
 
