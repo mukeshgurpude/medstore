@@ -6,7 +6,7 @@ from django.conf import settings
 
 class HomeView(View):
     def __init__(self, *args, **kwargs):
-        super().__init__(args, kwargs)
+        super().__init__(*args, **kwargs)
         self.dev_env = settings.DEBUG
 
     def get(self, request, ):

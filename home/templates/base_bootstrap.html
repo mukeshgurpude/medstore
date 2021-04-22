@@ -3,7 +3,6 @@
 <!--suppress ALL -->
 <html lang="en" dir="ltr">
 <head>
-    <title>Default title</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width= device-width,initial-scale=1.0"/>
     <link rel="stylesheet"
@@ -12,10 +11,9 @@
           crossorigin="anonymous">
     <link rel="icon" href="{%static 'favicon.ico' %}">
 
-    {# Bootstrap theme#}
-    <link rel="preload" as="style"
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"
-    crossorigin="anonymous" onload="this.onload=null; this.rel='stylesheet'"/>
+{#    <link rel="preload" as="style"#}
+{#    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"#}
+{#    crossorigin="anonymous" onload="this.onload=null; this.rel='stylesheet'"/>#}
     <style>
         .btn-danger,.btn-default,.btn-info,.btn-primary,.btn-success,.btn-warning {
             text-shadow: 0 -1px 0 rgba(0,0,0,.2);
@@ -47,7 +45,6 @@
         }
         {% endif %}
     </style>
-    {%comment%}Finished Bootstrap theme{%endcomment%}
 
 
     <link rel="stylesheet"
@@ -79,6 +76,7 @@
         color: red;
     }
     </style>
+    <title>Default title</title>
 </head>
 <body>
 {%block preloader%}
