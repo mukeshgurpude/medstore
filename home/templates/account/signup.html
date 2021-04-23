@@ -1,6 +1,5 @@
 {%extends 'base_bootstrap.html' %}
 {% load crispy_forms_filters %}
-
 {%load crispy_forms_tags %}
 
 {%block head%}
@@ -92,7 +91,7 @@
     Already have an account? <a href="{% url 'account_login' %}">Login</a>
 </div>
 {% endblock %}
-
+{% block footer %}{% endblock %}
 {% block js %}
 <script>
     let labels = document.getElementsByTagName("label")

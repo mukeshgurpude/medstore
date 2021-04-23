@@ -1,10 +1,9 @@
-
 {% extends 'base_bootstrap.html' %}
 {% load crispy_forms_filters %}
 {% load crispy_forms_tags %}
 {%load static%}
 {%block head%}
-<title>Medicine List|MedStore</title>
+<title>Medicines | MedStore</title>
 <meta name="description" content="List of available medicines on a project site MedStore">
 <link rel="stylesheet" href="{% static 'style.css' %}">
 {%endblock%}
@@ -46,10 +45,13 @@
             </div>
             <!-- col // -->
              {%empty%}
-             <h3>No Medicines Available</h3>
+                <h3>No Medicines Available</h3>
             {% endfor %}
          </div>
       </div>
    </div>
 </div>
+{% endblock %}
+{% block js %}
+
 {% endblock %}
