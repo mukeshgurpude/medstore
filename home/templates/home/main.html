@@ -26,7 +26,11 @@
     <style>
     main{display: flex; min-height: 70vh; align-items: center; justify-content: space-around; flex-wrap: wrap;}
     main>div{display: flex; justify-content: space-around; flex-wrap: wrap}
-    .fancy_link{appearance: none; -webkit-appearance: none;border: none}
+    .fancy_link{appearance: none; -webkit-appearance: none;border: 2px solid transparent; margin: .2em;}
+    .fancy_link>span{opacity: 0;transition: opacity 500ms;}
+
+    .fancy_link:hover{box-shadow: 0 0 2px #2b9cff; background: #2b9cff}
+    .fancy_link:hover>span{opacity: 1}
     </style>
 
     {% if Dev_Env %}
