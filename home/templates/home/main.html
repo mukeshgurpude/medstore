@@ -1,15 +1,12 @@
 {%extends "base_bootstrap.html"%}
+{% load static %}
 {%block head%}
     <title>MedStore | All of your Need</title>
     <meta name="google-site-verification" content="GNeU33AZBqoYTnNpSDM309tRlL--QdT1ETOtc4XVW-E" />
     <meta name="description" content="MedStore| A medicine ecommerce site made for college project">
     <style>
-        #side-block{position: fixed;top: 50%;right: 1em;background: rgba(0, 0, 0, .4);padding: .2em .5em;border-radius: 5px;}
+        #side-block{position: fixed;top: 50%;right: 1em;background: #333;padding: .2em .5em;border-radius: 5px;color: #fff}
     </style>
-{%endblock%}
-
-{%block welcome%}
-<h1>MedStore: One stop shop for need of your family</h1>
 {%endblock%}
 
 {% block content%}
@@ -17,6 +14,21 @@
         This site is not intended for real purchase. This site is developed for educational purpose only as a
         project for submission.
     </p>
+
+    <main>
+        <h1>Medstore: an online medical shop</h1>
+        <div>
+            <button class="fancy_link"><span>View all</span><img src="{% static 'assets/med_all.svg' %}" alt> </button>
+            <button class="fancy_link"><span>Cart</span><img src="{% static 'assets/cart.svg' %}" alt> </button>
+            <button class="fancy_link"><span>Profile</span><img src="{% static 'assets/profile.svg' %}" alt> </button>
+        </div>
+    </main>
+    <style>
+    main{display: flex; min-height: 70vh; align-items: center; justify-content: space-around; flex-wrap: wrap;}
+    main>div{display: flex; justify-content: space-around; flex-wrap: wrap}
+    .fancy_link{appearance: none; -webkit-appearance: none;border: none}
+    </style>
+
     {% if Dev_Env %}
         <aside id="side-block">Dev Environment</aside>
     {% endif %}
