@@ -14,7 +14,7 @@ fetch("/conf/")
                 })
                 .then((data) => {
                     // Redirect to Stripe Checkout
-                    //eslint-disable-next-line
+                    // noinspection JSUnresolvedFunction
                     return stripe.redirectToCheckout({sessionId: data.sessionId})
                 })
                 .then((res) => {
