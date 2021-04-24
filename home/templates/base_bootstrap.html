@@ -15,6 +15,11 @@
 {#    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"#}
 {#    crossorigin="anonymous" onload="this.onload=null; this.rel='stylesheet'"/>#}
     <style>
+    html, body{height: 100%;}
+        body{background: #efefef; overflow-x: hidden;max-width: 100vw;
+        display: flex; flex-direction: column;}
+        body>*{flex: 1 0 auto;}
+        footer{flex-shrink: 0; flex-grow: 0}
         .btn-danger,.btn-default,.btn-info,.btn-primary,.btn-success,.btn-warning {
             text-shadow: 0 -1px 0 rgba(0,0,0,.2);
             -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
@@ -46,11 +51,9 @@
         {% endif %}
     </style>
 
-
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"
     crossorigin="anonymous"/>
-    <script src="https://kit.fontawesome.com/17fa2b8ca0.js" crossorigin="anonymous"></script>
 
     {% block head %} {% endblock %}
 
@@ -76,7 +79,6 @@
         color: red;
     }
     </style>
-    <title>Default title</title>
 </head>
 <body>
 {%block preloader%}
@@ -122,7 +124,18 @@
         const preloader = document.getElementById("preloader");
         const page = document.getElementsByClassName("next")[0];
         preloader.style.display = "none"
-        page.style.display = ""
+        page.style.display = "";
+
+        const links = document.querySelectorAll("[data-take-me]");
+        links.forEach(link=>{
+            link.addEventListener('click', function(){
+                const url = this.dataset.takeMe;
+                url.startsWith('http')?
+                window.open(this.dataset.takeMe, '_blank')
+                :
+                location.replace(location.protocol + "//" + location.host + url);
+            })
+        })
     })
 </script>
 </body>

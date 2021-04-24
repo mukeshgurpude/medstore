@@ -8,6 +8,8 @@ from django.http import JsonResponse
 
 
 def cartview(request):
+    if request.user.is_anonymous:
+        return redirect(reverse_lazy("medicines:all"))
     orders = Order.objects.filter(user=request.user, ordered=False)
     items = CartItem.objects.filter(user=request.user)
     if orders.exists():
@@ -16,6 +18,7 @@ def cartview(request):
     return redirect(reverse_lazy("medicines:all"))
 
 
+# noinspection DuplicatedCode
 def add_to_cart(request, slug):
     request.META.get("HTTP_REFERER")
     item = get_object_or_404(Medicine, slug=slug)
@@ -58,6 +61,7 @@ def remove_from_cart(request, slug):
     return redirect(request.META.get("HTTP_REFERER"))
 
 
+# noinspection DuplicatedCode
 def increase_cart(request, slug):
     if not request.META.get('HTTP_REFERER'):
         messages.error(request, "You cannot edit cart items this way")
@@ -65,6 +69,7 @@ def increase_cart(request, slug):
     item = get_object_or_404(Medicine, slug=slug)
     order_item = CartItem.objects.get(user=request.user, item=item)
     orders = Order.objects.filter(user=request.user, ordered=False)
+
     if orders.exists():
         order = orders[0]
         if order.items.filter(item__slug=item.slug).exists():
@@ -123,13 +128,16 @@ def increase_cart_test(request, slug):
         if order.items.filter(item__slug=item.slug).exists():
             order_item.quantity += 1
             order_item.save()
-            messages.info(request, "Item quantity updated.")
+            # messages.info(request, "Item quantity updated.")
+            msg = "Item quantity updated."
             q = order_item.quantity
         else:
-            messages.error(request, "Item was not in the cart")
+            # messages.error(request, "Item was not in the cart")
+            msg = "Item was not in the cart"
     else:
-        messages.error(request, "Your cart is empty")
-    return JsonResponse({'quantity': q})
+        # messages.error(request, "Your cart is empty")
+        msg = "Your cart is empty"
+    return JsonResponse({'quantity': q, "msg": msg})
 
 
 def decrease_cart_test(request, slug):
@@ -142,14 +150,19 @@ def decrease_cart_test(request, slug):
             if order_item.quantity > 1:
                 order_item.quantity -= 1
                 order_item.save()
-                messages.info(request, "Item quantity updated")
-                return JsonResponse({"quantity": order_item.quantity})
+                # No need
+                # messages.info(request, "Item quantity updated")
+                msg = "Item quantity updated"
+                return JsonResponse({"quantity": order_item.quantity, "msg": msg})
             else:
                 order.items.remove(order_item)
                 order_item.delete()
-                messages.success(request, "Item deleted from the cart")
+                # messages.success(request, "Item deleted from the cart")
+                msg = "Item deleted from the cart"
         else:
-            messages.error(request, "Item was not in your cart")
+            # messages.error(request, "Item was not in your cart")
+            msg = "Item was not in your cart"
     else:
-        messages.error(request, "your cart is empty")
-    return JsonResponse({"quantity": 0})
+        # messages.error(request, "your cart is empty")
+        msg = "your cart is empty"
+    return JsonResponse({"quantity": 0, "msg": msg})
