@@ -15,7 +15,7 @@ sitemaps = {
 
 urlpatterns = [
     path("robots.txt", TemplateView.as_view(template_name="robots.txt", content_type="text/plain"), name="robots"),
-    path("sitemap.xml", sitemap, {'sitemaps': sitemaps}, name="sitemap"),
+    path("sitemap.xml", sitemap, {'sitemaps': sitemaps}, name="sitemap_url"),
     path("", include("home.urls")),
     path("", include("cart.urls")),
     path('admin/', admin.site.urls),
