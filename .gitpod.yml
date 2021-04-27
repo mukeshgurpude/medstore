@@ -10,4 +10,11 @@ tasks:
     python3 manage.py runserver 0.0.0.0:8000
 github:
     prebuilds:
-        pullRequestsFromForks: true
+      master: true
+      branches: true
+      pullRequests: true
+      pullRequestsFromForks: true
+      addCheck: false
+      addComment: true
+      addBadge: false
+      addLabel: gh-ready
