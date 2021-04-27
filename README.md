@@ -1,7 +1,10 @@
 Medstore
 ===
-<a href="http://www.djangoproject.com/"><img src="https://www.djangoproject.com/m/img/badges/djangomade124x25.gif" border="0" alt="Made with Django." title="Made with Django." /></a>
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mukeshgurpude/medstore)
 ![W3C Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fmedstore.pythonanywhere.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+![GitHub](https://img.shields.io/github/license/mukeshgurpude/medstore?style=flat-square)
+![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/mukeshgurpude/medstore?style=flat-square)
 
 Medstore is a Medical store alike website, built as the submission for the Minor project in the college.
 
@@ -18,7 +21,7 @@ Medstore is a Medical store alike website, built as the submission for the Minor
     cd medstore
     python3 manage.py createsuperuser
     ```
-    <div style="border: 1px solid #f44;">
+    <div style="border: 2px ridge #f44; padding: 2px 5px;">
     <strong>Note</strong>: Depending on the system, python3 above should be replaced by <code>python</code> or <code>py</code>(in windows)
     </div>
 
@@ -34,3 +37,5 @@ Medstore is a Medical store alike website, built as the submission for the Minor
   ```
   This will start a local server on `port 8000`.
 - Open http://localhost:8000 or http://127.0.0.1:8000, in the browser to view the website
+
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
