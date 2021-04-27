@@ -9,11 +9,12 @@ tasks:
     export DJANGO_SETTINGS_MODULE=medical.settings &&
     python3 manage.py runserver 0.0.0.0:8000
 github:
-    master: true
-    branches: true
-    pullRequests: true
-    pullRequestsFromForks: true
-    addCheck: false
-    addComment: true
-    addBadge: false
-    addLabel: gh-ready
+    prebuilds:
+      master: true
+      branches: true
+      pullRequests: true
+      pullRequestsFromForks: true
+      addCheck: false
+      addComment: true
+      addBadge: false
+      addLabel: gh-ready
