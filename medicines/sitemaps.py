@@ -1,9 +1,15 @@
+"""
+Sitemap views for medicines
+"""
 from django.contrib.sitemaps import Sitemap
-from .models import Medicine
 from django.urls import reverse
+from .models import Medicine
 
 
 class MedSiteMap(Sitemap):
+    """
+    Class to wrap up dynamic urls for medicines
+    """
     priority = 0.9
     changefreq = "daily"
 
