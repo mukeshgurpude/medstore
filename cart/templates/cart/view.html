@@ -17,9 +17,9 @@
 {%for item in items %}
     <tr id="row{{item.id}}">
         <td>{{item.item}}</td>
-        <td><a class="ab5 sc{{item.id}}" role="button" href="{%url 'cart:decrease' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-minus"></i> </span> </a>
+        <td><a class="sc{{item.id}}" role="button" href="{%url 'cart:decrease' item.item.slug%}"><span class="badge badge-dark">➖</span> </a>
             <span id="sc{{item.id}}" class="quantity">{{item.quantity}}</span>
-            <a class="ab5 sc{{item.id}}" role="button" href="{%url 'cart:increase' item.item.slug%}"><span class="badge badge-dark"><i class="fas fa-plus"></i> </span> </a>
+            <a class="sc{{item.id}}" role="button" href="{%url 'cart:increase' item.item.slug%}"><span class="badge badge-dark">➕</span> </a>
         </td>
         <td>{{ item.item.price }}</td>
         <td class="total">{{item.total_amount}}</td>

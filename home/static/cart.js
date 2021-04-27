@@ -3,7 +3,7 @@ const loader = document.getElementById("quickloader");
 const incdecbuttons = document.querySelectorAll('td>a[role=button]')
 function changeValue(e){
     e.preventDefault();
-    const itemId = this.classList[1].slice(2,);
+    const itemId = this.classList[0].slice(2,);
     const price = document.querySelector(`#row${itemId}>td:nth-child(3)`).textContent;
     loader.style.display = "block";
     fetch(this.href)
