@@ -2,11 +2,13 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.sitemaps.views import sitemap
 from medicines.sitemaps import MedSiteMap
+from accounts.sitemaps import AccountSiteMap
 from django.views.generic import TemplateView
 
 
 sitemaps = {
-    'medicines': MedSiteMap
+    'accounts': AccountSiteMap,
+    'medicines': MedSiteMap,
 }
 
 urlpatterns = [
