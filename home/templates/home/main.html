@@ -6,6 +6,13 @@
     <meta name="description" content="MedStore| A medicine ecommerce site made for college project">
     <style>
         #side-block{position: fixed;top: 50%;right: 1em;background: #333;padding: .2em .5em;border-radius: 5px;color: #fff}
+    main{display: flex; min-height: 70vh; align-items: center; justify-content: space-around; flex-wrap: wrap;font-family: ubuntu, cursive, monospace}
+    main>div{display: flex; justify-content: space-around; flex-wrap: wrap}
+    .fancy_link{appearance: none; -webkit-appearance: none;border: 2px solid transparent; margin: .2em;padding: 5px; background: transparent}
+    .fancy_link>span{opacity: 0;transition: opacity 500ms;}
+
+    .fancy_link:hover{box-shadow: 0 0 2px #2b9cff; background: #e8dfdf}
+    .fancy_link:hover>span{opacity: 1; font-weight: bold}
     </style>
 {%endblock%}
 
@@ -23,15 +30,6 @@
             <button data-take-me="{% url 'Account:profile' %}" class="fancy_link"><span>Profile</span><img src="{% static 'assets/profile.svg' %}" alt> </button>
         </div>
     </main>
-    <style>
-    main{display: flex; min-height: 70vh; align-items: center; justify-content: space-around; flex-wrap: wrap;font-family: ubuntu, cursive, monospace}
-    main>div{display: flex; justify-content: space-around; flex-wrap: wrap}
-    .fancy_link{appearance: none; -webkit-appearance: none;border: 2px solid transparent; margin: .2em;padding: 5px; background: transparent}
-    .fancy_link>span{opacity: 0;transition: opacity 500ms;}
-
-    .fancy_link:hover{box-shadow: 0 0 2px #2b9cff; background: #e8dfdf}
-    .fancy_link:hover>span{opacity: 1; font-weight: bold}
-    </style>
 
     {% if Dev_Env %}
         <aside id="side-block">Dev Environment</aside>

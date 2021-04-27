@@ -10,11 +10,7 @@
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
           crossorigin="anonymous">
     <link rel="icon" href="{%static 'favicon.ico' %}">
-
-{#    <link rel="preload" as="style"#}
-{#    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"#}
-{#    crossorigin="anonymous" onload="this.onload=null; this.rel='stylesheet'"/>#}
-    <style>
+<style>
     html, body{height: 100%;}
         body{background: #efefef; overflow-x: hidden;max-width: 100vw;
         display: flex; flex-direction: column;}
@@ -49,13 +45,18 @@
             border-radius: 25px;
         }
         {% endif %}
+        {# Footer specific#}
+    footer{background: #333;}
+    footer aside{display: flex; justify-content: space-around; padding: 1em;}
+    footer button{padding: .5em;border: none; background: transparent; position: relative; color: #fff}
+    footer button::before{position: absolute; content: ""; width: 0; height: 100%; background: #fee;}
+    svg{height: 2em; margin: 0;}
+    footer button:hover::before{width: 100%; transition: 500ms;opacity: .2;left: 50%; top: 50%; transform: translate(-50%, -50%);}
     </style>
 
     <link rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap-theme.min.css"
     crossorigin="anonymous"/>
-    <script src="https://kit.fontawesome.com/17fa2b8ca0.js" crossorigin="anonymous"></script>
-
     {% block head %} {% endblock %}
 
     <style>
@@ -83,9 +84,10 @@
 </head>
 <body>
 {%block preloader%}
-<span id="quickloader" style="width: 50px; height: 50px; display: none; z-index:3"></span>
-<div id="preloader" style="z-index: 2;"></div>
+    <span id="quickloader" style="width: 50px; height: 50px; display: none; z-index:3"></span>
+    <div id="preloader" style="z-index: 2;"></div>
 {%endblock%}
+
 <div class="container next" style="display:none">
 {% block navbar %}
     {% include 'header.html' %}
@@ -94,19 +96,19 @@
 {% block messages %}
     <div class="messages container mt-2">
         {%if messages%}
-        {% for message in messages %}
-        <div {% if message.tags == 'error' %} class="alert alert-danger" {%else%} class="alert alert-{{ message.tags }}{% endif %}" role="alert">
-          {{ message }}
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-        <span aria-hidden="true">&times;</span>
-      </button>
-        </div>
-        {% endfor %}
-  {% endif %}
-</div>
-{% endblock %}
-{% block content %}
-{% endblock %}
+            {% for message in messages %}
+            <div {% if message.tags == 'error' %} class="alert alert-danger" {%else%} class="alert alert-{{ message.tags }}{% endif %}" role="alert">
+              {{ message }}
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
 </div>
 {% block footer %} {% include 'footer.html' %} {% endblock %}
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
