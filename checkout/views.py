@@ -10,11 +10,11 @@ from django.views.decorators.csrf import csrf_exempt
 import re
 from django.http import HttpResponse
 from django.utils.crypto import get_random_string
-from allauth.account.decorators import verified_email_required
+# from allauth.account.decorators import verified_email_required
 # Create your views here.
 
 
-@verified_email_required
+# @verified_email_required  # Disable till issue with google less secure app is resolved
 def checkout_view(request):
     form = BillingForm
     order = Order.objects.filter(user=request.user, ordered=False)[0]
