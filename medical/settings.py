@@ -27,9 +27,11 @@ ACCOUNT_FORMS = {
     "signup": "home.forms.UserSignUp"
 }
 
-CRISPY_TEMPLATE_PACK = 'bootstrap4'
-# Application definition
+ACCOUNT_EMAIL_VERIFICATION = 'none'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
