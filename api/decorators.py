@@ -28,7 +28,7 @@ def check_response(path="/", login_required=True, method="GET", post_data=None) 
 
     def wrapper(function: func):
         @wraps(function)
-        def run(client=Client(), *args, **kwargs):
+        def run(*args, client=Client(), **kwargs):
             if login_required:
                 data = {"username": "test_user_23589", "password": "test_password"}
                 User.objects.create_user(**data)
@@ -37,8 +37,8 @@ def check_response(path="/", login_required=True, method="GET", post_data=None) 
                 res = client.get(path, follow=True)
             else:
                 res = client.post(path, post_data)
-            assert (res.status_code == 200)
-            assert (isinstance(res, JsonResponse))
+            assert res.status_code == 200
+            assert isinstance(res, JsonResponse)
             return function(*args, **kwargs)
         return run
     return wrapper

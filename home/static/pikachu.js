@@ -5,8 +5,8 @@ const cancel_button = document.querySelector('input[value=submit]');
     cancel_button&& cancel_button.classList.add(cls);
 })
 
-tags = document.getElementsByClassName("form-control");
-hide = document.getElementById("hide");
+const tags = document.getElementsByClassName("form-control");
+const hide = document.getElementById("hide");
 
 hide && hide.addEventListener("click", function () {
     const submit_button = document.getElementById("submit");
