@@ -1,19 +1,23 @@
+import re
 from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render, redirect
-from .forms import UserForm, ProfileForm, SellerForm
-from .models import UserProfile, SellerProfile
 from django.contrib.auth.decorators import login_required
-import re
 from django.http import HttpRequest
 from django.contrib.auth.models import Group
 from django.contrib import messages
+from .forms import UserForm, ProfileForm, SellerForm
+from .models import UserProfile, SellerProfile
 # Create your views here.
 
 
 # noinspection PyArgumentList,PyArgumentList,PyArgumentList,PyArgumentList
 @login_required
 def profile(request: HttpRequest):
-
+    """
+    Handles profile changes and requests
+    :param request: Request for profile details
+    :type request: HttpRequest
+    """
     if request.method == "POST":
         data = request.POST
 
@@ -61,12 +65,16 @@ def profile(request: HttpRequest):
 
 @login_required
 def be_seller(request):
+    """
+    Handles store details related data
+    :type request: HttpRequest
+    """
     if request.method == "POST":
         data = request.POST
         user = request.user
-        store = data.get("store_name", None)
-        address = data.get("address", None)
-        pin = data.get("pincode", None)
+        store = data.get(key="store_name")
+        address = data.get(key="address")
+        pin = data.get(key="pincode")
         try:
             user.sellerprofile.store_name = store
             user.sellerprofile.address = address

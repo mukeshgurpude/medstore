@@ -2,9 +2,9 @@ from typing import Dict, Union
 from django.test import TestCase
 from django.http import JsonResponse
 from django.contrib.auth import get_user_model
-from api.decorators import check_response
 from django.utils.decorators import method_decorator
 from api.tests.utils import create_merchant
+from api.decorators import check_response
 
 User = get_user_model()
 
@@ -30,6 +30,7 @@ class ProfileTestCase(TestCase):
         super(ProfileTestCase, self).__init__(*args, **kwargs)
         self.failureException = ValueError
         self.longMessage = False
+        self.res = None
 
     def setUp(self) -> None:
         """
@@ -40,6 +41,9 @@ class ProfileTestCase(TestCase):
 
     @method_decorator(check_response(path="/api/v1/user/"))
     def test_get_user(self):
+        """
+        tests if logged in user is returned
+        """
         res: JsonResponse = self.client.get("/api/v1/user/")
         self.assertEqual(self.user.username, res.json()['username'])
 
@@ -90,6 +94,9 @@ class TestLoginLogout(TestCase):
 
     @method_decorator(check_response(path="/api/v1/login/"))
     def test_login(self):
+        """
+        Tests if the user is able to login
+        """
         res = self.client.post('/api/v1/login/', USER_CREDENTIALS)
         self.assertEqual(res.status_code, 200)  # Check the correct code
 
@@ -97,6 +104,9 @@ class TestLoginLogout(TestCase):
         self.assertEqual(res.json()['loggedIn'], True, "User hasn't been logged out")
 
     def test_logout(self):
+        """
+        Tests the functionality of logging out
+        """
         # Currently the user is logged out
         res = self.client.post('/api/v1/logout/')
         self.assertEqual(res.status_code, 400, 'Not able to handle invalid logout request')
@@ -110,6 +120,7 @@ class TestLoginLogout(TestCase):
 
     @method_decorator(check_response(path="/api/v1/register/", method='POST', post_data={}))
     def test_register(self):
+        """ Tests signup functionality """
         # Check invalid data first
         __fake_data: Dict = {
             'username': 'ashketcham',
@@ -140,6 +151,9 @@ class TestSellerViews(TestCase):
         self.client.login(**USER_CREDENTIALS)
 
     def test_response(self):
+        """
+        Check the seller view data
+        """
         res = self.client.get('/api/v1/sell/')
         self.assertEqual(res.status_code, 400)
 
@@ -150,6 +164,9 @@ class TestSellerViews(TestCase):
         self.assertEqual(res.json()['store_name'], STORE_DATA['store_name'])
 
     def apply(self):
+        """
+        Tests additional privilege of seller signup
+        """
         create_merchant()
         res = self.client.post('/api/v1/sell/', {**STORE_DATA, 'pincode': 'dummy'})
         self.assertEqual(res.status_code, 400)
@@ -161,4 +178,5 @@ class TestSellerViews(TestCase):
         # Simple `refresh_from_db` will not work in this case, because it updates only the
         # direct attributes
         self.user = User.objects.get(username=USER_CREDENTIALS['username'])
-        self.assert_(self.user.has_perm('medicines.add_medicine'), msg="Permission hasn't been updated")
+        self.assert_(self.user.has_perm('medicines.add_medicine'),
+                     msg="Permission hasn't been updated")
