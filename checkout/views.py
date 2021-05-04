@@ -51,8 +51,7 @@ def payment(request, web=True):
     pay_amount = round(order_total*100, 2)
     if web:
         return render(request, "checkout/payment.html", {'key': key, 'pay': pay_amount})
-    else:
-        return order, pay_amount
+    return order, pay_amount
 
 
 # Testing new stripe
