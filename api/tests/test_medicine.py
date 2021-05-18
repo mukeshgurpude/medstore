@@ -61,7 +61,8 @@ class TestMedViews(TestCase):
         self.client.post('/api/v1/sell/', STORE_DATA)
 
         res = self.client.post('/api/v1/', {**NEW_Medicine, 'category': 1})
-        self.assertEqual(res.status_code, 201, res.json().get('errors', res.json().get('msg', 'No message')))
+        self.assertEqual(res.status_code, 201, 
+                         res.json().get('errors', res.json().get('msg', 'No message')))
         self.assertTrue(Medicine.objects.filter(name=NEW_Medicine['name']), 'Medicine not created')
 
         # Check duplicate request

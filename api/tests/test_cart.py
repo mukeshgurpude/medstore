@@ -25,7 +25,8 @@ class TestCart(TestCase):
     @method_decorator(check_response('/api/v1/cart/'))
     def test_cart_list(self):
         res = self.client.get('/api/v1/cart/')
-        self.assertEqual(len(res.json()['items']), CartItem.objects.filter(user=self.user.id).count())
+        self.assertEqual(len(res.json()['items']), 
+                         CartItem.objects.filter(user=self.user.id).count())
 
         # Below details are of the user with cart items
         self.client.login(**self.credentials)
@@ -34,7 +35,8 @@ class TestCart(TestCase):
 
     def test_cart_increase(self):
         current_quantity = self.cart_item.quantity if self.cart_item else 0
-        CartView.update_item(pk=self.cart_item.item.id if self.cart_item else 4, action='increase', user=self.user)
+        CartView.update_item(pk=self.cart_item.item.id if self.cart_item else 4,
+                             action='increase', user=self.user)
         self.cart_item = CartItem.objects.get(user=self.user)
         self.assertEqual(self.cart_item.quantity, current_quantity+1)
 

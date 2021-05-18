@@ -69,6 +69,7 @@ class CartView(View):
             active_order: Order = Order.objects.get(user=request.user.id, ordered=False)
         except ObjectDoesNotExist:
             active_order: Order = Order.objects.create(user=request.user)
-        data = self.update_item(pk=request.POST.get(key='id'), action=request.POST.get(key='action'),
+        data = self.update_item(pk=request.POST.get(key='id'),
+                                action=request.POST.get(key='action'),
                                 order=active_order, user=request.user)
         return JsonResponse({'msg': 'Operation successful', 'detail': data})
