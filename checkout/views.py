@@ -11,7 +11,7 @@ from django.views.decorators.csrf import csrf_exempt
 import re
 from django.http import HttpResponse
 from django.utils.crypto import get_random_string
-from allauth.account.decorators import verified_email_required
+# from allauth.account.decorators import verified_email_required
 # Create your views here.
 
 
