@@ -1,3 +1,4 @@
+from django.views.decorators.http import require_safe
 from django.shortcuts import render, redirect, get_object_or_404, HttpResponse
 from django.urls import reverse_lazy
 from .owner import *
@@ -81,6 +82,7 @@ class MedDeleteView(OwnerDeleteView):
     template_name = "medicines/medicine_delete.html"
 
 
+@require_safe
 def stream_file(request, pk):
     med = get_object_or_404(Medicine, id=pk)
     response = HttpResponse()

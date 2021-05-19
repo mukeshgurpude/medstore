@@ -1,3 +1,4 @@
+from django.views.decorators.http import require_safe, require_GET
 from django.shortcuts import render
 from .forms import BillingForm
 from cart.models import CartItem, Order
@@ -14,7 +15,8 @@ from allauth.account.decorators import verified_email_required
 # Create your views here.
 
 
-@verified_email_required
+# @verified_email_required  # Disable till issue with google less secure app is resolved
+@require_safe
 def checkout_view(request):
     form = BillingForm
     order = Order.objects.filter(user=request.user, ordered=False)[0]
@@ -58,6 +60,7 @@ def payment(request, web=True):
 
 
 @csrf_exempt
+@require_safe
 def stripe_conf(request):
     if request.method == "GET":
         stripe_configuration = {'publicKey': settings.STR_PUB}
@@ -127,6 +130,7 @@ def stripe_webhook(request):
     return HttpResponse(status=200)
 
 
+@require_safe
 def success(request):
     user_id = request.user.id
     order = Order.objects.filter(user__id=user_id, ordered=False)[0]
@@ -146,5 +150,6 @@ def success(request):
     return render(request, "handle/success.html")
 
 
+@require_safe
 def fail(request):
     return render(request, "handle/fail.html")
