@@ -34,13 +34,11 @@ def get_current_user(request: HttpRequest) -> JsonResponse:
     if request.method != 'GET':
         return JsonResponse({'msg': 'Invalid request'}, status=400)
 
-    user = request.user
-
-    if user.is_anonymous:
+    if request.user.is_anonymous:
         return JsonResponse(NotLoggedIn, status=200)
     return JsonResponse(dict(username=request.user.username, full_name=request.user.get_full_name(),
-                                 short_name=request.user.get_short_name(), email=request.user.email,
-                                 loggedIn=not user.is_anonymous), status=200)
+                        short_name=request.user.get_short_name(), email=request.user.email,
+                        loggedIn=not request.user.is_anonymous), status=200)
 
 
 class ProfileView(LoginRequiredMixin, View):

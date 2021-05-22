@@ -44,8 +44,8 @@ class APIBillingAddress(View):
             address.save()
         (b_json, b_address) = self.get_address(self.request.user)
         return JsonResponse({'msg': 'Error returned', 'fields': b_json, 
-                             'errors': form.errors or None},
-                             status=400 if form.errors else 200)
+                            'errors': form.errors or None},
+                            status=400 if form.errors else 200)
 
 
 # Alternative to `hook/` in `checkout/views.py`
