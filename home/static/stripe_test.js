@@ -17,8 +17,5 @@ fetch("/conf/")
                     // noinspection JSUnresolvedFunction
                     return stripe.redirectToCheckout({sessionId: data.sessionId})
                 })
-                .then((res) => {
-                    console.log(res);
-                });
         });
     });

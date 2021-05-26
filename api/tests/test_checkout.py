@@ -22,11 +22,12 @@ class TestBillingAddress(TestCase):
         self.assertIsInstance(res.json()['fields'], dict)
 
     def test_post(self):
-        res = self.client.post('/api/v1/address/', dict(address='Gajanan Residency', pincode=412105,
-                                                        city='Alandi', landmark='Opposite Kaivalya Hostel'))
+        res = self.client.post('/api/v1/address/',
+                               dict(address='Gajanan Residency', pincode=412105,
+                               city='Alandi', landmark='Opposite Kaivalya Hostel'))
         self.assertFalse(res.json()['errors'])
         res = self.client.post('/api/v1/address/', dict(address='Gajanan Residency', pincode=412105,
-                                                        city='Alandi', landmark='Near MIT Academy of Engineering'))
+                                city='Alandi', landmark='Near MIT Academy of Engineering'))
         self.assertTrue(res.json()['errors'])
 
 
@@ -35,4 +36,3 @@ class Test(TestCase):
         res = self.client.get('/conf/')
         self.assertEqual(res.status_code, 200)
         self.assertTrue('publicKey' in res.json())
-

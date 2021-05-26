@@ -34,14 +34,11 @@ def get_current_user(request: HttpRequest) -> JsonResponse:
     if request.method != 'GET':
         return JsonResponse({'msg': 'Invalid request'}, status=400)
 
-    user = request.user
-
-    if user.is_anonymous:
+    if request.user.is_anonymous:
         return JsonResponse(NotLoggedIn, status=200)
-    else:
-        return JsonResponse(dict(username=request.user.username, full_name=request.user.get_full_name(),
-                                 short_name=request.user.get_short_name(), email=request.user.email,
-                                 loggedIn=not user.is_anonymous), status=200)
+    return JsonResponse(dict(username=request.user.username, full_name=request.user.get_full_name(),
+                        short_name=request.user.get_short_name(), email=request.user.email,
+                        loggedIn=not request.user.is_anonymous), status=200)
 
 
 class ProfileView(LoginRequiredMixin, View):
@@ -92,19 +89,18 @@ class ProfileView(LoginRequiredMixin, View):
             return JsonResponse({"msg": "request failed with error",
                                  'err': "Phone number must be numeric and of 10 digits in length"})
 
-        else:
-            user: User = request.user
-            user.first_name = data.get('first_name', '')
-            user.last_name = data.get('last_name', '')
+        user: User = request.user
+        user.first_name = data.get('first_name', '')
+        user.last_name = data.get('last_name', '')
+        user.save()
+        try:
+            user.userprofile.gender = data.get('gender', '')
+            user.userprofile.phone = phone
+            user.userprofile.save()
             user.save()
-            try:
-                user.userprofile.gender = data.get('gender', '')
-                user.userprofile.phone = phone
-                user.userprofile.save()
-                user.save()
-            except ObjectDoesNotExist:
-                prof = UserProfile(user=user, gender=data.get('gender', ''), phone=phone)
-                prof.save()
+        except ObjectDoesNotExist:
+            prof = UserProfile(user=user, gender=data.get('gender', ''), phone=phone)
+            prof.save()
 
         return JsonResponse({'status': 'Data updated'}, status=200)
 
@@ -153,8 +149,7 @@ class APILoginView(View):
         if user is not None:
             login(request, user)
             return JsonResponse({'msg': 'Successfully logged In'})
-        else:
-            return JsonResponse({'msg': 'invalid credentials'})
+        return JsonResponse({'msg': 'invalid credentials'})
 
 
 def api_logout(request: HttpRequest):
@@ -181,7 +176,8 @@ class APISignupView(View):
 
     def get(self, request):
         self.form = UserSignUp()
-        return JsonResponse({'msg': 'POST method required', 'fields': list(self.form.fields.keys())}, status=400)
+        return JsonResponse({'msg': 'POST method required', 
+                             'fields': list(self.form.fields.keys())}, status=400)
 
     def post(self, request: HttpRequest):
         """
@@ -200,5 +196,4 @@ class APISignupView(View):
             self.user.set_password(request.POST['password1'])
             form.signup(self.user)
             return JsonResponse({'msg': 'user created', 'id': self.user.id}, status=201)
-        else:
-            return JsonResponse({'msg': 'errors', 'errors': form.errors})
+        return JsonResponse({'msg': 'errors', 'errors': form.errors})
