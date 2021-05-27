@@ -30,7 +30,7 @@ Medstore is a Medical store alike website, built as the submission for the Minor
     python3 manage.py makemigrations
     python3 manage.py migrate
     ```
-  
+
 - Run the server
   ```bash
   python3 manage.py runserver
