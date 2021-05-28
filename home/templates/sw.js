@@ -23,7 +23,7 @@ self.addEventListener('fetch', event=>{
   if(!event.request.url.startsWith(location.origin) || event.request.url.startsWith('http://localhost')){
     event.respondWith(fetch(event.request));
     return;
-  };
+  }
 
   // Respond from caches for the same-origin pages
   event.respondWith(
