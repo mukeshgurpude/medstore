@@ -152,10 +152,10 @@ LOGIN_REDIRECT_URL = "/"
 LOGIN_URL = "/login/"
 
 try:
-    from . import stripe
-    STR_PUB = stripe.publishable_key
-    STR_SEC = stripe.secret_key
-    STRIPE_ENDPOINT_KEY = stripe.end_key
+    from . import stripe_conf
+    STR_PUB = stripe_conf.publishable_key
+    STR_SEC = stripe_conf.secret_key
+    STRIPE_ENDPOINT_KEY = stripe_conf.end_key
 except (ModuleNotFoundError, ImportError):
     STR_PUB = ''
     STR_SEC = ''
