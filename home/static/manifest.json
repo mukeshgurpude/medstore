@@ -8,7 +8,7 @@
       {"src":"/static/images/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
   ],
   "start_url": "/?source=pwa",
-  "background_color": "#aaaaaa",
+  "background_color": "#ffffff",
   "display": "fullscreen",
   "scope": "/",
   "theme_color": "#333333",
