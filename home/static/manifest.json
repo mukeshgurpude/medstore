@@ -1,0 +1,36 @@
+{
+  "short_name": "Medstore",
+  "name": "Medstore",
+  "icons": [
+    {
+      "src": "/images/icons-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#aaaaaa",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#333333",
+  "shortcuts": [
+    {
+      "name": "cart",
+      "short_name": "cart",
+      "description": "View your cart",
+      "url": "/cart?source=pwa"
+    },
+    {
+      "name": "Orders",
+      "short_name": "orders",
+      "description": "View recent orders",
+      "url": "/orders?source=pwa"
+    }
+  ],
+  "description": "Medstore: a Medical store"
+}
