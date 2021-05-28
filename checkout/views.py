@@ -1,4 +1,4 @@
-from django.views.decorators.http import require_safe, require_GET
+from django.views.decorators.http import require_safe
 from django.shortcuts import render
 from .forms import BillingForm
 from cart.models import CartItem, Order
@@ -16,7 +16,6 @@ from django.utils.crypto import get_random_string
 
 
 # @verified_email_required  # Disable till issue with google less secure app is resolved
-@require_safe
 def checkout_view(request):
     form = BillingForm
     order = Order.objects.filter(user=request.user, ordered=False)[0]
@@ -57,8 +56,6 @@ def payment(request, web=True):
 
 
 # Testing new stripe
-
-
 @csrf_exempt
 @require_safe
 def stripe_conf(request):
