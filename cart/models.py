@@ -56,3 +56,5 @@ class Order(models.Model):
     def order_now(self):
         items = [item.as_json for item in self.items.all()]
         self.postOrder = json.dumps(items)
+        self.total = sum([item.total_amount() for item in self.items.all()])
+        self.save()

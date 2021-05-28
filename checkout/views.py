@@ -134,7 +134,6 @@ def success(request):
     order.orderID = "or_" + get_random_string(16)
     order.paymentID = "pi_" + get_random_string(16)
     order.ordered = True
-    order.total = order.order_total
     order.save()
     order.order_now()
     cart_items = CartItem.objects.filter(user_id=user_id)
