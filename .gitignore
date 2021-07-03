@@ -3,6 +3,7 @@
 /.coverage
 /home/templates/base_menu.html
 **/__pycache__/
+/coverage
 
 # Local changes
 db.sqlite3
