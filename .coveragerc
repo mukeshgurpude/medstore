@@ -1,0 +1,8 @@
+[run]
+branch: true
+omit=
+    **/__pycache__
+    **/migrations
+
+[html]
+directory = coverage
