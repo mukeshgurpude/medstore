@@ -7,8 +7,6 @@ from django.views.generic import View
 from medicines.forms import CreateForm
 
 # API Version 1
-# Without rest framework, {#SASTA}
-
 
 class MedicineView(View):
     @classmethod
