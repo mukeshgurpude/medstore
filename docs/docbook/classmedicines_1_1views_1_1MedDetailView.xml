@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1views_1_1MedDetailView" xml:lang="en-US">
+<title>medicines.views.MedDetailView Class Reference</title>
+<indexterm><primary>medicines.views.MedDetailView</primary></indexterm>
+Inheritance diagram for medicines.views.MedDetailView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedDetailView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.views.MedDetailView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedDetailView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedDetailView_1a727d168baab3a58bb351cd9f807ff3f9">model</link> = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedDetailView_1a0e0528ea78b45c19f64bad1e7a2c5744">template_name</link> = &quot;medicines/medicine_detail.html&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedDetailView_1a727d168baab3a58bb351cd9f807ff3f9"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>medicines.views.MedDetailView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedDetailView</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>medicines.views.MedDetailView.model = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedDetailView_1a0e0528ea78b45c19f64bad1e7a2c5744"/><section>
+    <title>template_name</title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedDetailView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedDetailView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedDetailView.template_name = &quot;medicines/medicine_detail.html&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2views_8py">views.py</link></section>
+</section>

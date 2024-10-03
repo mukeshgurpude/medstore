@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1tests_1_1test__auth" xml:lang="en-US">
+<title>api.tests.test_auth Namespace Reference</title>
+<indexterm><primary>api.tests.test_auth</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase">ProfileTestCase</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout">TestLoginLogout</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews">TestSellerViews</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceapi_1_1tests_1_1test__auth_1a1f82f789cc5d111d08c952e6a2e211c1">User</link> = get_user_model()</para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__auth_1a1639fcbd054e8a094769083b62ad9b46">USER_CREDENTIALS</link></para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__auth_1a27c4fbe4d4072a8142482d86247d9d9b">UPDATED_CREDENTIALS</link></para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__auth_1aa26b03aec66735f726ea42bb62e99851">STORE_DATA</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceapi_1_1tests_1_1test__auth_1aa26b03aec66735f726ea42bb62e99851"/><section>
+    <title>STORE_DATA</title>
+<indexterm><primary>STORE_DATA</primary><secondary>api.tests.test_auth</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth</primary><secondary>STORE_DATA</secondary></indexterm>
+<para><computeroutput>dict api.tests.test_auth.STORE_DATA</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;store_name&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;Medstore&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;address&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;Internet&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;pincode&apos;</emphasis>:&#32;101010,
+5 }
+</programlisting></section>
+<anchor xml:id="_namespaceapi_1_1tests_1_1test__auth_1a27c4fbe4d4072a8142482d86247d9d9b"/><section>
+    <title>UPDATED_CREDENTIALS</title>
+<indexterm><primary>UPDATED_CREDENTIALS</primary><secondary>api.tests.test_auth</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth</primary><secondary>UPDATED_CREDENTIALS</secondary></indexterm>
+<para><computeroutput>dict api.tests.test_auth.UPDATED_CREDENTIALS</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;first_name&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;changedName&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;gender&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;Male&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;phone&apos;</emphasis>:&#32;8456217463
+5 }
+</programlisting></section>
+<anchor xml:id="_namespaceapi_1_1tests_1_1test__auth_1a1f82f789cc5d111d08c952e6a2e211c1"/><section>
+    <title>User</title>
+<indexterm><primary>User</primary><secondary>api.tests.test_auth</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth</primary><secondary>User</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.User = get_user_model()</computeroutput></para></section>
+<anchor xml:id="_namespaceapi_1_1tests_1_1test__auth_1a1639fcbd054e8a094769083b62ad9b46"/><section>
+    <title>USER_CREDENTIALS</title>
+<indexterm><primary>USER_CREDENTIALS</primary><secondary>api.tests.test_auth</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth</primary><secondary>USER_CREDENTIALS</secondary></indexterm>
+<para><computeroutput>dict api.tests.test_auth.USER_CREDENTIALS</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;username&quot;</emphasis>:&#32;<emphasis role="stringliteral">&quot;newUser&quot;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;password&quot;</emphasis>:&#32;<emphasis role="stringliteral">&quot;myPasswordWith.&quot;</emphasis>
+4 }
+</programlisting></section>
+</section>
+</section>

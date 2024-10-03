@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_medicines_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1views_1_1MedListView">medicines.views.MedListView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1views_1_1MedDetailView">medicines.views.MedDetailView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1views_1_1MedCreateView">medicines.views.MedCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1views_1_1MedUpdateView">medicines.views.MedUpdateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1views_1_1MedDeleteView">medicines.views.MedDeleteView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedicines">medicines</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedicines_1_1views">medicines.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemedicines_1_1views_1a2b23e78a78349aa0d754130eac79e3aa">medicines.views.stream_file</link> (request, pk)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

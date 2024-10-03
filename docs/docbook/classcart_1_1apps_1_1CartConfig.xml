@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcart_1_1apps_1_1CartConfig" xml:lang="en-US">
+<title>cart.apps.CartConfig Class Reference</title>
+<indexterm><primary>cart.apps.CartConfig</primary></indexterm>
+Inheritance diagram for cart.apps.CartConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1apps_1_1CartConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for cart.apps.CartConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1apps_1_1CartConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classcart_1_1apps_1_1CartConfig_1ab21e7ab6cd491ce213e7b6c0944cc6a6">name</link> = &apos;cart&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcart_1_1apps_1_1CartConfig_1ab21e7ab6cd491ce213e7b6c0944cc6a6"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>cart.apps.CartConfig</secondary></indexterm>
+<indexterm><primary>cart.apps.CartConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str cart.apps.CartConfig.name = &apos;cart&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/<link linkend="_cart_2apps_8py">apps.py</link></section>
+</section>

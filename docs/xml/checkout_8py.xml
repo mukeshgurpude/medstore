@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="checkout_8py" kind="file" language="Python">
+    <compoundname>checkout.py</compoundname>
+    <innerclass refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress" prot="public">api::views::checkout::APIBillingAddress</innerclass>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+    <innernamespace refid="namespaceapi_1_1views">api::views</innernamespace>
+    <innernamespace refid="namespaceapi_1_1views_1_1checkout">api::views::checkout</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceapi_1_1views_1_1checkout" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>typing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Dict,<sp/>Any,<sp/>Optional,<sp/>Tuple</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.views.generic<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>View</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.http<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>HttpRequest,<sp/>JsonResponse</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacecheckout_1_1forms" kindref="compound">checkout.forms</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>BillingForm</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacecheckout_1_1models" kindref="compound">checkout.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>BillingAddress</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">1.<sp/>`configuration`<sp/>view<sp/>at<sp/>[conf/](../../checkout/views.py)</highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">2.<sp/>`checkout<sp/>session`<sp/>view<sp/>at<sp/>[new/](../../checkout/views.py)</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress" kindref="compound">APIBillingAddress</ref>(View):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@classmethod</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" kindref="member">get_address</ref>(cls,<sp/>user)<sp/>-&gt;<sp/>Tuple[Dict[Any,<sp/>Optional[str]],<sp/>Any]:</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>instance<sp/>=<sp/>BillingAddress.objects.filter(user=user).first()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>instance:</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>instance.as_json,<sp/>instance</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dict(address=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>landmark=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>city=</highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal">,<sp/>pincode=</highlight><highlight class="keywordtype">None</highlight><highlight class="normal">),<sp/>instance</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80" kindref="member">get</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>send<sp/>the<sp/>billing<sp/>address<sp/>details</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="26"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>request:<sp/>Request<sp/>to<sp/>get<sp/>the<sp/>billing<sp/>address<sp/>details</highlight></codeline>
+<codeline lineno="27"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:type<sp/>request:<sp/>HttpRequest</highlight></codeline>
+<codeline lineno="28"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(b_json,<sp/>b_address)<sp/>=<sp/>self.<ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" kindref="member">get_address</ref>(self.request.user)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>JsonResponse({</highlight><highlight class="stringliteral">&apos;fields&apos;</highlight><highlight class="normal">:<sp/>b_json})</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198" kindref="member">post</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="34"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>request<sp/>to<sp/>modify<sp/>the<sp/>bill</highlight></codeline>
+<codeline lineno="35"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="36"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>request:<sp/>Modify<sp/>address</highlight></codeline>
+<codeline lineno="37"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:type<sp/>request:<sp/>HttpRequest</highlight></codeline>
+<codeline lineno="38"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(b_json,<sp/>b_address)<sp/>=<sp/>self.<ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" kindref="member">get_address</ref>(user=self.request.user)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>form<sp/>=<sp/><ref refid="classcheckout_1_1forms_1_1BillingForm" kindref="compound">BillingForm</ref>(request.POST,<sp/>instance=b_address)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>form.is_valid():</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>address:<sp/>BillingAddress<sp/>=<sp/>form.save(commit=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>address.user<sp/>=<sp/>self.request.user</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>address.save()</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(b_json,<sp/>b_address)<sp/>=<sp/>self.<ref refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" kindref="member">get_address</ref>(self.request.user)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>JsonResponse({</highlight><highlight class="stringliteral">&apos;msg&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Error<sp/>returned&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;fields&apos;</highlight><highlight class="normal">:<sp/>b_json,<sp/></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;errors&apos;</highlight><highlight class="normal">:<sp/>form.errors<sp/></highlight><highlight class="keywordflow">or</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">None</highlight><highlight class="normal">},</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>status=400<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>form.errors<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>200)</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Alternative<sp/>to<sp/>`hook/`<sp/>in<sp/>`checkout/views.py`</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="namespaceapi_1_1views_1_1checkout_1a87404aa38ae5b07c26c292a62d1cdd62" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespaceapi_1_1views_1_1checkout_1a87404aa38ae5b07c26c292a62d1cdd62" kindref="member">order_success</ref>(request):</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="54"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Callback<sp/>url<sp/>from<sp/>stripe</highlight></codeline>
+<codeline lineno="55"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="56"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:param<sp/>request:<sp/>Callback<sp/>request<sp/>from<sp/>stripe</highlight></codeline>
+<codeline lineno="57"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>:type<sp/>request:<sp/>HttpRequest</highlight></codeline>
+<codeline lineno="58"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>print(request.POST)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py"/>
+  </compounddef>
+</doxygen>

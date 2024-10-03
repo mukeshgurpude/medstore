@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceaccounts_1_1views" xml:lang="en-US">
+<title>accounts.views Namespace Reference</title>
+<indexterm><primary>accounts.views</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceaccounts_1_1views_1a4b88cf7f76285b6507e4a180af894e03">profile</link> (HttpRequest request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceaccounts_1_1views_1a4651c6d62bf0b880155496ee28b91438">be_seller</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceaccounts_1_1views_1a4651c6d62bf0b880155496ee28b91438"/><section>
+    <title>be_seller()</title>
+<indexterm><primary>be_seller</primary><secondary>accounts.views</secondary></indexterm>
+<indexterm><primary>accounts.views</primary><secondary>be_seller</secondary></indexterm>
+<para><computeroutput>accounts.views.be_seller ( request)</computeroutput></para>
+<para><literallayout><computeroutput>Handles store details related data
+:type request: HttpRequest
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_namespaceaccounts_1_1views_1a4b88cf7f76285b6507e4a180af894e03"/><section>
+    <title>profile()</title>
+<indexterm><primary>profile</primary><secondary>accounts.views</secondary></indexterm>
+<indexterm><primary>accounts.views</primary><secondary>profile</secondary></indexterm>
+<para><computeroutput>accounts.views.profile (HttpRequest request)</computeroutput></para>
+<para><literallayout><computeroutput>Handles profile changes and requests
+:param request: Request for profile details
+:type request: HttpRequest
+</computeroutput></literallayout> </para>
+</section>
+</section>
+</section>

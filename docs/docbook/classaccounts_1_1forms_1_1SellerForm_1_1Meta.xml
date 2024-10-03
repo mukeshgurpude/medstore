@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1forms_1_1SellerForm_1_1Meta" xml:lang="en-US">
+<title>accounts.forms.SellerForm.Meta Class Reference</title>
+<indexterm><primary>accounts.forms.SellerForm.Meta</primary></indexterm>
+Collaboration diagram for accounts.forms.SellerForm.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1forms_1_1SellerForm_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a91857488db85fac749be888265924066">model</link> = <link linkend="_classaccounts_1_1models_1_1SellerProfile">SellerProfile</link></para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a3c81a9530fda146f453d11f9811dcaed">exclude</link> = (&quot;user&quot;, )</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a3c81a9530fda146f453d11f9811dcaed"/><section>
+    <title>exclude</title>
+<indexterm><primary>exclude</primary><secondary>accounts.forms.SellerForm.Meta</secondary></indexterm>
+<indexterm><primary>accounts.forms.SellerForm.Meta</primary><secondary>exclude</secondary></indexterm>
+<para><computeroutput>tuple accounts.forms.SellerForm.Meta.exclude = (&quot;user&quot;, )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a91857488db85fac749be888265924066"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>accounts.forms.SellerForm.Meta</secondary></indexterm>
+<indexterm><primary>accounts.forms.SellerForm.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>accounts.forms.SellerForm.Meta.model = <link linkend="_classaccounts_1_1models_1_1SellerProfile">SellerProfile</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/<link linkend="_accounts_2forms_8py">forms.py</link></section>
+</section>

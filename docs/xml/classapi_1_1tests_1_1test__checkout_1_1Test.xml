@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1tests_1_1test__checkout_1_1Test" kind="class" language="Python" prot="public">
+    <compoundname>api::tests::test_checkout::Test</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__checkout_1_1Test_1aa1451dbda2e11be78b632c016d951032" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_checkout.Test.test_get_stripe_conf</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_stripe_conf</name>
+        <qualifiedname>api.tests.test_checkout.Test.test_get_stripe_conf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="35" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="35" bodyend="39"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.tests.test_checkout.Test</label>
+        <link refid="classapi_1_1tests_1_1test__checkout_1_1Test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.tests.test_checkout.Test</label>
+        <link refid="classapi_1_1tests_1_1test__checkout_1_1Test"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="34" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="34" bodyend="39"/>
+    <listofallmembers>
+      <member refid="classapi_1_1tests_1_1test__checkout_1_1Test_1aa1451dbda2e11be78b632c016d951032" prot="public" virt="non-virtual"><scope>api::tests::test_checkout::Test</scope><name>test_get_stripe_conf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

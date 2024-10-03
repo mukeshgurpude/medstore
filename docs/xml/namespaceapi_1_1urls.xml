@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1urls" kind="namespace" language="Python">
+    <compoundname>api::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceapi_1_1urls_1ae478470e4b65654f35e525ca4c80fa32" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str api::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>api.urls.app_name</qualifiedname>
+        <initializer>=  &apos;api&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceapi_1_1urls_1ae1c754cb38c35b590f6a741ace140a07" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list api::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>api.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    # Medicines
+    path(&apos;&apos;, views.MedicineView.as_view(), name=&quot;APIv1&quot;),
+    path(&apos;detail/&lt;int:pk&gt;/&apos;, views.APIDetailView.as_view(), name=&quot;medicine_detail&quot;),
+    path(&apos;detail/&lt;str:slug&gt;/&apos;, views.APIDetailView.as_view(), name=&quot;medicine_detail&quot;),
+
+    # Regarding user details
+    path(&apos;user/&apos;, <ref refid="namespaceapi_1_1views_1_1auth_1a6741b9225b9dd9ab0f33a3ab25f7c474" kindref="member">views.get_current_user</ref>, name=&quot;user&quot;),
+    path(&apos;profile/&apos;, views.ProfileView.as_view(), name=&quot;profile&quot;),
+    path(&apos;login/&apos;, views.APILoginView.as_view(), name=&quot;login&quot;),
+    path(&apos;logout/&apos;, <ref refid="namespaceapi_1_1views_1_1auth_1ac648108b8d1beb29493dd55f667759c4" kindref="member">views.api_logout</ref>, name=&quot;logout&quot;),
+    path(&apos;register/&apos;, views.APISignupView.as_view(), name=&apos;register&apos;),
+    path(&apos;sell/&apos;, views.SellerView.as_view(), name=&apos;sell&apos;),
+
+    # Cart, Orders related views
+    path(&apos;cart/&apos;, views.CartView.as_view(), name=&apos;cart&apos;),
+    path(&apos;orders/&apos;, views.OrderView.as_view(), name=&apos;orders&apos;),
+    path(&apos;address/&apos;, views.APIBillingAddress.as_view(), name=&apos;orders&apos;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

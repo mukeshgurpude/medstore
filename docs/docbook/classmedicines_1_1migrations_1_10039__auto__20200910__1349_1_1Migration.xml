@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration" xml:lang="en-US">
+<title>medicines.migrations.0039_auto_20200910_1349.Migration Class Reference</title>
+<indexterm><primary>medicines.migrations.0039_auto_20200910_1349.Migration</primary></indexterm>
+Inheritance diagram for medicines.migrations.0039_auto_20200910_1349.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.migrations.0039_auto_20200910_1349.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration_1a4a925a6503fa28bae54e103ec1384d90">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration_1a7931cd645a70a8cae6557e743cc24b48">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration_1a4a925a6503fa28bae54e103ec1384d90"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>medicines.migrations.0039_auto_20200910_1349.Migration</secondary></indexterm>
+<indexterm><primary>medicines.migrations.0039_auto_20200910_1349.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list medicines.migrations.0039_auto_20200910_1349.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;medicines&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0038_auto_20200908_1427&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration_1a7931cd645a70a8cae6557e743cc24b48"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>medicines.migrations.0039_auto_20200910_1349.Migration</secondary></indexterm>
+<indexterm><primary>medicines.migrations.0039_auto_20200910_1349.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list medicines.migrations.0039_auto_20200910_1349.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterModelOptions(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;medicine&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;options={<emphasis role="stringliteral">&apos;ordering&apos;</emphasis>:&#32;[<emphasis role="stringliteral">&apos;-price&apos;</emphasis>]},
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;medicine&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;slug&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.SlugField(default=<emphasis role="stringliteral">&apos;mdooid.&lt;g.amefa&apos;</emphasis>,&#32;unique=<emphasis role="keyword">True</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/<link linkend="_0039__auto__20200910__1349_8py">0039_auto_20200910_1349.py</link></section>
+</section>

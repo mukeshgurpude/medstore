@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress" xml:lang="en-US">
+<title>api.tests.test_checkout.TestBillingAddress Class Reference</title>
+<indexterm><primary>api.tests.test_checkout.TestBillingAddress</primary></indexterm>
+Inheritance diagram for api.tests.test_checkout.TestBillingAddress:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_checkout.TestBillingAddress:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1ad3f7dec508eda806b0563c92f6424138">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a29bc3e4c8e7cdb73a3b9a3bad219a7aa">test_get</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aae7b8dde308d80099309ade4ec02443e">test_post</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aa9755a8020ae912abcdf792a0edea98c">credentials</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a3c09c2a8d3344a5641f6469acaa10011">fixtures</link> = [&quot;api/fixtures/&quot; + file + &quot;.json&quot; for file in {&quot;user&quot;}]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1ad3f7dec508eda806b0563c92f6424138"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_checkout.TestBillingAddress</secondary></indexterm>
+<indexterm><primary>api.tests.test_checkout.TestBillingAddress</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_checkout.TestBillingAddress.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a29bc3e4c8e7cdb73a3b9a3bad219a7aa"/><section>
+    <title>test_get()</title>
+<indexterm><primary>test_get</primary><secondary>api.tests.test_checkout.TestBillingAddress</secondary></indexterm>
+<indexterm><primary>api.tests.test_checkout.TestBillingAddress</primary><secondary>test_get</secondary></indexterm>
+<para><computeroutput>api.tests.test_checkout.TestBillingAddress.test_get ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aae7b8dde308d80099309ade4ec02443e"/><section>
+    <title>test_post()</title>
+<indexterm><primary>test_post</primary><secondary>api.tests.test_checkout.TestBillingAddress</secondary></indexterm>
+<indexterm><primary>api.tests.test_checkout.TestBillingAddress</primary><secondary>test_post</secondary></indexterm>
+<para><computeroutput>api.tests.test_checkout.TestBillingAddress.test_post ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aa9755a8020ae912abcdf792a0edea98c"/><section>
+    <title>credentials</title>
+<indexterm><primary>credentials</primary><secondary>api.tests.test_checkout.TestBillingAddress</secondary></indexterm>
+<indexterm><primary>api.tests.test_checkout.TestBillingAddress</primary><secondary>credentials</secondary></indexterm>
+<para><computeroutput>api.tests.test_checkout.TestBillingAddress.credentials</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a3c09c2a8d3344a5641f6469acaa10011"/><section>
+    <title>fixtures</title>
+<indexterm><primary>fixtures</primary><secondary>api.tests.test_checkout.TestBillingAddress</secondary></indexterm>
+<indexterm><primary>api.tests.test_checkout.TestBillingAddress</primary><secondary>fixtures</secondary></indexterm>
+<para><computeroutput>list api.tests.test_checkout.TestBillingAddress.fixtures = [&quot;api/fixtures/&quot; + file + &quot;.json&quot; for file in {&quot;user&quot;}]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__checkout_8py">test_checkout.py</link></section>
+</section>

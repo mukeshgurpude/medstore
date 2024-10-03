@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical_1_1settings" xml:lang="en-US">
+<title>medical.settings Namespace Reference</title>
+<indexterm><primary>medical.settings</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemedical_1_1settings_1aa8c14431af344298471262fb91123310">BASE_DIR</link> = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemedical_1_1settings_1a4fa7323b543d63548865e7c79c3bf0bf">SECRET_KEY</link> = os.environ.get(&apos;MEDSTORE_SECRET_KEY&apos;, &apos;g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&amp;)18nkt8)=um_+p(&apos;)</para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespacemedical_1_1settings_1aa05b2cb9023598c5c6443814dae85141">ACCOUNT_FORMS</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1a4302902b49deab6bbcae5789071d2811">ACCOUNT_EMAIL_VERIFICATION</link> = &apos;none&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1a3e81ac26071899bc555676e34e901c91">CRISPY_TEMPLATE_PACK</link> = &apos;bootstrap4&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1settings_1a6f6b6928945297dc9e78d51f070b3ece">INSTALLED_APPS</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1settings_1aba649cb3fd75c579954f3124aec20d22">MIDDLEWARE</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1af6373a3153976f2668b13a750f73a2c2">ROOT_URLCONF</link> = &apos;medical.urls&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1settings_1a2ea6353e20efac76eb141a995503a484">TEMPLATES</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1a18e0e98e137e1a356b6ab2d58d0ba12a">WSGI_APPLICATION</link> = &apos;<link linkend="_namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e">medical.wsgi.application</link>&apos;</para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespacemedical_1_1settings_1a7bc64f86abb0ffefde97e8b801245be0">DATABASES</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1settings_1a302b37983ebc096b247d2517d258fa73">AUTHENTICATION_BACKENDS</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1settings_1a2cd62ffacf96fabc5ad9dc7e36b29032">AUTH_PASSWORD_VALIDATORS</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1a2f99ed65fe52b907a4ea02daeff0d5ff">LANGUAGE_CODE</link> = &apos;en-us&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1a0269b91b045406fd2fec1cd2b89df16f">TIME_ZONE</link> = &apos;Asia/Kolkata&apos;</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1settings_1a740efe35ff3d097ec9de9a19e5c29c34">USE_I18N</link> = True</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1settings_1a9d1af45a84952f57f31b1869af7e842a">USE_L10N</link> = True</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1settings_1a0729d8d8d102248094076b3a5961e6c2">USE_TZ</link> = True</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1aed486632e3987437ea34a38a2ff15f9e">STATIC_URL</link> = &apos;/static/&apos;</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacemedical_1_1settings_1ab72cf3e00a245d600134e53514f14a3c">SITE_ID</link> = 1</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1a168988caf4f18c016b2771c0a87bc729">LOGIN_REDIRECT_URL</link> = &quot;/&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1aa9ee0f6a9ce0a1a7676701b30a4b28ae">LOGIN_URL</link> = &quot;/login/&quot;</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemedical_1_1settings_1a25af291aa87cc96682c2a94ef1b2aea4">STR_PUB</link> = stripe_conf.publishable_key</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemedical_1_1settings_1a1590172e975edce9402f9808caa86de0">STR_SEC</link> = stripe_conf.secret_key</para>
+</listitem>
+            <listitem><para><link linkend="_namespacemedical_1_1settings_1aea457faa0dde02962ad7fe4cf104326e">STRIPE_ENDPOINT_KEY</link> = stripe_conf.end_key</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1settings_1a2dd66368889b345f3fd7f1e01ef0c63f">EMAIL_USE_TLS</link> = True</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1settings_1ae7aa31d636d474f418ba9bfaea5e6cad">EMAIL_HOST</link> = &apos;smtp.gmail.com&apos;</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespacemedical_1_1settings_1a7c864c8f326f7ca794c22d5c2ad2531a">EMAIL_PORT</link> = 587</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Django settings for medical project.
+
+Generated by &apos;django-admin startproject&apos; using Django 3.0.8.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.0/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/3.0/ref/settings/
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemedical_1_1settings_1a4302902b49deab6bbcae5789071d2811"/><section>
+    <title>ACCOUNT_EMAIL_VERIFICATION</title>
+<indexterm><primary>ACCOUNT_EMAIL_VERIFICATION</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>ACCOUNT_EMAIL_VERIFICATION</secondary></indexterm>
+<para><computeroutput>str medical.settings.ACCOUNT_EMAIL_VERIFICATION = &apos;none&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1aa05b2cb9023598c5c6443814dae85141"/><section>
+    <title>ACCOUNT_FORMS</title>
+<indexterm><primary>ACCOUNT_FORMS</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>ACCOUNT_FORMS</secondary></indexterm>
+<para><computeroutput>dict medical.settings.ACCOUNT_FORMS</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;signup&quot;</emphasis>:&#32;<emphasis role="stringliteral">&quot;home.forms.UserSignUp&quot;</emphasis>
+3 }
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a2cd62ffacf96fabc5ad9dc7e36b29032"/><section>
+    <title>AUTH_PASSWORD_VALIDATORS</title>
+<indexterm><primary>AUTH_PASSWORD_VALIDATORS</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>AUTH_PASSWORD_VALIDATORS</secondary></indexterm>
+<para><computeroutput>list medical.settings.AUTH_PASSWORD_VALIDATORS</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;{
+3 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;NAME&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.password_validation.UserAttributeSimilarityValidator&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;},
+5 &#32;&#32;&#32;&#32;{
+6 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;NAME&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.password_validation.MinimumLengthValidator&apos;</emphasis>,
+7 &#32;&#32;&#32;&#32;},
+8 &#32;&#32;&#32;&#32;{
+9 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;NAME&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.password_validation.CommonPasswordValidator&apos;</emphasis>,
+10 &#32;&#32;&#32;&#32;},
+11 &#32;&#32;&#32;&#32;{
+12 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;NAME&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.password_validation.NumericPasswordValidator&apos;</emphasis>,
+13 &#32;&#32;&#32;&#32;},
+14 ]
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a302b37983ebc096b247d2517d258fa73"/><section>
+    <title>AUTHENTICATION_BACKENDS</title>
+<indexterm><primary>AUTHENTICATION_BACKENDS</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>AUTHENTICATION_BACKENDS</secondary></indexterm>
+<para><computeroutput>list medical.settings.AUTHENTICATION_BACKENDS</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.backends.ModelBackend&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;allauth.account.auth_backends.AuthenticationBackend&apos;</emphasis>
+4 ]
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1aa8c14431af344298471262fb91123310"/><section>
+    <title>BASE_DIR</title>
+<indexterm><primary>BASE_DIR</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>BASE_DIR</secondary></indexterm>
+<para><computeroutput>medical.settings.BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a3e81ac26071899bc555676e34e901c91"/><section>
+    <title>CRISPY_TEMPLATE_PACK</title>
+<indexterm><primary>CRISPY_TEMPLATE_PACK</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>CRISPY_TEMPLATE_PACK</secondary></indexterm>
+<para><computeroutput>str medical.settings.CRISPY_TEMPLATE_PACK = &apos;bootstrap4&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a7bc64f86abb0ffefde97e8b801245be0"/><section>
+    <title>DATABASES</title>
+<indexterm><primary>DATABASES</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>DATABASES</secondary></indexterm>
+<para><computeroutput>dict medical.settings.DATABASES</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;default&apos;</emphasis>:&#32;{
+3 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;ENGINE&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;django.db.backends.sqlite3&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;NAME&apos;</emphasis>:&#32;os.path.join(BASE_DIR,&#32;<emphasis role="stringliteral">&apos;db.sqlite3&apos;</emphasis>),
+5 &#32;&#32;&#32;&#32;}
+6 }
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1ae7aa31d636d474f418ba9bfaea5e6cad"/><section>
+    <title>EMAIL_HOST</title>
+<indexterm><primary>EMAIL_HOST</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>EMAIL_HOST</secondary></indexterm>
+<para><computeroutput>str medical.settings.EMAIL_HOST = &apos;smtp.gmail.com&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a7c864c8f326f7ca794c22d5c2ad2531a"/><section>
+    <title>EMAIL_PORT</title>
+<indexterm><primary>EMAIL_PORT</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>EMAIL_PORT</secondary></indexterm>
+<para><computeroutput>int medical.settings.EMAIL_PORT = 587</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a2dd66368889b345f3fd7f1e01ef0c63f"/><section>
+    <title>EMAIL_USE_TLS</title>
+<indexterm><primary>EMAIL_USE_TLS</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>EMAIL_USE_TLS</secondary></indexterm>
+<para><computeroutput>bool medical.settings.EMAIL_USE_TLS = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a6f6b6928945297dc9e78d51f070b3ece"/><section>
+    <title>INSTALLED_APPS</title>
+<indexterm><primary>INSTALLED_APPS</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>INSTALLED_APPS</secondary></indexterm>
+<para><computeroutput>list medical.settings.INSTALLED_APPS</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.admin&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.auth&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.contenttypes&apos;</emphasis>,
+5 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.sessions&apos;</emphasis>,
+6 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.messages&apos;</emphasis>,
+7 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.staticfiles&apos;</emphasis>,
+8 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.sites&apos;</emphasis>,
+9 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django_filters&apos;</emphasis>,
+10 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.sitemaps&apos;</emphasis>,&#32;&#32;<emphasis role="comment">#&#32;For&#32;SiteMap</emphasis>
+11 
+12 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;extensions</emphasis>
+13 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;crispy_forms&apos;</emphasis>,
+14 
+15 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;apps</emphasis>
+16 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;medicines.apps.MedicinesConfig&apos;</emphasis>,
+17 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;home.apps.HomeConfig&apos;</emphasis>,
+18 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;cart&apos;</emphasis>,
+19 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;checkout&apos;</emphasis>,
+20 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;accounts&apos;</emphasis>,
+21 
+22 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;For&#32;Authentication</emphasis>
+23 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;allauth&apos;</emphasis>,
+24 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;allauth.account&apos;</emphasis>,
+25 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;allauth.socialaccount&apos;</emphasis>,
+26 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;To&#32;whitelist&#32;frontend</emphasis>
+27 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;corsheaders&apos;</emphasis>,
+28 ]
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a2f99ed65fe52b907a4ea02daeff0d5ff"/><section>
+    <title>LANGUAGE_CODE</title>
+<indexterm><primary>LANGUAGE_CODE</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>LANGUAGE_CODE</secondary></indexterm>
+<para><computeroutput>str medical.settings.LANGUAGE_CODE = &apos;en-us&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a168988caf4f18c016b2771c0a87bc729"/><section>
+    <title>LOGIN_REDIRECT_URL</title>
+<indexterm><primary>LOGIN_REDIRECT_URL</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>LOGIN_REDIRECT_URL</secondary></indexterm>
+<para><computeroutput>str medical.settings.LOGIN_REDIRECT_URL = &quot;/&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1aa9ee0f6a9ce0a1a7676701b30a4b28ae"/><section>
+    <title>LOGIN_URL</title>
+<indexterm><primary>LOGIN_URL</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>LOGIN_URL</secondary></indexterm>
+<para><computeroutput>str medical.settings.LOGIN_URL = &quot;/login/&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1aba649cb3fd75c579954f3124aec20d22"/><section>
+    <title>MIDDLEWARE</title>
+<indexterm><primary>MIDDLEWARE</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>MIDDLEWARE</secondary></indexterm>
+<para><computeroutput>list medical.settings.MIDDLEWARE</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.middleware.security.SecurityMiddleware&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.sessions.middleware.SessionMiddleware&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.middleware.common.CommonMiddleware&apos;</emphasis>,
+5 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.middleware.csrf.CsrfViewMiddleware&apos;</emphasis>,
+6 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.middleware.AuthenticationMiddleware&apos;</emphasis>,
+7 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.messages.middleware.MessageMiddleware&apos;</emphasis>,
+8 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.middleware.clickjacking.XFrameOptionsMiddleware&apos;</emphasis>,
+9 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;corsheaders.middleware.CorsMiddleware&apos;</emphasis>,
+10 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;allauth.account.middleware.AccountMiddleware&apos;</emphasis>,
+11 ]
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1af6373a3153976f2668b13a750f73a2c2"/><section>
+    <title>ROOT_URLCONF</title>
+<indexterm><primary>ROOT_URLCONF</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>ROOT_URLCONF</secondary></indexterm>
+<para><computeroutput>str medical.settings.ROOT_URLCONF = &apos;medical.urls&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a4fa7323b543d63548865e7c79c3bf0bf"/><section>
+    <title>SECRET_KEY</title>
+<indexterm><primary>SECRET_KEY</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>SECRET_KEY</secondary></indexterm>
+<para><computeroutput>medical.settings.SECRET_KEY = os.environ.get(&apos;MEDSTORE_SECRET_KEY&apos;, &apos;g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&amp;)18nkt8)=um_+p(&apos;)</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1ab72cf3e00a245d600134e53514f14a3c"/><section>
+    <title>SITE_ID</title>
+<indexterm><primary>SITE_ID</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>SITE_ID</secondary></indexterm>
+<para><computeroutput>int medical.settings.SITE_ID = 1</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1aed486632e3987437ea34a38a2ff15f9e"/><section>
+    <title>STATIC_URL</title>
+<indexterm><primary>STATIC_URL</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>STATIC_URL</secondary></indexterm>
+<para><computeroutput>str medical.settings.STATIC_URL = &apos;/static/&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a25af291aa87cc96682c2a94ef1b2aea4"/><section>
+    <title>STR_PUB</title>
+<indexterm><primary>STR_PUB</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>STR_PUB</secondary></indexterm>
+<para><computeroutput>str medical.settings.STR_PUB = stripe_conf.publishable_key</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a1590172e975edce9402f9808caa86de0"/><section>
+    <title>STR_SEC</title>
+<indexterm><primary>STR_SEC</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>STR_SEC</secondary></indexterm>
+<para><computeroutput>str medical.settings.STR_SEC = stripe_conf.secret_key</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1aea457faa0dde02962ad7fe4cf104326e"/><section>
+    <title>STRIPE_ENDPOINT_KEY</title>
+<indexterm><primary>STRIPE_ENDPOINT_KEY</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>STRIPE_ENDPOINT_KEY</secondary></indexterm>
+<para><computeroutput>str medical.settings.STRIPE_ENDPOINT_KEY = stripe_conf.end_key</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a2ea6353e20efac76eb141a995503a484"/><section>
+    <title>TEMPLATES</title>
+<indexterm><primary>TEMPLATES</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>TEMPLATES</secondary></indexterm>
+<para><computeroutput>list medical.settings.TEMPLATES</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;{
+3 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;BACKEND&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;django.template.backends.django.DjangoTemplates&apos;</emphasis>,
+4 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;DIRS&apos;</emphasis>:&#32;[],
+5 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;APP_DIRS&apos;</emphasis>:&#32;<emphasis role="keyword">True</emphasis>,
+6 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;OPTIONS&apos;</emphasis>:&#32;{
+7 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;context_processors&apos;</emphasis>:&#32;[
+8 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.template.context_processors.debug&apos;</emphasis>,
+9 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.template.context_processors.request&apos;</emphasis>,
+10 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.auth.context_processors.auth&apos;</emphasis>,
+11 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;django.contrib.messages.context_processors.messages&apos;</emphasis>,
+12 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;],
+13 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;},
+14 &#32;&#32;&#32;&#32;},
+15 ]
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a0269b91b045406fd2fec1cd2b89df16f"/><section>
+    <title>TIME_ZONE</title>
+<indexterm><primary>TIME_ZONE</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>TIME_ZONE</secondary></indexterm>
+<para><computeroutput>str medical.settings.TIME_ZONE = &apos;Asia/Kolkata&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a740efe35ff3d097ec9de9a19e5c29c34"/><section>
+    <title>USE_I18N</title>
+<indexterm><primary>USE_I18N</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>USE_I18N</secondary></indexterm>
+<para><computeroutput>bool medical.settings.USE_I18N = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a9d1af45a84952f57f31b1869af7e842a"/><section>
+    <title>USE_L10N</title>
+<indexterm><primary>USE_L10N</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>USE_L10N</secondary></indexterm>
+<para><computeroutput>bool medical.settings.USE_L10N = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a0729d8d8d102248094076b3a5961e6c2"/><section>
+    <title>USE_TZ</title>
+<indexterm><primary>USE_TZ</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>USE_TZ</secondary></indexterm>
+<para><computeroutput>bool medical.settings.USE_TZ = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1settings_1a18e0e98e137e1a356b6ab2d58d0ba12a"/><section>
+    <title>WSGI_APPLICATION</title>
+<indexterm><primary>WSGI_APPLICATION</primary><secondary>medical.settings</secondary></indexterm>
+<indexterm><primary>medical.settings</primary><secondary>WSGI_APPLICATION</secondary></indexterm>
+<para><computeroutput>str medical.settings.WSGI_APPLICATION = &apos;<link linkend="_namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e">medical.wsgi.application</link>&apos;</computeroutput></para></section>
+</section>
+</section>

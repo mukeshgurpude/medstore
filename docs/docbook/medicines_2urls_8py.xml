@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_medicines_2urls_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedicines">medicines</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedicines_1_1urls">medicines.urls</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacemedicines_1_1urls_1aeed16a62b0c51246cd2aa00b3de8dbbb">medicines.urls.app_name</link> = &quot;medicines&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedicines_1_1urls_1a65e772c4d3f40ee044fd5beef9c4ab6b">medicines.urls.urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedicines_1_1urls" kind="namespace" language="Python">
+    <compoundname>medicines::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemedicines_1_1urls_1aeed16a62b0c51246cd2aa00b3de8dbbb" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medicines::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>medicines.urls.app_name</qualifiedname>
+        <initializer>=  &quot;medicines&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedicines_1_1urls_1a65e772c4d3f40ee044fd5beef9c4ab6b" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medicines::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>medicines.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&quot;&quot;, views.MedListView.as_view(), name=&quot;all&quot;),
+    path(&quot;medicine/&lt;int:pk&gt;/&quot;, views.MedDetailView.as_view(), name=&quot;detail&quot;),
+    path(&quot;add/&quot;, views.MedCreateView.as_view(success_url=reverse_lazy(&quot;medicines:all&quot;)), name=&quot;create&quot;),
+    path(&quot;update/&lt;int:pk&gt;/&quot;, views.MedUpdateView.as_view(success_url=reverse_lazy(&quot;medicines:all&quot;)), name=&quot;update&quot;),
+    path(&quot;delete/&lt;int:pk&gt;/&quot;, views.MedDeleteView.as_view(success_url=reverse_lazy(&quot;medicines:all&quot;)), name=&quot;delete&quot;),
+    path(&quot;medicine/&lt;int:pk&gt;/thumbnail/&quot;, views.stream_file, name=&quot;picture&quot;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

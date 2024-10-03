@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedicines_1_1urls" xml:lang="en-US">
+<title>medicines.urls Namespace Reference</title>
+<indexterm><primary>medicines.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacemedicines_1_1urls_1aeed16a62b0c51246cd2aa00b3de8dbbb">app_name</link> = &quot;medicines&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedicines_1_1urls_1a65e772c4d3f40ee044fd5beef9c4ab6b">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemedicines_1_1urls_1aeed16a62b0c51246cd2aa00b3de8dbbb"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>medicines.urls</secondary></indexterm>
+<indexterm><primary>medicines.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str medicines.urls.app_name = &quot;medicines&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacemedicines_1_1urls_1a65e772c4d3f40ee044fd5beef9c4ab6b"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>medicines.urls</secondary></indexterm>
+<indexterm><primary>medicines.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list medicines.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;views.MedListView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;all&quot;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;medicine/&lt;int:pk&gt;/&quot;</emphasis>,&#32;views.MedDetailView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;detail&quot;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;add/&quot;</emphasis>,&#32;views.MedCreateView.as_view(success_url=reverse_lazy(<emphasis role="stringliteral">&quot;medicines:all&quot;</emphasis>)),&#32;name=<emphasis role="stringliteral">&quot;create&quot;</emphasis>),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;update/&lt;int:pk&gt;/&quot;</emphasis>,&#32;views.MedUpdateView.as_view(success_url=reverse_lazy(<emphasis role="stringliteral">&quot;medicines:all&quot;</emphasis>)),&#32;name=<emphasis role="stringliteral">&quot;update&quot;</emphasis>),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;delete/&lt;int:pk&gt;/&quot;</emphasis>,&#32;views.MedDeleteView.as_view(success_url=reverse_lazy(<emphasis role="stringliteral">&quot;medicines:all&quot;</emphasis>)),&#32;name=<emphasis role="stringliteral">&quot;delete&quot;</emphasis>),
+7 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;medicine/&lt;int:pk&gt;/thumbnail/&quot;</emphasis>,&#32;views.stream_file,&#32;name=<emphasis role="stringliteral">&quot;picture&quot;</emphasis>),
+8 ]
+</programlisting></section>
+</section>
+</section>

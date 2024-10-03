@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_fe794dc4b20f30bb8741495bd3be8b71" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests</compoundname>
+    <innerfile refid="api_2tests_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="test__auth_8py">test_auth.py</innerfile>
+    <innerfile refid="test__cart_8py">test_cart.py</innerfile>
+    <innerfile refid="test__checkout_8py">test_checkout.py</innerfile>
+    <innerfile refid="test__medicine_8py">test_medicine.py</innerfile>
+    <innerfile refid="test__order_8py">test_order.py</innerfile>
+    <innerfile refid="utils_8py">utils.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/"/>
+  </compounddef>
+</doxygen>

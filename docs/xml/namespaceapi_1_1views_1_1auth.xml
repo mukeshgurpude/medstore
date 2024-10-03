@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1views_1_1auth" kind="namespace" language="Python">
+    <compoundname>api::views::auth</compoundname>
+    <innerclass refid="classapi_1_1views_1_1auth_1_1APILoginView" prot="public">api::views::auth::APILoginView</innerclass>
+    <innerclass refid="classapi_1_1views_1_1auth_1_1APISignupView" prot="public">api::views::auth::APISignupView</innerclass>
+    <innerclass refid="classapi_1_1views_1_1auth_1_1ProfileView" prot="public">api::views::auth::ProfileView</innerclass>
+    <innerclass refid="classapi_1_1views_1_1auth_1_1SellerView" prot="public">api::views::auth::SellerView</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceapi_1_1views_1_1auth_1ae95fb867bb929cc9c87278107e4bdc1a" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict api::views::auth.NotLoggedIn</definition>
+        <argsstring></argsstring>
+        <name>NotLoggedIn</name>
+        <qualifiedname>api.views.auth.NotLoggedIn</qualifiedname>
+        <initializer>=  {
+    &apos;username&apos;: &apos;anonymous&apos;,
+    &apos;loggedIn&apos;: False,
+    &apos;first_name&apos;: &apos;Anonymous&apos;,
+    &apos;last_name&apos;: &apos;&apos;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceapi_1_1views_1_1auth_1a6741b9225b9dd9ab0f33a3ab25f7c474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.auth.get_current_user</definition>
+        <argsstring>(HttpRequest request)</argsstring>
+        <name>get_current_user</name>
+        <qualifiedname>api.views.auth.get_current_user</qualifiedname>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the details of current user
+
+:param request: GET request to get the current user data
+:type request: HttpRequest
+:return: User data
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="25" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="25" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceapi_1_1views_1_1auth_1ac648108b8d1beb29493dd55f667759c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.auth.api_logout</definition>
+        <argsstring>(HttpRequest request)</argsstring>
+        <name>api_logout</name>
+        <qualifiedname>api.views.auth.api_logout</qualifiedname>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="155" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="155" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

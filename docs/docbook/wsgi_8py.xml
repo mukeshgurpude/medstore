@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_wsgi_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/wsgi.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/wsgi.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedical">medical</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1wsgi">medical.wsgi</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e">medical.wsgi.application</link> = StaticFilesHandler(get_wsgi_application())</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

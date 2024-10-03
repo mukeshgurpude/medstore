@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1medicine_1_1MedicineView" kind="class" language="Python" prot="public">
+    <compoundname>api::views::medicine::MedicineView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1medicine_1_1MedicineView_1a246b3300c14ea5fc459ab4a06dec1ad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.medicine.MedicineView.get_queryset</definition>
+        <argsstring>(cls, filters=None)</argsstring>
+        <name>get_queryset</name>
+        <qualifiedname>api.views.medicine.MedicineView.get_queryset</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>filters</type>
+          <defname>filters</defname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Expected keys:
+    owner | category | price__lt | price__gt | quantity__gt | quantity__lt
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" bodystart="13" bodyend="33"/>
+        <referencedby refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a6a92fa916b3ccf8671ec552755883093" compoundref="medicine_8py" startline="34" endline="50">api.views.medicine.MedicineView.get</referencedby>
+        <referencedby refid="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" compoundref="medicines_2views_8py" startline="18" endline="29">medicines.views.MedListView.get_context_data</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1medicine_1_1MedicineView_1a6a92fa916b3ccf8671ec552755883093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.medicine.MedicineView.get</definition>
+        <argsstring>(self, HttpRequest request, *args, **kwargs)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.medicine.MedicineView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>GET the medicines list
+:param request: request to get the list as json
+:type request: HttpRequest
+:return: List containing basic medicine data
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" line="34" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" bodystart="34" bodyend="50"/>
+        <references refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a246b3300c14ea5fc459ab4a06dec1ad1" compoundref="medicine_8py" startline="13" endline="33">api.views.medicine.MedicineView.get_queryset</references>
+        <references refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" compoundref="owner_8py" startline="24" endline="28">medicines.owner.OwnerUpdateView.get_queryset</references>
+        <references refid="classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944" compoundref="owner_8py" startline="31" endline="33">medicines.owner.OwnerDeleteView.get_queryset</references>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1medicine_1_1MedicineView_1ac7019401ebaeb9316fc2180e144163e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.medicine.MedicineView.post</definition>
+        <argsstring>(self, HttpRequest request)</argsstring>
+        <name>post</name>
+        <qualifiedname>api.views.medicine.MedicineView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create a medicine using formData
+
+:param request: request with the new medicine data
+:type request: HttpRequest
+:return: Respond if the query was successful
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" line="51" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" bodystart="51" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1medicine_1_1MedicineView_1a9fff1de2e37060cfc495d930765b54ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.medicine.MedicineView.dispatch</definition>
+        <argsstring>(self, request, *args, **kwargs)</argsstring>
+        <name>dispatch</name>
+        <qualifiedname>api.views.medicine.MedicineView.dispatch</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" line="82" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" bodystart="82" bodyend="88"/>
+        <references refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a9fff1de2e37060cfc495d930765b54ec" compoundref="medicine_8py" startline="82" endline="88">api.views.medicine.MedicineView.dispatch</references>
+        <referencedby refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a9fff1de2e37060cfc495d930765b54ec" compoundref="medicine_8py" startline="82" endline="88">api.views.medicine.MedicineView.dispatch</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.medicine.MedicineView</label>
+        <link refid="classapi_1_1views_1_1medicine_1_1MedicineView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.medicine.MedicineView</label>
+        <link refid="classapi_1_1views_1_1medicine_1_1MedicineView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/medicine.py" bodystart="11" bodyend="88"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a9fff1de2e37060cfc495d930765b54ec" prot="public" virt="non-virtual"><scope>api::views::medicine::MedicineView</scope><name>dispatch</name></member>
+      <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a6a92fa916b3ccf8671ec552755883093" prot="public" virt="non-virtual"><scope>api::views::medicine::MedicineView</scope><name>get</name></member>
+      <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a246b3300c14ea5fc459ab4a06dec1ad1" prot="public" virt="non-virtual"><scope>api::views::medicine::MedicineView</scope><name>get_queryset</name></member>
+      <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1ac7019401ebaeb9316fc2180e144163e6" prot="public" virt="non-virtual"><scope>api::views::medicine::MedicineView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

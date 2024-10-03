@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceaccounts_1_1sitemaps" xml:lang="en-US">
+<title>accounts.sitemaps Namespace Reference</title>
+<indexterm><primary>accounts.sitemaps</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classaccounts_1_1sitemaps_1_1AccountSiteMap">AccountSiteMap</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classaccounts_1_1sitemaps_1_1AllAuthSitemap">AllAuthSitemap</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Sitemap classes related to the account related views
+</computeroutput></literallayout> </para>
+</section>
+</section>

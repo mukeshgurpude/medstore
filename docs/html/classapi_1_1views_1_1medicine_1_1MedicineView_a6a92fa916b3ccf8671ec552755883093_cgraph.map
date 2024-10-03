@@ -1,0 +1,11 @@
+<map id="api.views.medicine.MedicineView.get" name="api.views.medicine.MedicineView.get">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,216,133"/>
+<area shape="rect" id="Node000002" href="$classapi_1_1views_1_1medicine_1_1MedicineView.html#a246b3300c14ea5fc459ab4a06dec1ad1" title=" " alt="" coords="271,5,482,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,91,263,55,289,47,291,52,265,60,165,96"/>
+<area shape="rect" id="Node000003" href="$classmedicines_1_1owner_1_1OwnerUpdateView.html#afcdeb7526e1d7dc2a7c316c7cd0ab5ab" title=" " alt="" coords="264,93,489,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,111,250,111,250,116,216,116"/>
+<area shape="rect" id="Node000004" href="$classmedicines_1_1owner_1_1OwnerDeleteView.html#adccdfbc96ef006ef1681aa5c30e96944" title=" " alt="" coords="266,181,487,221"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="173,131,303,174,301,179,172,136"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="328,94,325,84,333,74,350,69,377,67,407,69,424,77,422,82,406,75,377,72,351,74,336,79,330,85,333,92"/>
+<area shape="poly" id="edge5_Node000004_Node000004" title=" " alt="" coords="328,182,325,172,333,162,350,157,377,155,407,157,424,165,422,170,406,163,377,160,351,162,336,167,330,173,333,180"/>
+</map>

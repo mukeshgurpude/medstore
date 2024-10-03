@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration" xml:lang="en-US">
+<title>cart.migrations.0003_cartitem_purchased.Migration Class Reference</title>
+<indexterm><primary>cart.migrations.0003_cartitem_purchased.Migration</primary></indexterm>
+Inheritance diagram for cart.migrations.0003_cartitem_purchased.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for cart.migrations.0003_cartitem_purchased.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration_1a40e64dafccada9bf5eb8a669b7a4cd42">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration_1abd7486c354eace51eab49612deee0458">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration_1a40e64dafccada9bf5eb8a669b7a4cd42"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>cart.migrations.0003_cartitem_purchased.Migration</secondary></indexterm>
+<indexterm><primary>cart.migrations.0003_cartitem_purchased.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list cart.migrations.0003_cartitem_purchased.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;cart&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0002_order_orderdate&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration_1abd7486c354eace51eab49612deee0458"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>cart.migrations.0003_cartitem_purchased.Migration</secondary></indexterm>
+<indexterm><primary>cart.migrations.0003_cartitem_purchased.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list cart.migrations.0003_cartitem_purchased.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AddField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;cartitem&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;purchased&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.BooleanField(default=<emphasis role="keyword">False</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/<link linkend="_0003__cartitem__purchased_8py">0003_cartitem_purchased.py</link></section>
+</section>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews" xml:lang="en-US">
+<title>api.tests.test_auth.TestSellerViews Class Reference</title>
+<indexterm><primary>api.tests.test_auth.TestSellerViews</primary></indexterm>
+Inheritance diagram for api.tests.test_auth.TestSellerViews:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1TestSellerViews__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_auth.TestSellerViews:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1TestSellerViews__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1a6b1ceb94a58ab1b66bab7b4aa6b0eb32">test_response</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1a4ed5de8af93cb256c8b035de6988915d">apply</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1aa234f44033cc28ab8a256fb9a5db073e">user</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1a4ed5de8af93cb256c8b035de6988915d"/><section>
+    <title>apply()</title>
+<indexterm><primary>apply</primary><secondary>api.tests.test_auth.TestSellerViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestSellerViews</primary><secondary>apply</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestSellerViews.apply ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Tests additional privilege of seller signup
+</computeroutput></literallayout> </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_a4ed5de8af93cb256c8b035de6988915d_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_auth.TestSellerViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestSellerViews</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_auth.TestSellerViews.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1a6b1ceb94a58ab1b66bab7b4aa6b0eb32"/><section>
+    <title>test_response()</title>
+<indexterm><primary>test_response</primary><secondary>api.tests.test_auth.TestSellerViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestSellerViews</primary><secondary>test_response</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestSellerViews.test_response ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Check the seller view data
+</computeroutput></literallayout> </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_a6b1ceb94a58ab1b66bab7b4aa6b0eb32_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1aa234f44033cc28ab8a256fb9a5db073e"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>api.tests.test_auth.TestSellerViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestSellerViews</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestSellerViews.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__auth_8py">test_auth.py</link></section>
+</section>

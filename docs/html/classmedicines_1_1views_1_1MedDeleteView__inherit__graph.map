@@ -1,0 +1,9 @@
+<map id="medicines.views.MedDeleteView" name="medicines.views.MedDeleteView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="45,232,276,317"/>
+<area shape="rect" id="Node000002" href="$classmedicines_1_1owner_1_1OwnerDeleteView.html" title=" " alt="" coords="38,119,283,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,198,163,232,158,232,158,198"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,148,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="111,80,139,117,135,120,107,83"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="172,5,317,71"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="215,83,187,120,182,117,210,80"/>
+</map>

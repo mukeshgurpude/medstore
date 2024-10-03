@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedicines_1_1migrations_1_10035__auto__20200908__1330" xml:lang="en-US">
+<title>medicines.migrations.0035_auto_20200908_1330 Namespace Reference</title>
+<indexterm><primary>medicines.migrations.0035_auto_20200908_1330</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1migrations_1_10035__auto__20200908__1330_1_1Migration">Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1migrations_1_10001__initial_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>accounts::migrations::0001_initial::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a856861c04ea27ca71b5f524b025f011d" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool accounts.migrations.0001_initial.Migration::initial</definition>
+        <argsstring></argsstring>
+        <name>initial</name>
+        <qualifiedname>accounts.migrations.0001_initial.Migration.initial</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a059ce1e5810f58c7106c3b8a06e09f7d" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list accounts.migrations.0001_initial.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>accounts.migrations.0001_initial.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a458237a5f3816a469d5463955fec803b" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list accounts.migrations.0001_initial.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>accounts.migrations.0001_initial.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.CreateModel(
+            name=&apos;UserProfile&apos;,
+            fields=[
+                (&apos;id&apos;, models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name=&apos;ID&apos;)),
+                (&apos;gender&apos;, models.CharField(choices=[(&apos;Male&apos;, &apos;Male&apos;), (&apos;Female&apos;, &apos;Female&apos;), (&apos;Prefer not to say&apos;, &apos;Prefer not to say&apos;)], max_length=50)),
+                (&apos;phone&apos;, models.PositiveBigIntegerField(verbose_name=&apos;Mobile Number&apos;)),
+                (&apos;user&apos;, models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+            ],
+        ),
+        migrations.CreateModel(
+            name=&apos;SellerProfile&apos;,
+            fields=[
+                (&apos;id&apos;, models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name=&apos;ID&apos;)),
+                (&apos;store_name&apos;, models.CharField(help_text=&apos;Your store name&apos;, max_length=20, verbose_name=&apos;Store Name&apos;)),
+                (&apos;address&apos;, models.TextField(help_text=&apos;Your store address&apos;, max_length=40)),
+                (&apos;pincode&apos;, models.IntegerField()),
+                (&apos;user&apos;, models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+            ],
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>accounts.migrations.0001_initial.Migration</label>
+        <link refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations::Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.migrations.0001_initial.Migration</label>
+        <link refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+initial</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>bool</label>
+      </node>
+      <node id="4">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations::Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0001_initial.py" bodystart="8" bodyend="37"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a059ce1e5810f58c7106c3b8a06e09f7d" prot="public" virt="non-virtual"><scope>accounts::migrations::0001_initial::Migration</scope><name>dependencies</name></member>
+      <member refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a856861c04ea27ca71b5f524b025f011d" prot="public" virt="non-virtual"><scope>accounts::migrations::0001_initial::Migration</scope><name>initial</name></member>
+      <member refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a458237a5f3816a469d5463955fec803b" prot="public" virt="non-virtual"><scope>accounts::migrations::0001_initial::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

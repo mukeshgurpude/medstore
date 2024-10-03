@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1apps_1_1MedicinesConfig" kind="class" language="Python" prot="public">
+    <compoundname>medicines::apps::MedicinesConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">AppConfig</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.apps.MedicinesConfig::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>medicines.apps.MedicinesConfig.name</qualifiedname>
+        <initializer>=  &apos;medicines&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/apps.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/apps.py" bodystart="5" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1models_1_1MedCat_1a576ed8fa4d37359d4e70e39d13cfdc7d" compoundref="medicines_2models_8py" startline="12" endline="14">medicines.models.MedCat.__str__</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a" compoundref="medicines_2models_8py" startline="32" endline="34">medicines.models.Medicine.__str__</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>AppConfig</label>
+      </node>
+      <node id="1">
+        <label>medicines.apps.MedicinesConfig</label>
+        <link refid="classmedicines_1_1apps_1_1MedicinesConfig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>AppConfig</label>
+      </node>
+      <node id="1">
+        <label>medicines.apps.MedicinesConfig</label>
+        <link refid="classmedicines_1_1apps_1_1MedicinesConfig"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+name</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/apps.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/apps.py" bodystart="4" bodyend="6"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947" prot="public" virt="non-virtual"><scope>medicines::apps::MedicinesConfig</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

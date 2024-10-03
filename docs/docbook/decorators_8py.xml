@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_decorators_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/decorators.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/decorators.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceapi">api</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1decorators">api.decorators</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>func <link linkend="_namespaceapi_1_1decorators_1a5b660d5c1d4201518c45dd925a857674">api.decorators.check_response</link> (path=&quot;/&quot;, login_required=True, method=&quot;GET&quot;, post_data=None)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

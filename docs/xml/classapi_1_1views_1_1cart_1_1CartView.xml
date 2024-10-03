@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1cart_1_1CartView" kind="class" language="Python" prot="public">
+    <compoundname>api::views::cart::CartView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1cart_1_1CartView_1a7960235b70218a1197fa722a57ec7f90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>dict</type>
+        <definition> dict api.views.cart.CartView.update_item</definition>
+        <argsstring>(cls, int pk=None, str action=None, Order order=None, User user=None)</argsstring>
+        <name>update_item</name>
+        <qualifiedname>api.views.cart.CartView.update_item</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pk</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>action</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classcart_1_1models_1_1Order" kindref="compound">Order</ref></type>
+          <declname>order</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="namespaceapi_1_1views_1_1cart_1a1b6cb72ce4bec081bf16e595124ff1e1" kindref="member">User</ref></type>
+          <declname>user</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Utility function to update the quantity of the cart item
+
+:param pk: ID of the medicine
+:type pk: int
+:param action: Action specifier (increase | decrease)
+:type action: str
+:param order: Order to store the cart items
+:type order: Order
+:param user: User to create an cart item, if not already exists
+:type user: User
+:rtype: dict
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" bodystart="14" bodyend="47"/>
+        <referencedby refid="classapi_1_1views_1_1cart_1_1CartView_1af1421720e41b08ba32c4c96b7c908465" compoundref="cart_8py" startline="57" endline="76">api.views.cart.CartView.post</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1cart_1_1CartView_1a9bd12379f775f388dfe06970f0efac2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.cart.CartView.get</definition>
+        <argsstring>(self, HttpRequest request)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.cart.CartView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" line="48" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" bodystart="48" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1cart_1_1CartView_1af1421720e41b08ba32c4c96b7c908465" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.cart.CartView.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>api.views.cart.CartView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Request format, {id: Medicine id, action: (increase | decrease)}
+
+:param request: http request
+:type request: HttpRequest
+:return: Info, if the items are updated
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" line="57" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" bodystart="57" bodyend="76"/>
+        <references refid="classapi_1_1views_1_1cart_1_1CartView_1a7960235b70218a1197fa722a57ec7f90" compoundref="cart_8py" startline="14" endline="47">api.views.cart.CartView.update_item</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.cart.CartView</label>
+        <link refid="classapi_1_1views_1_1cart_1_1CartView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.cart.CartView</label>
+        <link refid="classapi_1_1views_1_1cart_1_1CartView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/cart.py" bodystart="10" bodyend="76"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1cart_1_1CartView_1a9bd12379f775f388dfe06970f0efac2d" prot="public" virt="non-virtual"><scope>api::views::cart::CartView</scope><name>get</name></member>
+      <member refid="classapi_1_1views_1_1cart_1_1CartView_1af1421720e41b08ba32c4c96b7c908465" prot="public" virt="non-virtual"><scope>api::views::cart::CartView</scope><name>post</name></member>
+      <member refid="classapi_1_1views_1_1cart_1_1CartView_1a7960235b70218a1197fa722a57ec7f90" prot="public" virt="non-virtual"><scope>api::views::cart::CartView</scope><name>update_item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

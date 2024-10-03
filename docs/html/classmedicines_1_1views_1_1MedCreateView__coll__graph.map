@@ -1,0 +1,11 @@
+<map id="medicines.views.MedCreateView" name="medicines.views.MedCreateView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="215,177,445,283"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,148,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,77,263,175,260,179,128,81"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="172,5,352,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="280,83,314,176,309,178,275,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="376,5,423,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="386,85,351,178,346,176,381,83"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="447,5,477,71"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="449,65,388,155,381,166,376,162,384,152,444,62"/>
+</map>

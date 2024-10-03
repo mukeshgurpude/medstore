@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dev_8py" kind="file" language="Python">
+    <compoundname>dev.py</compoundname>
+    <innernamespace refid="namespacemedical">medical</innernamespace>
+    <innernamespace refid="namespacemedical_1_1dev">medical::dev</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedical_1_1dev" refkind="compound"><highlight class="comment">#<sp/>SECURITY<sp/>WARNING:<sp/>don&apos;t<sp/>run<sp/>with<sp/>debug<sp/>turned<sp/>on<sp/>in<sp/>production!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2" refid="namespacemedical_1_1dev_1a89f7762951912180414f4160b8deb4e4" refkind="member"><highlight class="normal">DEBUG<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespacemedical_1_1dev_1a78ea4e6302956ba679481bbc6835d77a" refkind="member"><highlight class="normal">ALLOWED_HOSTS<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;*&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespacemedical_1_1dev_1ad866ab101ebac9076ab2c6e25b16a4ed" refkind="member"><highlight class="normal">EMAIL_HOST_USER<sp/>=<sp/>DEFAULT_FROM_EMAIL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>email</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacemedical_1_1dev_1acdb9dad1d4f6599eefe78052eb364e08" refkind="member"><highlight class="normal">EMAIL_HOST_PASSWORD<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Gmail_password</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">#<sp/>CORS<sp/>HEADERS</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespacemedical_1_1dev_1a4d197dee6415a26dd6065bcd7b54c08f" refkind="member"><highlight class="normal">CORS_ORIGIN_ALLOW_ALL<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespacemedical_1_1dev_1afb26d6cfcb1c07c12d54ada2c0612e15" refkind="member"><highlight class="normal">CORS_ALLOW_CREDENTIALS<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py"/>
+  </compounddef>
+</doxygen>

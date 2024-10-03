@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1forms_1_1ProfileForm_1_1Meta" xml:lang="en-US">
+<title>accounts.forms.ProfileForm.Meta Class Reference</title>
+<indexterm><primary>accounts.forms.ProfileForm.Meta</primary></indexterm>
+Collaboration diagram for accounts.forms.ProfileForm.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1forms_1_1ProfileForm_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a59470134362920fa2cbe9d92e87db06c">model</link> = <link linkend="_classaccounts_1_1models_1_1UserProfile">UserProfile</link></para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a0f7685bff1e12b2cedb88b645381053e">exclude</link> = (&quot;user&quot;, )</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a0f7685bff1e12b2cedb88b645381053e"/><section>
+    <title>exclude</title>
+<indexterm><primary>exclude</primary><secondary>accounts.forms.ProfileForm.Meta</secondary></indexterm>
+<indexterm><primary>accounts.forms.ProfileForm.Meta</primary><secondary>exclude</secondary></indexterm>
+<para><computeroutput>tuple accounts.forms.ProfileForm.Meta.exclude = (&quot;user&quot;, )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a59470134362920fa2cbe9d92e87db06c"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>accounts.forms.ProfileForm.Meta</secondary></indexterm>
+<indexterm><primary>accounts.forms.ProfileForm.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>accounts.forms.ProfileForm.Meta.model = <link linkend="_classaccounts_1_1models_1_1UserProfile">UserProfile</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/<link linkend="_accounts_2forms_8py">forms.py</link></section>
+</section>

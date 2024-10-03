@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcart_1_1models_1_1Order" xml:lang="en-US">
+<title>cart.models.Order Class Reference</title>
+<indexterm><primary>cart.models.Order</primary></indexterm>
+Inheritance diagram for cart.models.Order:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1Order__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for cart.models.Order:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1Order__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a698a506dc282a36c02aee6044e991558">__str__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1ab1012bf94977246d12aff3ee6eb3b0d8">order_total</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1ad8f1226c6c88883e5951e8f460e519a9">as_json</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0">order_now</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a566e33fb032f4096a3cea66e3a99cab6">objects</link> = models.Manager()</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1aa708fe3f16ddadc49d2d150fe26bd614">items</link> = models.ManyToManyField(<link linkend="_classcart_1_1models_1_1CartItem">CartItem</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a289bd0f28892db5ad74d0fc64e95981c">user</link> = models.ForeignKey(user, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a0fd479669ee87775989fef186fbac087">ordered</link> = models.BooleanField(default=False)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a48abde3e3a7228a6b89290eaf0cb64f4">created</link> = models.DateTimeField(auto_now_add=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a9649c6adbe0b532ec9563c7b6f4447af">orderID</link> = models.CharField(null=True, max_length=16)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a0318482f5313cd4538d8e6cf3ef06b7f">paymentID</link> = models.CharField(null=True, max_length=50)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a24ef42c2e31e53da36f3b64ef6812c4f">orderDate</link> = models.DateTimeField(null=True, auto_now=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1ac18ff9ba169d3ba52e40919e0563f9d7">total</link> = models.DecimalField(default=0, decimal_places=2, max_digits=10)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1Order_1a1ebd85a5a02ca7d490d2248637a37fc2">postOrder</link> = models.CharField(null=True, max_length=200)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a698a506dc282a36c02aee6044e991558"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>cart.models.Order.__str__ ( self)</computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1ad8f1226c6c88883e5951e8f460e519a9"/><section>
+    <title>as_json()</title>
+<indexterm><primary>as_json</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>as_json</secondary></indexterm>
+<para><computeroutput>cart.models.Order.as_json ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1Order_ad8f1226c6c88883e5951e8f460e519a9_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0"/><section>
+    <title>order_now()</title>
+<indexterm><primary>order_now</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>order_now</secondary></indexterm>
+<para><computeroutput>cart.models.Order.order_now ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1Order_a3e3e284681b6f87aa2a69b7b627b1ac0_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1ab1012bf94977246d12aff3ee6eb3b0d8"/><section>
+    <title>order_total()</title>
+<indexterm><primary>order_total</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>order_total</secondary></indexterm>
+<para><computeroutput>cart.models.Order.order_total ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1Order_ab1012bf94977246d12aff3ee6eb3b0d8_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a48abde3e3a7228a6b89290eaf0cb64f4"/><section>
+    <title>created</title>
+<indexterm><primary>created</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>created</secondary></indexterm>
+<para><computeroutput>cart.models.Order.created = models.DateTimeField(auto_now_add=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1aa708fe3f16ddadc49d2d150fe26bd614"/><section>
+    <title>items</title>
+<indexterm><primary>items</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>items</secondary></indexterm>
+<para><computeroutput>cart.models.Order.items = models.ManyToManyField(<link linkend="_classcart_1_1models_1_1CartItem">CartItem</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a566e33fb032f4096a3cea66e3a99cab6"/><section>
+    <title>objects</title>
+<indexterm><primary>objects</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>objects</secondary></indexterm>
+<para><computeroutput>cart.models.Order.objects = models.Manager()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a24ef42c2e31e53da36f3b64ef6812c4f"/><section>
+    <title>orderDate</title>
+<indexterm><primary>orderDate</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>orderDate</secondary></indexterm>
+<para><computeroutput>cart.models.Order.orderDate = models.DateTimeField(null=True, auto_now=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a0fd479669ee87775989fef186fbac087"/><section>
+    <title>ordered</title>
+<indexterm><primary>ordered</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>ordered</secondary></indexterm>
+<para><computeroutput>cart.models.Order.ordered = models.BooleanField(default=False)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a9649c6adbe0b532ec9563c7b6f4447af"/><section>
+    <title>orderID</title>
+<indexterm><primary>orderID</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>orderID</secondary></indexterm>
+<para><computeroutput>cart.models.Order.orderID = models.CharField(null=True, max_length=16)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a0318482f5313cd4538d8e6cf3ef06b7f"/><section>
+    <title>paymentID</title>
+<indexterm><primary>paymentID</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>paymentID</secondary></indexterm>
+<para><computeroutput>cart.models.Order.paymentID = models.CharField(null=True, max_length=50)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a1ebd85a5a02ca7d490d2248637a37fc2"/><section>
+    <title>postOrder</title>
+<indexterm><primary>postOrder</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>postOrder</secondary></indexterm>
+<para><computeroutput>cart.models.Order.postOrder = models.CharField(null=True, max_length=200)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1ac18ff9ba169d3ba52e40919e0563f9d7"/><section>
+    <title>total</title>
+<indexterm><primary>total</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>total</secondary></indexterm>
+<para><computeroutput>cart.models.Order.total = models.DecimalField(default=0, decimal_places=2, max_digits=10)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1Order_1a289bd0f28892db5ad74d0fc64e95981c"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>cart.models.Order</secondary></indexterm>
+<indexterm><primary>cart.models.Order</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>cart.models.Order.user = models.ForeignKey(user, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/<link linkend="_cart_2models_8py">models.py</link></section>
+</section>

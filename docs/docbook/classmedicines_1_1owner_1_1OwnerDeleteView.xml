@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1owner_1_1OwnerDeleteView" xml:lang="en-US">
+<title>medicines.owner.OwnerDeleteView Class Reference</title>
+<indexterm><primary>medicines.owner.OwnerDeleteView</primary></indexterm>
+Inheritance diagram for medicines.owner.OwnerDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerDeleteView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.owner.OwnerDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerDeleteView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944">get_queryset</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944"/><section>
+    <title>get_queryset()</title>
+<indexterm><primary>get_queryset</primary><secondary>medicines.owner.OwnerDeleteView</secondary></indexterm>
+<indexterm><primary>medicines.owner.OwnerDeleteView</primary><secondary>get_queryset</secondary></indexterm>
+<para><computeroutput>medicines.owner.OwnerDeleteView.get_queryset ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerDeleteView_adccdfbc96ef006ef1681aa5c30e96944_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerDeleteView_adccdfbc96ef006ef1681aa5c30e96944_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_owner_8py">owner.py</link></section>
+</section>

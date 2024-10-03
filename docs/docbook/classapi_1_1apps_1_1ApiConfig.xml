@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1apps_1_1ApiConfig" xml:lang="en-US">
+<title>api.apps.ApiConfig Class Reference</title>
+<indexterm><primary>api.apps.ApiConfig</primary></indexterm>
+Inheritance diagram for api.apps.ApiConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1apps_1_1ApiConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.apps.ApiConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1apps_1_1ApiConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classapi_1_1apps_1_1ApiConfig_1a52029db19a3cc09bd0d62a50d8044618">name</link> = &apos;api&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1apps_1_1ApiConfig_1a52029db19a3cc09bd0d62a50d8044618"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>api.apps.ApiConfig</secondary></indexterm>
+<indexterm><primary>api.apps.ApiConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str api.apps.ApiConfig.name = &apos;api&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/<link linkend="_api_2apps_8py">apps.py</link></section>
+</section>

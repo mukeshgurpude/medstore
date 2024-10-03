@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1forms_1_1SellerForm_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>accounts::forms::SellerForm::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a91857488db85fac749be888265924066" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.forms.SellerForm.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>accounts.forms.SellerForm.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classaccounts_1_1models_1_1SellerProfile" kindref="compound">SellerProfile</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a3c81a9530fda146f453d11f9811dcaed" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple accounts.forms.SellerForm.Meta::exclude</definition>
+        <argsstring></argsstring>
+        <name>exclude</name>
+        <qualifiedname>accounts.forms.SellerForm.Meta.exclude</qualifiedname>
+        <initializer>=  (&quot;user&quot;, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.forms.SellerForm.Meta</label>
+        <link refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+exclude</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a3c81a9530fda146f453d11f9811dcaed" prot="public" virt="non-virtual"><scope>accounts::forms::SellerForm::Meta</scope><name>exclude</name></member>
+      <member refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a91857488db85fac749be888265924066" prot="public" virt="non-virtual"><scope>accounts::forms::SellerForm::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

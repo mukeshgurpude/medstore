@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1tests_1_1test__medicine" xml:lang="en-US">
+<title>api.tests.test_medicine Namespace Reference</title>
+<indexterm><primary>api.tests.test_medicine</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews">TestMedViews</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__medicine_1a3d256221a093e771fcea2569ca0fda22">NEW_Medicine</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceapi_1_1tests_1_1test__medicine_1a3d256221a093e771fcea2569ca0fda22"/><section>
+    <title>NEW_Medicine</title>
+<indexterm><primary>NEW_Medicine</primary><secondary>api.tests.test_medicine</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine</primary><secondary>NEW_Medicine</secondary></indexterm>
+<para><computeroutput>dict api.tests.test_medicine.NEW_Medicine</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;name&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;Dummy&#32;for&#32;testing&apos;</emphasis>,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;price&apos;</emphasis>:&#32;100.5,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;category&apos;</emphasis>:&#32;1,
+5 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;description&apos;</emphasis>:&#32;<emphasis role="stringliteral">&apos;This&#32;is&#32;intended&#32;for&#32;testing&#32;only&apos;</emphasis>,
+6 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;quantity&apos;</emphasis>:&#32;200
+7 }
+</programlisting></section>
+</section>
+</section>

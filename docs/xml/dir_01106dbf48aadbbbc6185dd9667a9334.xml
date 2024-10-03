@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_01106dbf48aadbbbc6185dd9667a9334" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations</compoundname>
+    <innerfile refid="cart_2migrations_20001__initial_8py">0001_initial.py</innerfile>
+    <innerfile refid="0002__order__orderdate_8py">0002_order_orderdate.py</innerfile>
+    <innerfile refid="0003__cartitem__purchased_8py">0003_cartitem_purchased.py</innerfile>
+    <innerfile refid="0004__cartitem__total_8py">0004_cartitem_total.py</innerfile>
+    <innerfile refid="0005__auto__20200831__1340_8py">0005_auto_20200831_1340.py</innerfile>
+    <innerfile refid="0006__order__postorder_8py">0006_order_postorder.py</innerfile>
+    <innerfile refid="cart_2migrations_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/"/>
+  </compounddef>
+</doxygen>

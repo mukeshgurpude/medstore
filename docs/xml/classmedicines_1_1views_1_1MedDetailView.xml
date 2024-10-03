@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1views_1_1MedDetailView" kind="class" language="Python" prot="public">
+    <compoundname>medicines::views::MedDetailView</compoundname>
+    <basecompoundref refid="classmedicines_1_1owner_1_1OwnerDetailView" prot="public" virt="non-virtual">medicines.owner.OwnerDetailView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedDetailView_1a727d168baab3a58bb351cd9f807ff3f9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.views.MedDetailView::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>medicines.views.MedDetailView.model</qualifiedname>
+        <initializer>=  <ref refid="classmedicines_1_1models_1_1Medicine" kindref="compound">Medicine</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedDetailView_1a0e0528ea78b45c19f64bad1e7a2c5744" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.views.MedDetailView::template_name</definition>
+        <argsstring></argsstring>
+        <name>template_name</name>
+        <qualifiedname>medicines.views.MedDetailView.template_name</qualifiedname>
+        <initializer>=  &quot;medicines/medicine_detail.html&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="32" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" compoundref="medicines_2views_8py" startline="47" endline="57">medicines.views.MedCreateView.post</referencedby>
+        <referencedby refid="classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b" compoundref="medicines_2views_8py" startline="69" endline="79">medicines.views.MedUpdateView.post</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>generic::DetailView</label>
+      </node>
+      <node id="1">
+        <label>medicines.views.MedDetailView</label>
+        <link refid="classmedicines_1_1views_1_1MedDetailView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>medicines.owner.OwnerDetailView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerDetailView"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>generic::DetailView</label>
+      </node>
+      <node id="1">
+        <label>medicines.views.MedDetailView</label>
+        <link refid="classmedicines_1_1views_1_1MedDetailView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+template_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>medicines.owner.OwnerDetailView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerDetailView"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="30" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1views_1_1MedDetailView_1a727d168baab3a58bb351cd9f807ff3f9" prot="public" virt="non-virtual"><scope>medicines::views::MedDetailView</scope><name>model</name></member>
+      <member refid="classmedicines_1_1views_1_1MedDetailView_1a0e0528ea78b45c19f64bad1e7a2c5744" prot="public" virt="non-virtual"><scope>medicines::views::MedDetailView</scope><name>template_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

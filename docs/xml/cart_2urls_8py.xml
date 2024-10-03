@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="cart_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespacecart">cart</innernamespace>
+    <innernamespace refid="namespacecart_1_1urls">cart::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecart_1_1urls" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>cartview,<sp/>add_to_cart,<sp/>remove_from_cart</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>views</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespacecart_1_1urls_1ae6d35656063cdf7fe6bbd94f2f485d15" refkind="member"><highlight class="normal">app_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;cart&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacecart_1_1urls_1a93b0baeb1fa10af912fde6d9f8bab9a1" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;cart/&quot;</highlight><highlight class="normal">,<sp/>cartview,<sp/>name=</highlight><highlight class="stringliteral">&quot;home&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;add/&lt;slug&gt;&quot;</highlight><highlight class="normal">,<sp/>add_to_cart,<sp/>name=</highlight><highlight class="stringliteral">&quot;add&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;remove/&lt;slug&gt;&quot;</highlight><highlight class="normal">,<sp/>remove_from_cart,<sp/>name=</highlight><highlight class="stringliteral">&quot;remove&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;increase/&lt;slug&gt;&quot;</highlight><highlight class="normal">,<sp/>views.increase_cart_test,<sp/>name=</highlight><highlight class="stringliteral">&quot;increase&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;decrease/&lt;slug&gt;&quot;</highlight><highlight class="normal">,<sp/>views.decrease_cart_test,<sp/>name=</highlight><highlight class="stringliteral">&quot;decrease&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;orders/&quot;</highlight><highlight class="normal">,<sp/>views.order_view,<sp/>name=</highlight><highlight class="stringliteral">&quot;my_orders&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py"/>
+  </compounddef>
+</doxygen>

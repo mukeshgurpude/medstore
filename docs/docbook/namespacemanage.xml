@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemanage" xml:lang="en-US">
+<title>manage Namespace Reference</title>
+<indexterm><primary>manage</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4">main</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Django&apos;s command-line utility for administrative tasks.</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4"/><section>
+    <title>main()</title>
+<indexterm><primary>main</primary><secondary>manage</secondary></indexterm>
+<indexterm><primary>manage</primary><secondary>main</secondary></indexterm>
+<para><computeroutput>manage.main ( )</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespacemanage_a0ac64ea81648f42d6a49d76da894eaf4_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespacemanage_a0ac64ea81648f42d6a49d76da894eaf4_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+</section>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="medicines_2admin_8py" kind="file" language="Python">
+    <compoundname>admin.py</compoundname>
+    <innerclass refid="classmedicines_1_1admin_1_1Setup" prot="public">medicines::admin::Setup</innerclass>
+    <innernamespace refid="namespacemedicines">medicines</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1admin">medicines::admin</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedicines" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>admin</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>MedCat,<sp/>Medicine</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Register<sp/>your<sp/>models<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classmedicines_1_1admin_1_1Setup" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1admin_1_1Setup" kindref="compound">Setup</ref>(admin.ModelAdmin):</highlight></codeline>
+<codeline lineno="7" refid="classmedicines_1_1admin_1_1Setup_1ade03dd53a01f231149c28af3e9be6919" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>list_display<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;price&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="8" refid="classmedicines_1_1admin_1_1Setup_1ae52c2f547d8fad4966db8d72df1eb6b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>fieldsets<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;Basic&quot;</highlight><highlight class="normal">,<sp/>{</highlight><highlight class="stringliteral">&quot;fields&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;price&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;category&quot;</highlight><highlight class="normal">,<sp/>]}),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;Quantity&quot;</highlight><highlight class="normal">,<sp/>{</highlight><highlight class="stringliteral">&quot;fields&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&quot;quantity&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;owner&quot;</highlight><highlight class="normal">]}),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&quot;View&quot;</highlight><highlight class="normal">,<sp/>{</highlight><highlight class="stringliteral">&quot;fields&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&quot;thumbnail&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;thumb_content_type&quot;</highlight><highlight class="normal">]})</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="13" refid="classmedicines_1_1admin_1_1Setup_1a3a31d3a2719e8b3d759a655187ef80ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>search_fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;name&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;description&quot;</highlight><highlight class="normal">,<sp/>]</highlight></codeline>
+<codeline lineno="14" refid="classmedicines_1_1admin_1_1Setup_1adaed8a26ddc95f993bc2d70d8cfea904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>list_filter<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;category&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;owner&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">admin.site.register(Medicine,<sp/>Setup)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">admin.site.register(MedCat)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py"/>
+  </compounddef>
+</doxygen>

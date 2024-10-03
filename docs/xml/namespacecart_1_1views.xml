@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecart_1_1views" kind="namespace" language="Python">
+    <compoundname>cart::views</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecart_1_1views_1a3ee8d59cc468d360b51f5f695d8aa012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.cartview</definition>
+        <argsstring>(request)</argsstring>
+        <name>cartview</name>
+        <qualifiedname>cart.views.cartview</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="10" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1ac00843a95e203cd4cb060210153b7052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.add_to_cart</definition>
+        <argsstring>(request, slug)</argsstring>
+        <name>add_to_cart</name>
+        <qualifiedname>cart.views.add_to_cart</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>slug</type>
+          <defname>slug</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="22" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1a3021e91e344805a0cfdc9c5d1300d3f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.remove_from_cart</definition>
+        <argsstring>(request, slug)</argsstring>
+        <name>remove_from_cart</name>
+        <qualifiedname>cart.views.remove_from_cart</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>slug</type>
+          <defname>slug</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="44" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="44" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1a1a5f351a2da2473b3f280bb0b014dbe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.increase_cart</definition>
+        <argsstring>(request, slug)</argsstring>
+        <name>increase_cart</name>
+        <qualifiedname>cart.views.increase_cart</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>slug</type>
+          <defname>slug</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="65" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="65" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1ab665251cdfc3340aea5abf9e3fe3e9bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.decrease_cart</definition>
+        <argsstring>(request, slug)</argsstring>
+        <name>decrease_cart</name>
+        <qualifiedname>cart.views.decrease_cart</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>slug</type>
+          <defname>slug</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="89" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="89" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1a2f62b4ee07f22f10d1c1aaf29443f4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.order_view</definition>
+        <argsstring>(request)</argsstring>
+        <name>order_view</name>
+        <qualifiedname>cart.views.order_view</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="115" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="115" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1a8a71758da0a44e7da80fe8ec26bd3ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.increase_cart_test</definition>
+        <argsstring>(request, slug)</argsstring>
+        <name>increase_cart_test</name>
+        <qualifiedname>cart.views.increase_cart_test</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>slug</type>
+          <defname>slug</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="121" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="121" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecart_1_1views_1ad036d70c844f486cb0e96e904e1ac0d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.views.decrease_cart_test</definition>
+        <argsstring>(request, slug)</argsstring>
+        <name>decrease_cart_test</name>
+        <qualifiedname>cart.views.decrease_cart_test</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>slug</type>
+          <defname>slug</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="143" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" bodystart="143" bodyend="169"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

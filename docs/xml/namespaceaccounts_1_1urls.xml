@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaccounts_1_1urls" kind="namespace" language="Python">
+    <compoundname>accounts::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceaccounts_1_1urls_1a654250d4c7bc852ed5e2bef130a75457" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str accounts::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>accounts.urls.app_name</qualifiedname>
+        <initializer>=  &quot;Account&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceaccounts_1_1urls_1a926cfc2f9e983f80b090c232436af68d" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list accounts::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>accounts.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&quot;profile/&quot;, views.profile, name=&quot;profile&quot;),
+    path(&quot;apply/&quot;, views.be_seller, name=&quot;apply&quot;),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

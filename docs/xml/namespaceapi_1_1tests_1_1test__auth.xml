@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1tests_1_1test__auth" kind="namespace" language="Python">
+    <compoundname>api::tests::test_auth</compoundname>
+    <innerclass refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase" prot="public">api::tests::test_auth::ProfileTestCase</innerclass>
+    <innerclass refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout" prot="public">api::tests::test_auth::TestLoginLogout</innerclass>
+    <innerclass refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews" prot="public">api::tests::test_auth::TestSellerViews</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceapi_1_1tests_1_1test__auth_1a1f82f789cc5d111d08c952e6a2e211c1" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api::tests::test_auth.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>api.tests.test_auth.User</qualifiedname>
+        <initializer>=  get_user_model()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceapi_1_1tests_1_1test__auth_1a1639fcbd054e8a094769083b62ad9b46" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict api::tests::test_auth.USER_CREDENTIALS</definition>
+        <argsstring></argsstring>
+        <name>USER_CREDENTIALS</name>
+        <qualifiedname>api.tests.test_auth.USER_CREDENTIALS</qualifiedname>
+        <initializer>=  {
+    &quot;username&quot;: &quot;newUser&quot;,
+    &quot;password&quot;: &quot;myPasswordWith.&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceapi_1_1tests_1_1test__auth_1a27c4fbe4d4072a8142482d86247d9d9b" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict api::tests::test_auth.UPDATED_CREDENTIALS</definition>
+        <argsstring></argsstring>
+        <name>UPDATED_CREDENTIALS</name>
+        <qualifiedname>api.tests.test_auth.UPDATED_CREDENTIALS</qualifiedname>
+        <initializer>=  {
+    &apos;first_name&apos;: &apos;changedName&apos;,
+    &apos;gender&apos;: &apos;Male&apos;,
+    &apos;phone&apos;: 8456217463
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespaceapi_1_1tests_1_1test__auth_1aa26b03aec66735f726ea42bb62e99851" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict api::tests::test_auth.STORE_DATA</definition>
+        <argsstring></argsstring>
+        <name>STORE_DATA</name>
+        <qualifiedname>api.tests.test_auth.STORE_DATA</qualifiedname>
+        <initializer>=  {
+    &apos;store_name&apos;: &apos;Medstore&apos;,
+    &apos;address&apos;: &apos;Internet&apos;,
+    &apos;pincode&apos;: 101010,
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

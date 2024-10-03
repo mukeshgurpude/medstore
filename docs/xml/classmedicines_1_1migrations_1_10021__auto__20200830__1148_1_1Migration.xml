@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>medicines::migrations::0021_auto_20200830_1148::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration_1ae9e64fd205773ce83d148b996c2a906a" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.migrations.0021_auto_20200830_1148.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>medicines.migrations.0021_auto_20200830_1148.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        (&apos;medicines&apos;, &apos;0020_auto_20200830_1146&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0021_auto_20200830_1148.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0021_auto_20200830_1148.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration_1afdf8b66e04065477a2d0d5765b54b115" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.migrations.0021_auto_20200830_1148.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>medicines.migrations.0021_auto_20200830_1148.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.AlterField(
+            model_name=&apos;medicine&apos;,
+            name=&apos;slug&apos;,
+            field=models.SlugField(default=&apos;me..r&lt;mNdmf.Fnh&apos;, unique=True),
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0021_auto_20200830_1148.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0021_auto_20200830_1148.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>medicines.migrations.0021_auto_20200830_1148.Migration</label>
+        <link refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>medicines.migrations.0021_auto_20200830_1148.Migration</label>
+        <link refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0021_auto_20200830_1148.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0021_auto_20200830_1148.py" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration_1ae9e64fd205773ce83d148b996c2a906a" prot="public" virt="non-virtual"><scope>medicines::migrations::0021_auto_20200830_1148::Migration</scope><name>dependencies</name></member>
+      <member refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration_1afdf8b66e04065477a2d0d5765b54b115" prot="public" virt="non-virtual"><scope>medicines::migrations::0021_auto_20200830_1148::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

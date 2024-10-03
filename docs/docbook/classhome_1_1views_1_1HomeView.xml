@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classhome_1_1views_1_1HomeView" xml:lang="en-US">
+<title>home.views.HomeView Class Reference</title>
+<indexterm><primary>home.views.HomeView</primary></indexterm>
+Inheritance diagram for home.views.HomeView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1views_1_1HomeView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for home.views.HomeView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1views_1_1HomeView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classhome_1_1views_1_1HomeView_1a5009c649b4a4eeb1cc7fac76681f2442">__init__</link> (self, *args, **kwargs)</para>
+</listitem>
+            <listitem><para><link linkend="_classhome_1_1views_1_1HomeView_1a28ae2fab7a4f8ecbc57904f43600dc48">get</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classhome_1_1views_1_1HomeView_1ad6fbf4aba9e28c5135d013b222fcafa5">dev_env</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classhome_1_1views_1_1HomeView_1a5009c649b4a4eeb1cc7fac76681f2442"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>home.views.HomeView</secondary></indexterm>
+<indexterm><primary>home.views.HomeView</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>home.views.HomeView.__init__ ( self, * args, ** kwargs)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1views_1_1HomeView_a5009c649b4a4eeb1cc7fac76681f2442_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1views_1_1HomeView_a5009c649b4a4eeb1cc7fac76681f2442_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classhome_1_1views_1_1HomeView_1a28ae2fab7a4f8ecbc57904f43600dc48"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>home.views.HomeView</secondary></indexterm>
+<indexterm><primary>home.views.HomeView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>home.views.HomeView.get ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classhome_1_1views_1_1HomeView_1ad6fbf4aba9e28c5135d013b222fcafa5"/><section>
+    <title>dev_env</title>
+<indexterm><primary>dev_env</primary><secondary>home.views.HomeView</secondary></indexterm>
+<indexterm><primary>home.views.HomeView</primary><secondary>dev_env</secondary></indexterm>
+<para><computeroutput>home.views.HomeView.dev_env</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/<link linkend="_home_2views_8py">views.py</link></section>
+</section>

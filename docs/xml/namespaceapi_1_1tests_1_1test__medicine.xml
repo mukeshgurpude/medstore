@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1tests_1_1test__medicine" kind="namespace" language="Python">
+    <compoundname>api::tests::test_medicine</compoundname>
+    <innerclass refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews" prot="public">api::tests::test_medicine::TestMedViews</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceapi_1_1tests_1_1test__medicine_1a3d256221a093e771fcea2569ca0fda22" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict api::tests::test_medicine.NEW_Medicine</definition>
+        <argsstring></argsstring>
+        <name>NEW_Medicine</name>
+        <qualifiedname>api.tests.test_medicine.NEW_Medicine</qualifiedname>
+        <initializer>=  {
+    &apos;name&apos;: &apos;Dummy for testing&apos;,
+    &apos;price&apos;: 100.5,
+    &apos;category&apos;: 1,
+    &apos;description&apos;: &apos;This is intended for testing only&apos;,
+    &apos;quantity&apos;: 200
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_medicine.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_medicine.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_medicine.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

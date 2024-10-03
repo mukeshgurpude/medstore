@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1owner_1_1OwnerUpdateView" kind="class" language="Python" prot="public">
+    <compoundname>medicines::owner::OwnerUpdateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">LoginRequiredMixin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">generic.UpdateView</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.owner.OwnerUpdateView.get_queryset</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_queryset</name>
+        <qualifiedname>medicines.owner.OwnerUpdateView.get_queryset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" bodystart="24" bodyend="28"/>
+        <references refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" compoundref="owner_8py" startline="24" endline="28">medicines.owner.OwnerUpdateView.get_queryset</references>
+        <referencedby refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a6a92fa916b3ccf8671ec552755883093" compoundref="medicine_8py" startline="34" endline="50">api.views.medicine.MedicineView.get</referencedby>
+        <referencedby refid="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" compoundref="medicines_2views_8py" startline="18" endline="29">medicines.views.MedListView.get_context_data</referencedby>
+        <referencedby refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" compoundref="owner_8py" startline="24" endline="28">medicines.owner.OwnerUpdateView.get_queryset</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>generic::UpdateView</label>
+      </node>
+      <node id="1">
+        <label>medicines.owner.OwnerUpdateView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerUpdateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>generic::UpdateView</label>
+      </node>
+      <node id="1">
+        <label>medicines.owner.OwnerUpdateView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerUpdateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" prot="public" virt="non-virtual"><scope>medicines::owner::OwnerUpdateView</scope><name>get_queryset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

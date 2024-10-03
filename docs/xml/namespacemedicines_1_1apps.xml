@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedicines_1_1apps" kind="namespace" language="Python">
+    <compoundname>medicines::apps</compoundname>
+    <innerclass refid="classmedicines_1_1apps_1_1MedicinesConfig" prot="public">medicines::apps::MedicinesConfig</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/apps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

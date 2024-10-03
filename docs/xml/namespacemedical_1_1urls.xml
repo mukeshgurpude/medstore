@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedical_1_1urls" kind="namespace" language="Python">
+    <compoundname>medical::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict medical::urls.sitemaps</definition>
+        <argsstring></argsstring>
+        <name>sitemaps</name>
+        <qualifiedname>medical.urls.sitemaps</qualifiedname>
+        <initializer>=  {
+    &apos;accounts&apos;: <ref refid="classaccounts_1_1sitemaps_1_1AccountSiteMap" kindref="compound">AccountSiteMap</ref>,
+    &apos;medicines&apos;: <ref refid="classmedicines_1_1sitemaps_1_1MedSiteMap" kindref="compound">MedSiteMap</ref>,
+    &apos;other&apos;: <ref refid="classmedical_1_1sitemaps_1_1StaticSitemap" kindref="compound">StaticSitemap</ref>
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/urls.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/urls.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1urls_1af5b4573ec9279eb165362d2f73eed71d" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>medical.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&quot;robots.txt&quot;, TemplateView.as_view(template_name=&quot;robots.txt&quot;, content_type=&quot;text/plain&quot;), name=&quot;robots&quot;),
+    path(&quot;sitemap.xml&quot;, sitemap, {&apos;<ref refid="namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c" kindref="member">sitemaps</ref>&apos;: <ref refid="namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c" kindref="member">sitemaps</ref>}, name=&quot;sitemap_url&quot;),
+    path(&quot;&quot;, include(&quot;home.urls&quot;)),
+    path(&quot;&quot;, include(&quot;cart.urls&quot;)),
+    path(&apos;admin/&apos;, admin.site.urls),
+    path(&apos;medicines/&apos;, include(&quot;medicines.urls&quot;)),
+    path(&quot;&quot;, include(&quot;checkout.urls&quot;)),
+    path(&quot;&quot;, include(&quot;accounts.urls&quot;)),
+    path(&quot;&quot;, include(&quot;allauth.urls&quot;)),
+    path(&quot;api/v1/&quot;, include(&quot;api.urls&quot;)),
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/urls.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/urls.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

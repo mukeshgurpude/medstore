@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1views_1_1checkout" xml:lang="en-US">
+<title>api.views.checkout Namespace Reference</title>
+<indexterm><primary>api.views.checkout</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classapi_1_1views_1_1checkout_1_1APIBillingAddress">APIBillingAddress</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceapi_1_1views_1_1checkout_1a87404aa38ae5b07c26c292a62d1cdd62">order_success</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceapi_1_1views_1_1checkout_1a87404aa38ae5b07c26c292a62d1cdd62"/><section>
+    <title>order_success()</title>
+<indexterm><primary>order_success</primary><secondary>api.views.checkout</secondary></indexterm>
+<indexterm><primary>api.views.checkout</primary><secondary>order_success</secondary></indexterm>
+<para><computeroutput>api.views.checkout.order_success ( request)</computeroutput></para>
+<para><literallayout><computeroutput>Callback url from stripe
+
+:param request: Callback request from stripe
+:type request: HttpRequest
+</computeroutput></literallayout> </para>
+</section>
+</section>
+</section>

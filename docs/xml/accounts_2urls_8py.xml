@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="accounts_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespaceaccounts">accounts</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1urls">accounts::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceaccounts_1_1urls" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.</highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>views</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespaceaccounts_1_1urls_1a654250d4c7bc852ed5e2bef130a75457" refkind="member"><highlight class="normal">app_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Account&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespaceaccounts_1_1urls_1a926cfc2f9e983f80b090c232436af68d" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;profile/&quot;</highlight><highlight class="normal">,<sp/>views.profile,<sp/>name=</highlight><highlight class="stringliteral">&quot;profile&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;apply/&quot;</highlight><highlight class="normal">,<sp/>views.be_seller,<sp/>name=</highlight><highlight class="stringliteral">&quot;apply&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py"/>
+  </compounddef>
+</doxygen>

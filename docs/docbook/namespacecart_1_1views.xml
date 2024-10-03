@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecart_1_1views" xml:lang="en-US">
+<title>cart.views Namespace Reference</title>
+<indexterm><primary>cart.views</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a3ee8d59cc468d360b51f5f695d8aa012">cartview</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1ac00843a95e203cd4cb060210153b7052">add_to_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a3021e91e344805a0cfdc9c5d1300d3f3">remove_from_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a1a5f351a2da2473b3f280bb0b014dbe5">increase_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1ab665251cdfc3340aea5abf9e3fe3e9bc">decrease_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a2f62b4ee07f22f10d1c1aaf29443f4ef">order_view</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a8a71758da0a44e7da80fe8ec26bd3ed2">increase_cart_test</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1ad036d70c844f486cb0e96e904e1ac0d3">decrease_cart_test</link> (request, slug)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacecart_1_1views_1ac00843a95e203cd4cb060210153b7052"/><section>
+    <title>add_to_cart()</title>
+<indexterm><primary>add_to_cart</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>add_to_cart</secondary></indexterm>
+<para><computeroutput>cart.views.add_to_cart ( request,  slug)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1a3ee8d59cc468d360b51f5f695d8aa012"/><section>
+    <title>cartview()</title>
+<indexterm><primary>cartview</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>cartview</secondary></indexterm>
+<para><computeroutput>cart.views.cartview ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1ab665251cdfc3340aea5abf9e3fe3e9bc"/><section>
+    <title>decrease_cart()</title>
+<indexterm><primary>decrease_cart</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>decrease_cart</secondary></indexterm>
+<para><computeroutput>cart.views.decrease_cart ( request,  slug)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1ad036d70c844f486cb0e96e904e1ac0d3"/><section>
+    <title>decrease_cart_test()</title>
+<indexterm><primary>decrease_cart_test</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>decrease_cart_test</secondary></indexterm>
+<para><computeroutput>cart.views.decrease_cart_test ( request,  slug)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1a1a5f351a2da2473b3f280bb0b014dbe5"/><section>
+    <title>increase_cart()</title>
+<indexterm><primary>increase_cart</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>increase_cart</secondary></indexterm>
+<para><computeroutput>cart.views.increase_cart ( request,  slug)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1a8a71758da0a44e7da80fe8ec26bd3ed2"/><section>
+    <title>increase_cart_test()</title>
+<indexterm><primary>increase_cart_test</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>increase_cart_test</secondary></indexterm>
+<para><computeroutput>cart.views.increase_cart_test ( request,  slug)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1a2f62b4ee07f22f10d1c1aaf29443f4ef"/><section>
+    <title>order_view()</title>
+<indexterm><primary>order_view</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>order_view</secondary></indexterm>
+<para><computeroutput>cart.views.order_view ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1views_1a3021e91e344805a0cfdc9c5d1300d3f3"/><section>
+    <title>remove_from_cart()</title>
+<indexterm><primary>remove_from_cart</primary><secondary>cart.views</secondary></indexterm>
+<indexterm><primary>cart.views</primary><secondary>remove_from_cart</secondary></indexterm>
+<para><computeroutput>cart.views.remove_from_cart ( request,  slug)</computeroutput></para></section>
+</section>
+</section>

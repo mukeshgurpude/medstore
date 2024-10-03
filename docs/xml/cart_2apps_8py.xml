@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="cart_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classcart_1_1apps_1_1CartConfig" prot="public">cart::apps::CartConfig</innerclass>
+    <innernamespace refid="namespacecart">cart</innernamespace>
+    <innernamespace refid="namespacecart_1_1apps">cart::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecart_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classcart_1_1apps_1_1CartConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcart_1_1apps_1_1CartConfig" kindref="compound">CartConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classcart_1_1apps_1_1CartConfig_1ab21e7ab6cd491ce213e7b6c0944cc6a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;cart&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/apps.py"/>
+  </compounddef>
+</doxygen>

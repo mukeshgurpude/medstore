@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1models_1_1MedCat" xml:lang="en-US">
+<title>medicines.models.MedCat Class Reference</title>
+<indexterm><primary>medicines.models.MedCat</primary></indexterm>
+Inheritance diagram for medicines.models.MedCat:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1MedCat__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.models.MedCat:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1MedCat__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1models_1_1MedCat_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1MedCat_1a576ed8fa4d37359d4e70e39d13cfdc7d">__str__</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1MedCat_1afe48fa4b2e47636a7e3bead744cdde27">objects</link> = models.Manager()</para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1models_1_1MedCat_1a05e751b8196267ceb2d02673dcd26abe">name</link> = models.CharField(max_length=20)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1models_1_1MedCat_1a576ed8fa4d37359d4e70e39d13cfdc7d"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>medicines.models.MedCat</secondary></indexterm>
+<indexterm><primary>medicines.models.MedCat</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>medicines.models.MedCat.__str__ ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1models_1_1MedCat_1a05e751b8196267ceb2d02673dcd26abe"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>medicines.models.MedCat</secondary></indexterm>
+<indexterm><primary>medicines.models.MedCat</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str medicines.models.MedCat.name = models.CharField(max_length=20)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1MedCat_1afe48fa4b2e47636a7e3bead744cdde27"/><section>
+    <title>objects</title>
+<indexterm><primary>objects</primary><secondary>medicines.models.MedCat</secondary></indexterm>
+<indexterm><primary>medicines.models.MedCat</primary><secondary>objects</secondary></indexterm>
+<para><computeroutput>medicines.models.MedCat.objects = models.Manager()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2models_8py">models.py</link></section>
+</section>

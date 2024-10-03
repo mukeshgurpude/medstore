@@ -1,0 +1,9 @@
+<map id="medical.sitemaps.StaticSitemap" name="medical.sitemaps.StaticSitemap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="64,133,289,219"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,137,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,80,146,132,142,135,102,83"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="161,5,192,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,71,179,117,174,117,174,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="283,5,313,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,72,283,92,271,111,259,124,255,120,267,108,278,90,287,70"/>
+</map>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1migrations_1_10001__initial_1_1Migration" xml:lang="en-US">
+<title>accounts.migrations.0001_initial.Migration Class Reference</title>
+<indexterm><primary>accounts.migrations.0001_initial.Migration</primary></indexterm>
+Inheritance diagram for accounts.migrations.0001_initial.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1migrations_1_10001__initial_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for accounts.migrations.0001_initial.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1migrations_1_10001__initial_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a856861c04ea27ca71b5f524b025f011d">initial</link> = True</para>
+</listitem>
+            <listitem><para>list <link linkend="_classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a059ce1e5810f58c7106c3b8a06e09f7d">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a458237a5f3816a469d5463955fec803b">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a059ce1e5810f58c7106c3b8a06e09f7d"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>accounts.migrations.0001_initial.Migration</secondary></indexterm>
+<indexterm><primary>accounts.migrations.0001_initial.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list accounts.migrations.0001_initial.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a856861c04ea27ca71b5f524b025f011d"/><section>
+    <title>initial</title>
+<indexterm><primary>initial</primary><secondary>accounts.migrations.0001_initial.Migration</secondary></indexterm>
+<indexterm><primary>accounts.migrations.0001_initial.Migration</primary><secondary>initial</secondary></indexterm>
+<para><computeroutput>bool accounts.migrations.0001_initial.Migration.initial = True<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a458237a5f3816a469d5463955fec803b"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>accounts.migrations.0001_initial.Migration</secondary></indexterm>
+<indexterm><primary>accounts.migrations.0001_initial.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list accounts.migrations.0001_initial.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.CreateModel(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;UserProfile&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;fields=[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;id&apos;</emphasis>,&#32;models.AutoField(auto_created=<emphasis role="keyword">True</emphasis>,&#32;primary_key=<emphasis role="keyword">True</emphasis>,&#32;serialize=<emphasis role="keyword">False</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;ID&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;gender&apos;</emphasis>,&#32;models.CharField(choices=[(<emphasis role="stringliteral">&apos;Male&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;Male&apos;</emphasis>),&#32;(<emphasis role="stringliteral">&apos;Female&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;Female&apos;</emphasis>),&#32;(<emphasis role="stringliteral">&apos;Prefer&#32;not&#32;to&#32;say&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;Prefer&#32;not&#32;to&#32;say&apos;</emphasis>)],&#32;max_length=50)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;phone&apos;</emphasis>,&#32;models.PositiveBigIntegerField(verbose_name=<emphasis role="stringliteral">&apos;Mobile&#32;Number&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;models.OneToOneField(on_delete=django.db.models.deletion.CASCADE,&#32;to=settings.AUTH_USER_MODEL)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;],
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.CreateModel(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;SellerProfile&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;fields=[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;id&apos;</emphasis>,&#32;models.AutoField(auto_created=<emphasis role="keyword">True</emphasis>,&#32;primary_key=<emphasis role="keyword">True</emphasis>,&#32;serialize=<emphasis role="keyword">False</emphasis>,&#32;verbose_name=<emphasis role="stringliteral">&apos;ID&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;store_name&apos;</emphasis>,&#32;models.CharField(help_text=<emphasis role="stringliteral">&apos;Your&#32;store&#32;name&apos;</emphasis>,&#32;max_length=20,&#32;verbose_name=<emphasis role="stringliteral">&apos;Store&#32;Name&apos;</emphasis>)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;address&apos;</emphasis>,&#32;models.TextField(help_text=<emphasis role="stringliteral">&apos;Your&#32;store&#32;address&apos;</emphasis>,&#32;max_length=40)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;pincode&apos;</emphasis>,&#32;models.IntegerField()),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;user&apos;</emphasis>,&#32;models.OneToOneField(on_delete=django.db.models.deletion.CASCADE,&#32;to=settings.AUTH_USER_MODEL)),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;],
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/<link linkend="_accounts_2migrations_20001__initial_8py">0001_initial.py</link></section>
+</section>

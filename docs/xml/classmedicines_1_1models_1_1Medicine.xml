@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1models_1_1Medicine" kind="class" language="Python" prot="public">
+    <compoundname>medicines::models::Medicine</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <innerclass refid="classmedicines_1_1models_1_1Medicine_1_1Meta" prot="public">medicines::models::Medicine::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1a8460c508d9e57885f16fe6a3e8b54787" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::objects</definition>
+        <argsstring></argsstring>
+        <name>objects</name>
+        <qualifiedname>medicines.models.Medicine.objects</qualifiedname>
+        <initializer>=  models.Manager()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>medicines.models.Medicine.name</qualifiedname>
+        <initializer>=  models.CharField(max_length=20)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="21" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1models_1_1MedCat_1a576ed8fa4d37359d4e70e39d13cfdc7d" compoundref="medicines_2models_8py" startline="12" endline="14">medicines.models.MedCat.__str__</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a" compoundref="medicines_2models_8py" startline="32" endline="34">medicines.models.Medicine.__str__</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1aef9a3d5ca2d752fc9180436d4c93f0c8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::category</definition>
+        <argsstring></argsstring>
+        <name>category</name>
+        <qualifiedname>medicines.models.Medicine.category</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classmedicines_1_1models_1_1MedCat" kindref="compound">MedCat</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="22" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1a71d924c863cd6aac41338c186c87533d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <qualifiedname>medicines.models.Medicine.price</qualifiedname>
+        <initializer>=  models.DecimalField(decimal_places=2, max_digits=5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1a93503a3fcbb8337f341f4f8b5ce1bda6" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::quantity</definition>
+        <argsstring></argsstring>
+        <name>quantity</name>
+        <qualifiedname>medicines.models.Medicine.quantity</qualifiedname>
+        <initializer>=  models.PositiveBigIntegerField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="24" bodyend="-1"/>
+        <referencedby refid="classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5" compoundref="cart_2models_8py" startline="21" endline="23">cart.models.CartItem.total_amount</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1ab72b65c16c665106cb4062bce97faf1f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::thumbnail</definition>
+        <argsstring></argsstring>
+        <name>thumbnail</name>
+        <qualifiedname>medicines.models.Medicine.thumbnail</qualifiedname>
+        <initializer>=  models.BinaryField(null=True, editable=True, blank=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="25" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1a7ff942bbfeedebcc5a6948f5c73716f2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::thumb_content_type</definition>
+        <argsstring></argsstring>
+        <name>thumb_content_type</name>
+        <qualifiedname>medicines.models.Medicine.thumb_content_type</qualifiedname>
+        <initializer>=  models.CharField(max_length=256, default=&apos;image/png&apos;, null=True,
+                                          blank=True, help_text=&quot;MIMEType for thumbnail&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1aae2d2df2bddcf3f785d6e3dd12498a3e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <qualifiedname>medicines.models.Medicine.description</qualifiedname>
+        <initializer>=  models.TextField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="28" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1ae7cb7a5159ae2cf633f7067bc433dae2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::owner</definition>
+        <argsstring></argsstring>
+        <name>owner</name>
+        <qualifiedname>medicines.models.Medicine.owner</qualifiedname>
+        <initializer>=  models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="29" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="29" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a909bcb7629b48b23ff0cd3801f3e92cb" compoundref="medicines_2models_8py" startline="46" endline="61">medicines.models.Medicine.as_json</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1afbb5fbd3a7b0fc89159c717bf6a64089" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::slug</definition>
+        <argsstring></argsstring>
+        <name>slug</name>
+        <qualifiedname>medicines.models.Medicine.slug</qualifiedname>
+        <initializer>=  models.SlugField(unique=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1Medicine_1a7282c3308edb3b7430777be52a60c888" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>medicines.models.Medicine::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>medicines.models.Medicine.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="52" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.models.Medicine.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>medicines.models.Medicine.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="32" bodyend="34"/>
+        <references refid="classaccounts_1_1apps_1_1AccountsConfig_1a9e969d7c54898f8c65335cd71aa1de77" compoundref="accounts_2apps_8py" startline="5">accounts.apps.AccountsConfig.name</references>
+        <references refid="classapi_1_1apps_1_1ApiConfig_1a52029db19a3cc09bd0d62a50d8044618" compoundref="api_2apps_8py" startline="5">api.apps.ApiConfig.name</references>
+        <references refid="classcart_1_1apps_1_1CartConfig_1ab21e7ab6cd491ce213e7b6c0944cc6a6" compoundref="cart_2apps_8py" startline="5">cart.apps.CartConfig.name</references>
+        <references refid="classcheckout_1_1apps_1_1CheckoutConfig_1ac952a16a89929e5dd18d7f40e579e0c1" compoundref="checkout_2apps_8py" startline="5">checkout.apps.CheckoutConfig.name</references>
+        <references refid="classhome_1_1apps_1_1HomeConfig_1a2ede7dba5e475c9236f80f231225c037" compoundref="home_2apps_8py" startline="5">home.apps.HomeConfig.name</references>
+        <references refid="classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947" compoundref="medicines_2apps_8py" startline="5">medicines.apps.MedicinesConfig.name</references>
+        <references refid="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" compoundref="filters_8py" startline="8">medicines.filters.ProductFilter.name</references>
+        <references refid="classmedicines_1_1models_1_1MedCat_1a05e751b8196267ceb2d02673dcd26abe" compoundref="medicines_2models_8py" startline="10">medicines.models.MedCat.name</references>
+        <references refid="classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4" compoundref="medicines_2models_8py" startline="21">medicines.models.Medicine.name</references>
+      </memberdef>
+      <memberdef kind="function" id="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.models.Medicine.save</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>save</name>
+        <qualifiedname>medicines.models.Medicine.save</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="38" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="38" bodyend="44"/>
+        <references refid="classmedicines_1_1models_1_1Medicine_1aef9a3d5ca2d752fc9180436d4c93f0c8" compoundref="medicines_2models_8py" startline="22">medicines.models.Medicine.category</references>
+        <references refid="classaccounts_1_1apps_1_1AccountsConfig_1a9e969d7c54898f8c65335cd71aa1de77" compoundref="accounts_2apps_8py" startline="5">accounts.apps.AccountsConfig.name</references>
+        <references refid="classapi_1_1apps_1_1ApiConfig_1a52029db19a3cc09bd0d62a50d8044618" compoundref="api_2apps_8py" startline="5">api.apps.ApiConfig.name</references>
+        <references refid="classcart_1_1apps_1_1CartConfig_1ab21e7ab6cd491ce213e7b6c0944cc6a6" compoundref="cart_2apps_8py" startline="5">cart.apps.CartConfig.name</references>
+        <references refid="classcheckout_1_1apps_1_1CheckoutConfig_1ac952a16a89929e5dd18d7f40e579e0c1" compoundref="checkout_2apps_8py" startline="5">checkout.apps.CheckoutConfig.name</references>
+        <references refid="classhome_1_1apps_1_1HomeConfig_1a2ede7dba5e475c9236f80f231225c037" compoundref="home_2apps_8py" startline="5">home.apps.HomeConfig.name</references>
+        <references refid="classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947" compoundref="medicines_2apps_8py" startline="5">medicines.apps.MedicinesConfig.name</references>
+        <references refid="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" compoundref="filters_8py" startline="8">medicines.filters.ProductFilter.name</references>
+        <references refid="classmedicines_1_1models_1_1MedCat_1a05e751b8196267ceb2d02673dcd26abe" compoundref="medicines_2models_8py" startline="10">medicines.models.MedCat.name</references>
+        <references refid="classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4" compoundref="medicines_2models_8py" startline="21">medicines.models.Medicine.name</references>
+        <references refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</references>
+        <references refid="classmedicines_1_1models_1_1Medicine_1afbb5fbd3a7b0fc89159c717bf6a64089" compoundref="medicines_2models_8py" startline="30">medicines.models.Medicine.slug</references>
+        <referencedby refid="classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0" compoundref="cart_2models_8py" startline="56" endline="61">cart.models.Order.order_now</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmedicines_1_1models_1_1Medicine_1a909bcb7629b48b23ff0cd3801f3e92cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.models.Medicine.as_json</definition>
+        <argsstring>(self)</argsstring>
+        <name>as_json</name>
+        <qualifiedname>medicines.models.Medicine.as_json</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="46" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="46" bodyend="61"/>
+        <references refid="classmedicines_1_1models_1_1Medicine_1ae7cb7a5159ae2cf633f7067bc433dae2" compoundref="medicines_2models_8py" startline="29">medicines.models.Medicine.owner</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>medicines.models.Medicine</label>
+        <link refid="classmedicines_1_1models_1_1Medicine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>medicines.models.Medicine</label>
+        <link refid="classmedicines_1_1models_1_1Medicine"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="19" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>__str__</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a909bcb7629b48b23ff0cd3801f3e92cb" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>as_json</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1aef9a3d5ca2d752fc9180436d4c93f0c8" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>category</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1aae2d2df2bddcf3f785d6e3dd12498a3e" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>description</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a7282c3308edb3b7430777be52a60c888" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>id</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>name</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a8460c508d9e57885f16fe6a3e8b54787" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>objects</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1ae7cb7a5159ae2cf633f7067bc433dae2" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>owner</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a71d924c863cd6aac41338c186c87533d" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>price</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a93503a3fcbb8337f341f4f8b5ce1bda6" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>quantity</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>save</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1afbb5fbd3a7b0fc89159c717bf6a64089" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>slug</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1a7ff942bbfeedebcc5a6948f5c73716f2" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>thumb_content_type</name></member>
+      <member refid="classmedicines_1_1models_1_1Medicine_1ab72b65c16c665106cb4062bce97faf1f" prot="public" virt="non-virtual"><scope>medicines::models::Medicine</scope><name>thumbnail</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

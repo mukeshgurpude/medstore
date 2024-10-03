@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaccounts" kind="namespace" language="Python">
+    <compoundname>accounts</compoundname>
+    <innernamespace refid="namespaceaccounts_1_1admin">accounts::admin</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1apps">accounts::apps</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1forms">accounts::forms</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1migrations">accounts::migrations</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1models">accounts::models</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1sitemaps">accounts::sitemaps</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1tests">accounts::tests</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1urls">accounts::urls</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1views">accounts::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

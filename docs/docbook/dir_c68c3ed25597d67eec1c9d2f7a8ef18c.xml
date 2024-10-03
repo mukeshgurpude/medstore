@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_c68c3ed25597d67eec1c9d2f7a8ef18c" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api Directory Reference</primary></indexterm>
+Directory dependency graph for api:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_c68c3ed25597d67eec1c9d2f7a8ef18c_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_2130e4e70f58b767695a6de3a912ecb8">fixtures</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_59c060d381949ebab674e1ceb84a0c97">migrations</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_fe794dc4b20f30bb8741495bd3be8b71">tests</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_091cfd26a58e4603a5a964d3d2aecae1">views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_api_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_api_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_decorators_8py">decorators.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_api_2urls_8py">urls.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

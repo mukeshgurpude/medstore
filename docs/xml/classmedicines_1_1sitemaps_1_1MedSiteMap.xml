@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1sitemaps_1_1MedSiteMap" kind="class" language="Python" prot="public">
+    <compoundname>medicines::sitemaps::MedSiteMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Sitemap</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1sitemaps_1_1MedSiteMap_1a8b58e26e2a135275ab9f050de494ec0d" prot="public" static="yes" mutable="no">
+        <type>float</type>
+        <definition>float medicines.sitemaps.MedSiteMap::priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <qualifiedname>medicines.sitemaps.MedSiteMap.priority</qualifiedname>
+        <initializer>=  0.9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1sitemaps_1_1MedSiteMap_1a5b43bd0e3a91a69a7c93c98d4a145315" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.sitemaps.MedSiteMap::changefreq</definition>
+        <argsstring></argsstring>
+        <name>changefreq</name>
+        <qualifiedname>medicines.sitemaps.MedSiteMap.changefreq</qualifiedname>
+        <initializer>=  &quot;daily&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.sitemaps.MedSiteMap.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>medicines.sitemaps.MedSiteMap.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" bodystart="16" bodyend="18"/>
+        <referencedby refid="classcart_1_1models_1_1Order_1ad8f1226c6c88883e5951e8f460e519a9" compoundref="cart_2models_8py" startline="51" endline="55">cart.models.Order.as_json</referencedby>
+        <referencedby refid="classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0" compoundref="cart_2models_8py" startline="56" endline="61">cart.models.Order.order_now</referencedby>
+        <referencedby refid="classcart_1_1models_1_1Order_1ab1012bf94977246d12aff3ee6eb3b0d8" compoundref="cart_2models_8py" startline="45" endline="49">cart.models.Order.order_total</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.sitemaps.MedSiteMap.location</definition>
+        <argsstring>(self, obj)</argsstring>
+        <name>location</name>
+        <qualifiedname>medicines.sitemaps.MedSiteMap.location</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>obj</type>
+          <defname>obj</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" bodystart="19" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Class to wrap up dynamic urls for medicines
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Sitemap</label>
+      </node>
+      <node id="1">
+        <label>medicines.sitemaps.MedSiteMap</label>
+        <link refid="classmedicines_1_1sitemaps_1_1MedSiteMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Sitemap</label>
+      </node>
+      <node id="3">
+        <label>float</label>
+      </node>
+      <node id="1">
+        <label>medicines.sitemaps.MedSiteMap</label>
+        <link refid="classmedicines_1_1sitemaps_1_1MedSiteMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+priority</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+changefreq</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py" bodystart="9" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a5b43bd0e3a91a69a7c93c98d4a145315" prot="public" virt="non-virtual"><scope>medicines::sitemaps::MedSiteMap</scope><name>changefreq</name></member>
+      <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59" prot="public" virt="non-virtual"><scope>medicines::sitemaps::MedSiteMap</scope><name>items</name></member>
+      <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e" prot="public" virt="non-virtual"><scope>medicines::sitemaps::MedSiteMap</scope><name>location</name></member>
+      <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a8b58e26e2a135275ab9f050de494ec0d" prot="public" virt="non-virtual"><scope>medicines::sitemaps::MedSiteMap</scope><name>priority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1models_1_1MedCat_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>medicines::models::MedCat::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1models_1_1MedCat_1_1Meta_1a77d7ecfec222c2cbe5ecac8e156df1e8" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.models.MedCat.Meta::verbose_name</definition>
+        <argsstring></argsstring>
+        <name>verbose_name</name>
+        <qualifiedname>medicines.models.MedCat.Meta.verbose_name</qualifiedname>
+        <initializer>=  &quot;Medicine Category&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>medicines.models.MedCat.Meta</label>
+        <link refid="classmedicines_1_1models_1_1MedCat_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+verbose_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/models.py" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1models_1_1MedCat_1_1Meta_1a77d7ecfec222c2cbe5ecac8e156df1e8" prot="public" virt="non-virtual"><scope>medicines::models::MedCat::Meta</scope><name>verbose_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

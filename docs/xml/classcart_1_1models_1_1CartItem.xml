@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcart_1_1models_1_1CartItem" kind="class" language="Python" prot="public">
+    <compoundname>cart::models::CartItem</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1a9610997c28438d09f56604ef4abd181f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::objects</definition>
+        <argsstring></argsstring>
+        <name>objects</name>
+        <qualifiedname>cart.models.CartItem.objects</qualifiedname>
+        <initializer>=  models.Manager()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>cart.models.CartItem.user</qualifiedname>
+        <initializer>=  models.ForeignKey(user, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6" compoundref="accounts_2models_8py" startline="14" endline="16">accounts.models.UserProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" compoundref="accounts_2models_8py" startline="33" endline="35">accounts.models.SellerProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b" compoundref="accounts_2models_8py" startline="17" endline="25">accounts.models.UserProfile.full_name</referencedby>
+        <referencedby refid="classapi_1_1views_1_1auth_1_1APISignupView_1a5def6e2e1a27685b2afa199e47c7acea" compoundref="auth_8py" startline="182" endline="200">api.views.auth.APISignupView.post</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba" compoundref="test__auth_8py" startline="149" endline="152">api.tests.test_auth.TestSellerViews.setUp</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71" compoundref="test__cart_8py" startline="64" endline="67">api.tests.test_cart.TestCart.test_add_new_to_cart</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b" compoundref="test__cart_8py" startline="43" endline="63">api.tests.test_cart.TestCart.test_cart_full_update</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7" compoundref="test__cart_8py" startline="36" endline="42">api.tests.test_cart.TestCart.test_cart_increase</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" compoundref="test__cart_8py" startline="26" endline="35">api.tests.test_cart.TestCart.test_cart_list</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" compoundref="test__auth_8py" startline="43" endline="54">api.tests.test_auth.ProfileTestCase.test_get_user</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" compoundref="test__auth_8py" startline="70" endline="89">api.tests.test_auth.ProfileTestCase.test_post_output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1ab2d00491e59e540e77b41cf27e4452fe" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <qualifiedname>cart.models.CartItem.item</qualifiedname>
+        <initializer>=  models.ForeignKey(<ref refid="classmedicines_1_1models_1_1Medicine" kindref="compound">Medicine</ref>, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5" compoundref="cart_2models_8py" startline="21" endline="23">cart.models.CartItem.total_amount</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1a8c2fd79e60110a9025352fe94b60c48f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::quantity</definition>
+        <argsstring></argsstring>
+        <name>quantity</name>
+        <qualifiedname>cart.models.CartItem.quantity</qualifiedname>
+        <initializer>=  models.PositiveIntegerField(default=1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5" compoundref="cart_2models_8py" startline="21" endline="23">cart.models.CartItem.total_amount</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1a6623ff1633433dc5a1f91c97459bd0af" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::created</definition>
+        <argsstring></argsstring>
+        <name>created</name>
+        <qualifiedname>cart.models.CartItem.created</qualifiedname>
+        <initializer>=  models.DateTimeField(auto_now_add=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1a3fef29da7b875a13f4707926bee27034" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::purchased</definition>
+        <argsstring></argsstring>
+        <name>purchased</name>
+        <qualifiedname>cart.models.CartItem.purchased</qualifiedname>
+        <initializer>=  models.BooleanField(default=False)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcart_1_1models_1_1CartItem_1a1e60b947e0660c8b2aae2f2533a20c2b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cart.models.CartItem::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>cart.models.CartItem.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcart_1_1models_1_1CartItem_1aefa4415b8fb545535ab6a3d615b0c58c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.models.CartItem.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>cart.models.CartItem.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.models.CartItem.total_amount</definition>
+        <argsstring>(self)</argsstring>
+        <name>total_amount</name>
+        <qualifiedname>cart.models.CartItem.total_amount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="21" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="21" bodyend="23"/>
+        <references refid="classcart_1_1models_1_1CartItem_1ab2d00491e59e540e77b41cf27e4452fe" compoundref="cart_2models_8py" startline="13">cart.models.CartItem.item</references>
+        <references refid="classcart_1_1models_1_1CartItem_1a8c2fd79e60110a9025352fe94b60c48f" compoundref="cart_2models_8py" startline="14">cart.models.CartItem.quantity</references>
+        <references refid="classmedicines_1_1models_1_1Medicine_1a93503a3fcbb8337f341f4f8b5ce1bda6" compoundref="medicines_2models_8py" startline="24">medicines.models.Medicine.quantity</references>
+      </memberdef>
+      <memberdef kind="function" id="classcart_1_1models_1_1CartItem_1a0618d9c3fc5c98c1cf32312bec2b557d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.models.CartItem.as_json</definition>
+        <argsstring>(self)</argsstring>
+        <name>as_json</name>
+        <qualifiedname>cart.models.CartItem.as_json</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="25" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="25" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>cart.models.CartItem</label>
+        <link refid="classcart_1_1models_1_1CartItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>cart.models.CartItem</label>
+        <link refid="classcart_1_1models_1_1CartItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classcart_1_1models_1_1CartItem_1aefa4415b8fb545535ab6a3d615b0c58c" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>__str__</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1a0618d9c3fc5c98c1cf32312bec2b557d" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>as_json</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1a6623ff1633433dc5a1f91c97459bd0af" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>created</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1a1e60b947e0660c8b2aae2f2533a20c2b" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>id</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1ab2d00491e59e540e77b41cf27e4452fe" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>item</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1a9610997c28438d09f56604ef4abd181f" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>objects</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1a3fef29da7b875a13f4707926bee27034" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>purchased</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1a8c2fd79e60110a9025352fe94b60c48f" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>quantity</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>total_amount</name></member>
+      <member refid="classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1" prot="public" virt="non-virtual"><scope>cart::models::CartItem</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

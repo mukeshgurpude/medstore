@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedicines_1_1humanize" kind="namespace" language="Python">
+    <compoundname>medicines::humanize</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemedicines_1_1humanize_1af0066b2dec729ba753d06792b9dcb2fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.humanize.naturalsize</definition>
+        <argsstring>(count)</argsstring>
+        <name>naturalsize</name>
+        <qualifiedname>medicines.humanize.naturalsize</qualifiedname>
+        <param>
+          <type>count</type>
+          <defname>count</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/humanize.py" line="2" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/humanize.py" bodystart="2" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/humanize.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

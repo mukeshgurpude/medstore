@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase" kind="class" language="Python" prot="public">
+    <compoundname>api::tests::test_auth::ProfileTestCase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aea8f091fb8f0336d547f7fb4d3b8da13" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase::failureException</definition>
+        <argsstring></argsstring>
+        <name>failureException</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.failureException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1acc1be88c7733a72f9e7df4acec0b21f9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase::longMessage</definition>
+        <argsstring></argsstring>
+        <name>longMessage</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.longMessage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1af1440e9c26c304f73ef759713f420fac" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase::res</definition>
+        <argsstring></argsstring>
+        <name>res</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.res</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="33" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="33" bodyend="-1"/>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a711dcae02e93bff28caec1a3d7d10b55" compoundref="test__auth_8py" startline="56" endline="68">api.tests.test_auth.ProfileTestCase.test_get_output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.user</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="39" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6" compoundref="accounts_2models_8py" startline="14" endline="16">accounts.models.UserProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" compoundref="accounts_2models_8py" startline="33" endline="35">accounts.models.SellerProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b" compoundref="accounts_2models_8py" startline="17" endline="25">accounts.models.UserProfile.full_name</referencedby>
+        <referencedby refid="classapi_1_1views_1_1auth_1_1APISignupView_1a5def6e2e1a27685b2afa199e47c7acea" compoundref="auth_8py" startline="182" endline="200">api.views.auth.APISignupView.post</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba" compoundref="test__auth_8py" startline="149" endline="152">api.tests.test_auth.TestSellerViews.setUp</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71" compoundref="test__cart_8py" startline="64" endline="67">api.tests.test_cart.TestCart.test_add_new_to_cart</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b" compoundref="test__cart_8py" startline="43" endline="63">api.tests.test_cart.TestCart.test_cart_full_update</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7" compoundref="test__cart_8py" startline="36" endline="42">api.tests.test_cart.TestCart.test_cart_increase</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" compoundref="test__cart_8py" startline="26" endline="35">api.tests.test_cart.TestCart.test_cart_list</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" compoundref="test__auth_8py" startline="43" endline="54">api.tests.test_auth.ProfileTestCase.test_get_user</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" compoundref="test__auth_8py" startline="70" endline="89">api.tests.test_auth.ProfileTestCase.test_post_output</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase.__init__</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="29" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="29" bodyend="34"/>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3" compoundref="test__auth_8py" startline="29" endline="34">api.tests.test_auth.ProfileTestCase.__init__</references>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3" compoundref="test__auth_8py" startline="29" endline="34">api.tests.test_auth.ProfileTestCase.__init__</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a316293bd13b94fb94c1596702c4b7584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None api.tests.test_auth.ProfileTestCase.setUp</definition>
+        <argsstring>(self)</argsstring>
+        <name>setUp</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.setUp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Setup the test user, and log in with the test user to access the profile page
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="35" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="35" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase.test_get_user</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_user</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.test_get_user</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tests if logged in user is returned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="43" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="43" bodyend="54"/>
+        <references refid="classaccounts_1_1models_1_1UserProfile_1aa816d168487d05f0f8597b8993e0ee28" compoundref="accounts_2models_8py" startline="7">accounts.models.UserProfile.user</references>
+        <references refid="classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439" compoundref="accounts_2models_8py" startline="27">accounts.models.SellerProfile.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8" compoundref="test__auth_8py" startline="39">api.tests.test_auth.ProfileTestCase.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a2940006371a359edcd94655225be159a" compoundref="test__auth_8py" startline="92">api.tests.test_auth.TestLoginLogout.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1aa234f44033cc28ab8a256fb9a5db073e" compoundref="test__auth_8py" startline="180">api.tests.test_auth.TestSellerViews.user</references>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a4b584dd2fa2729f2b73609ab72b02877" compoundref="test__cart_8py" startline="17">api.tests.test_cart.TestCart.user</references>
+        <references refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a99846d5a24048e86eb268dc4e805fff1" compoundref="test__medicine_8py" startline="24">api.tests.test_medicine.TestMedViews.user</references>
+        <references refid="classapi_1_1views_1_1auth_1_1APISignupView_1a6786b950bfa8b2b56a961dc84d124e0c" compoundref="auth_8py" startline="175">api.views.auth.APISignupView.user</references>
+        <references refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1ad2e4bf09a75526d5a744e554e2e59210" compoundref="medicine_8py" startline="93">api.views.medicine.APIDetailView.user</references>
+        <references refid="classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1" compoundref="cart_2models_8py" startline="12">cart.models.CartItem.user</references>
+        <references refid="classcart_1_1models_1_1Order_1a289bd0f28892db5ad74d0fc64e95981c" compoundref="cart_2models_8py" startline="32">cart.models.Order.user</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" compoundref="checkout_2models_8py" startline="7">checkout.models.BillingAddress.user</references>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a711dcae02e93bff28caec1a3d7d10b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase.test_get_output</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_output</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.test_get_output</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    Tests if the GET requests to profile are working and also returning the correct response
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="56" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="56" bodyend="68"/>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1af1440e9c26c304f73ef759713f420fac" compoundref="test__auth_8py" startline="33">api.tests.test_auth.ProfileTestCase.res</references>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_auth.ProfileTestCase.test_post_output</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_post_output</name>
+        <qualifiedname>api.tests.test_auth.ProfileTestCase.test_post_output</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Tests if the POST requests to profile are working and also returning the correct response
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="70" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="70" bodyend="89"/>
+        <references refid="classaccounts_1_1models_1_1UserProfile_1aa816d168487d05f0f8597b8993e0ee28" compoundref="accounts_2models_8py" startline="7">accounts.models.UserProfile.user</references>
+        <references refid="classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439" compoundref="accounts_2models_8py" startline="27">accounts.models.SellerProfile.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8" compoundref="test__auth_8py" startline="39">api.tests.test_auth.ProfileTestCase.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a2940006371a359edcd94655225be159a" compoundref="test__auth_8py" startline="92">api.tests.test_auth.TestLoginLogout.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1aa234f44033cc28ab8a256fb9a5db073e" compoundref="test__auth_8py" startline="180">api.tests.test_auth.TestSellerViews.user</references>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a4b584dd2fa2729f2b73609ab72b02877" compoundref="test__cart_8py" startline="17">api.tests.test_cart.TestCart.user</references>
+        <references refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a99846d5a24048e86eb268dc4e805fff1" compoundref="test__medicine_8py" startline="24">api.tests.test_medicine.TestMedViews.user</references>
+        <references refid="classapi_1_1views_1_1auth_1_1APISignupView_1a6786b950bfa8b2b56a961dc84d124e0c" compoundref="auth_8py" startline="175">api.views.auth.APISignupView.user</references>
+        <references refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1ad2e4bf09a75526d5a744e554e2e59210" compoundref="medicine_8py" startline="93">api.views.medicine.APIDetailView.user</references>
+        <references refid="classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1" compoundref="cart_2models_8py" startline="12">cart.models.CartItem.user</references>
+        <references refid="classcart_1_1models_1_1Order_1a289bd0f28892db5ad74d0fc64e95981c" compoundref="cart_2models_8py" startline="32">cart.models.Order.user</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" compoundref="checkout_2models_8py" startline="7">checkout.models.BillingAddress.user</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.tests.test_auth.ProfileTestCase</label>
+        <link refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.tests.test_auth.ProfileTestCase</label>
+        <link refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="28" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" bodystart="28" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>__init__</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aea8f091fb8f0336d547f7fb4d3b8da13" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>failureException</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1acc1be88c7733a72f9e7df4acec0b21f9" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>longMessage</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1af1440e9c26c304f73ef759713f420fac" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>res</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a316293bd13b94fb94c1596702c4b7584" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>setUp</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a711dcae02e93bff28caec1a3d7d10b55" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>test_get_output</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>test_get_user</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>test_post_output</name></member>
+      <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8" prot="public" virt="non-virtual"><scope>api::tests::test_auth::ProfileTestCase</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
