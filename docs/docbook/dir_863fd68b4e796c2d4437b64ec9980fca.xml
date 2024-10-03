@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_863fd68b4e796c2d4437b64ec9980fca" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home Directory Reference</primary></indexterm>
+Directory dependency graph for home:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_863fd68b4e796c2d4437b64ec9980fca_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_af8b8129a5f2c31a3c01a13a4f302fc1">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_home_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_home_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_home_2forms_8py">forms.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_home_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_home_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_home_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

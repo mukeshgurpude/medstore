@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacehome_1_1urls" kind="namespace" language="Python">
+    <compoundname>home::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacehome_1_1urls_1ab827e9f9f3471e545f9842560ca48c76" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str home::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>home.urls.app_name</qualifiedname>
+        <initializer>=  &apos;home&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/urls.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/urls.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacehome_1_1urls_1a7a32da8728aa97f3811ad59693728274" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list home::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>home.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&quot;&quot;, HomeView.as_view(), name=&apos;home&apos;),
+    path(r&apos;service-worker.js&apos;, (TemplateView.as_view(
+        template_name=&quot;sw.js&quot;,
+        content_type=&apos;application/javascript&apos;,
+    )), name=&apos;service-worker.js&apos;)
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/urls.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/urls.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

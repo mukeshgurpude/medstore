@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacehome_1_1urls" xml:lang="en-US">
+<title>home.urls Namespace Reference</title>
+<indexterm><primary>home.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacehome_1_1urls_1ab827e9f9f3471e545f9842560ca48c76">app_name</link> = &apos;home&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacehome_1_1urls_1a7a32da8728aa97f3811ad59693728274">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacehome_1_1urls_1ab827e9f9f3471e545f9842560ca48c76"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>home.urls</secondary></indexterm>
+<indexterm><primary>home.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str home.urls.app_name = &apos;home&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacehome_1_1urls_1a7a32da8728aa97f3811ad59693728274"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>home.urls</secondary></indexterm>
+<indexterm><primary>home.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list home.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;HomeView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;home&apos;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">r&apos;service-worker.js&apos;</emphasis>,&#32;(TemplateView.as_view(
+4 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;template_name=<emphasis role="stringliteral">&quot;sw.js&quot;</emphasis>,
+5 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;content_type=<emphasis role="stringliteral">&apos;application/javascript&apos;</emphasis>,
+6 &#32;&#32;&#32;&#32;)),&#32;name=<emphasis role="stringliteral">&apos;service-worker.js&apos;</emphasis>)
+7 ]
+</programlisting></section>
+</section>
+</section>

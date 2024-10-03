@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecart" kind="namespace" language="Python">
+    <compoundname>cart</compoundname>
+    <innernamespace refid="namespacecart_1_1admin">cart::admin</innernamespace>
+    <innernamespace refid="namespacecart_1_1apps">cart::apps</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations">cart::migrations</innernamespace>
+    <innernamespace refid="namespacecart_1_1models">cart::models</innernamespace>
+    <innernamespace refid="namespacecart_1_1tests">cart::tests</innernamespace>
+    <innernamespace refid="namespacecart_1_1urls">cart::urls</innernamespace>
+    <innernamespace refid="namespacecart_1_1views">cart::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical_1_1asgi" xml:lang="en-US">
+<title>medical.asgi Namespace Reference</title>
+<indexterm><primary>medical.asgi</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemedical_1_1asgi_1a1f6f5120d8893360bca3ab645f55c30e">application</link> = get_asgi_application()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>ASGI config for medical project.
+
+It exposes the ASGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemedical_1_1asgi_1a1f6f5120d8893360bca3ab645f55c30e"/><section>
+    <title>application</title>
+<indexterm><primary>application</primary><secondary>medical.asgi</secondary></indexterm>
+<indexterm><primary>medical.asgi</primary><secondary>application</secondary></indexterm>
+<para><computeroutput>medical.asgi.application = get_asgi_application()</computeroutput></para></section>
+</section>
+</section>

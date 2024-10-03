@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1forms_1_1CreateForm" xml:lang="en-US">
+<title>medicines.forms.CreateForm Class Reference</title>
+<indexterm><primary>medicines.forms.CreateForm</primary></indexterm>
+Inheritance diagram for medicines.forms.CreateForm:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1forms_1_1CreateForm__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.forms.CreateForm:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1forms_1_1CreateForm__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1forms_1_1CreateForm_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c">clean</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14">save</link> (self, commit=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8">max_upload_limit</link> = 2 * 1024 * 1024</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9">max_upload_limit_text</link> = naturalsize(<link linkend="_classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8">max_upload_limit</link>)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1forms_1_1CreateForm_1a43e189cd05c4e6d47768d79ddf65b7f9">thumbnail</link> = forms.FileField(required=False, label=&apos;Thumbnail to Upload &lt;= &apos; + <link linkend="_classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9">max_upload_limit_text</link>)</para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1forms_1_1CreateForm_1ace75aa6d7c445e3f0f07666f7245d6c8">upload_field_name</link> = &apos;picture&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c"/><section>
+    <title>clean()</title>
+<indexterm><primary>clean</primary><secondary>medicines.forms.CreateForm</secondary></indexterm>
+<indexterm><primary>medicines.forms.CreateForm</primary><secondary>clean</secondary></indexterm>
+<para><computeroutput>medicines.forms.CreateForm.clean ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1forms_1_1CreateForm_a06333ec80ec1981fdb048c0cc425627c_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1forms_1_1CreateForm_a06333ec80ec1981fdb048c0cc425627c_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14"/><section>
+    <title>save()</title>
+<indexterm><primary>save</primary><secondary>medicines.forms.CreateForm</secondary></indexterm>
+<indexterm><primary>medicines.forms.CreateForm</primary><secondary>save</secondary></indexterm>
+<para><computeroutput>medicines.forms.CreateForm.save ( self,  commit = <computeroutput>True</computeroutput>
+)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1forms_1_1CreateForm_aa12f63c5541574a47d4e23b30c78be14_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1forms_1_1CreateForm_aa12f63c5541574a47d4e23b30c78be14_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8"/><section>
+    <title>max_upload_limit</title>
+<indexterm><primary>max_upload_limit</primary><secondary>medicines.forms.CreateForm</secondary></indexterm>
+<indexterm><primary>medicines.forms.CreateForm</primary><secondary>max_upload_limit</secondary></indexterm>
+<para><computeroutput>int medicines.forms.CreateForm.max_upload_limit = 2 * 1024 * 1024<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9"/><section>
+    <title>max_upload_limit_text</title>
+<indexterm><primary>max_upload_limit_text</primary><secondary>medicines.forms.CreateForm</secondary></indexterm>
+<indexterm><primary>medicines.forms.CreateForm</primary><secondary>max_upload_limit_text</secondary></indexterm>
+<para><computeroutput>medicines.forms.CreateForm.max_upload_limit_text = naturalsize(<link linkend="_classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8">max_upload_limit</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1forms_1_1CreateForm_1a43e189cd05c4e6d47768d79ddf65b7f9"/><section>
+    <title>thumbnail</title>
+<indexterm><primary>thumbnail</primary><secondary>medicines.forms.CreateForm</secondary></indexterm>
+<indexterm><primary>medicines.forms.CreateForm</primary><secondary>thumbnail</secondary></indexterm>
+<para><computeroutput>medicines.forms.CreateForm.thumbnail = forms.FileField(required=False, label=&apos;Thumbnail to Upload &lt;= &apos; + <link linkend="_classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9">max_upload_limit_text</link>)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1forms_1_1CreateForm_1ace75aa6d7c445e3f0f07666f7245d6c8"/><section>
+    <title>upload_field_name</title>
+<indexterm><primary>upload_field_name</primary><secondary>medicines.forms.CreateForm</secondary></indexterm>
+<indexterm><primary>medicines.forms.CreateForm</primary><secondary>upload_field_name</secondary></indexterm>
+<para><computeroutput>str medicines.forms.CreateForm.upload_field_name = &apos;picture&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2forms_8py">forms.py</link></section>
+</section>

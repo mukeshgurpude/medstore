@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1auth_1_1APILoginView" kind="class" language="Python" prot="public">
+    <compoundname>api::views::auth::APILoginView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1auth_1_1APILoginView_1adb29801a87e909477b8a7eef6f82d138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.auth.APILoginView.get</definition>
+        <argsstring>(self, HttpRequest request)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.auth.APILoginView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="138" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="138" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1auth_1_1APILoginView_1a46b7781e2baa756a8720c0beb22e7510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.auth.APILoginView.post</definition>
+        <argsstring>(self, HttpRequest request)</argsstring>
+        <name>post</name>
+        <qualifiedname>api.views.auth.APILoginView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="143" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="143" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.auth.APILoginView</label>
+        <link refid="classapi_1_1views_1_1auth_1_1APILoginView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.auth.APILoginView</label>
+        <link refid="classapi_1_1views_1_1auth_1_1APILoginView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="137" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="137" bodyend="154"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1auth_1_1APILoginView_1adb29801a87e909477b8a7eef6f82d138" prot="public" virt="non-virtual"><scope>api::views::auth::APILoginView</scope><name>get</name></member>
+      <member refid="classapi_1_1views_1_1auth_1_1APILoginView_1a46b7781e2baa756a8720c0beb22e7510" prot="public" virt="non-virtual"><scope>api::views::auth::APILoginView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

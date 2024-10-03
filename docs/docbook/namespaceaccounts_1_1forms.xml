@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceaccounts_1_1forms" xml:lang="en-US">
+<title>accounts.forms Namespace Reference</title>
+<indexterm><primary>accounts.forms</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classaccounts_1_1forms_1_1ProfileForm">ProfileForm</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classaccounts_1_1forms_1_1SellerForm">SellerForm</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classaccounts_1_1forms_1_1UserForm">UserForm</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

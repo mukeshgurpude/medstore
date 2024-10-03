@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="owner_8py" kind="file" language="Python">
+    <compoundname>owner.py</compoundname>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerListView" prot="public">medicines::owner::OwnerListView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerCreateView" prot="public">medicines::owner::OwnerCreateView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerDetailView" prot="public">medicines::owner::OwnerDetailView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerUpdateView" prot="public">medicines::owner::OwnerUpdateView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerDeleteView" prot="public">medicines::owner::OwnerDeleteView</innerclass>
+    <innernamespace refid="namespacemedicines">medicines</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1owner">medicines::owner</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedicines_1_1owner" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>generic</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.mixins<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>LoginRequiredMixin</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classmedicines_1_1owner_1_1OwnerListView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerListView" kindref="compound">OwnerListView</ref>(generic.ListView):</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classmedicines_1_1owner_1_1OwnerCreateView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerCreateView" kindref="compound">OwnerCreateView</ref>(LoginRequiredMixin,<sp/>generic.CreateView):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classmedicines_1_1owner_1_1OwnerCreateView_1a8a966a16e46d4de6b4fe303709bda2f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerCreateView_1a8a966a16e46d4de6b4fe303709bda2f2" kindref="member">form_valid</ref>(self,<sp/>form):</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>form_object<sp/>=<sp/>form.save(commit=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>form_object.owner<sp/>=<sp/>self.request.user</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>form_object.save()</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>super(OwnerCreateView,<sp/>self).<ref refid="classmedicines_1_1owner_1_1OwnerCreateView_1a8a966a16e46d4de6b4fe303709bda2f2" kindref="member">form_valid</ref>(form)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classmedicines_1_1owner_1_1OwnerDetailView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerDetailView" kindref="compound">OwnerDetailView</ref>(generic.DetailView):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classmedicines_1_1owner_1_1OwnerUpdateView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">OwnerUpdateView(LoginRequiredMixin,<sp/>generic.UpdateView):</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" kindref="member">get_queryset</ref>(self):</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>qs<sp/>=<sp/>super(OwnerUpdateView,<sp/>self).<ref refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" kindref="member">get_queryset</ref>()</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>qs.filter(owner=self.request.user)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classmedicines_1_1owner_1_1OwnerDeleteView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerDeleteView" kindref="compound">OwnerDeleteView</ref>(LoginRequiredMixin,<sp/>generic.DeleteView):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944" kindref="member">get_queryset</ref>(self):</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>super(OwnerDeleteView,<sp/>self).<ref refid="classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944" kindref="member">get_queryset</ref>().filter(owner=self.request.user)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py"/>
+  </compounddef>
+</doxygen>

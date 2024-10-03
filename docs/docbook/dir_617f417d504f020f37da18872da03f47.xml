@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_617f417d504f020f37da18872da03f47" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical Directory Reference</primary></indexterm>
+Directory dependency graph for medical:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_617f417d504f020f37da18872da03f47_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_medical_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_asgi_8py">asgi.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_dev_8py">dev.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_settings_8py">settings.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medical_2sitemaps_8py">sitemaps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medical_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_wsgi_8py">wsgi.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical_1_1sitemaps" xml:lang="en-US">
+<title>medical.sitemaps Namespace Reference</title>
+<indexterm><primary>medical.sitemaps</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedical_1_1sitemaps_1_1StaticSitemap">StaticSitemap</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Top level sitemap which generates sitemap for all static urls
+(except which are generated elsewhere)
+</computeroutput></literallayout> </para>
+</section>
+</section>

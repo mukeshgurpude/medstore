@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecart_1_1migrations" kind="namespace" language="Python">
+    <compoundname>cart::migrations</compoundname>
+    <innernamespace refid="namespacecart_1_1migrations_1_10001__initial">cart::migrations::0001_initial</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations_1_10002__order__orderdate">cart::migrations::0002_order_orderdate</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations_1_10003__cartitem__purchased">cart::migrations::0003_cartitem_purchased</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations_1_10004__cartitem__total">cart::migrations::0004_cartitem_total</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations_1_10005__auto__20200831__1340">cart::migrations::0005_auto_20200831_1340</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations_1_10006__order__postorder">cart::migrations::0006_order_postorder</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

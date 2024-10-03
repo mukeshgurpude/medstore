@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1views" xml:lang="en-US">
+<title>api.views Namespace Reference</title>
+<indexterm><primary>api.views</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views_1_1auth">auth</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views_1_1cart">cart</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views_1_1checkout">checkout</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views_1_1medicine">medicine</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views_1_1order">order</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

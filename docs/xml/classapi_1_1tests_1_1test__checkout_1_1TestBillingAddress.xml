@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress" kind="class" language="Python" prot="public">
+    <compoundname>api::tests::test_checkout::TestBillingAddress</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a3c09c2a8d3344a5641f6469acaa10011" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list api.tests.test_checkout.TestBillingAddress::fixtures</definition>
+        <argsstring></argsstring>
+        <name>fixtures</name>
+        <qualifiedname>api.tests.test_checkout.TestBillingAddress.fixtures</qualifiedname>
+        <initializer>=  [&quot;api/fixtures/&quot; + file + &quot;.json&quot; for file in {&quot;user&quot;}]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aa9755a8020ae912abcdf792a0edea98c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api.tests.test_checkout.TestBillingAddress::credentials</definition>
+        <argsstring></argsstring>
+        <name>credentials</name>
+        <qualifiedname>api.tests.test_checkout.TestBillingAddress.credentials</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" compoundref="test__cart_8py" startline="26" endline="35">api.tests.test_cart.TestCart.test_cart_list</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" compoundref="test__order_8py" startline="22" endline="27">api.tests.test_order.TestOrderView.test_get</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a31b6bae7d1af95ca55b06978f32e8196" compoundref="test__cart_8py" startline="68" endline="72">api.tests.test_cart.TestCart.test_post_request</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1ad3f7dec508eda806b0563c92f6424138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None api.tests.test_checkout.TestBillingAddress.setUp</definition>
+        <argsstring>(self)</argsstring>
+        <name>setUp</name>
+        <qualifiedname>api.tests.test_checkout.TestBillingAddress.setUp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="11" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a29bc3e4c8e7cdb73a3b9a3bad219a7aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_checkout.TestBillingAddress.test_get</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get</name>
+        <qualifiedname>api.tests.test_checkout.TestBillingAddress.test_get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="20" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aae7b8dde308d80099309ade4ec02443e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_checkout.TestBillingAddress.test_post</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_post</name>
+        <qualifiedname>api.tests.test_checkout.TestBillingAddress.test_post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="24" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="24" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.tests.test_checkout.TestBillingAddress</label>
+        <link refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.tests.test_checkout.TestBillingAddress</label>
+        <link refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+fixtures</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" bodystart="7" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aa9755a8020ae912abcdf792a0edea98c" prot="public" virt="non-virtual"><scope>api::tests::test_checkout::TestBillingAddress</scope><name>credentials</name></member>
+      <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a3c09c2a8d3344a5641f6469acaa10011" prot="public" virt="non-virtual"><scope>api::tests::test_checkout::TestBillingAddress</scope><name>fixtures</name></member>
+      <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1ad3f7dec508eda806b0563c92f6424138" prot="public" virt="non-virtual"><scope>api::tests::test_checkout::TestBillingAddress</scope><name>setUp</name></member>
+      <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a29bc3e4c8e7cdb73a3b9a3bad219a7aa" prot="public" virt="non-virtual"><scope>api::tests::test_checkout::TestBillingAddress</scope><name>test_get</name></member>
+      <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aae7b8dde308d80099309ade4ec02443e" prot="public" virt="non-virtual"><scope>api::tests::test_checkout::TestBillingAddress</scope><name>test_post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

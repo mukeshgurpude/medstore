@@ -1,0 +1,17 @@
+<map id="cart.models.Order.order_now" name="cart.models.Order.order_now">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,163,216,189"/>
+<area shape="rect" id="Node000002" href="$classaccounts_1_1sitemaps_1_1AccountSiteMap.html#a62730699fc75f9fb9c2e2c5847a2243f" title=" " alt="" coords="301,5,501,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,161,180,109,220,80,263,55,287,45,289,50,265,60,223,84,183,114,126,165"/>
+<area shape="rect" id="Node000003" href="$classaccounts_1_1sitemaps_1_1AllAuthSitemap.html#af9bb58614780826c03188c8b0202c8b2" title=" " alt="" coords="304,69,499,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,161,263,119,295,110,296,115,265,124,145,166"/>
+<area shape="rect" id="Node000004" href="$classmedical_1_1sitemaps_1_1StaticSitemap.html#a2f154156ebe0d87a7e18bf952f28f501" title=" " alt="" coords="264,134,539,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="216,163,262,158,262,163,217,168"/>
+<area shape="rect" id="Node000005" href="$classmedicines_1_1sitemaps_1_1MedSiteMap.html#ac52d12ec32b8be8b3648e473426eda59" title=" " alt="" coords="296,184,507,224"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="217,183,283,190,282,195,216,189"/>
+<area shape="rect" id="Node000006" href="$classmedicines_1_1models_1_1Medicine.html#a6823ec0a9686dd02f46c67a93df23919" title=" " alt="" coords="282,273,521,298"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="144,186,265,234,352,266,351,271,263,238,142,191"/>
+<area shape="rect" id="Node000007" href="$classmedicines_1_1forms_1_1CreateForm.html#aa12f63c5541574a47d4e23b30c78be14" title=" " alt="" coords="278,346,525,371"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="125,187,182,244,222,277,265,307,302,325,339,339,338,344,300,330,263,312,219,281,179,248,121,191"/>
+<area shape="poly" id="edge6_Node000006_Node000006" title=" " alt="" coords="355,275,344,264,350,254,369,248,401,246,443,250,455,255,458,262,453,264,451,259,442,255,401,251,370,253,353,258,350,264,358,271"/>
+<area shape="poly" id="edge8_Node000007_Node000007" title=" " alt="" coords="355,348,344,338,350,328,369,321,401,319,443,324,455,329,458,335,453,338,451,333,442,329,401,325,370,327,353,332,350,337,358,344"/>
+</map>

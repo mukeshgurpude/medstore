@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_test__medicine_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_medicine.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_medicine.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews">api.tests.test_medicine.TestMedViews</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceapi">api</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests">api.tests</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__medicine">api.tests.test_medicine</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__medicine_1a3d256221a093e771fcea2569ca0fda22">api.tests.test_medicine.NEW_Medicine</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

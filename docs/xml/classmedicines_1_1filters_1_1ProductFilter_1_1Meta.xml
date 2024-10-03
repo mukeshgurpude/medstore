@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1filters_1_1ProductFilter_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>medicines::filters::ProductFilter::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1ac694bb9ab64d20d3a242056b5387ac09" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.filters.ProductFilter.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>medicines.filters.ProductFilter.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classmedicines_1_1models_1_1Medicine" kindref="compound">Medicine</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1a934724dd72fd2c0cdec01aa3a0a5f5b5" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.filters.ProductFilter.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>medicines.filters.ProductFilter.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;<ref refid="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" kindref="member">name</ref>&apos;, &apos;<ref refid="classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2" kindref="member">price</ref>&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>medicines.filters.ProductFilter.Meta</label>
+        <link refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" bodystart="11" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1a934724dd72fd2c0cdec01aa3a0a5f5b5" prot="public" virt="non-virtual"><scope>medicines::filters::ProductFilter::Meta</scope><name>fields</name></member>
+      <member refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1ac694bb9ab64d20d3a242056b5387ac09" prot="public" virt="non-virtual"><scope>medicines::filters::ProductFilter::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

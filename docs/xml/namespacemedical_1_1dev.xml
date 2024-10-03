@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedical_1_1dev" kind="namespace" language="Python">
+    <compoundname>medical::dev</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemedical_1_1dev_1a89f7762951912180414f4160b8deb4e4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::dev.DEBUG</definition>
+        <argsstring></argsstring>
+        <name>DEBUG</name>
+        <qualifiedname>medical.dev.DEBUG</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="2" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1dev_1a78ea4e6302956ba679481bbc6835d77a" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::dev.ALLOWED_HOSTS</definition>
+        <argsstring></argsstring>
+        <name>ALLOWED_HOSTS</name>
+        <qualifiedname>medical.dev.ALLOWED_HOSTS</qualifiedname>
+        <initializer>=  [&quot;*&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1dev_1ad866ab101ebac9076ab2c6e25b16a4ed" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::dev.EMAIL_HOST_USER</definition>
+        <argsstring></argsstring>
+        <name>EMAIL_HOST_USER</name>
+        <qualifiedname>medical.dev.EMAIL_HOST_USER</qualifiedname>
+        <initializer>=  &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1dev_1acdb9dad1d4f6599eefe78052eb364e08" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::dev.EMAIL_HOST_PASSWORD</definition>
+        <argsstring></argsstring>
+        <name>EMAIL_HOST_PASSWORD</name>
+        <qualifiedname>medical.dev.EMAIL_HOST_PASSWORD</qualifiedname>
+        <initializer>=  &apos;&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1dev_1a4d197dee6415a26dd6065bcd7b54c08f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::dev.CORS_ORIGIN_ALLOW_ALL</definition>
+        <argsstring></argsstring>
+        <name>CORS_ORIGIN_ALLOW_ALL</name>
+        <qualifiedname>medical.dev.CORS_ORIGIN_ALLOW_ALL</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1dev_1afb26d6cfcb1c07c12d54ada2c0612e15" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::dev.CORS_ALLOW_CREDENTIALS</definition>
+        <argsstring></argsstring>
+        <name>CORS_ALLOW_CREDENTIALS</name>
+        <qualifiedname>medical.dev.CORS_ALLOW_CREDENTIALS</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

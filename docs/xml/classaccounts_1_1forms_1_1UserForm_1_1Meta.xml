@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1forms_1_1UserForm_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>accounts::forms::UserForm::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1forms_1_1UserForm_1_1Meta_1ade0749cdb2d112102e3a90d3ca36a56a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.forms.UserForm.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>accounts.forms.UserForm.Meta.model</qualifiedname>
+        <initializer>=  User</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1forms_1_1UserForm_1_1Meta_1a9ff72c47bb6a77e6ca8604b844ee9828" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple accounts.forms.UserForm.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>accounts.forms.UserForm.Meta.fields</qualifiedname>
+        <initializer>=  (&quot;first_name&quot;, &quot;last_name&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.forms.UserForm.Meta</label>
+        <link refid="classaccounts_1_1forms_1_1UserForm_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1forms_1_1UserForm_1_1Meta_1a9ff72c47bb6a77e6ca8604b844ee9828" prot="public" virt="non-virtual"><scope>accounts::forms::UserForm::Meta</scope><name>fields</name></member>
+      <member refid="classaccounts_1_1forms_1_1UserForm_1_1Meta_1ade0749cdb2d112102e3a90d3ca36a56a" prot="public" virt="non-virtual"><scope>accounts::forms::UserForm::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

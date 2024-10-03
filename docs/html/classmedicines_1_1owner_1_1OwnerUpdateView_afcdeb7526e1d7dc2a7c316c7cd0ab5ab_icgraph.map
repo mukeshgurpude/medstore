@@ -1,0 +1,9 @@
+<map id="medicines.owner.OwnerUpdateView.get_queryset" name="medicines.owner.OwnerUpdateView.get_queryset">
+<area shape="rect" id="Node000001" title=" " alt="" coords="296,49,521,89"/>
+<area shape="poly" id="edge4_Node000001_Node000001" title=" " alt="" coords="457,38,440,31,409,28,381,30,365,35,359,41,362,48,357,50,354,40,362,30,380,25,409,23,441,25,459,33"/>
+<area shape="rect" id="Node000002" href="$classapi_1_1views_1_1medicine_1_1MedicineView.html#a6a92fa916b3ccf8671ec552755883093" title=" " alt="" coords="21,5,232,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="282,52,232,44,233,39,283,47"/>
+<area shape="rect" id="Node000003" href="$classmedicines_1_1views_1_1MedListView.html#a32882e4ccbe86c8d90013dadc073524b" title=" " alt="" coords="5,93,248,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="283,92,249,97,248,92,282,86"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="175,82,158,75,127,72,99,74,83,79,77,85,80,92,75,94,72,84,80,74,98,69,127,67,159,69,177,77"/>
+</map>

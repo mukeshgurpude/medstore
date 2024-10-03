@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcart_1_1tests_1_1AfterTestPayment" kind="class" language="Python" prot="public">
+    <compoundname>cart::tests::AfterTestPayment</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment::test_user</definition>
+        <argsstring></argsstring>
+        <name>test_user</name>
+        <qualifiedname>cart.tests.AfterTestPayment.test_user</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" compoundref="cart_2tests_8py" startline="27" endline="31">cart.tests.AfterTestPayment.test_create_cart_item</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" compoundref="cart_2tests_8py" startline="20" endline="26">cart.tests.AfterTestPayment.test_create_med</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" compoundref="cart_2tests_8py" startline="32" endline="36">cart.tests.AfterTestPayment.test_create_order</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf" compoundref="cart_2tests_8py" startline="15" endline="19">cart.tests.AfterTestPayment.test_create_test_user</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1tests_1_1AfterTestPayment_1ad6a713ed64fdb68d2a22d4d9cb314684" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment::medcat</definition>
+        <argsstring></argsstring>
+        <name>medcat</name>
+        <qualifiedname>cart.tests.AfterTestPayment.medcat</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" compoundref="cart_2tests_8py" startline="20" endline="26">cart.tests.AfterTestPayment.test_create_med</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment::med</definition>
+        <argsstring></argsstring>
+        <name>med</name>
+        <qualifiedname>cart.tests.AfterTestPayment.med</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" compoundref="cart_2tests_8py" startline="37" endline="42">cart.tests.AfterTestPayment.test_after_pay</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" compoundref="cart_2tests_8py" startline="27" endline="31">cart.tests.AfterTestPayment.test_create_cart_item</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" compoundref="cart_2tests_8py" startline="20" endline="26">cart.tests.AfterTestPayment.test_create_med</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment::cart_item</definition>
+        <argsstring></argsstring>
+        <name>cart_item</name>
+        <qualifiedname>cart.tests.AfterTestPayment.cart_item</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="12" bodyend="-1"/>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" compoundref="cart_2tests_8py" startline="37" endline="42">cart.tests.AfterTestPayment.test_after_pay</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7" compoundref="test__cart_8py" startline="36" endline="42">api.tests.test_cart.TestCart.test_cart_increase</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" compoundref="cart_2tests_8py" startline="27" endline="31">cart.tests.AfterTestPayment.test_create_cart_item</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" compoundref="cart_2tests_8py" startline="32" endline="36">cart.tests.AfterTestPayment.test_create_order</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment::order</definition>
+        <argsstring></argsstring>
+        <name>order</name>
+        <qualifiedname>cart.tests.AfterTestPayment.order</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="13" bodyend="-1"/>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" compoundref="cart_2tests_8py" startline="37" endline="42">cart.tests.AfterTestPayment.test_after_pay</referencedby>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" compoundref="cart_2tests_8py" startline="32" endline="36">cart.tests.AfterTestPayment.test_create_order</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment.test_create_test_user</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_create_test_user</name>
+        <qualifiedname>cart.tests.AfterTestPayment.test_create_test_user</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="15" bodyend="19"/>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" compoundref="cart_2tests_8py" startline="9">cart.tests.AfterTestPayment.test_user</references>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" compoundref="cart_2tests_8py" startline="20" endline="26">cart.tests.AfterTestPayment.test_create_med</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment.test_create_med</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_create_med</name>
+        <qualifiedname>cart.tests.AfterTestPayment.test_create_med</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="20" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="20" bodyend="26"/>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d" compoundref="cart_2tests_8py" startline="11">cart.tests.AfterTestPayment.med</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1ad6a713ed64fdb68d2a22d4d9cb314684" compoundref="cart_2tests_8py" startline="10">cart.tests.AfterTestPayment.medcat</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf" compoundref="cart_2tests_8py" startline="15" endline="19">cart.tests.AfterTestPayment.test_create_test_user</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" compoundref="cart_2tests_8py" startline="9">cart.tests.AfterTestPayment.test_user</references>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" compoundref="cart_2tests_8py" startline="27" endline="31">cart.tests.AfterTestPayment.test_create_cart_item</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment.test_create_cart_item</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_create_cart_item</name>
+        <qualifiedname>cart.tests.AfterTestPayment.test_create_cart_item</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="27" bodyend="31"/>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1aeb65863a86d77f72b032ffbc9019c167" compoundref="test__cart_8py" startline="23">api.tests.test_cart.TestCart.cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce" compoundref="cart_2tests_8py" startline="12">cart.tests.AfterTestPayment.cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d" compoundref="cart_2tests_8py" startline="11">cart.tests.AfterTestPayment.med</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" compoundref="cart_2tests_8py" startline="20" endline="26">cart.tests.AfterTestPayment.test_create_med</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" compoundref="cart_2tests_8py" startline="9">cart.tests.AfterTestPayment.test_user</references>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" compoundref="cart_2tests_8py" startline="32" endline="36">cart.tests.AfterTestPayment.test_create_order</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment.test_create_order</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_create_order</name>
+        <qualifiedname>cart.tests.AfterTestPayment.test_create_order</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="32" bodyend="36"/>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1aeb65863a86d77f72b032ffbc9019c167" compoundref="test__cart_8py" startline="23">api.tests.test_cart.TestCart.cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce" compoundref="cart_2tests_8py" startline="12">cart.tests.AfterTestPayment.cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136" compoundref="cart_2tests_8py" startline="13">cart.tests.AfterTestPayment.order</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" compoundref="cart_2tests_8py" startline="27" endline="31">cart.tests.AfterTestPayment.test_create_cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" compoundref="cart_2tests_8py" startline="9">cart.tests.AfterTestPayment.test_user</references>
+        <referencedby refid="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" compoundref="cart_2tests_8py" startline="37" endline="42">cart.tests.AfterTestPayment.test_after_pay</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart.tests.AfterTestPayment.test_after_pay</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_after_pay</name>
+        <qualifiedname>cart.tests.AfterTestPayment.test_after_pay</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="37" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="37" bodyend="42"/>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1aeb65863a86d77f72b032ffbc9019c167" compoundref="test__cart_8py" startline="23">api.tests.test_cart.TestCart.cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce" compoundref="cart_2tests_8py" startline="12">cart.tests.AfterTestPayment.cart_item</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d" compoundref="cart_2tests_8py" startline="11">cart.tests.AfterTestPayment.med</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136" compoundref="cart_2tests_8py" startline="13">cart.tests.AfterTestPayment.order</references>
+        <references refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" compoundref="cart_2tests_8py" startline="32" endline="36">cart.tests.AfterTestPayment.test_create_order</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>cart.tests.AfterTestPayment</label>
+        <link refid="classcart_1_1tests_1_1AfterTestPayment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>cart.tests.AfterTestPayment</label>
+        <link refid="classcart_1_1tests_1_1AfterTestPayment"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>cart_item</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>med</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1ad6a713ed64fdb68d2a22d4d9cb314684" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>medcat</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>order</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>test_after_pay</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>test_create_cart_item</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>test_create_med</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>test_create_order</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>test_create_test_user</name></member>
+      <member refid="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" prot="public" virt="non-virtual"><scope>cart::tests::AfterTestPayment</scope><name>test_user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_60ee30988a847a46579c60a16c7210b7" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations Directory Reference</primary></indexterm>
+Directory dependency graph for migrations:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_60ee30988a847a46579c60a16c7210b7_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_accounts_2migrations_20001__initial_8py">0001_initial.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0002__auto__20200908__1336_8py">0002_auto_20200908_1336.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2migrations_2____init_____8py">__init__.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

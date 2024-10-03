@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1models_1_1SellerProfile" xml:lang="en-US">
+<title>accounts.models.SellerProfile Class Reference</title>
+<indexterm><primary>accounts.models.SellerProfile</primary></indexterm>
+Inheritance diagram for accounts.models.SellerProfile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1models_1_1SellerProfile__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for accounts.models.SellerProfile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1models_1_1SellerProfile__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6">__str__</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439">user</link> = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1SellerProfile_1affcdefeaa21ea022201b33c287ca823c">store_name</link></para>
+</listitem>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1SellerProfile_1aed59567742abc68623322b6b5fb16188">address</link> = models.TextField(max_length=40, help_text=&quot;Your store address&quot;)</para>
+</listitem>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1SellerProfile_1a7d2e6e6c81ceeeaf65a26556a5a6b35a">pincode</link> = models.IntegerField()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>accounts.models.SellerProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.SellerProfile</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>accounts.models.SellerProfile.__str__ ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1models_1_1SellerProfile_1aed59567742abc68623322b6b5fb16188"/><section>
+    <title>address</title>
+<indexterm><primary>address</primary><secondary>accounts.models.SellerProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.SellerProfile</primary><secondary>address</secondary></indexterm>
+<para><computeroutput>accounts.models.SellerProfile.address = models.TextField(max_length=40, help_text=&quot;Your store address&quot;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1models_1_1SellerProfile_1a7d2e6e6c81ceeeaf65a26556a5a6b35a"/><section>
+    <title>pincode</title>
+<indexterm><primary>pincode</primary><secondary>accounts.models.SellerProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.SellerProfile</primary><secondary>pincode</secondary></indexterm>
+<para><computeroutput>accounts.models.SellerProfile.pincode = models.IntegerField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1models_1_1SellerProfile_1affcdefeaa21ea022201b33c287ca823c"/><section>
+    <title>store_name</title>
+<indexterm><primary>store_name</primary><secondary>accounts.models.SellerProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.SellerProfile</primary><secondary>store_name</secondary></indexterm>
+<para><computeroutput>accounts.models.SellerProfile.store_name<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;models.CharField(max_length=20,&#32;help_text=<emphasis role="stringliteral">&quot;Your&#32;store&#32;name&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;verbose_name=<emphasis role="stringliteral">&quot;Store&#32;Name&quot;</emphasis>)
+</programlisting></section>
+<anchor xml:id="_classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>accounts.models.SellerProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.SellerProfile</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>accounts.models.SellerProfile.user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/<link linkend="_accounts_2models_8py">models.py</link></section>
+</section>

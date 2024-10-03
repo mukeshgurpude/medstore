@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecart__tag" kind="namespace" language="Python">
+    <compoundname>cart_tag</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecart__tag_1ae79793a9d2296178b50a1869d25d32d7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>cart_tag.register</definition>
+        <argsstring></argsstring>
+        <name>register</name>
+        <qualifiedname>cart_tag.register</qualifiedname>
+        <initializer>=  template.Library()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/cart_tag.py" line="4" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/cart_tag.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecart__tag_1a79c3b46cc39a0a9f98a6c6b547cef82d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cart_tag.cart_total</definition>
+        <argsstring>(user)</argsstring>
+        <name>cart_total</name>
+        <qualifiedname>cart_tag.cart_total</qualifiedname>
+        <param>
+          <type>user</type>
+          <defname>user</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/cart_tag.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/cart_tag.py" bodystart="8" bodyend="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/cart_tag.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

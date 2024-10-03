@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcheckout_1_1forms_1_1BillingForm" kind="class" language="Python" prot="public">
+    <compoundname>checkout::forms::BillingForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">forms.ModelForm</basecompoundref>
+    <innerclass refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta" prot="public">checkout::forms::BillingForm::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.forms.BillingForm::pincode</definition>
+        <argsstring></argsstring>
+        <name>pincode</name>
+        <qualifiedname>checkout.forms.BillingForm.pincode</qualifiedname>
+        <initializer>=  forms.IntegerField(min_value=100000, max_value=999999)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" bodystart="6" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.forms.BillingForm::landmark</definition>
+        <argsstring></argsstring>
+        <name>landmark</name>
+        <qualifiedname>checkout.forms.BillingForm.landmark</qualifiedname>
+        <initializer>=  forms.CharField(required=False, max_length=30)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>checkout.forms.BillingForm</label>
+        <link refid="classcheckout_1_1forms_1_1BillingForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>forms::ModelForm</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>checkout.forms.BillingForm</label>
+        <link refid="classcheckout_1_1forms_1_1BillingForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>forms::ModelForm</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b" prot="public" virt="non-virtual"><scope>checkout::forms::BillingForm</scope><name>landmark</name></member>
+      <member refid="classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981" prot="public" virt="non-virtual"><scope>checkout::forms::BillingForm</scope><name>pincode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

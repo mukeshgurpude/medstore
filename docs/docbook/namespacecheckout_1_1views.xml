@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecheckout_1_1views" xml:lang="en-US">
+<title>checkout.views Namespace Reference</title>
+<indexterm><primary>checkout.views</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a4e9b0af574e6c10b2e609e51f9cf6ba3">checkout_view</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a763b063257d0d03b88ce5c2658e0aa4c">payment</link> (request, web=True)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1ac6c399a68d475170dacd31240270617b">stripe_conf</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a86cd74449a6dc3e085bab7d073fa5573">create_checkout_session</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a0194495ea7937034bde192baa20714a0">stripe_webhook</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a91909a8d95c0a79d2597eb1223f7ae5d">success</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1ae7f34a2f710ca4b342d0ba9545206914">fail</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacecheckout_1_1views_1a4e9b0af574e6c10b2e609e51f9cf6ba3"/><section>
+    <title>checkout_view()</title>
+<indexterm><primary>checkout_view</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>checkout_view</secondary></indexterm>
+<para><computeroutput>checkout.views.checkout_view ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1views_1a86cd74449a6dc3e085bab7d073fa5573"/><section>
+    <title>create_checkout_session()</title>
+<indexterm><primary>create_checkout_session</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>create_checkout_session</secondary></indexterm>
+<para><computeroutput>checkout.views.create_checkout_session ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1views_1ae7f34a2f710ca4b342d0ba9545206914"/><section>
+    <title>fail()</title>
+<indexterm><primary>fail</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>fail</secondary></indexterm>
+<para><computeroutput>checkout.views.fail ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1views_1a763b063257d0d03b88ce5c2658e0aa4c"/><section>
+    <title>payment()</title>
+<indexterm><primary>payment</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>payment</secondary></indexterm>
+<para><computeroutput>checkout.views.payment ( request,  web = <computeroutput>True</computeroutput>
+)</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1views_1ac6c399a68d475170dacd31240270617b"/><section>
+    <title>stripe_conf()</title>
+<indexterm><primary>stripe_conf</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>stripe_conf</secondary></indexterm>
+<para><computeroutput>checkout.views.stripe_conf ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1views_1a0194495ea7937034bde192baa20714a0"/><section>
+    <title>stripe_webhook()</title>
+<indexterm><primary>stripe_webhook</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>stripe_webhook</secondary></indexterm>
+<para><computeroutput>checkout.views.stripe_webhook ( request)</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1views_1a91909a8d95c0a79d2597eb1223f7ae5d"/><section>
+    <title>success()</title>
+<indexterm><primary>success</primary><secondary>checkout.views</secondary></indexterm>
+<indexterm><primary>checkout.views</primary><secondary>success</secondary></indexterm>
+<para><computeroutput>checkout.views.success ( request)</computeroutput></para></section>
+</section>
+</section>

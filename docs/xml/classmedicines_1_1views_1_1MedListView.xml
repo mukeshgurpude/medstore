@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1views_1_1MedListView" kind="class" language="Python" prot="public">
+    <compoundname>medicines::views::MedListView</compoundname>
+    <basecompoundref refid="classmedicines_1_1owner_1_1OwnerListView" prot="public" virt="non-virtual">medicines.owner.OwnerListView</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedListView_1aa6d009c9875aabd4a680416224ae85c2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.views.MedListView::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>medicines.views.MedListView.model</qualifiedname>
+        <initializer>=  <ref refid="classmedicines_1_1models_1_1Medicine" kindref="compound">Medicine</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedListView_1a63127a44ea2b57a7905a0c4cdec01681" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.views.MedListView::template_name</definition>
+        <argsstring></argsstring>
+        <name>template_name</name>
+        <qualifiedname>medicines.views.MedListView.template_name</qualifiedname>
+        <initializer>=  &quot;medicines/medicine_list.html&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="16" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" compoundref="medicines_2views_8py" startline="47" endline="57">medicines.views.MedCreateView.post</referencedby>
+        <referencedby refid="classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b" compoundref="medicines_2views_8py" startline="69" endline="79">medicines.views.MedUpdateView.post</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.views.MedListView.get_context_data</definition>
+        <argsstring>(self, **kwargs)</argsstring>
+        <name>get_context_data</name>
+        <qualifiedname>medicines.views.MedListView.get_context_data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="18" bodyend="29"/>
+        <references refid="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" compoundref="medicines_2views_8py" startline="18" endline="29">medicines.views.MedListView.get_context_data</references>
+        <references refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a246b3300c14ea5fc459ab4a06dec1ad1" compoundref="medicine_8py" startline="13" endline="33">api.views.medicine.MedicineView.get_queryset</references>
+        <references refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" compoundref="owner_8py" startline="24" endline="28">medicines.owner.OwnerUpdateView.get_queryset</references>
+        <references refid="classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944" compoundref="owner_8py" startline="31" endline="33">medicines.owner.OwnerDeleteView.get_queryset</references>
+        <referencedby refid="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" compoundref="medicines_2views_8py" startline="18" endline="29">medicines.views.MedListView.get_context_data</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>generic::ListView</label>
+      </node>
+      <node id="1">
+        <label>medicines.views.MedListView</label>
+        <link refid="classmedicines_1_1views_1_1MedListView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>medicines.owner.OwnerListView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerListView"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>generic::ListView</label>
+      </node>
+      <node id="1">
+        <label>medicines.views.MedListView</label>
+        <link refid="classmedicines_1_1views_1_1MedListView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+template_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>medicines.owner.OwnerListView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerListView"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="14" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" prot="public" virt="non-virtual"><scope>medicines::views::MedListView</scope><name>get_context_data</name></member>
+      <member refid="classmedicines_1_1views_1_1MedListView_1aa6d009c9875aabd4a680416224ae85c2" prot="public" virt="non-virtual"><scope>medicines::views::MedListView</scope><name>model</name></member>
+      <member refid="classmedicines_1_1views_1_1MedListView_1a63127a44ea2b57a7905a0c4cdec01681" prot="public" virt="non-virtual"><scope>medicines::views::MedListView</scope><name>template_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1tests" kind="namespace" language="Python">
+    <compoundname>api::tests</compoundname>
+    <innernamespace refid="namespaceapi_1_1tests_1_1test__auth">api::tests::test_auth</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1test__cart">api::tests::test_cart</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1test__checkout">api::tests::test_checkout</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1test__medicine">api::tests::test_medicine</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1test__order">api::tests::test_order</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1utils">api::tests::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="accounts_2forms_8py" kind="file" language="Python">
+    <compoundname>forms.py</compoundname>
+    <innerclass refid="classaccounts_1_1forms_1_1UserForm" prot="public">accounts::forms::UserForm</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1UserForm_1_1Meta" prot="public">accounts::forms::UserForm::Meta</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1ProfileForm" prot="public">accounts::forms::ProfileForm</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta" prot="public">accounts::forms::ProfileForm::Meta</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1SellerForm" prot="public">accounts::forms::SellerForm</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta" prot="public">accounts::forms::SellerForm::Meta</innerclass>
+    <innernamespace refid="namespaceaccounts">accounts</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1forms">accounts::forms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceaccounts_1_1forms" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>User</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.forms<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ModelForm</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>UserProfile,<sp/>SellerProfile</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classaccounts_1_1forms_1_1UserForm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1forms_1_1UserForm" kindref="compound">UserForm</ref>(ModelForm):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classaccounts_1_1forms_1_1UserForm_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1forms_1_1UserForm_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="9" refid="classaccounts_1_1forms_1_1UserForm_1_1Meta_1ade0749cdb2d112102e3a90d3ca36a56a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>User</highlight></codeline>
+<codeline lineno="10" refid="classaccounts_1_1forms_1_1UserForm_1_1Meta_1a9ff72c47bb6a77e6ca8604b844ee9828" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>(</highlight><highlight class="stringliteral">&quot;first_name&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;last_name&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classaccounts_1_1forms_1_1ProfileForm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1forms_1_1ProfileForm" kindref="compound">ProfileForm</ref>(ModelForm):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="16" refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a59470134362920fa2cbe9d92e87db06c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>UserProfile</highlight></codeline>
+<codeline lineno="17" refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a0f7685bff1e12b2cedb88b645381053e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exclude<sp/>=<sp/>(</highlight><highlight class="stringliteral">&quot;user&quot;</highlight><highlight class="normal">,<sp/>)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classaccounts_1_1forms_1_1SellerForm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1forms_1_1SellerForm" kindref="compound">SellerForm</ref>(ModelForm):</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="23" refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a91857488db85fac749be888265924066" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>SellerProfile</highlight></codeline>
+<codeline lineno="24" refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a3c81a9530fda146f453d11f9811dcaed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>exclude<sp/>=<sp/>(</highlight><highlight class="stringliteral">&quot;user&quot;</highlight><highlight class="normal">,<sp/>)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py"/>
+  </compounddef>
+</doxygen>

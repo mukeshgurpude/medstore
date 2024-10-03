@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical" xml:lang="en-US">
+<title>medical Namespace Reference</title>
+<indexterm><primary>medical</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1asgi">asgi</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1dev">dev</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1settings">settings</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1sitemaps">sitemaps</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1urls">urls</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1wsgi">wsgi</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

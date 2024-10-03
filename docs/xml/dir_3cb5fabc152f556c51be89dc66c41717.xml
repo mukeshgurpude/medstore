@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_3cb5fabc152f556c51be89dc66c41717" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags</compoundname>
+    <innerfile refid="cart__tag_8py">cart_tag.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/"/>
+  </compounddef>
+</doxygen>

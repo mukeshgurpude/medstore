@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classhome_1_1forms_1_1UserSignUp" kind="class" language="Python" prot="public">
+    <compoundname>home::forms::UserSignUp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SignupForm</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classhome_1_1forms_1_1UserSignUp_1a3bfac324ff8f6721bff0c793917322cf" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>home.forms.UserSignUp::first_name</definition>
+        <argsstring></argsstring>
+        <name>first_name</name>
+        <qualifiedname>home.forms.UserSignUp.first_name</qualifiedname>
+        <initializer>=  forms.CharField(max_length=10)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classhome_1_1forms_1_1UserSignUp_1a379d9ff4f8036636b8937cd3b8ba1e11" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>home.forms.UserSignUp::last_name</definition>
+        <argsstring></argsstring>
+        <name>last_name</name>
+        <qualifiedname>home.forms.UserSignUp.last_name</qualifiedname>
+        <initializer>=  forms.CharField(max_length=15)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classhome_1_1forms_1_1UserSignUp_1ad766acfc0999f97e2057a2cb956bd523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>home.forms.UserSignUp.signup</definition>
+        <argsstring>(self, user)</argsstring>
+        <name>signup</name>
+        <qualifiedname>home.forms.UserSignUp.signup</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>user</type>
+          <defname>user</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>SignupForm</label>
+      </node>
+      <node id="1">
+        <label>home.forms.UserSignUp</label>
+        <link refid="classhome_1_1forms_1_1UserSignUp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>SignupForm</label>
+      </node>
+      <node id="1">
+        <label>home.forms.UserSignUp</label>
+        <link refid="classhome_1_1forms_1_1UserSignUp"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/forms.py" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classhome_1_1forms_1_1UserSignUp_1a3bfac324ff8f6721bff0c793917322cf" prot="public" virt="non-virtual"><scope>home::forms::UserSignUp</scope><name>first_name</name></member>
+      <member refid="classhome_1_1forms_1_1UserSignUp_1a379d9ff4f8036636b8937cd3b8ba1e11" prot="public" virt="non-virtual"><scope>home::forms::UserSignUp</scope><name>last_name</name></member>
+      <member refid="classhome_1_1forms_1_1UserSignUp_1ad766acfc0999f97e2057a2cb956bd523" prot="public" virt="non-virtual"><scope>home::forms::UserSignUp</scope><name>signup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

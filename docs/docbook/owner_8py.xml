@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_owner_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1owner_1_1OwnerListView">medicines.owner.OwnerListView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1owner_1_1OwnerCreateView">medicines.owner.OwnerCreateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1owner_1_1OwnerDetailView">medicines.owner.OwnerDetailView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1owner_1_1OwnerUpdateView">medicines.owner.OwnerUpdateView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classmedicines_1_1owner_1_1OwnerDeleteView">medicines.owner.OwnerDeleteView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedicines">medicines</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedicines_1_1owner">medicines.owner</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

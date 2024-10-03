@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedical_1_1sitemaps" kind="namespace" language="Python">
+    <compoundname>medical::sitemaps</compoundname>
+    <innerclass refid="classmedical_1_1sitemaps_1_1StaticSitemap" prot="public">medical::sitemaps::StaticSitemap</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Top level sitemap which generates sitemap for all static urls
+(except which are generated elsewhere)
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/sitemaps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

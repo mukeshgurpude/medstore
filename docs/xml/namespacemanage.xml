@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemanage" kind="namespace" language="Python">
+    <compoundname>manage</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>manage.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <qualifiedname>manage.main</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/manage.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/manage.py" bodystart="6" bodyend="18"/>
+        <references refid="namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4" compoundref="manage_8py" startline="6" endline="18">main</references>
+        <referencedby refid="namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4" compoundref="manage_8py" startline="6" endline="18">main</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Django&apos;s command-line utility for administrative tasks.</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/manage.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>
