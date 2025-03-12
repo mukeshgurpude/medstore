@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1forms_1_1ProfileForm_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>accounts::forms::ProfileForm::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a59470134362920fa2cbe9d92e87db06c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.forms.ProfileForm.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>accounts.forms.ProfileForm.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classaccounts_1_1models_1_1UserProfile" kindref="compound">UserProfile</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a0f7685bff1e12b2cedb88b645381053e" prot="public" static="yes" mutable="no">
+        <type>tuple</type>
+        <definition>tuple accounts.forms.ProfileForm.Meta::exclude</definition>
+        <argsstring></argsstring>
+        <name>exclude</name>
+        <qualifiedname>accounts.forms.ProfileForm.Meta.exclude</qualifiedname>
+        <initializer>=  (&quot;user&quot;, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.forms.ProfileForm.Meta</label>
+        <link refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+exclude</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tuple</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a0f7685bff1e12b2cedb88b645381053e" prot="public" virt="non-virtual"><scope>accounts::forms::ProfileForm::Meta</scope><name>exclude</name></member>
+      <member refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a59470134362920fa2cbe9d92e87db06c" prot="public" virt="non-virtual"><scope>accounts::forms::ProfileForm::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

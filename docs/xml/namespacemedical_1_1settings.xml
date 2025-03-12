@@ -1,0 +1,517 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedical_1_1settings" kind="namespace" language="Python">
+    <compoundname>medical::settings</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1aa8c14431af344298471262fb91123310" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>medical::settings.BASE_DIR</definition>
+        <argsstring></argsstring>
+        <name>BASE_DIR</name>
+        <qualifiedname>medical.settings.BASE_DIR</qualifiedname>
+        <initializer>=  os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a4fa7323b543d63548865e7c79c3bf0bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>medical::settings.SECRET_KEY</definition>
+        <argsstring></argsstring>
+        <name>SECRET_KEY</name>
+        <qualifiedname>medical.settings.SECRET_KEY</qualifiedname>
+        <initializer>=  os.environ.get(&apos;MEDSTORE_SECRET_KEY&apos;, &apos;g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&amp;)18nkt8)=um_+p(&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="23" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1aa05b2cb9023598c5c6443814dae85141" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict medical::settings.ACCOUNT_FORMS</definition>
+        <argsstring></argsstring>
+        <name>ACCOUNT_FORMS</name>
+        <qualifiedname>medical.settings.ACCOUNT_FORMS</qualifiedname>
+        <initializer>=  {
+    &quot;signup&quot;: &quot;home.forms.UserSignUp&quot;
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a4302902b49deab6bbcae5789071d2811" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.ACCOUNT_EMAIL_VERIFICATION</definition>
+        <argsstring></argsstring>
+        <name>ACCOUNT_EMAIL_VERIFICATION</name>
+        <qualifiedname>medical.settings.ACCOUNT_EMAIL_VERIFICATION</qualifiedname>
+        <initializer>=  &apos;none&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a3e81ac26071899bc555676e34e901c91" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.CRISPY_TEMPLATE_PACK</definition>
+        <argsstring></argsstring>
+        <name>CRISPY_TEMPLATE_PACK</name>
+        <qualifiedname>medical.settings.CRISPY_TEMPLATE_PACK</qualifiedname>
+        <initializer>=  &apos;bootstrap4&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a6f6b6928945297dc9e78d51f070b3ece" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::settings.INSTALLED_APPS</definition>
+        <argsstring></argsstring>
+        <name>INSTALLED_APPS</name>
+        <qualifiedname>medical.settings.INSTALLED_APPS</qualifiedname>
+        <initializer>=  [
+    &apos;django.contrib.admin&apos;,
+    &apos;django.contrib.auth&apos;,
+    &apos;django.contrib.contenttypes&apos;,
+    &apos;django.contrib.sessions&apos;,
+    &apos;django.contrib.messages&apos;,
+    &apos;django.contrib.staticfiles&apos;,
+    &apos;django.contrib.sites&apos;,
+    &apos;django_filters&apos;,
+    &apos;django.contrib.sitemaps&apos;,  # For SiteMap
+
+    # extensions
+    &apos;crispy_forms&apos;,
+
+    # apps
+    &apos;<ref refid="classmedicines_1_1apps_1_1MedicinesConfig" kindref="compound">medicines.apps.MedicinesConfig</ref>&apos;,
+    &apos;<ref refid="classhome_1_1apps_1_1HomeConfig" kindref="compound">home.apps.HomeConfig</ref>&apos;,
+    &apos;cart&apos;,
+    &apos;checkout&apos;,
+    &apos;accounts&apos;,
+
+    # For Authentication
+    &apos;allauth&apos;,
+    &apos;allauth.account&apos;,
+    &apos;allauth.socialaccount&apos;,
+    # To whitelist frontend
+    &apos;corsheaders&apos;,
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="35" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1aba649cb3fd75c579954f3124aec20d22" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::settings.MIDDLEWARE</definition>
+        <argsstring></argsstring>
+        <name>MIDDLEWARE</name>
+        <qualifiedname>medical.settings.MIDDLEWARE</qualifiedname>
+        <initializer>=  [
+    &apos;django.middleware.security.SecurityMiddleware&apos;,
+    &apos;django.contrib.sessions.middleware.SessionMiddleware&apos;,
+    &apos;django.middleware.common.CommonMiddleware&apos;,
+    &apos;django.middleware.csrf.CsrfViewMiddleware&apos;,
+    &apos;django.contrib.auth.middleware.AuthenticationMiddleware&apos;,
+    &apos;django.contrib.messages.middleware.MessageMiddleware&apos;,
+    &apos;django.middleware.clickjacking.XFrameOptionsMiddleware&apos;,
+    &apos;corsheaders.middleware.CorsMiddleware&apos;,
+    &apos;allauth.account.middleware.AccountMiddleware&apos;,
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="64" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1af6373a3153976f2668b13a750f73a2c2" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.ROOT_URLCONF</definition>
+        <argsstring></argsstring>
+        <name>ROOT_URLCONF</name>
+        <qualifiedname>medical.settings.ROOT_URLCONF</qualifiedname>
+        <initializer>=  &apos;medical.urls&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="76" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a2ea6353e20efac76eb141a995503a484" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::settings.TEMPLATES</definition>
+        <argsstring></argsstring>
+        <name>TEMPLATES</name>
+        <qualifiedname>medical.settings.TEMPLATES</qualifiedname>
+        <initializer>=  [
+    {
+        &apos;BACKEND&apos;: &apos;django.template.backends.django.DjangoTemplates&apos;,
+        &apos;DIRS&apos;: [],
+        &apos;APP_DIRS&apos;: True,
+        &apos;OPTIONS&apos;: {
+            &apos;context_processors&apos;: [
+                &apos;django.template.context_processors.debug&apos;,
+                &apos;django.template.context_processors.request&apos;,
+                &apos;django.contrib.auth.context_processors.auth&apos;,
+                &apos;django.contrib.messages.context_processors.messages&apos;,
+            ],
+        },
+    },
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="78" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a18e0e98e137e1a356b6ab2d58d0ba12a" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.WSGI_APPLICATION</definition>
+        <argsstring></argsstring>
+        <name>WSGI_APPLICATION</name>
+        <qualifiedname>medical.settings.WSGI_APPLICATION</qualifiedname>
+        <initializer>=  &apos;<ref refid="namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e" kindref="member">medical.wsgi.application</ref>&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="94" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a7bc64f86abb0ffefde97e8b801245be0" prot="public" static="no" mutable="no">
+        <type>dict</type>
+        <definition>dict medical::settings.DATABASES</definition>
+        <argsstring></argsstring>
+        <name>DATABASES</name>
+        <qualifiedname>medical.settings.DATABASES</qualifiedname>
+        <initializer>=  {
+    &apos;default&apos;: {
+        &apos;ENGINE&apos;: &apos;django.db.backends.sqlite3&apos;,
+        &apos;NAME&apos;: os.path.join(<ref refid="namespacemedical_1_1settings_1aa8c14431af344298471262fb91123310" kindref="member">BASE_DIR</ref>, &apos;db.sqlite3&apos;),
+    }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="100" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a302b37983ebc096b247d2517d258fa73" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::settings.AUTHENTICATION_BACKENDS</definition>
+        <argsstring></argsstring>
+        <name>AUTHENTICATION_BACKENDS</name>
+        <qualifiedname>medical.settings.AUTHENTICATION_BACKENDS</qualifiedname>
+        <initializer>=  [
+    &apos;django.contrib.auth.backends.ModelBackend&apos;,
+    &apos;allauth.account.auth_backends.AuthenticationBackend&apos;
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="108" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a2cd62ffacf96fabc5ad9dc7e36b29032" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list medical::settings.AUTH_PASSWORD_VALIDATORS</definition>
+        <argsstring></argsstring>
+        <name>AUTH_PASSWORD_VALIDATORS</name>
+        <qualifiedname>medical.settings.AUTH_PASSWORD_VALIDATORS</qualifiedname>
+        <initializer>=  [
+    {
+        &apos;NAME&apos;: &apos;django.contrib.auth.password_validation.UserAttributeSimilarityValidator&apos;,
+    },
+    {
+        &apos;NAME&apos;: &apos;django.contrib.auth.password_validation.MinimumLengthValidator&apos;,
+    },
+    {
+        &apos;NAME&apos;: &apos;django.contrib.auth.password_validation.CommonPasswordValidator&apos;,
+    },
+    {
+        &apos;NAME&apos;: &apos;django.contrib.auth.password_validation.NumericPasswordValidator&apos;,
+    },
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="116" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a2f99ed65fe52b907a4ea02daeff0d5ff" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.LANGUAGE_CODE</definition>
+        <argsstring></argsstring>
+        <name>LANGUAGE_CODE</name>
+        <qualifiedname>medical.settings.LANGUAGE_CODE</qualifiedname>
+        <initializer>=  &apos;en-us&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="135" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a0269b91b045406fd2fec1cd2b89df16f" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.TIME_ZONE</definition>
+        <argsstring></argsstring>
+        <name>TIME_ZONE</name>
+        <qualifiedname>medical.settings.TIME_ZONE</qualifiedname>
+        <initializer>=  &apos;Asia/Kolkata&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="137" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a740efe35ff3d097ec9de9a19e5c29c34" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::settings.USE_I18N</definition>
+        <argsstring></argsstring>
+        <name>USE_I18N</name>
+        <qualifiedname>medical.settings.USE_I18N</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="139" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a9d1af45a84952f57f31b1869af7e842a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::settings.USE_L10N</definition>
+        <argsstring></argsstring>
+        <name>USE_L10N</name>
+        <qualifiedname>medical.settings.USE_L10N</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="141" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a0729d8d8d102248094076b3a5961e6c2" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::settings.USE_TZ</definition>
+        <argsstring></argsstring>
+        <name>USE_TZ</name>
+        <qualifiedname>medical.settings.USE_TZ</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="143" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1aed486632e3987437ea34a38a2ff15f9e" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.STATIC_URL</definition>
+        <argsstring></argsstring>
+        <name>STATIC_URL</name>
+        <qualifiedname>medical.settings.STATIC_URL</qualifiedname>
+        <initializer>=  &apos;/static/&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="149" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1ab72cf3e00a245d600134e53514f14a3c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int medical::settings.SITE_ID</definition>
+        <argsstring></argsstring>
+        <name>SITE_ID</name>
+        <qualifiedname>medical.settings.SITE_ID</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="151" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a168988caf4f18c016b2771c0a87bc729" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.LOGIN_REDIRECT_URL</definition>
+        <argsstring></argsstring>
+        <name>LOGIN_REDIRECT_URL</name>
+        <qualifiedname>medical.settings.LOGIN_REDIRECT_URL</qualifiedname>
+        <initializer>=  &quot;/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="152" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1aa9ee0f6a9ce0a1a7676701b30a4b28ae" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.LOGIN_URL</definition>
+        <argsstring></argsstring>
+        <name>LOGIN_URL</name>
+        <qualifiedname>medical.settings.LOGIN_URL</qualifiedname>
+        <initializer>=  &quot;/login/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="153" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a25af291aa87cc96682c2a94ef1b2aea4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>str medical::settings::STR_PUB</definition>
+        <argsstring></argsstring>
+        <name>STR_PUB</name>
+        <qualifiedname>medical.settings.STR_PUB</qualifiedname>
+        <initializer>=  stripe_conf.publishable_key</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="157" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a1590172e975edce9402f9808caa86de0" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>str medical::settings::STR_SEC</definition>
+        <argsstring></argsstring>
+        <name>STR_SEC</name>
+        <qualifiedname>medical.settings.STR_SEC</qualifiedname>
+        <initializer>=  stripe_conf.secret_key</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="158" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1aea457faa0dde02962ad7fe4cf104326e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>str medical::settings::STRIPE_ENDPOINT_KEY</definition>
+        <argsstring></argsstring>
+        <name>STRIPE_ENDPOINT_KEY</name>
+        <qualifiedname>medical.settings.STRIPE_ENDPOINT_KEY</qualifiedname>
+        <initializer>=  stripe_conf.end_key</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="159" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a2dd66368889b345f3fd7f1e01ef0c63f" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool medical::settings.EMAIL_USE_TLS</definition>
+        <argsstring></argsstring>
+        <name>EMAIL_USE_TLS</name>
+        <qualifiedname>medical.settings.EMAIL_USE_TLS</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="167" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1ae7aa31d636d474f418ba9bfaea5e6cad" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str medical::settings.EMAIL_HOST</definition>
+        <argsstring></argsstring>
+        <name>EMAIL_HOST</name>
+        <qualifiedname>medical.settings.EMAIL_HOST</qualifiedname>
+        <initializer>=  &apos;smtp.gmail.com&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="168" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacemedical_1_1settings_1a7c864c8f326f7ca794c22d5c2ad2531a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int medical::settings.EMAIL_PORT</definition>
+        <argsstring></argsstring>
+        <name>EMAIL_PORT</name>
+        <qualifiedname>medical.settings.EMAIL_PORT</qualifiedname>
+        <initializer>=  587</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="169" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" bodystart="169" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Django settings for medical project.
+
+Generated by &apos;django-admin startproject&apos; using Django 3.0.8.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.0/topics/settings/
+
+For the full list of settings and their values, see
+https://docs.djangoproject.com/en/3.0/ref/settings/
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

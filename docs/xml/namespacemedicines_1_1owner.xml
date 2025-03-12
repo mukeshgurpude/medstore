@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedicines_1_1owner" kind="namespace" language="Python">
+    <compoundname>medicines::owner</compoundname>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerCreateView" prot="public">medicines::owner::OwnerCreateView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerDeleteView" prot="public">medicines::owner::OwnerDeleteView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerDetailView" prot="public">medicines::owner::OwnerDetailView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerListView" prot="public">medicines::owner::OwnerListView</innerclass>
+    <innerclass refid="classmedicines_1_1owner_1_1OwnerUpdateView" prot="public">medicines::owner::OwnerUpdateView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

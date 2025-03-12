@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1apps_1_1AccountsConfig" xml:lang="en-US">
+<title>accounts.apps.AccountsConfig Class Reference</title>
+<indexterm><primary>accounts.apps.AccountsConfig</primary></indexterm>
+Inheritance diagram for accounts.apps.AccountsConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1apps_1_1AccountsConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for accounts.apps.AccountsConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1apps_1_1AccountsConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classaccounts_1_1apps_1_1AccountsConfig_1a9e969d7c54898f8c65335cd71aa1de77">name</link> = &apos;accounts&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1apps_1_1AccountsConfig_1a9e969d7c54898f8c65335cd71aa1de77"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>accounts.apps.AccountsConfig</secondary></indexterm>
+<indexterm><primary>accounts.apps.AccountsConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str accounts.apps.AccountsConfig.name = &apos;accounts&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/<link linkend="_accounts_2apps_8py">apps.py</link></section>
+</section>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1tests" xml:lang="en-US">
+<title>api.tests Namespace Reference</title>
+<indexterm><primary>api.tests</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__auth">test_auth</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__cart">test_cart</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__checkout">test_checkout</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__medicine">test_medicine</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__order">test_order</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1utils">utils</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_3fcb0e743ae70258ff44ba6f4b7d40d1" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts Directory Reference</primary></indexterm>
+Directory dependency graph for accounts:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_3fcb0e743ae70258ff44ba6f4b7d40d1_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_60ee30988a847a46579c60a16c7210b7">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_accounts_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2forms_8py">forms.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2sitemaps_8py">sitemaps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_accounts_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

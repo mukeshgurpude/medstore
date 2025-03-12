@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaccounts_1_1forms" kind="namespace" language="Python">
+    <compoundname>accounts::forms</compoundname>
+    <innerclass refid="classaccounts_1_1forms_1_1ProfileForm" prot="public">accounts::forms::ProfileForm</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1SellerForm" prot="public">accounts::forms::SellerForm</innerclass>
+    <innerclass refid="classaccounts_1_1forms_1_1UserForm" prot="public">accounts::forms::UserForm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaccounts_1_1views" kind="namespace" language="Python">
+    <compoundname>accounts::views</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceaccounts_1_1views_1a4b88cf7f76285b6507e4a180af894e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accounts.views.profile</definition>
+        <argsstring>(HttpRequest request)</argsstring>
+        <name>profile</name>
+        <qualifiedname>accounts.views.profile</qualifiedname>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Handles profile changes and requests
+:param request: Request for profile details
+:type request: HttpRequest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py" bodystart="15" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceaccounts_1_1views_1a4651c6d62bf0b880155496ee28b91438" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accounts.views.be_seller</definition>
+        <argsstring>(request)</argsstring>
+        <name>be_seller</name>
+        <qualifiedname>accounts.views.be_seller</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Handles store details related data
+:type request: HttpRequest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py" line="67" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py" bodystart="67" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

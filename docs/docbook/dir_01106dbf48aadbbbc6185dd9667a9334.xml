@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_01106dbf48aadbbbc6185dd9667a9334" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations Directory Reference</primary></indexterm>
+Directory dependency graph for migrations:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_01106dbf48aadbbbc6185dd9667a9334_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_cart_2migrations_20001__initial_8py">0001_initial.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0002__order__orderdate_8py">0002_order_orderdate.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0003__cartitem__purchased_8py">0003_cartitem_purchased.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0004__cartitem__total_8py">0004_cartitem_total.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0005__auto__20200831__1340_8py">0005_auto_20200831_1340.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_0006__order__postorder_8py">0006_order_postorder.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2migrations_2____init_____8py">__init__.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

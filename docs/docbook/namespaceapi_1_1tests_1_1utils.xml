@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1tests_1_1utils" xml:lang="en-US">
+<title>api.tests.utils Namespace Reference</title>
+<indexterm><primary>api.tests.utils</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceapi_1_1tests_1_1utils_1ad156849164eecf6177df1a0b9906dafc">create_merchant</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceapi_1_1tests_1_1utils_1ad156849164eecf6177df1a0b9906dafc"/><section>
+    <title>create_merchant()</title>
+<indexterm><primary>create_merchant</primary><secondary>api.tests.utils</secondary></indexterm>
+<indexterm><primary>api.tests.utils</primary><secondary>create_merchant</secondary></indexterm>
+<para><computeroutput>api.tests.utils.create_merchant ( )</computeroutput></para></section>
+</section>
+</section>

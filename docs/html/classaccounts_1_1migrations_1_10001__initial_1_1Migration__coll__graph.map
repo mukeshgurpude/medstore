@@ -1,0 +1,9 @@
+<map id="accounts.migrations.0001_initial.Migration" name="accounts.migrations.0001_initial.Migration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="114,148,297,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,160,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,80,175,146,171,149,116,83"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="184,5,227,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="208,71,208,131,203,131,203,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="272,5,307,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="284,72,275,98,262,125,255,137,251,134,258,123,270,96,279,70"/>
+</map>

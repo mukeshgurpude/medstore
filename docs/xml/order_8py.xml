@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="order_8py" kind="file" language="Python">
+    <compoundname>order.py</compoundname>
+    <innerclass refid="classapi_1_1views_1_1order_1_1OrderView" prot="public">api::views::order::OrderView</innerclass>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+    <innernamespace refid="namespaceapi_1_1views">api::views</innernamespace>
+    <innernamespace refid="namespaceapi_1_1views_1_1order">api::views::order</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceapi_1_1views_1_1order" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.http<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>JsonResponse</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.views.generic<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>View</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacecart_1_1models" kindref="compound">cart.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Order</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classapi_1_1views_1_1order_1_1OrderView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1views_1_1order_1_1OrderView" kindref="compound">OrderView</ref>(View):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classapi_1_1views_1_1order_1_1OrderView_1a081f4c4cbdc1fba80d0c81cbd4f627c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1views_1_1order_1_1OrderView_1a081f4c4cbdc1fba80d0c81cbd4f627c8" kindref="member">get</ref>(self,<sp/>request):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>View<sp/>to<sp/>get<sp/>the<sp/>order<sp/>details<sp/>of<sp/>user</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:param<sp/>request:<sp/>a<sp/>simple<sp/>HTTP<sp/>GET<sp/>request</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:type<sp/>request:<sp/>HttpRequest</highlight></codeline>
+<codeline lineno="14"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:return:<sp/>orders<sp/>by<sp/>the<sp/>logged<sp/>in<sp/>user</highlight></codeline>
+<codeline lineno="15"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:rtype:<sp/>JsonResponse</highlight></codeline>
+<codeline lineno="16"><highlight class="stringliteral"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>orders<sp/>=<sp/>Order.objects.filter(user=self.request.user)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>json_data<sp/>=<sp/>[order.as_json<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>order<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>orders]</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>JsonResponse({</highlight><highlight class="stringliteral">&apos;msg&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;Data<sp/>retrieved&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;orders&apos;</highlight><highlight class="normal">:<sp/>json_data})</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/order.py"/>
+  </compounddef>
+</doxygen>

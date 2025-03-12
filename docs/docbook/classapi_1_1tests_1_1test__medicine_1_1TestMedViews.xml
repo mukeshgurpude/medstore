@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews" xml:lang="en-US">
+<title>api.tests.test_medicine.TestMedViews Class Reference</title>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary></indexterm>
+Inheritance diagram for api.tests.test_medicine.TestMedViews:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__medicine_1_1TestMedViews__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_medicine.TestMedViews:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__medicine_1_1TestMedViews__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ae2fbd30885d06c246f278740bd7a4f21">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ac461f5e27ab64fde40c3013fd93aade3">handle_permit</link> (self, login=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1aa78d9b6748aab1d701a542ccc7ce2338">test_get_list</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ada25afa10b87759814070b191ce9fdec">test_new_add</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ab81e65bf4d09a98a759c599c74212f1d">test_detail_data</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a31231b70cf7e37d5639e07517ddc7930">test_update_med</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a99846d5a24048e86eb268dc4e805fff1">user</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a87775038be0d0dc3c5ef9d36779bbef1">fixtures</link> = [&apos;api/tests/med_initial.json&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ac461f5e27ab64fde40c3013fd93aade3"/><section>
+    <title>handle_permit()</title>
+<indexterm><primary>handle_permit</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>handle_permit</secondary></indexterm>
+<para><computeroutput>api.tests.test_medicine.TestMedViews.handle_permit ( self,  login = <computeroutput>True</computeroutput>
+)</computeroutput></para>
+<para><literallayout><computeroutput>Handles the permissions in case of this tests
+:param login: Specifies if, the user should be logged in
+:type login: bool
+</computeroutput></literallayout> </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_ac461f5e27ab64fde40c3013fd93aade3_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ae2fbd30885d06c246f278740bd7a4f21"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_medicine.TestMedViews.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ab81e65bf4d09a98a759c599c74212f1d"/><section>
+    <title>test_detail_data()</title>
+<indexterm><primary>test_detail_data</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>test_detail_data</secondary></indexterm>
+<para><computeroutput>api.tests.test_medicine.TestMedViews.test_detail_data ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1aa78d9b6748aab1d701a542ccc7ce2338"/><section>
+    <title>test_get_list()</title>
+<indexterm><primary>test_get_list</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>test_get_list</secondary></indexterm>
+<para><computeroutput>api.tests.test_medicine.TestMedViews.test_get_list ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ada25afa10b87759814070b191ce9fdec"/><section>
+    <title>test_new_add()</title>
+<indexterm><primary>test_new_add</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>test_new_add</secondary></indexterm>
+<para><computeroutput>api.tests.test_medicine.TestMedViews.test_new_add ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Test if the POST requests to create new medicines are working
+</computeroutput></literallayout> </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_ada25afa10b87759814070b191ce9fdec_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a31231b70cf7e37d5639e07517ddc7930"/><section>
+    <title>test_update_med()</title>
+<indexterm><primary>test_update_med</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>test_update_med</secondary></indexterm>
+<para><computeroutput>api.tests.test_medicine.TestMedViews.test_update_med ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a87775038be0d0dc3c5ef9d36779bbef1"/><section>
+    <title>fixtures</title>
+<indexterm><primary>fixtures</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>fixtures</secondary></indexterm>
+<para><computeroutput>list api.tests.test_medicine.TestMedViews.fixtures = [&apos;api/tests/med_initial.json&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a99846d5a24048e86eb268dc4e805fff1"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>api.tests.test_medicine.TestMedViews</secondary></indexterm>
+<indexterm><primary>api.tests.test_medicine.TestMedViews</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>api.tests.test_medicine.TestMedViews.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__medicine_8py">test_medicine.py</link></section>
+</section>

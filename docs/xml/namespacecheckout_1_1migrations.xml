@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecheckout_1_1migrations" kind="namespace" language="Python">
+    <compoundname>checkout::migrations</compoundname>
+    <innernamespace refid="namespacecheckout_1_1migrations_1_10001__initial">checkout::migrations::0001_initial</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1migrations_1_10002__auto__20200828__1023">checkout::migrations::0002_auto_20200828_1023</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/migrations/0001_initial.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

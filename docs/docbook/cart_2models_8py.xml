@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_cart_2models_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/models.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcart_1_1models_1_1CartItem">cart.models.CartItem</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcart_1_1models_1_1Order">cart.models.Order</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecart">cart</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1models">cart.models</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecart_1_1models_1a77b653b18b6a1b966a6f96cd4ac3f5ea">cart.models.user</link> = get_user_model()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

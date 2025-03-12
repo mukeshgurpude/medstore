@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1views_1_1MedCreateView" kind="class" language="Python" prot="public">
+    <compoundname>medicines::views::MedCreateView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">LoginRequiredMixin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">PermissionRequiredMixin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedCreateView_1a2935e5111bdb972d8325972635625a83" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.views.MedCreateView::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>medicines.views.MedCreateView.model</qualifiedname>
+        <initializer>=  <ref refid="classmedicines_1_1models_1_1Medicine" kindref="compound">Medicine</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="36" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedCreateView_1a0f6f5befc74d31e7a3ad4e7ae98cccbe" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.views.MedCreateView::permission_required</definition>
+        <argsstring></argsstring>
+        <name>permission_required</name>
+        <qualifiedname>medicines.views.MedCreateView.permission_required</qualifiedname>
+        <initializer>=  &apos;medicines.add_medicine&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="37" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedCreateView_1a77e74a5ef0b4e87b962f1741a18fe301" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.views.MedCreateView::permission_denied_message</definition>
+        <argsstring></argsstring>
+        <name>permission_denied_message</name>
+        <qualifiedname>medicines.views.MedCreateView.permission_denied_message</qualifiedname>
+        <initializer>=  &quot;No Access&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="38" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedCreateView_1a1f797aca8b478c1f4ba30327f9c6f406" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.views.MedCreateView::success_url</definition>
+        <argsstring></argsstring>
+        <name>success_url</name>
+        <qualifiedname>medicines.views.MedCreateView.success_url</qualifiedname>
+        <initializer>=  reverse_lazy(&quot;medicines:all&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="39" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="39" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" compoundref="medicines_2views_8py" startline="47" endline="57">medicines.views.MedCreateView.post</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedCreateView_1aaaece729377ef9f3dc813f66238c43a1" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.views.MedCreateView::template_name</definition>
+        <argsstring></argsstring>
+        <name>template_name</name>
+        <qualifiedname>medicines.views.MedCreateView.template_name</qualifiedname>
+        <initializer>=  &quot;medicines/medicine_add.html&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="40" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="40" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" compoundref="medicines_2views_8py" startline="47" endline="57">medicines.views.MedCreateView.post</referencedby>
+        <referencedby refid="classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b" compoundref="medicines_2views_8py" startline="69" endline="79">medicines.views.MedUpdateView.post</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1views_1_1MedCreateView_1aba6db25861ad84387f9eb31e1971b819" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>medicines.views.MedCreateView::template_name</definition>
+        <argsstring></argsstring>
+        <name>template_name</name>
+        <qualifiedname>medicines.views.MedCreateView.template_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="45" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="45" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" compoundref="medicines_2views_8py" startline="47" endline="57">medicines.views.MedCreateView.post</referencedby>
+        <referencedby refid="classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b" compoundref="medicines_2views_8py" startline="69" endline="79">medicines.views.MedUpdateView.post</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmedicines_1_1views_1_1MedCreateView_1ab94ce89be11e25047ccd527b57f8e539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.views.MedCreateView.get</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>get</name>
+        <qualifiedname>medicines.views.MedCreateView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="42" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.views.MedCreateView.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>medicines.views.MedCreateView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="47" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="47" bodyend="57"/>
+        <references refid="classmedicines_1_1views_1_1MedCreateView_1a1f797aca8b478c1f4ba30327f9c6f406" compoundref="medicines_2views_8py" startline="39">medicines.views.MedCreateView.success_url</references>
+        <references refid="classmedicines_1_1views_1_1MedUpdateView_1a3821d75623d3f197d6a4ea757b2b7fe0" compoundref="medicines_2views_8py" startline="60">medicines.views.MedUpdateView.success_url</references>
+        <references refid="classmedicines_1_1views_1_1MedListView_1a63127a44ea2b57a7905a0c4cdec01681" compoundref="medicines_2views_8py" startline="16">medicines.views.MedListView.template_name</references>
+        <references refid="classmedicines_1_1views_1_1MedDetailView_1a0e0528ea78b45c19f64bad1e7a2c5744" compoundref="medicines_2views_8py" startline="32">medicines.views.MedDetailView.template_name</references>
+        <references refid="classmedicines_1_1views_1_1MedCreateView_1aaaece729377ef9f3dc813f66238c43a1" compoundref="medicines_2views_8py" startline="40">medicines.views.MedCreateView.template_name</references>
+        <references refid="classmedicines_1_1views_1_1MedUpdateView_1a924f5ed69fb71cd6485a1a0e8d1a9bc0" compoundref="medicines_2views_8py" startline="61">medicines.views.MedUpdateView.template_name</references>
+        <references refid="classmedicines_1_1views_1_1MedDeleteView_1adeb1c4738309380ab938836db6a4d68d" compoundref="medicines_2views_8py" startline="82">medicines.views.MedDeleteView.template_name</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>PermissionRequiredMixin</label>
+      </node>
+      <node id="4">
+        <label>View</label>
+      </node>
+      <node id="1">
+        <label>medicines.views.MedCreateView</label>
+        <link refid="classmedicines_1_1views_1_1MedCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>PermissionRequiredMixin</label>
+      </node>
+      <node id="4">
+        <label>View</label>
+      </node>
+      <node id="1">
+        <label>medicines.views.MedCreateView</label>
+        <link refid="classmedicines_1_1views_1_1MedCreateView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>+permission_denied_message</edgelabel>
+          <edgelabel>+permission_required</edgelabel>
+          <edgelabel>+template_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" line="35" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/views.py" bodystart="35" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1ab94ce89be11e25047ccd527b57f8e539" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>get</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1a2935e5111bdb972d8325972635625a83" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>model</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1a77e74a5ef0b4e87b962f1741a18fe301" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>permission_denied_message</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1a0f6f5befc74d31e7a3ad4e7ae98cccbe" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>permission_required</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>post</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1a1f797aca8b478c1f4ba30327f9c6f406" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>success_url</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1aaaece729377ef9f3dc813f66238c43a1" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>template_name</name></member>
+      <member refid="classmedicines_1_1views_1_1MedCreateView_1aba6db25861ad84387f9eb31e1971b819" prot="public" virt="non-virtual"><scope>medicines::views::MedCreateView</scope><name>template_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1views_1_1MedListView" xml:lang="en-US">
+<title>medicines.views.MedListView Class Reference</title>
+<indexterm><primary>medicines.views.MedListView</primary></indexterm>
+Inheritance diagram for medicines.views.MedListView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedListView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.views.MedListView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedListView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b">get_context_data</link> (self, **kwargs)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedListView_1aa6d009c9875aabd4a680416224ae85c2">model</link> = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedListView_1a63127a44ea2b57a7905a0c4cdec01681">template_name</link> = &quot;medicines/medicine_list.html&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b"/><section>
+    <title>get_context_data()</title>
+<indexterm><primary>get_context_data</primary><secondary>medicines.views.MedListView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedListView</primary><secondary>get_context_data</secondary></indexterm>
+<para><computeroutput>medicines.views.MedListView.get_context_data ( self, ** kwargs)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedListView_a32882e4ccbe86c8d90013dadc073524b_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedListView_a32882e4ccbe86c8d90013dadc073524b_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedListView_1aa6d009c9875aabd4a680416224ae85c2"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>medicines.views.MedListView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedListView</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>medicines.views.MedListView.model = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedListView_1a63127a44ea2b57a7905a0c4cdec01681"/><section>
+    <title>template_name</title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedListView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedListView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedListView.template_name = &quot;medicines/medicine_list.html&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2views_8py">views.py</link></section>
+</section>

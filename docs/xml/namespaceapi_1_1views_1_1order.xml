@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1views_1_1order" kind="namespace" language="Python">
+    <compoundname>api::views::order</compoundname>
+    <innerclass refid="classapi_1_1views_1_1order_1_1OrderView" prot="public">api::views::order::OrderView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/order.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

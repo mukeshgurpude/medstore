@@ -1,0 +1,9 @@
+<map id="checkout.migrations.0001_initial.Migration" name="checkout.migrations.0001_initial.Migration">
+<area shape="rect" id="Node000001" title=" " alt="" coords="111,148,293,228"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,156,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,80,172,146,168,149,113,83"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="181,5,223,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="205,71,205,131,199,131,199,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="269,5,303,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="281,72,272,98,259,125,252,137,247,134,254,123,267,96,276,70"/>
+</map>

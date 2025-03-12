@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcheckout_1_1models_1_1BillingAddress" kind="class" language="Python" prot="public">
+    <compoundname>checkout::models::BillingAddress</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.models.BillingAddress::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>checkout.models.BillingAddress.user</qualifiedname>
+        <initializer>=  models.ForeignKey(get_user_model(), on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="7" bodyend="-1"/>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6" compoundref="accounts_2models_8py" startline="14" endline="16">accounts.models.UserProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" compoundref="accounts_2models_8py" startline="33" endline="35">accounts.models.SellerProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b" compoundref="accounts_2models_8py" startline="17" endline="25">accounts.models.UserProfile.full_name</referencedby>
+        <referencedby refid="classapi_1_1views_1_1auth_1_1APISignupView_1a5def6e2e1a27685b2afa199e47c7acea" compoundref="auth_8py" startline="182" endline="200">api.views.auth.APISignupView.post</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba" compoundref="test__auth_8py" startline="149" endline="152">api.tests.test_auth.TestSellerViews.setUp</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71" compoundref="test__cart_8py" startline="64" endline="67">api.tests.test_cart.TestCart.test_add_new_to_cart</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b" compoundref="test__cart_8py" startline="43" endline="63">api.tests.test_cart.TestCart.test_cart_full_update</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7" compoundref="test__cart_8py" startline="36" endline="42">api.tests.test_cart.TestCart.test_cart_increase</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" compoundref="test__cart_8py" startline="26" endline="35">api.tests.test_cart.TestCart.test_cart_list</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" compoundref="test__auth_8py" startline="43" endline="54">api.tests.test_auth.ProfileTestCase.test_get_user</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" compoundref="test__auth_8py" startline="70" endline="89">api.tests.test_auth.ProfileTestCase.test_post_output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.models.BillingAddress::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>checkout.models.BillingAddress.address</qualifiedname>
+        <initializer>=  models.CharField(max_length=50, )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.models.BillingAddress::pincode</definition>
+        <argsstring></argsstring>
+        <name>pincode</name>
+        <qualifiedname>checkout.models.BillingAddress.pincode</qualifiedname>
+        <initializer>=  models.PositiveIntegerField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.models.BillingAddress::city</definition>
+        <argsstring></argsstring>
+        <name>city</name>
+        <qualifiedname>checkout.models.BillingAddress.city</qualifiedname>
+        <initializer>=  models.CharField(max_length=20)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="10" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.models.BillingAddress::landmark</definition>
+        <argsstring></argsstring>
+        <name>landmark</name>
+        <qualifiedname>checkout.models.BillingAddress.landmark</qualifiedname>
+        <initializer>=  models.CharField(max_length=30, null=True)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="11" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.models.BillingAddress.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>checkout.models.BillingAddress.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="13" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.models.BillingAddress.as_json</definition>
+        <argsstring>(self)</argsstring>
+        <name>as_json</name>
+        <qualifiedname>checkout.models.BillingAddress.as_json</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="17" bodyend="19"/>
+        <references refid="classaccounts_1_1models_1_1SellerProfile_1aed59567742abc68623322b6b5fb16188" compoundref="accounts_2models_8py" startline="30">accounts.models.SellerProfile.address</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e" compoundref="checkout_2models_8py" startline="8">checkout.models.BillingAddress.address</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80" compoundref="checkout_2models_8py" startline="10">checkout.models.BillingAddress.city</references>
+        <references refid="classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b" compoundref="checkout_2forms_8py" startline="7">checkout.forms.BillingForm.landmark</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07" compoundref="checkout_2models_8py" startline="11">checkout.models.BillingAddress.landmark</references>
+        <references refid="classaccounts_1_1models_1_1SellerProfile_1a7d2e6e6c81ceeeaf65a26556a5a6b35a" compoundref="accounts_2models_8py" startline="31">accounts.models.SellerProfile.pincode</references>
+        <references refid="classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981" compoundref="checkout_2forms_8py" startline="6">checkout.forms.BillingForm.pincode</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7" compoundref="checkout_2models_8py" startline="9">checkout.models.BillingAddress.pincode</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>checkout.models.BillingAddress</label>
+        <link refid="classcheckout_1_1models_1_1BillingAddress"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>checkout.models.BillingAddress</label>
+        <link refid="classcheckout_1_1models_1_1BillingAddress"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models.Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>__str__</name></member>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>address</name></member>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>as_json</name></member>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>city</name></member>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>landmark</name></member>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>pincode</name></member>
+      <member refid="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" prot="public" virt="non-virtual"><scope>checkout::models::BillingAddress</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

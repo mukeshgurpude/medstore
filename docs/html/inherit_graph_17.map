@@ -1,0 +1,17 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,153,120,179"/>
+<area shape="rect" id="Node000001" href="$classaccounts_1_1models_1_1SellerProfile.html" title=" " alt="" coords="175,5,390,31"/>
+<area shape="poly" id="edge95_Node000000_Node000001" title=" " alt="" coords="76,140,112,88,137,62,167,40,191,28,194,33,169,44,141,66,116,92,80,143"/>
+<area shape="rect" id="Node000002" href="$classaccounts_1_1models_1_1UserProfile.html" title=" " alt="" coords="179,55,386,80"/>
+<area shape="poly" id="edge96_Node000000_Node000002" title=" " alt="" coords="87,142,123,114,167,89,200,78,202,83,169,94,126,119,90,146"/>
+<area shape="rect" id="Node000003" href="$classcart_1_1models_1_1CartItem.html" title=" " alt="" coords="203,104,363,129"/>
+<area shape="poly" id="edge97_Node000000_Node000003" title=" " alt="" coords="127,148,167,138,219,127,220,132,169,143,128,153"/>
+<area shape="rect" id="Node000004" href="$classcart_1_1models_1_1Order.html" title=" " alt="" coords="213,153,352,179"/>
+<area shape="poly" id="edge98_Node000000_Node000004" title=" " alt="" coords="134,163,213,163,213,169,134,169"/>
+<area shape="rect" id="Node000005" href="$classcheckout_1_1models_1_1BillingAddress.html" title=" " alt="" coords="168,203,397,228"/>
+<area shape="poly" id="edge99_Node000000_Node000005" title=" " alt="" coords="133,179,169,187,225,200,224,205,167,193,132,184"/>
+<area shape="rect" id="Node000006" href="$classmedicines_1_1models_1_1MedCat.html" title=" " alt="" coords="185,252,380,277"/>
+<area shape="poly" id="edge100_Node000000_Node000006" title=" " alt="" coords="91,186,126,213,169,237,206,249,204,254,167,242,124,217,87,190"/>
+<area shape="rect" id="Node000007" href="$classmedicines_1_1models_1_1Medicine.html" title=" " alt="" coords="181,301,385,327"/>
+<area shape="poly" id="edge101_Node000000_Node000007" title=" " alt="" coords="80,189,116,239,141,265,169,286,197,299,195,304,167,291,138,269,112,243,76,192"/>
+</map>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1forms_1_1UserForm_1_1Meta" xml:lang="en-US">
+<title>accounts.forms.UserForm.Meta Class Reference</title>
+<indexterm><primary>accounts.forms.UserForm.Meta</primary></indexterm>
+Collaboration diagram for accounts.forms.UserForm.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1forms_1_1UserForm_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1forms_1_1UserForm_1_1Meta_1ade0749cdb2d112102e3a90d3ca36a56a">model</link> = User</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_classaccounts_1_1forms_1_1UserForm_1_1Meta_1a9ff72c47bb6a77e6ca8604b844ee9828">fields</link> = (&quot;first_name&quot;, &quot;last_name&quot;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1forms_1_1UserForm_1_1Meta_1a9ff72c47bb6a77e6ca8604b844ee9828"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>accounts.forms.UserForm.Meta</secondary></indexterm>
+<indexterm><primary>accounts.forms.UserForm.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>tuple accounts.forms.UserForm.Meta.fields = (&quot;first_name&quot;, &quot;last_name&quot;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1forms_1_1UserForm_1_1Meta_1ade0749cdb2d112102e3a90d3ca36a56a"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>accounts.forms.UserForm.Meta</secondary></indexterm>
+<indexterm><primary>accounts.forms.UserForm.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>accounts.forms.UserForm.Meta.model = User<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/<link linkend="_accounts_2forms_8py">forms.py</link></section>
+</section>

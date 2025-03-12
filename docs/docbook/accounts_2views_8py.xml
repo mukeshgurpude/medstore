@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_accounts_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/views.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceaccounts">accounts</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceaccounts_1_1views">accounts.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceaccounts_1_1views_1a4b88cf7f76285b6507e4a180af894e03">accounts.views.profile</link> (HttpRequest request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceaccounts_1_1views_1a4651c6d62bf0b880155496ee28b91438">accounts.views.be_seller</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>
