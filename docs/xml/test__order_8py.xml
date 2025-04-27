@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="test__order_8py" kind="file" language="Python">
+    <compoundname>test_order.py</compoundname>
+    <innerclass refid="classapi_1_1tests_1_1test__order_1_1TestOrderView" prot="public">api::tests::test_order::TestOrderView</innerclass>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests">api::tests</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1test__order">api::tests::test_order</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceapi_1_1tests_1_1test__order" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.test<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>TestCase</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.utils.decorators<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>method_decorator</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceapi_1_1decorators" kindref="compound">api.decorators</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>check_response</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacecart_1_1models" kindref="compound">cart.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Order</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classapi_1_1tests_1_1test__order_1_1TestOrderView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1tests_1_1test__order_1_1TestOrderView" kindref="compound">TestOrderView</ref>(TestCase):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a40e6797d39b2c01227459b0b5b5aae40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>fixtures<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;api/fixtures/&quot;</highlight><highlight class="normal"><sp/>+<sp/>file<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;.json&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>file<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>{</highlight><highlight class="stringliteral">&quot;user&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;ordered_orders&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;permissions&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;med&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;medCategory&quot;</highlight><highlight class="normal">}]</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8" kindref="member">setUp</ref>(self)<sp/>-&gt;<sp/>None:</highlight></codeline>
+<codeline lineno="14" refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" kindref="member">credentials</ref><sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">:<sp/>16,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;username&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;demo_username&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;password&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;demo_password&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.client.login(**self.<ref refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" kindref="member">credentials</ref>)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@method_decorator(check_response(&apos;/api/v1/orders/&apos;)</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="22" refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" kindref="member">test_get</ref>(self):</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>res<sp/>=<sp/>self.client.get(</highlight><highlight class="stringliteral">&apos;/api/v1/orders/&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.assertEqual(len(res.json()[</highlight><highlight class="stringliteral">&apos;orders&apos;</highlight><highlight class="normal">]),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Order.objects.filter(user_id=self.<ref refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" kindref="member">credentials</ref>[</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">],</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ordered=</highlight><highlight class="keyword">True</highlight><highlight class="normal">).count())</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py"/>
+  </compounddef>
+</doxygen>

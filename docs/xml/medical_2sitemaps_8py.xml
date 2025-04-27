@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="medical_2sitemaps_8py" kind="file" language="Python">
+    <compoundname>sitemaps.py</compoundname>
+    <innerclass refid="classmedical_1_1sitemaps_1_1StaticSitemap" prot="public">medical::sitemaps::StaticSitemap</innerclass>
+    <innernamespace refid="namespacemedical">medical</innernamespace>
+    <innernamespace refid="namespacemedical_1_1sitemaps">medical::sitemaps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedical_1_1sitemaps" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">Top<sp/>level<sp/>sitemap<sp/>which<sp/>generates<sp/>sitemap<sp/>for<sp/>all<sp/>static<sp/>urls</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral">(except<sp/>which<sp/>are<sp/>generated<sp/>elsewhere)</highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sitemaps</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classmedical_1_1sitemaps_1_1StaticSitemap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedical_1_1sitemaps_1_1StaticSitemap" kindref="compound">StaticSitemap</ref>(sitemaps.Sitemap):</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Url<sp/>paths<sp/>to<sp/>static<sp/>urls</highlight></codeline>
+<codeline lineno="13"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classmedical_1_1sitemaps_1_1StaticSitemap_1acd06c422768b8044c62201df3da715df" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>changeFreq<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;monthly&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a162c0849d3df71abd60fbabdd4d4d76f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>.8</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a2f154156ebe0d87a7e18bf952f28f501" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a2f154156ebe0d87a7e18bf952f28f501" kindref="member">items</ref>(self):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pages<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;cart&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&apos;home&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;my_orders&apos;</highlight><highlight class="normal">],</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;checkout&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&apos;order&apos;</highlight><highlight class="normal">],</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;home&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&apos;home&apos;</highlight><highlight class="normal">],</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;medicines&quot;</highlight><highlight class="normal">:<sp/>[</highlight><highlight class="stringliteral">&quot;all&quot;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[app<sp/>+<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/>+<sp/>view<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>app,<sp/>views<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>pages.items()<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>view<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>views]</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a9a451a5d7b4257c75f7d26939f74af12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a9a451a5d7b4257c75f7d26939f74af12" kindref="member">location</ref>(self,<sp/>page):</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reverse(page)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/sitemaps.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classaccounts_1_1models_1_1UserProfile" xml:lang="en-US">
+<title>accounts.models.UserProfile Class Reference</title>
+<indexterm><primary>accounts.models.UserProfile</primary></indexterm>
+Inheritance diagram for accounts.models.UserProfile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1models_1_1UserProfile__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for accounts.models.UserProfile:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classaccounts_1_1models_1_1UserProfile__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6">__str__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b">full_name</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1UserProfile_1aa816d168487d05f0f8597b8993e0ee28">user</link> = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1UserProfile_1a6f8c6e54002d8dfc5734fc21765c20a0">gender</link></para>
+</listitem>
+            <listitem><para><link linkend="_classaccounts_1_1models_1_1UserProfile_1a2deeb28e63af942e84f738b00fddab90">phone</link> = models.PositiveBigIntegerField(verbose_name=&quot;Mobile Number&quot;, null=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>accounts.models.UserProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.UserProfile</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>accounts.models.UserProfile.__str__ ( self)</computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b"/><section>
+    <title>full_name()</title>
+<indexterm><primary>full_name</primary><secondary>accounts.models.UserProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.UserProfile</primary><secondary>full_name</secondary></indexterm>
+<para><computeroutput>accounts.models.UserProfile.full_name ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Full name of the user
+:return: Name of the user
+:rtype: str
+</computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classaccounts_1_1models_1_1UserProfile_1a6f8c6e54002d8dfc5734fc21765c20a0"/><section>
+    <title>gender</title>
+<indexterm><primary>gender</primary><secondary>accounts.models.UserProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.UserProfile</primary><secondary>gender</secondary></indexterm>
+<para><computeroutput>accounts.models.UserProfile.gender<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;models.CharField(null=<emphasis role="keyword">True</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;choices=[(<emphasis role="stringliteral">&quot;Male&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;Male&quot;</emphasis>),&#32;(<emphasis role="stringliteral">&quot;Female&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;Female&quot;</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&quot;Prefer&#32;not&#32;to&#32;say&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;Prefer&#32;not&#32;to&#32;say&quot;</emphasis>)],
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;max_length=50)
+</programlisting></section>
+<anchor xml:id="_classaccounts_1_1models_1_1UserProfile_1a2deeb28e63af942e84f738b00fddab90"/><section>
+    <title>phone</title>
+<indexterm><primary>phone</primary><secondary>accounts.models.UserProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.UserProfile</primary><secondary>phone</secondary></indexterm>
+<para><computeroutput>accounts.models.UserProfile.phone = models.PositiveBigIntegerField(verbose_name=&quot;Mobile Number&quot;, null=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classaccounts_1_1models_1_1UserProfile_1aa816d168487d05f0f8597b8993e0ee28"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>accounts.models.UserProfile</secondary></indexterm>
+<indexterm><primary>accounts.models.UserProfile</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>accounts.models.UserProfile.user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/<link linkend="_accounts_2models_8py">models.py</link></section>
+</section>

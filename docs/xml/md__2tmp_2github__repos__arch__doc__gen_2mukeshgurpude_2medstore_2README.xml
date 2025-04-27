@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README" kind="page">
+    <compoundname>md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README</compoundname>
+    <title>Medstore</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ulink url="https://gitpod.io/#https://github.com/mukeshgurpude/medstore"><image type="html" name="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" alt="Gitpod Ready-to-Code" inline="yes"></image>
+</ulink> <image type="html" name="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fmedstore.pythonanywhere.com" alt="W3C Validation" inline="yes"></image>
+ <ulink url="https://www.codefactor.io/repository/github/mukeshgurpude/medstore"><image type="html" name="https://www.codefactor.io/repository/github/mukeshgurpude/medstore/badge" alt="CodeFactor" inline="yes"></image>
+</ulink> <image type="html" name="https://img.shields.io/github/license/mukeshgurpude/medstore?style=flat-square" alt="GitHub" inline="yes"></image>
+ <image type="html" name="https://img.shields.io/scrutinizer/quality/g/mukeshgurpude/medstore?style=flat-square" alt="code quality" inline="yes"></image>
+</para>
+<para>Medstore is a Medical store alike website, built as the submission for the Minor project in the college.</para>
+<sect1 id="md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README_1autotoc_md0">
+<title>How to run Locally</title><para><itemizedlist>
+<listitem><para>Clone this repository <programlisting filename=".bash"><codeline><highlight class="normal">git<sp/>clone<sp/>https://github.com/mukeshgurpude/medstore.git</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para>Alternatively you can <ulink url="https://github.com/mukeshgurpude/medstore/archive/master.zip">download</ulink> this repository as <computeroutput>zip</computeroutput>, and extract it.</para>
+</listitem><listitem><para>Switch to the project directory and create a superuser <programlisting filename=".bash"><codeline><highlight class="normal">cd<sp/>medstore</highlight></codeline>
+<codeline><highlight class="normal">python3<sp/>manage.py<sp/>createsuperuser</highlight></codeline>
+</programlisting>  <bold>Note</bold>: Depending on the system, python3 above should be replaced by <computeroutput>python</computeroutput> or <computeroutput>py</computeroutput>(in windows) </para>
+</listitem><listitem><para>Initialize database <programlisting filename=".bash"><codeline><highlight class="normal">python3<sp/>manage.py<sp/>makemigrations</highlight></codeline>
+<codeline><highlight class="normal">python3<sp/>manage.py<sp/>migrate</highlight></codeline>
+</programlisting></para>
+</listitem><listitem><para>Run the server <programlisting filename=".bash"><codeline><highlight class="normal">python3<sp/>manage.py<sp/>runserver</highlight></codeline>
+</programlisting> This will start a local server on <computeroutput>port 8000</computeroutput>.</para>
+</listitem><listitem><para>Open <ulink url="http://localhost:8000">http://localhost:8000</ulink> or <ulink url="http://127.0.0.1:8000">http://127.0.0.1:8000</ulink>, in the browser to view the website</para>
+</listitem></itemizedlist>
+</para>
+<para><image type="html" name="https://forthebadge.com/images/badges/powered-by-black-magic.svg" alt="forthebadge" inline="yes"></image>
+ </para>
+</sect1>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/README.md"/>
+  </compounddef>
+</doxygen>

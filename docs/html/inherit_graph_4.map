@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,129,93,155"/>
+<area shape="rect" id="Node000001" href="$classaccounts_1_1apps_1_1AccountsConfig.html" title=" " alt="" coords="142,5,361,31"/>
+<area shape="poly" id="edge2_Node000000_Node000001" title=" " alt="" coords="64,116,96,76,117,56,140,40,166,28,168,33,143,44,120,61,100,80,68,119"/>
+<area shape="rect" id="Node000002" href="$classapi_1_1apps_1_1ApiConfig.html" title=" " alt="" coords="180,55,323,80"/>
+<area shape="poly" id="edge3_Node000000_Node000002" title=" " alt="" coords="80,120,140,89,179,77,180,82,142,94,82,124"/>
+<area shape="rect" id="Node000003" href="$classcart_1_1apps_1_1CartConfig.html" title=" " alt="" coords="174,104,329,129"/>
+<area shape="poly" id="edge4_Node000000_Node000003" title=" " alt="" coords="107,132,174,124,174,129,108,137"/>
+<area shape="rect" id="Node000004" href="$classcheckout_1_1apps_1_1CheckoutConfig.html" title=" " alt="" coords="141,153,361,179"/>
+<area shape="poly" id="edge5_Node000000_Node000004" title=" " alt="" coords="107,146,145,151,144,156,107,151"/>
+<area shape="rect" id="Node000005" href="$classhome_1_1apps_1_1HomeConfig.html" title=" " alt="" coords="162,203,341,228"/>
+<area shape="poly" id="edge6_Node000000_Node000005" title=" " alt="" coords="84,159,142,188,184,200,182,205,140,192,82,164"/>
+<area shape="rect" id="Node000006" href="$classmedicines_1_1apps_1_1MedicinesConfig.html" title=" " alt="" coords="154,253,349,293"/>
+<area shape="poly" id="edge7_Node000000_Node000006" title=" " alt="" coords="69,164,101,202,143,237,169,250,167,255,140,242,97,206,65,168"/>
+</map>

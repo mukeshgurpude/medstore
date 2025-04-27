@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1forms_1_1ProfileForm" kind="class" language="Python" prot="public">
+    <compoundname>accounts::forms::ProfileForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ModelForm</basecompoundref>
+    <innerclass refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta" prot="public">accounts::forms::ProfileForm::Meta</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>accounts.forms.ProfileForm</label>
+        <link refid="classaccounts_1_1forms_1_1ProfileForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModelForm</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.forms.ProfileForm</label>
+        <link refid="classaccounts_1_1forms_1_1ProfileForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ModelForm</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/forms.py" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

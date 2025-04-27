@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="asgi_8py" kind="file" language="Python">
+    <compoundname>asgi.py</compoundname>
+    <innernamespace refid="namespacemedical">medical</innernamespace>
+    <innernamespace refid="namespacemedical_1_1asgi">medical::asgi</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedical" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">ASGI<sp/>config<sp/>for<sp/>medical<sp/>project.</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">It<sp/>exposes<sp/>the<sp/>ASGI<sp/>callable<sp/>as<sp/>a<sp/>module-level<sp/>variable<sp/>named<sp/>``application``.</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral">For<sp/>more<sp/>information<sp/>on<sp/>this<sp/>file,<sp/>see</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.core.asgi<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>get_asgi_application</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">os.environ.setdefault(</highlight><highlight class="stringliteral">&apos;DJANGO_SETTINGS_MODULE&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;medical.settings&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespacemedical_1_1asgi_1a1f6f5120d8893360bca3ab645f55c30e" refkind="member"><highlight class="normal">application<sp/>=<sp/>get_asgi_application()</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/asgi.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacehome_1_1apps" xml:lang="en-US">
+<title>home.apps Namespace Reference</title>
+<indexterm><primary>home.apps</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classhome_1_1apps_1_1HomeConfig">HomeConfig</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

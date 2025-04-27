@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceaccounts_1_1sitemaps" kind="namespace" language="Python">
+    <compoundname>accounts::sitemaps</compoundname>
+    <innerclass refid="classaccounts_1_1sitemaps_1_1AccountSiteMap" prot="public">accounts::sitemaps::AccountSiteMap</innerclass>
+    <innerclass refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap" prot="public">accounts::sitemaps::AllAuthSitemap</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Sitemap classes related to the account related views
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

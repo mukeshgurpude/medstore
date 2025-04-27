@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1sitemaps_1_1MedSiteMap" xml:lang="en-US">
+<title>medicines.sitemaps.MedSiteMap Class Reference</title>
+<indexterm><primary>medicines.sitemaps.MedSiteMap</primary></indexterm>
+Inheritance diagram for medicines.sitemaps.MedSiteMap:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1sitemaps_1_1MedSiteMap__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.sitemaps.MedSiteMap:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1sitemaps_1_1MedSiteMap__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59">items</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e">location</link> (self, obj)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_classmedicines_1_1sitemaps_1_1MedSiteMap_1a8b58e26e2a135275ab9f050de494ec0d">priority</link> = 0.9</para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1sitemaps_1_1MedSiteMap_1a5b43bd0e3a91a69a7c93c98d4a145315">changefreq</link> = &quot;daily&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Class to wrap up dynamic urls for medicines
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59"/><section>
+    <title>items()</title>
+<indexterm><primary>items</primary><secondary>medicines.sitemaps.MedSiteMap</secondary></indexterm>
+<indexterm><primary>medicines.sitemaps.MedSiteMap</primary><secondary>items</secondary></indexterm>
+<para><computeroutput>medicines.sitemaps.MedSiteMap.items ( self)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1sitemaps_1_1MedSiteMap_ac52d12ec32b8be8b3648e473426eda59_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e"/><section>
+    <title>location()</title>
+<indexterm><primary>location</primary><secondary>medicines.sitemaps.MedSiteMap</secondary></indexterm>
+<indexterm><primary>medicines.sitemaps.MedSiteMap</primary><secondary>location</secondary></indexterm>
+<para><computeroutput>medicines.sitemaps.MedSiteMap.location ( self,  obj)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1sitemaps_1_1MedSiteMap_1a5b43bd0e3a91a69a7c93c98d4a145315"/><section>
+    <title>changefreq</title>
+<indexterm><primary>changefreq</primary><secondary>medicines.sitemaps.MedSiteMap</secondary></indexterm>
+<indexterm><primary>medicines.sitemaps.MedSiteMap</primary><secondary>changefreq</secondary></indexterm>
+<para><computeroutput>str medicines.sitemaps.MedSiteMap.changefreq = &quot;daily&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1sitemaps_1_1MedSiteMap_1a8b58e26e2a135275ab9f050de494ec0d"/><section>
+    <title>priority</title>
+<indexterm><primary>priority</primary><secondary>medicines.sitemaps.MedSiteMap</secondary></indexterm>
+<indexterm><primary>medicines.sitemaps.MedSiteMap</primary><secondary>priority</secondary></indexterm>
+<para><computeroutput>float medicines.sitemaps.MedSiteMap.priority = 0.9<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2sitemaps_8py">sitemaps.py</link></section>
+</section>

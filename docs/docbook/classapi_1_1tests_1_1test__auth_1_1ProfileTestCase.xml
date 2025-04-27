@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase" xml:lang="en-US">
+<title>api.tests.test_auth.ProfileTestCase Class Reference</title>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary></indexterm>
+Inheritance diagram for api.tests.test_auth.ProfileTestCase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_auth.ProfileTestCase:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3">__init__</link> (self, *args, **kwargs)</para>
+</listitem>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a316293bd13b94fb94c1596702c4b7584">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09">test_get_user</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a711dcae02e93bff28caec1a3d7d10b55">test_get_output</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703">test_post_output</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aea8f091fb8f0336d547f7fb4d3b8da13">failureException</link></para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1acc1be88c7733a72f9e7df4acec0b21f9">longMessage</link></para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1af1440e9c26c304f73ef759713f420fac">res</link></para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8">user</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Constructor &amp; Destructor Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3"/><section>
+    <title>__init__()</title>
+<indexterm><primary>__init__</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>__init__</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.__init__ ( self, * args, ** kwargs)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_adf535cae078dbbd897b863a5b1a23ad3_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_adf535cae078dbbd897b863a5b1a23ad3_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a316293bd13b94fb94c1596702c4b7584"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_auth.ProfileTestCase.setUp ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    Setup the test user, and log in with the test user to access the profile page
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a711dcae02e93bff28caec1a3d7d10b55"/><section>
+    <title>test_get_output()</title>
+<indexterm><primary>test_get_output</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>test_get_output</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.test_get_output ( self)</computeroutput></para>
+<para><literallayout><computeroutput>    Tests if the GET requests to profile are working and also returning the correct response
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09"/><section>
+    <title>test_get_user()</title>
+<indexterm><primary>test_get_user</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>test_get_user</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.test_get_user ( self)</computeroutput></para>
+<para><literallayout><computeroutput>tests if logged in user is returned
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703"/><section>
+    <title>test_post_output()</title>
+<indexterm><primary>test_post_output</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>test_post_output</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.test_post_output ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Tests if the POST requests to profile are working and also returning the correct response
+</computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aea8f091fb8f0336d547f7fb4d3b8da13"/><section>
+    <title>failureException</title>
+<indexterm><primary>failureException</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>failureException</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.failureException</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1acc1be88c7733a72f9e7df4acec0b21f9"/><section>
+    <title>longMessage</title>
+<indexterm><primary>longMessage</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>longMessage</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.longMessage</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1af1440e9c26c304f73ef759713f420fac"/><section>
+    <title>res</title>
+<indexterm><primary>res</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>res</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.res</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>api.tests.test_auth.ProfileTestCase</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.ProfileTestCase</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.ProfileTestCase.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__auth_8py">test_auth.py</link></section>
+</section>

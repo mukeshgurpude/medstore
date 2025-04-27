@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>accounts::migrations::0002_auto_20200908_1336::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration_1ab03705563d4aec027cb76758dcbf65b5" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list accounts.migrations.0002_auto_20200908_1336.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>accounts.migrations.0002_auto_20200908_1336.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        (&apos;accounts&apos;, &apos;0001_initial&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0002_auto_20200908_1336.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0002_auto_20200908_1336.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration_1a477150b00844857a48ea34820fb0e473" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list accounts.migrations.0002_auto_20200908_1336.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>accounts.migrations.0002_auto_20200908_1336.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.AlterField(
+            model_name=&apos;userprofile&apos;,
+            name=&apos;gender&apos;,
+            field=models.CharField(choices=[(&apos;Male&apos;, &apos;Male&apos;), (&apos;Female&apos;, &apos;Female&apos;), (&apos;Prefer not to say&apos;, &apos;Prefer not to say&apos;)], max_length=50, null=True),
+        ),
+        migrations.AlterField(
+            model_name=&apos;userprofile&apos;,
+            name=&apos;phone&apos;,
+            field=models.PositiveBigIntegerField(null=True, verbose_name=&apos;Mobile Number&apos;),
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0002_auto_20200908_1336.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0002_auto_20200908_1336.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>accounts.migrations.0002_auto_20200908_1336.Migration</label>
+        <link refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.migrations.0002_auto_20200908_1336.Migration</label>
+        <link refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0002_auto_20200908_1336.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations/0002_auto_20200908_1336.py" bodystart="6" bodyend="24"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration_1ab03705563d4aec027cb76758dcbf65b5" prot="public" virt="non-virtual"><scope>accounts::migrations::0002_auto_20200908_1336::Migration</scope><name>dependencies</name></member>
+      <member refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration_1a477150b00844857a48ea34820fb0e473" prot="public" virt="non-virtual"><scope>accounts::migrations::0002_auto_20200908_1336::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

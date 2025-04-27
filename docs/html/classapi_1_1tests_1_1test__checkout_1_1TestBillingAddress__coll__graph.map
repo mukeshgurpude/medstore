@@ -1,0 +1,7 @@
+<map id="api.tests.test_checkout.TestBillingAddress" name="api.tests.test_checkout.TestBillingAddress">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,133,173,253"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="15,5,87,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="65,83,77,133,72,134,59,85"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="111,5,145,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,72,111,118,106,117,117,70"/>
+</map>

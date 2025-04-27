@@ -1,0 +1,9 @@
+<map id="medicines.views.MedDetailView" name="medicines.views.MedDetailView">
+<area shape="rect" id="Node000001" title=" " alt="" coords="133,248,359,313"/>
+<area shape="rect" id="Node000002" href="$classmedicines_1_1owner_1_1OwnerDetailView.html" title=" " alt="" coords="5,120,247,185"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,194,218,246,214,250,164,197"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="55,5,197,71"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,85,129,120,123,120,123,85"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="271,120,301,185"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="278,186,264,233,259,231,273,185"/>
+</map>

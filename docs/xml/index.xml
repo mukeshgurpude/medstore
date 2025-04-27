@@ -1,0 +1,1211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="classaccounts_1_1apps_1_1AccountsConfig" kind="class"><name>accounts::apps::AccountsConfig</name>
+    <member refid="classaccounts_1_1apps_1_1AccountsConfig_1a9e969d7c54898f8c65335cd71aa1de77" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1sitemaps_1_1AccountSiteMap" kind="class"><name>accounts::sitemaps::AccountSiteMap</name>
+    <member refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a1e160d4801d8e8aaa95ad8c84c80aa77" kind="variable"><name>priority</name></member>
+    <member refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a8ac3e2cf880fa42bf1b9aa2ec190245f" kind="variable"><name>changeFreq</name></member>
+    <member refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a62730699fc75f9fb9c2e2c5847a2243f" kind="function"><name>items</name></member>
+    <member refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1af836c3a5eaf80ff98f0b18f9fa813f89" kind="function"><name>location</name></member>
+  </compound>
+  <compound refid="classcart_1_1tests_1_1AfterTestPayment" kind="class"><name>cart::tests::AfterTestPayment</name>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8" kind="variable"><name>test_user</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1ad6a713ed64fdb68d2a22d4d9cb314684" kind="variable"><name>medcat</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d" kind="variable"><name>med</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce" kind="variable"><name>cart_item</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136" kind="variable"><name>order</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf" kind="function"><name>test_create_test_user</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144" kind="function"><name>test_create_med</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70" kind="function"><name>test_create_cart_item</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953" kind="function"><name>test_create_order</name></member>
+    <member refid="classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a" kind="function"><name>test_after_pay</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap" kind="class"><name>accounts::sitemaps::AllAuthSitemap</name>
+    <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a0b1d391735132523a7715ba34b12467c" kind="variable"><name>priority</name></member>
+    <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a7b8430aa8de629a026a323b151c7aeca" kind="variable"><name>changeFreq</name></member>
+    <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1af9bb58614780826c03188c8b0202c8b2" kind="function"><name>items</name></member>
+    <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a73f3f797c277f7058c5d90ff8ec03766" kind="function"><name>location</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress" kind="class"><name>api::views::checkout::APIBillingAddress</name>
+    <member refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" kind="function"><name>get_address</name></member>
+    <member refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classapi_1_1apps_1_1ApiConfig" kind="class"><name>api::apps::ApiConfig</name>
+    <member refid="classapi_1_1apps_1_1ApiConfig_1a52029db19a3cc09bd0d62a50d8044618" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1medicine_1_1APIDetailView" kind="class"><name>api::views::medicine::APIDetailView</name>
+    <member refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1ad2e4bf09a75526d5a744e554e2e59210" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1ad2d843403ae7eaef6296ab196ef9c174" kind="function"><name>__init__</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1a5c6e188a766e83ebcb9e50a71b0c34ff" kind="function"><name>get_med</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1aa978b0f9744a9530dd83c473bc21cff6" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1a92cc172431e928128789c50d0ef533cd" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1auth_1_1APILoginView" kind="class"><name>api::views::auth::APILoginView</name>
+    <member refid="classapi_1_1views_1_1auth_1_1APILoginView_1adb29801a87e909477b8a7eef6f82d138" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1APILoginView_1a46b7781e2baa756a8720c0beb22e7510" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1auth_1_1APISignupView" kind="class"><name>api::views::auth::APISignupView</name>
+    <member refid="classapi_1_1views_1_1auth_1_1APISignupView_1ae7c236cd6c03d74091fcccf2c2f156eb" kind="variable"><name>form</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1APISignupView_1a6786b950bfa8b2b56a961dc84d124e0c" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1APISignupView_1a548a02eb730e97c156dd8993473f774b" kind="function"><name>__init__</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1APISignupView_1af6a6280c709463e5280e67bf7ed51660" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1APISignupView_1a5def6e2e1a27685b2afa199e47c7acea" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classcheckout_1_1models_1_1BillingAddress" kind="class"><name>checkout::models::BillingAddress</name>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" kind="variable"><name>user</name></member>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e" kind="variable"><name>address</name></member>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7" kind="variable"><name>pincode</name></member>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80" kind="variable"><name>city</name></member>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07" kind="variable"><name>landmark</name></member>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce" kind="function"><name>__str__</name></member>
+    <member refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" kind="function"><name>as_json</name></member>
+  </compound>
+  <compound refid="classcheckout_1_1forms_1_1BillingForm" kind="class"><name>checkout::forms::BillingForm</name>
+    <member refid="classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981" kind="variable"><name>pincode</name></member>
+    <member refid="classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b" kind="variable"><name>landmark</name></member>
+  </compound>
+  <compound refid="classcart_1_1apps_1_1CartConfig" kind="class"><name>cart::apps::CartConfig</name>
+    <member refid="classcart_1_1apps_1_1CartConfig_1ab21e7ab6cd491ce213e7b6c0944cc6a6" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classcart_1_1models_1_1CartItem" kind="class"><name>cart::models::CartItem</name>
+    <member refid="classcart_1_1models_1_1CartItem_1a9610997c28438d09f56604ef4abd181f" kind="variable"><name>objects</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1" kind="variable"><name>user</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1ab2d00491e59e540e77b41cf27e4452fe" kind="variable"><name>item</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1a8c2fd79e60110a9025352fe94b60c48f" kind="variable"><name>quantity</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1a6623ff1633433dc5a1f91c97459bd0af" kind="variable"><name>created</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1a3fef29da7b875a13f4707926bee27034" kind="variable"><name>purchased</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1a1e60b947e0660c8b2aae2f2533a20c2b" kind="variable"><name>id</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1aefa4415b8fb545535ab6a3d615b0c58c" kind="function"><name>__str__</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5" kind="function"><name>total_amount</name></member>
+    <member refid="classcart_1_1models_1_1CartItem_1a0618d9c3fc5c98c1cf32312bec2b557d" kind="function"><name>as_json</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1cart_1_1CartView" kind="class"><name>api::views::cart::CartView</name>
+    <member refid="classapi_1_1views_1_1cart_1_1CartView_1a7960235b70218a1197fa722a57ec7f90" kind="function"><name>update_item</name></member>
+    <member refid="classapi_1_1views_1_1cart_1_1CartView_1a9bd12379f775f388dfe06970f0efac2d" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1cart_1_1CartView_1af1421720e41b08ba32c4c96b7c908465" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classcheckout_1_1apps_1_1CheckoutConfig" kind="class"><name>checkout::apps::CheckoutConfig</name>
+    <member refid="classcheckout_1_1apps_1_1CheckoutConfig_1ac952a16a89929e5dd18d7f40e579e0c1" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1forms_1_1CreateForm" kind="class"><name>medicines::forms::CreateForm</name>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8" kind="variable"><name>max_upload_limit</name></member>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9" kind="variable"><name>max_upload_limit_text</name></member>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1a43e189cd05c4e6d47768d79ddf65b7f9" kind="variable"><name>thumbnail</name></member>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1ace75aa6d7c445e3f0f07666f7245d6c8" kind="variable"><name>upload_field_name</name></member>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" kind="function"><name>clean</name></member>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14" kind="function"><name>save</name></member>
+  </compound>
+  <compound refid="classhome_1_1apps_1_1HomeConfig" kind="class"><name>home::apps::HomeConfig</name>
+    <member refid="classhome_1_1apps_1_1HomeConfig_1a2ede7dba5e475c9236f80f231225c037" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classhome_1_1views_1_1HomeView" kind="class"><name>home::views::HomeView</name>
+    <member refid="classhome_1_1views_1_1HomeView_1ad6fbf4aba9e28c5135d013b222fcafa5" kind="variable"><name>dev_env</name></member>
+    <member refid="classhome_1_1views_1_1HomeView_1a5009c649b4a4eeb1cc7fac76681f2442" kind="function"><name>__init__</name></member>
+    <member refid="classhome_1_1views_1_1HomeView_1a28ae2fab7a4f8ecbc57904f43600dc48" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1models_1_1MedCat" kind="class"><name>medicines::models::MedCat</name>
+    <member refid="classmedicines_1_1models_1_1MedCat_1afe48fa4b2e47636a7e3bead744cdde27" kind="variable"><name>objects</name></member>
+    <member refid="classmedicines_1_1models_1_1MedCat_1a05e751b8196267ceb2d02673dcd26abe" kind="variable"><name>name</name></member>
+    <member refid="classmedicines_1_1models_1_1MedCat_1a576ed8fa4d37359d4e70e39d13cfdc7d" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1views_1_1MedCreateView" kind="class"><name>medicines::views::MedCreateView</name>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1a2935e5111bdb972d8325972635625a83" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1a0f6f5befc74d31e7a3ad4e7ae98cccbe" kind="variable"><name>permission_required</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1a77e74a5ef0b4e87b962f1741a18fe301" kind="variable"><name>permission_denied_message</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1a1f797aca8b478c1f4ba30327f9c6f406" kind="variable"><name>success_url</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1aaaece729377ef9f3dc813f66238c43a1" kind="variable"><name>template_name</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1aba6db25861ad84387f9eb31e1971b819" kind="variable"><name>template_name</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1ab94ce89be11e25047ccd527b57f8e539" kind="function"><name>get</name></member>
+    <member refid="classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1views_1_1MedDeleteView" kind="class"><name>medicines::views::MedDeleteView</name>
+    <member refid="classmedicines_1_1views_1_1MedDeleteView_1a1574db3802fb4ae6c8de9d33f9e8a3c8" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1views_1_1MedDeleteView_1adeb1c4738309380ab938836db6a4d68d" kind="variable"><name>template_name</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1views_1_1MedDetailView" kind="class"><name>medicines::views::MedDetailView</name>
+    <member refid="classmedicines_1_1views_1_1MedDetailView_1a727d168baab3a58bb351cd9f807ff3f9" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1views_1_1MedDetailView_1a0e0528ea78b45c19f64bad1e7a2c5744" kind="variable"><name>template_name</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1models_1_1Medicine" kind="class"><name>medicines::models::Medicine</name>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a8460c508d9e57885f16fe6a3e8b54787" kind="variable"><name>objects</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4" kind="variable"><name>name</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1aef9a3d5ca2d752fc9180436d4c93f0c8" kind="variable"><name>category</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a71d924c863cd6aac41338c186c87533d" kind="variable"><name>price</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a93503a3fcbb8337f341f4f8b5ce1bda6" kind="variable"><name>quantity</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1ab72b65c16c665106cb4062bce97faf1f" kind="variable"><name>thumbnail</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a7ff942bbfeedebcc5a6948f5c73716f2" kind="variable"><name>thumb_content_type</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1aae2d2df2bddcf3f785d6e3dd12498a3e" kind="variable"><name>description</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1ae7cb7a5159ae2cf633f7067bc433dae2" kind="variable"><name>owner</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1afbb5fbd3a7b0fc89159c717bf6a64089" kind="variable"><name>slug</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a7282c3308edb3b7430777be52a60c888" kind="variable"><name>id</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a" kind="function"><name>__str__</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" kind="function"><name>save</name></member>
+    <member refid="classmedicines_1_1models_1_1Medicine_1a909bcb7629b48b23ff0cd3801f3e92cb" kind="function"><name>as_json</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1apps_1_1MedicinesConfig" kind="class"><name>medicines::apps::MedicinesConfig</name>
+    <member refid="classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1medicine_1_1MedicineView" kind="class"><name>api::views::medicine::MedicineView</name>
+    <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a246b3300c14ea5fc459ab4a06dec1ad1" kind="function"><name>get_queryset</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a6a92fa916b3ccf8671ec552755883093" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1ac7019401ebaeb9316fc2180e144163e6" kind="function"><name>post</name></member>
+    <member refid="classapi_1_1views_1_1medicine_1_1MedicineView_1a9fff1de2e37060cfc495d930765b54ec" kind="function"><name>dispatch</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1views_1_1MedListView" kind="class"><name>medicines::views::MedListView</name>
+    <member refid="classmedicines_1_1views_1_1MedListView_1aa6d009c9875aabd4a680416224ae85c2" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1views_1_1MedListView_1a63127a44ea2b57a7905a0c4cdec01681" kind="variable"><name>template_name</name></member>
+    <member refid="classmedicines_1_1views_1_1MedListView_1a32882e4ccbe86c8d90013dadc073524b" kind="function"><name>get_context_data</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1sitemaps_1_1MedSiteMap" kind="class"><name>medicines::sitemaps::MedSiteMap</name>
+    <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a8b58e26e2a135275ab9f050de494ec0d" kind="variable"><name>priority</name></member>
+    <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a5b43bd0e3a91a69a7c93c98d4a145315" kind="variable"><name>changefreq</name></member>
+    <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59" kind="function"><name>items</name></member>
+    <member refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e" kind="function"><name>location</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1views_1_1MedUpdateView" kind="class"><name>medicines::views::MedUpdateView</name>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1a60f09d205da52f66f92fdeda420602e4" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1a3821d75623d3f197d6a4ea757b2b7fe0" kind="variable"><name>success_url</name></member>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1a924f5ed69fb71cd6485a1a0e8d1a9bc0" kind="variable"><name>template_name</name></member>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1a2ddd39e32ff5ec4584ea295760e17035" kind="variable"><name>template_name</name></member>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1ad1def37502e73eae23f8291ac973bd05" kind="variable"><name>success_url</name></member>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1a4c4733619745ad82d76f8e31aff0fea2" kind="function"><name>get</name></member>
+    <member refid="classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta" kind="class"><name>accounts::forms::ProfileForm::Meta</name>
+    <member refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a59470134362920fa2cbe9d92e87db06c" kind="variable"><name>model</name></member>
+    <member refid="classaccounts_1_1forms_1_1ProfileForm_1_1Meta_1a0f7685bff1e12b2cedb88b645381053e" kind="variable"><name>exclude</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta" kind="class"><name>accounts::forms::SellerForm::Meta</name>
+    <member refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a91857488db85fac749be888265924066" kind="variable"><name>model</name></member>
+    <member refid="classaccounts_1_1forms_1_1SellerForm_1_1Meta_1a3c81a9530fda146f453d11f9811dcaed" kind="variable"><name>exclude</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1forms_1_1UserForm_1_1Meta" kind="class"><name>accounts::forms::UserForm::Meta</name>
+    <member refid="classaccounts_1_1forms_1_1UserForm_1_1Meta_1ade0749cdb2d112102e3a90d3ca36a56a" kind="variable"><name>model</name></member>
+    <member refid="classaccounts_1_1forms_1_1UserForm_1_1Meta_1a9ff72c47bb6a77e6ca8604b844ee9828" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta" kind="class"><name>checkout::forms::BillingForm::Meta</name>
+    <member refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1add8f3db9e9c1fdaa7bc7bc3662f1e23c" kind="variable"><name>model</name></member>
+    <member refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1a68c7b95e5ff1719fa4849a241a1d36ad" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta" kind="class"><name>medicines::filters::ProductFilter::Meta</name>
+    <member refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1ac694bb9ab64d20d3a242056b5387ac09" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1a934724dd72fd2c0cdec01aa3a0a5f5b5" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta" kind="class"><name>medicines::forms::CreateForm::Meta</name>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta_1a1e8fc590a9f34d00c8556dcb92a5f8df" kind="variable"><name>model</name></member>
+    <member refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta_1a3346c40ca019b49bbd1aca6764beb0bb" kind="variable"><name>fields</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1models_1_1MedCat_1_1Meta" kind="class"><name>medicines::models::MedCat::Meta</name>
+    <member refid="classmedicines_1_1models_1_1MedCat_1_1Meta_1a77d7ecfec222c2cbe5ecac8e156df1e8" kind="variable"><name>verbose_name</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1models_1_1Medicine_1_1Meta" kind="class"><name>medicines::models::Medicine::Meta</name>
+    <member refid="classmedicines_1_1models_1_1Medicine_1_1Meta_1a702c4b6934782d511509b7418b4af6c5" kind="variable"><name>ordering</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>accounts::migrations::0001_initial::Migration</name>
+    <member refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a856861c04ea27ca71b5f524b025f011d" kind="variable"><name>initial</name></member>
+    <member refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a059ce1e5810f58c7106c3b8a06e09f7d" kind="variable"><name>dependencies</name></member>
+    <member refid="classaccounts_1_1migrations_1_10001__initial_1_1Migration_1a458237a5f3816a469d5463955fec803b" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration" kind="class"><name>accounts::migrations::0002_auto_20200908_1336::Migration</name>
+    <member refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration_1ab03705563d4aec027cb76758dcbf65b5" kind="variable"><name>dependencies</name></member>
+    <member refid="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration_1a477150b00844857a48ea34820fb0e473" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>cart::migrations::0001_initial::Migration</name>
+    <member refid="classcart_1_1migrations_1_10001__initial_1_1Migration_1aed266a811d0182f270469bb45d6eca47" kind="variable"><name>initial</name></member>
+    <member refid="classcart_1_1migrations_1_10001__initial_1_1Migration_1a10d4e1ba20d409939c04c3ce0674b216" kind="variable"><name>dependencies</name></member>
+    <member refid="classcart_1_1migrations_1_10001__initial_1_1Migration_1aecaa7428eb22558fe89064834723a499" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration" kind="class"><name>cart::migrations::0002_order_orderdate::Migration</name>
+    <member refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration_1a45a85693eda2b9ebe77473ec84685e42" kind="variable"><name>dependencies</name></member>
+    <member refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration_1a36fc5a7c0d5a72ab4252bb7830abd154" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration" kind="class"><name>cart::migrations::0003_cartitem_purchased::Migration</name>
+    <member refid="classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration_1a40e64dafccada9bf5eb8a669b7a4cd42" kind="variable"><name>dependencies</name></member>
+    <member refid="classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration_1abd7486c354eace51eab49612deee0458" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1migrations_1_10004__cartitem__total_1_1Migration" kind="class"><name>cart::migrations::0004_cartitem_total::Migration</name>
+    <member refid="classcart_1_1migrations_1_10004__cartitem__total_1_1Migration_1a88d9966a42bae28a85f3b5cdce21edfc" kind="variable"><name>dependencies</name></member>
+    <member refid="classcart_1_1migrations_1_10004__cartitem__total_1_1Migration_1acbd9011b44d5e521011e37df4f4f1577" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1migrations_1_10005__auto__20200831__1340_1_1Migration" kind="class"><name>cart::migrations::0005_auto_20200831_1340::Migration</name>
+    <member refid="classcart_1_1migrations_1_10005__auto__20200831__1340_1_1Migration_1a833da21a8a37286a1ed6d39585d5eba4" kind="variable"><name>dependencies</name></member>
+    <member refid="classcart_1_1migrations_1_10005__auto__20200831__1340_1_1Migration_1a75add0ea0c1e0e2c66870a65d50d49fd" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1migrations_1_10006__order__postorder_1_1Migration" kind="class"><name>cart::migrations::0006_order_postorder::Migration</name>
+    <member refid="classcart_1_1migrations_1_10006__order__postorder_1_1Migration_1a7df1a0db4c60c972c6b98513aa629ef3" kind="variable"><name>dependencies</name></member>
+    <member refid="classcart_1_1migrations_1_10006__order__postorder_1_1Migration_1ac3716fded99080dcbd920bb1aa2bd9e0" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcheckout_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>checkout::migrations::0001_initial::Migration</name>
+    <member refid="classcheckout_1_1migrations_1_10001__initial_1_1Migration_1aa03eba33bb4735a7a1f8bb6b57e352aa" kind="variable"><name>initial</name></member>
+    <member refid="classcheckout_1_1migrations_1_10001__initial_1_1Migration_1ac33636d50f081ab1f5bafb39cdd4e0e4" kind="variable"><name>dependencies</name></member>
+    <member refid="classcheckout_1_1migrations_1_10001__initial_1_1Migration_1a4ed22975c00c56af3c591d5628e0a675" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration" kind="class"><name>checkout::migrations::0002_auto_20200828_1023::Migration</name>
+    <member refid="classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration_1ac73898e5dae4fdb7cd1ae141781b5643" kind="variable"><name>dependencies</name></member>
+    <member refid="classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration_1aba53423b7dd49c5dcf6db5a29331d054" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration" kind="class"><name>medicines::migrations::0001_initial::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration_1ac1824abc5effe7d1ffe0d82fa5d47e86" kind="variable"><name>initial</name></member>
+    <member refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration_1a3cf4a3917566077a76392d8ab1b5cd53" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration_1a6355449dabd1fc3133332c3f48a203c0" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10002__auto__20200826__1711_1_1Migration" kind="class"><name>medicines::migrations::0002_auto_20200826_1711::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10002__auto__20200826__1711_1_1Migration_1a1600543690fe74d490bef26b9ade1996" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10002__auto__20200826__1711_1_1Migration_1a5875ce2d97271274aaf6fe896356de13" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10003__medicine__slug_1_1Migration" kind="class"><name>medicines::migrations::0003_medicine_slug::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10003__medicine__slug_1_1Migration_1a9c1743a078b312a384fb31cb9dd518f7" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10003__medicine__slug_1_1Migration_1a588ac2372263e05d84f641639445c872" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10004__auto__20200827__1941_1_1Migration" kind="class"><name>medicines::migrations::0004_auto_20200827_1941::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10004__auto__20200827__1941_1_1Migration_1af74b9dfe83a08989d12a280c25cc2ccb" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10004__auto__20200827__1941_1_1Migration_1ade6fbf9d106da4fd3c966d1373c02d0d" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration" kind="class"><name>medicines::migrations::0005_auto_20200828_0733::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration_1a9bcba2fd8d4165fa5865fd29b1c5366d" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration_1a4c1ff054c792901e8bee8c46cf9f751f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10006__auto__20200828__0820_1_1Migration" kind="class"><name>medicines::migrations::0006_auto_20200828_0820::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10006__auto__20200828__0820_1_1Migration_1a70a188e1c7f80d343b27020501fa37ee" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10006__auto__20200828__0820_1_1Migration_1a75cad2bcf6665955bd5ed2e8a0d5f9e9" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10007__auto__20200828__1023_1_1Migration" kind="class"><name>medicines::migrations::0007_auto_20200828_1023::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10007__auto__20200828__1023_1_1Migration_1aba9098cfddbb53ba1612c19e75ac98cb" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10007__auto__20200828__1023_1_1Migration_1a40f675f09b4104e5bb1594cba97ad4e6" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10008__auto__20200828__1614_1_1Migration" kind="class"><name>medicines::migrations::0008_auto_20200828_1614::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10008__auto__20200828__1614_1_1Migration_1a7178bbf19d3c2ac44cc3f36b1b28c041" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10008__auto__20200828__1614_1_1Migration_1a514ea78f515c154973f0520170a60133" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10009__auto__20200828__1914_1_1Migration" kind="class"><name>medicines::migrations::0009_auto_20200828_1914::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10009__auto__20200828__1914_1_1Migration_1a53bfb551405b12cb5e3474c483f26233" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10009__auto__20200828__1914_1_1Migration_1a28db2dc271ac0fa371e06274967a14cd" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10010__auto__20200830__1000_1_1Migration" kind="class"><name>medicines::migrations::0010_auto_20200830_1000::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10010__auto__20200830__1000_1_1Migration_1accd73a36d28419d70772a2a8f3b48c50" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10010__auto__20200830__1000_1_1Migration_1aa3b93a296ecc6da26b01017dcd8a5f4d" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10011__auto__20200830__1125_1_1Migration" kind="class"><name>medicines::migrations::0011_auto_20200830_1125::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10011__auto__20200830__1125_1_1Migration_1a437b121088b2011e9f6ec13619ccf041" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10011__auto__20200830__1125_1_1Migration_1ae93a7bc39c5d3192bb28c46103971a77" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10012__auto__20200830__1125_1_1Migration" kind="class"><name>medicines::migrations::0012_auto_20200830_1125::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10012__auto__20200830__1125_1_1Migration_1ab796426d2a3246f8266d5144243bd787" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10012__auto__20200830__1125_1_1Migration_1a77d3e78cab990e72f384fe88862e4bc2" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10013__auto__20200830__1126_1_1Migration" kind="class"><name>medicines::migrations::0013_auto_20200830_1126::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10013__auto__20200830__1126_1_1Migration_1af0bd0dcee5cc28201029203c3e83bd52" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10013__auto__20200830__1126_1_1Migration_1a106e5028c94317533c6c3e9634b8e69f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10014__auto__20200830__1126_1_1Migration" kind="class"><name>medicines::migrations::0014_auto_20200830_1126::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10014__auto__20200830__1126_1_1Migration_1a2903eaadda4b12d7382b27a27cff409f" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10014__auto__20200830__1126_1_1Migration_1a25259f0cae7e28d32d4a89fadd4bf623" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10015__auto__20200830__1128_1_1Migration" kind="class"><name>medicines::migrations::0015_auto_20200830_1128::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10015__auto__20200830__1128_1_1Migration_1a764e7aa7ff2db723f634918f8cbb8de5" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10015__auto__20200830__1128_1_1Migration_1a72fb5bfddf962bc33dac8c0109f78587" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10016__auto__20200830__1134_1_1Migration" kind="class"><name>medicines::migrations::0016_auto_20200830_1134::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10016__auto__20200830__1134_1_1Migration_1a7d6301ad7c6ade5df85d43c8c6c604ae" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10016__auto__20200830__1134_1_1Migration_1a399468ae203f14cd4055936b1a32066c" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10017__auto__20200830__1141_1_1Migration" kind="class"><name>medicines::migrations::0017_auto_20200830_1141::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10017__auto__20200830__1141_1_1Migration_1ad6812a435cec1da002d675daeaa0f3fb" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10017__auto__20200830__1141_1_1Migration_1ad2107dc759a586476da11b2de9954e3f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10018__auto__20200830__1145_1_1Migration" kind="class"><name>medicines::migrations::0018_auto_20200830_1145::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10018__auto__20200830__1145_1_1Migration_1a3b84a854da88df1909d147fe48e27524" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10018__auto__20200830__1145_1_1Migration_1a6bceec1ad41c6ab8d2fa1961bd4ef0ef" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10019__auto__20200830__1145_1_1Migration" kind="class"><name>medicines::migrations::0019_auto_20200830_1145::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10019__auto__20200830__1145_1_1Migration_1a20be8976b69248a9edd8ccfecffde4d5" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10019__auto__20200830__1145_1_1Migration_1a741fe54ff9f650668cdd1b23f64796a7" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10020__auto__20200830__1146_1_1Migration" kind="class"><name>medicines::migrations::0020_auto_20200830_1146::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10020__auto__20200830__1146_1_1Migration_1a5435e35f81f72bf4efd0c8f3d4a1f2dc" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10020__auto__20200830__1146_1_1Migration_1a958be780f2b2e2f64ecbba3e2420c804" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration" kind="class"><name>medicines::migrations::0021_auto_20200830_1148::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration_1ae9e64fd205773ce83d148b996c2a906a" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration_1afdf8b66e04065477a2d0d5765b54b115" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10022__auto__20200830__1401_1_1Migration" kind="class"><name>medicines::migrations::0022_auto_20200830_1401::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10022__auto__20200830__1401_1_1Migration_1a91108bf109c510ceea639befec4bdd3a" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10022__auto__20200830__1401_1_1Migration_1a29025533ce4696fcf73b34e0f4adda8f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10023__auto__20200830__1401_1_1Migration" kind="class"><name>medicines::migrations::0023_auto_20200830_1401::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10023__auto__20200830__1401_1_1Migration_1a150e163f0bd31a31b653c6b252f89a9e" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10023__auto__20200830__1401_1_1Migration_1a5baad46548bf7fe6caa7edeb84dad9d4" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10024__auto__20200830__1414_1_1Migration" kind="class"><name>medicines::migrations::0024_auto_20200830_1414::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10024__auto__20200830__1414_1_1Migration_1a49babbe5c2b15529160770e104aeb3a3" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10024__auto__20200830__1414_1_1Migration_1a0ab5aa589f1546e0c1db428c85b4f43f" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10025__auto__20200830__1559_1_1Migration" kind="class"><name>medicines::migrations::0025_auto_20200830_1559::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10025__auto__20200830__1559_1_1Migration_1a68062fb59d1822c553c196fccd38ad46" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10025__auto__20200830__1559_1_1Migration_1aa47b1f242fa66f31181964eefedc404e" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10026__auto__20200831__1222_1_1Migration" kind="class"><name>medicines::migrations::0026_auto_20200831_1222::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10026__auto__20200831__1222_1_1Migration_1afd78ed5348ab5ea52c77f0617cd58736" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10026__auto__20200831__1222_1_1Migration_1a0f804649123eca4721e13f84e1231ab0" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10027__auto__20200831__1253_1_1Migration" kind="class"><name>medicines::migrations::0027_auto_20200831_1253::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10027__auto__20200831__1253_1_1Migration_1ac8175688b0fb6fb970eca5c7dfac9816" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10027__auto__20200831__1253_1_1Migration_1a083e3d52c21e601e9f0394925bede6c6" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10028__auto__20200831__1325_1_1Migration" kind="class"><name>medicines::migrations::0028_auto_20200831_1325::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10028__auto__20200831__1325_1_1Migration_1a8bc1be2dd4bb0db9357e90a617d239e4" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10028__auto__20200831__1325_1_1Migration_1aca0220bc0de2e99f72e8734a56947196" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10029__auto__20200831__1340_1_1Migration" kind="class"><name>medicines::migrations::0029_auto_20200831_1340::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10029__auto__20200831__1340_1_1Migration_1ab5d804e49df8cd383ee7f642058e5a73" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10029__auto__20200831__1340_1_1Migration_1abb38e5adbf9079f3d7f13b749ff0ec09" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10030__auto__20200831__1426_1_1Migration" kind="class"><name>medicines::migrations::0030_auto_20200831_1426::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10030__auto__20200831__1426_1_1Migration_1a0621c7a0ad73979ac63ca643f9bfddb8" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10030__auto__20200831__1426_1_1Migration_1ae3b555b9ecb82c9da7a3e94fd84fe3aa" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10031__auto__20200831__1452_1_1Migration" kind="class"><name>medicines::migrations::0031_auto_20200831_1452::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10031__auto__20200831__1452_1_1Migration_1af8153263796ca06ab64c15e3a8f458ab" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10031__auto__20200831__1452_1_1Migration_1a54c97725d10b1962b12823428b8cc1b4" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10032__auto__20200831__1454_1_1Migration" kind="class"><name>medicines::migrations::0032_auto_20200831_1454::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10032__auto__20200831__1454_1_1Migration_1ae989def273dfeca4d78c7744ae90aa71" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10032__auto__20200831__1454_1_1Migration_1a856ed8baffbab4a92a101f54202ac0c5" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10033__auto__20200901__1138_1_1Migration" kind="class"><name>medicines::migrations::0033_auto_20200901_1138::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10033__auto__20200901__1138_1_1Migration_1ac37a5fffc335c6e9e5936c240f048dd6" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10033__auto__20200901__1138_1_1Migration_1a356fc045e0cdb281ebd5db7979f05481" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10034__auto__20200908__1112_1_1Migration" kind="class"><name>medicines::migrations::0034_auto_20200908_1112::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10034__auto__20200908__1112_1_1Migration_1a81d6287f1c7f285cb241c067da5a0318" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10034__auto__20200908__1112_1_1Migration_1ad1c8024ace184eef75cbba010ac3fbe7" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10035__auto__20200908__1330_1_1Migration" kind="class"><name>medicines::migrations::0035_auto_20200908_1330::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10035__auto__20200908__1330_1_1Migration_1aa84d5964a311f54dc03f7085fe131c54" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10035__auto__20200908__1330_1_1Migration_1ab1b5b7e6b2564238137ff07dab178c9a" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10036__auto__20200908__1336_1_1Migration" kind="class"><name>medicines::migrations::0036_auto_20200908_1336::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10036__auto__20200908__1336_1_1Migration_1a60755b484fecdf445f6e4647426b4771" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10036__auto__20200908__1336_1_1Migration_1a54cfe1cf2a0b2d63c52b242b4062c215" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10037__auto__20200908__1348_1_1Migration" kind="class"><name>medicines::migrations::0037_auto_20200908_1348::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10037__auto__20200908__1348_1_1Migration_1a9ef7211035aa027aea3bf43ec9138292" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10037__auto__20200908__1348_1_1Migration_1a8a09cc59d2a7f7360939da3c701cfa9e" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10038__auto__20200908__1427_1_1Migration" kind="class"><name>medicines::migrations::0038_auto_20200908_1427::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10038__auto__20200908__1427_1_1Migration_1a1e652e1218b8acc4bd9587b9a421a2ce" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10038__auto__20200908__1427_1_1Migration_1a7f13d1c11b5fad46f72e4aaa95884e85" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration" kind="class"><name>medicines::migrations::0039_auto_20200910_1349::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration_1a4a925a6503fa28bae54e103ec1384d90" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration_1a7931cd645a70a8cae6557e743cc24b48" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10040__auto__20200915__0720_1_1Migration" kind="class"><name>medicines::migrations::0040_auto_20200915_0720::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10040__auto__20200915__0720_1_1Migration_1a4d927649c3ca838d76dc0aad45800af0" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10040__auto__20200915__0720_1_1Migration_1a8869277d36cf743f17a48dd78cc87048" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10041__auto__20210122__2104_1_1Migration" kind="class"><name>medicines::migrations::0041_auto_20210122_2104::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10041__auto__20210122__2104_1_1Migration_1aa05e586aa93196be1c1676fab19978c0" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10041__auto__20210122__2104_1_1Migration_1ab962a8ebd7e718ccaf6f072aa933f8e9" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10042__auto__20210403__0752_1_1Migration" kind="class"><name>medicines::migrations::0042_auto_20210403_0752::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10042__auto__20210403__0752_1_1Migration_1af1570360d1f0ce2aee6af43a2d6f653d" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10042__auto__20210403__0752_1_1Migration_1ae71fa2875f9ea34d1f11dc739549001b" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1migrations_1_10043__auto__20210403__0752_1_1Migration" kind="class"><name>medicines::migrations::0043_auto_20210403_0752::Migration</name>
+    <member refid="classmedicines_1_1migrations_1_10043__auto__20210403__0752_1_1Migration_1ac64b864f8156cb29349970bbbccfbe9d" kind="variable"><name>dependencies</name></member>
+    <member refid="classmedicines_1_1migrations_1_10043__auto__20210403__0752_1_1Migration_1aac5e1c6701b931c625d6c23d6cb895f9" kind="variable"><name>operations</name></member>
+  </compound>
+  <compound refid="classcart_1_1models_1_1Order" kind="class"><name>cart::models::Order</name>
+    <member refid="classcart_1_1models_1_1Order_1a566e33fb032f4096a3cea66e3a99cab6" kind="variable"><name>objects</name></member>
+    <member refid="classcart_1_1models_1_1Order_1aa708fe3f16ddadc49d2d150fe26bd614" kind="variable"><name>items</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a289bd0f28892db5ad74d0fc64e95981c" kind="variable"><name>user</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a0fd479669ee87775989fef186fbac087" kind="variable"><name>ordered</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a48abde3e3a7228a6b89290eaf0cb64f4" kind="variable"><name>created</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a9649c6adbe0b532ec9563c7b6f4447af" kind="variable"><name>orderID</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a0318482f5313cd4538d8e6cf3ef06b7f" kind="variable"><name>paymentID</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a24ef42c2e31e53da36f3b64ef6812c4f" kind="variable"><name>orderDate</name></member>
+    <member refid="classcart_1_1models_1_1Order_1ac18ff9ba169d3ba52e40919e0563f9d7" kind="variable"><name>total</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a1ebd85a5a02ca7d490d2248637a37fc2" kind="variable"><name>postOrder</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a698a506dc282a36c02aee6044e991558" kind="function"><name>__str__</name></member>
+    <member refid="classcart_1_1models_1_1Order_1ab1012bf94977246d12aff3ee6eb3b0d8" kind="function"><name>order_total</name></member>
+    <member refid="classcart_1_1models_1_1Order_1ad8f1226c6c88883e5951e8f460e519a9" kind="function"><name>as_json</name></member>
+    <member refid="classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0" kind="function"><name>order_now</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1order_1_1OrderView" kind="class"><name>api::views::order::OrderView</name>
+    <member refid="classapi_1_1views_1_1order_1_1OrderView_1a081f4c4cbdc1fba80d0c81cbd4f627c8" kind="function"><name>get</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1owner_1_1OwnerCreateView" kind="class"><name>medicines::owner::OwnerCreateView</name>
+    <member refid="classmedicines_1_1owner_1_1OwnerCreateView_1a8a966a16e46d4de6b4fe303709bda2f2" kind="function"><name>form_valid</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1owner_1_1OwnerDeleteView" kind="class"><name>medicines::owner::OwnerDeleteView</name>
+    <member refid="classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944" kind="function"><name>get_queryset</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1owner_1_1OwnerDetailView" kind="class"><name>medicines::owner::OwnerDetailView</name>
+  </compound>
+  <compound refid="classmedicines_1_1owner_1_1OwnerListView" kind="class"><name>medicines::owner::OwnerListView</name>
+  </compound>
+  <compound refid="classmedicines_1_1owner_1_1OwnerUpdateView" kind="class"><name>medicines::owner::OwnerUpdateView</name>
+    <member refid="classmedicines_1_1owner_1_1OwnerUpdateView_1afcdeb7526e1d7dc2a7c316c7cd0ab5ab" kind="function"><name>get_queryset</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1filters_1_1ProductFilter" kind="class"><name>medicines::filters::ProductFilter</name>
+    <member refid="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" kind="variable"><name>name</name></member>
+    <member refid="classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2" kind="variable"><name>price</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1forms_1_1ProfileForm" kind="class"><name>accounts::forms::ProfileForm</name>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase" kind="class"><name>api::tests::test_auth::ProfileTestCase</name>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aea8f091fb8f0336d547f7fb4d3b8da13" kind="variable"><name>failureException</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1acc1be88c7733a72f9e7df4acec0b21f9" kind="variable"><name>longMessage</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1af1440e9c26c304f73ef759713f420fac" kind="variable"><name>res</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1adf535cae078dbbd897b863a5b1a23ad3" kind="function"><name>__init__</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a316293bd13b94fb94c1596702c4b7584" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" kind="function"><name>test_get_user</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a711dcae02e93bff28caec1a3d7d10b55" kind="function"><name>test_get_output</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" kind="function"><name>test_post_output</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1auth_1_1ProfileView" kind="class"><name>api::views::auth::ProfileView</name>
+    <member refid="classapi_1_1views_1_1auth_1_1ProfileView_1aa3131f169090025ad9485a8a7c6bda43" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1ProfileView_1a411d6c7a0c24391a5878aaf37c37d0ee" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1forms_1_1SellerForm" kind="class"><name>accounts::forms::SellerForm</name>
+  </compound>
+  <compound refid="classaccounts_1_1models_1_1SellerProfile" kind="class"><name>accounts::models::SellerProfile</name>
+    <member refid="classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439" kind="variable"><name>user</name></member>
+    <member refid="classaccounts_1_1models_1_1SellerProfile_1affcdefeaa21ea022201b33c287ca823c" kind="variable"><name>store_name</name></member>
+    <member refid="classaccounts_1_1models_1_1SellerProfile_1aed59567742abc68623322b6b5fb16188" kind="variable"><name>address</name></member>
+    <member refid="classaccounts_1_1models_1_1SellerProfile_1a7d2e6e6c81ceeeaf65a26556a5a6b35a" kind="variable"><name>pincode</name></member>
+    <member refid="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" kind="function"><name>__str__</name></member>
+  </compound>
+  <compound refid="classapi_1_1views_1_1auth_1_1SellerView" kind="class"><name>api::views::auth::SellerView</name>
+    <member refid="classapi_1_1views_1_1auth_1_1SellerView_1ae6360487a413a9cd395c508fa43e66bd" kind="function"><name>get</name></member>
+    <member refid="classapi_1_1views_1_1auth_1_1SellerView_1aa937e4da1c36983fa96762cd1cecb829" kind="function"><name>post</name></member>
+  </compound>
+  <compound refid="classmedicines_1_1admin_1_1Setup" kind="class"><name>medicines::admin::Setup</name>
+    <member refid="classmedicines_1_1admin_1_1Setup_1ade03dd53a01f231149c28af3e9be6919" kind="variable"><name>list_display</name></member>
+    <member refid="classmedicines_1_1admin_1_1Setup_1ae52c2f547d8fad4966db8d72df1eb6b8" kind="variable"><name>fieldsets</name></member>
+    <member refid="classmedicines_1_1admin_1_1Setup_1a3a31d3a2719e8b3d759a655187ef80ac" kind="variable"><name>search_fields</name></member>
+    <member refid="classmedicines_1_1admin_1_1Setup_1adaed8a26ddc95f993bc2d70d8cfea904" kind="variable"><name>list_filter</name></member>
+  </compound>
+  <compound refid="classmedical_1_1sitemaps_1_1StaticSitemap" kind="class"><name>medical::sitemaps::StaticSitemap</name>
+    <member refid="classmedical_1_1sitemaps_1_1StaticSitemap_1acd06c422768b8044c62201df3da715df" kind="variable"><name>changeFreq</name></member>
+    <member refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a162c0849d3df71abd60fbabdd4d4d76f" kind="variable"><name>priority</name></member>
+    <member refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a2f154156ebe0d87a7e18bf952f28f501" kind="function"><name>items</name></member>
+    <member refid="classmedical_1_1sitemaps_1_1StaticSitemap_1a9a451a5d7b4257c75f7d26939f74af12" kind="function"><name>location</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__checkout_1_1Test" kind="class"><name>api::tests::test_checkout::Test</name>
+    <member refid="classapi_1_1tests_1_1test__checkout_1_1Test_1aa1451dbda2e11be78b632c016d951032" kind="function"><name>test_get_stripe_conf</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress" kind="class"><name>api::tests::test_checkout::TestBillingAddress</name>
+    <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a3c09c2a8d3344a5641f6469acaa10011" kind="variable"><name>fixtures</name></member>
+    <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aa9755a8020ae912abcdf792a0edea98c" kind="variable"><name>credentials</name></member>
+    <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1ad3f7dec508eda806b0563c92f6424138" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1a29bc3e4c8e7cdb73a3b9a3bad219a7aa" kind="function"><name>test_get</name></member>
+    <member refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aae7b8dde308d80099309ade4ec02443e" kind="function"><name>test_post</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__cart_1_1TestCart" kind="class"><name>api::tests::test_cart::TestCart</name>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a42a38b7bb87816e346942cbc0b085e1f" kind="variable"><name>fixtures</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a4b584dd2fa2729f2b73609ab72b02877" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1aaa327a0a16078c232a25c6bf0be9f22b" kind="variable"><name>credentials</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1aeb65863a86d77f72b032ffbc9019c167" kind="variable"><name>cart_item</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a9ad15e80fd93dae87db4b2d6f07e2152" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" kind="function"><name>test_cart_list</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7" kind="function"><name>test_cart_increase</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b" kind="function"><name>test_cart_full_update</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71" kind="function"><name>test_add_new_to_cart</name></member>
+    <member refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a31b6bae7d1af95ca55b06978f32e8196" kind="function"><name>test_post_request</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout" kind="class"><name>api::tests::test_auth::TestLoginLogout</name>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a2940006371a359edcd94655225be159a" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1aa286e4554f994e0877299948c1260407" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a45dc2adbe3f515cdf180c73656cc0c26" kind="function"><name>test_login</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a6fcb75dff4ab48ce5b650420c9cce1e3" kind="function"><name>test_logout</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a8c12d0bfb9022a5b858cc28722e99baf" kind="function"><name>test_register</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews" kind="class"><name>api::tests::test_medicine::TestMedViews</name>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a87775038be0d0dc3c5ef9d36779bbef1" kind="variable"><name>fixtures</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a99846d5a24048e86eb268dc4e805fff1" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ae2fbd30885d06c246f278740bd7a4f21" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ac461f5e27ab64fde40c3013fd93aade3" kind="function"><name>handle_permit</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1aa78d9b6748aab1d701a542ccc7ce2338" kind="function"><name>test_get_list</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ada25afa10b87759814070b191ce9fdec" kind="function"><name>test_new_add</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1ab81e65bf4d09a98a759c599c74212f1d" kind="function"><name>test_detail_data</name></member>
+    <member refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a31231b70cf7e37d5639e07517ddc7930" kind="function"><name>test_update_med</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__order_1_1TestOrderView" kind="class"><name>api::tests::test_order::TestOrderView</name>
+    <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a40e6797d39b2c01227459b0b5b5aae40" kind="variable"><name>fixtures</name></member>
+    <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" kind="variable"><name>credentials</name></member>
+    <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" kind="function"><name>test_get</name></member>
+  </compound>
+  <compound refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews" kind="class"><name>api::tests::test_auth::TestSellerViews</name>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1aa234f44033cc28ab8a256fb9a5db073e" kind="variable"><name>user</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba" kind="function"><name>setUp</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1a6b1ceb94a58ab1b66bab7b4aa6b0eb32" kind="function"><name>test_response</name></member>
+    <member refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1a4ed5de8af93cb256c8b035de6988915d" kind="function"><name>apply</name></member>
+  </compound>
+  <compound refid="classaccounts_1_1forms_1_1UserForm" kind="class"><name>accounts::forms::UserForm</name>
+  </compound>
+  <compound refid="classaccounts_1_1models_1_1UserProfile" kind="class"><name>accounts::models::UserProfile</name>
+    <member refid="classaccounts_1_1models_1_1UserProfile_1aa816d168487d05f0f8597b8993e0ee28" kind="variable"><name>user</name></member>
+    <member refid="classaccounts_1_1models_1_1UserProfile_1a6f8c6e54002d8dfc5734fc21765c20a0" kind="variable"><name>gender</name></member>
+    <member refid="classaccounts_1_1models_1_1UserProfile_1a2deeb28e63af942e84f738b00fddab90" kind="variable"><name>phone</name></member>
+    <member refid="classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6" kind="function"><name>__str__</name></member>
+    <member refid="classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b" kind="function"><name>full_name</name></member>
+  </compound>
+  <compound refid="classhome_1_1forms_1_1UserSignUp" kind="class"><name>home::forms::UserSignUp</name>
+    <member refid="classhome_1_1forms_1_1UserSignUp_1a3bfac324ff8f6721bff0c793917322cf" kind="variable"><name>first_name</name></member>
+    <member refid="classhome_1_1forms_1_1UserSignUp_1a379d9ff4f8036636b8937cd3b8ba1e11" kind="variable"><name>last_name</name></member>
+    <member refid="classhome_1_1forms_1_1UserSignUp_1ad766acfc0999f97e2057a2cb956bd523" kind="function"><name>signup</name></member>
+  </compound>
+  <compound refid="namespaceaccounts" kind="namespace"><name>accounts</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1admin" kind="namespace"><name>accounts::admin</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1apps" kind="namespace"><name>accounts::apps</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1forms" kind="namespace"><name>accounts::forms</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1migrations" kind="namespace"><name>accounts::migrations</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1migrations_1_10001__initial" kind="namespace"><name>accounts::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1migrations_1_10002__auto__20200908__1336" kind="namespace"><name>accounts::migrations::0002_auto_20200908_1336</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1models" kind="namespace"><name>accounts::models</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1sitemaps" kind="namespace"><name>accounts::sitemaps</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1tests" kind="namespace"><name>accounts::tests</name>
+  </compound>
+  <compound refid="namespaceaccounts_1_1urls" kind="namespace"><name>accounts::urls</name>
+    <member refid="namespaceaccounts_1_1urls_1a654250d4c7bc852ed5e2bef130a75457" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceaccounts_1_1urls_1a926cfc2f9e983f80b090c232436af68d" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceaccounts_1_1views" kind="namespace"><name>accounts::views</name>
+    <member refid="namespaceaccounts_1_1views_1a4b88cf7f76285b6507e4a180af894e03" kind="function"><name>profile</name></member>
+    <member refid="namespaceaccounts_1_1views_1a4651c6d62bf0b880155496ee28b91438" kind="function"><name>be_seller</name></member>
+  </compound>
+  <compound refid="namespaceadmin" kind="namespace"><name>admin</name>
+  </compound>
+  <compound refid="namespaceapi" kind="namespace"><name>api</name>
+  </compound>
+  <compound refid="namespaceapi_1_1apps" kind="namespace"><name>api::apps</name>
+  </compound>
+  <compound refid="namespaceapi_1_1decorators" kind="namespace"><name>api::decorators</name>
+    <member refid="namespaceapi_1_1decorators_1a5b660d5c1d4201518c45dd925a857674" kind="function"><name>check_response</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1tests" kind="namespace"><name>api::tests</name>
+  </compound>
+  <compound refid="namespaceapi_1_1tests_1_1test__auth" kind="namespace"><name>api::tests::test_auth</name>
+    <member refid="namespaceapi_1_1tests_1_1test__auth_1a1f82f789cc5d111d08c952e6a2e211c1" kind="variable"><name>User</name></member>
+    <member refid="namespaceapi_1_1tests_1_1test__auth_1a1639fcbd054e8a094769083b62ad9b46" kind="variable"><name>USER_CREDENTIALS</name></member>
+    <member refid="namespaceapi_1_1tests_1_1test__auth_1a27c4fbe4d4072a8142482d86247d9d9b" kind="variable"><name>UPDATED_CREDENTIALS</name></member>
+    <member refid="namespaceapi_1_1tests_1_1test__auth_1aa26b03aec66735f726ea42bb62e99851" kind="variable"><name>STORE_DATA</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1tests_1_1test__cart" kind="namespace"><name>api::tests::test_cart</name>
+    <member refid="namespaceapi_1_1tests_1_1test__cart_1aedba2c80cc192f5c337a0258f6c30be5" kind="variable"><name>User</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1tests_1_1test__checkout" kind="namespace"><name>api::tests::test_checkout</name>
+  </compound>
+  <compound refid="namespaceapi_1_1tests_1_1test__medicine" kind="namespace"><name>api::tests::test_medicine</name>
+    <member refid="namespaceapi_1_1tests_1_1test__medicine_1a3d256221a093e771fcea2569ca0fda22" kind="variable"><name>NEW_Medicine</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1tests_1_1test__order" kind="namespace"><name>api::tests::test_order</name>
+  </compound>
+  <compound refid="namespaceapi_1_1tests_1_1utils" kind="namespace"><name>api::tests::utils</name>
+    <member refid="namespaceapi_1_1tests_1_1utils_1ad156849164eecf6177df1a0b9906dafc" kind="function"><name>create_merchant</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1urls" kind="namespace"><name>api::urls</name>
+    <member refid="namespaceapi_1_1urls_1ae478470e4b65654f35e525ca4c80fa32" kind="variable"><name>app_name</name></member>
+    <member refid="namespaceapi_1_1urls_1ae1c754cb38c35b590f6a741ace140a07" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1views" kind="namespace"><name>api::views</name>
+  </compound>
+  <compound refid="namespaceapi_1_1views_1_1auth" kind="namespace"><name>api::views::auth</name>
+    <member refid="namespaceapi_1_1views_1_1auth_1ae95fb867bb929cc9c87278107e4bdc1a" kind="variable"><name>NotLoggedIn</name></member>
+    <member refid="namespaceapi_1_1views_1_1auth_1a6741b9225b9dd9ab0f33a3ab25f7c474" kind="function"><name>get_current_user</name></member>
+    <member refid="namespaceapi_1_1views_1_1auth_1ac648108b8d1beb29493dd55f667759c4" kind="function"><name>api_logout</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1views_1_1cart" kind="namespace"><name>api::views::cart</name>
+    <member refid="namespaceapi_1_1views_1_1cart_1a1b6cb72ce4bec081bf16e595124ff1e1" kind="variable"><name>User</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1views_1_1checkout" kind="namespace"><name>api::views::checkout</name>
+    <member refid="namespaceapi_1_1views_1_1checkout_1a87404aa38ae5b07c26c292a62d1cdd62" kind="function"><name>order_success</name></member>
+  </compound>
+  <compound refid="namespaceapi_1_1views_1_1medicine" kind="namespace"><name>api::views::medicine</name>
+  </compound>
+  <compound refid="namespaceapi_1_1views_1_1order" kind="namespace"><name>api::views::order</name>
+  </compound>
+  <compound refid="namespacecart" kind="namespace"><name>cart</name>
+  </compound>
+  <compound refid="namespacecart_1_1admin" kind="namespace"><name>cart::admin</name>
+  </compound>
+  <compound refid="namespacecart_1_1apps" kind="namespace"><name>cart::apps</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations" kind="namespace"><name>cart::migrations</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations_1_10001__initial" kind="namespace"><name>cart::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations_1_10002__order__orderdate" kind="namespace"><name>cart::migrations::0002_order_orderdate</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations_1_10003__cartitem__purchased" kind="namespace"><name>cart::migrations::0003_cartitem_purchased</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations_1_10004__cartitem__total" kind="namespace"><name>cart::migrations::0004_cartitem_total</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations_1_10005__auto__20200831__1340" kind="namespace"><name>cart::migrations::0005_auto_20200831_1340</name>
+  </compound>
+  <compound refid="namespacecart_1_1migrations_1_10006__order__postorder" kind="namespace"><name>cart::migrations::0006_order_postorder</name>
+  </compound>
+  <compound refid="namespacecart_1_1models" kind="namespace"><name>cart::models</name>
+    <member refid="namespacecart_1_1models_1a77b653b18b6a1b966a6f96cd4ac3f5ea" kind="variable"><name>user</name></member>
+  </compound>
+  <compound refid="namespacecart_1_1tests" kind="namespace"><name>cart::tests</name>
+  </compound>
+  <compound refid="namespacecart_1_1urls" kind="namespace"><name>cart::urls</name>
+    <member refid="namespacecart_1_1urls_1ae6d35656063cdf7fe6bbd94f2f485d15" kind="variable"><name>app_name</name></member>
+    <member refid="namespacecart_1_1urls_1a93b0baeb1fa10af912fde6d9f8bab9a1" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacecart_1_1views" kind="namespace"><name>cart::views</name>
+    <member refid="namespacecart_1_1views_1a3ee8d59cc468d360b51f5f695d8aa012" kind="function"><name>cartview</name></member>
+    <member refid="namespacecart_1_1views_1ac00843a95e203cd4cb060210153b7052" kind="function"><name>add_to_cart</name></member>
+    <member refid="namespacecart_1_1views_1a3021e91e344805a0cfdc9c5d1300d3f3" kind="function"><name>remove_from_cart</name></member>
+    <member refid="namespacecart_1_1views_1a1a5f351a2da2473b3f280bb0b014dbe5" kind="function"><name>increase_cart</name></member>
+    <member refid="namespacecart_1_1views_1ab665251cdfc3340aea5abf9e3fe3e9bc" kind="function"><name>decrease_cart</name></member>
+    <member refid="namespacecart_1_1views_1a2f62b4ee07f22f10d1c1aaf29443f4ef" kind="function"><name>order_view</name></member>
+    <member refid="namespacecart_1_1views_1a8a71758da0a44e7da80fe8ec26bd3ed2" kind="function"><name>increase_cart_test</name></member>
+    <member refid="namespacecart_1_1views_1ad036d70c844f486cb0e96e904e1ac0d3" kind="function"><name>decrease_cart_test</name></member>
+  </compound>
+  <compound refid="namespacecart__tag" kind="namespace"><name>cart_tag</name>
+    <member refid="namespacecart__tag_1ae79793a9d2296178b50a1869d25d32d7" kind="variable"><name>register</name></member>
+    <member refid="namespacecart__tag_1a79c3b46cc39a0a9f98a6c6b547cef82d" kind="function"><name>cart_total</name></member>
+  </compound>
+  <compound refid="namespacecheckout" kind="namespace"><name>checkout</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1apps" kind="namespace"><name>checkout::apps</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1forms" kind="namespace"><name>checkout::forms</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1migrations" kind="namespace"><name>checkout::migrations</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1migrations_1_10001__initial" kind="namespace"><name>checkout::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1migrations_1_10002__auto__20200828__1023" kind="namespace"><name>checkout::migrations::0002_auto_20200828_1023</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1models" kind="namespace"><name>checkout::models</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1tests" kind="namespace"><name>checkout::tests</name>
+  </compound>
+  <compound refid="namespacecheckout_1_1urls" kind="namespace"><name>checkout::urls</name>
+    <member refid="namespacecheckout_1_1urls_1a4b407763ff0e9d21009985b4829bc19b" kind="variable"><name>app_name</name></member>
+    <member refid="namespacecheckout_1_1urls_1aa20c5ce33aad306ff2960718d3690f15" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacecheckout_1_1views" kind="namespace"><name>checkout::views</name>
+    <member refid="namespacecheckout_1_1views_1a4e9b0af574e6c10b2e609e51f9cf6ba3" kind="function"><name>checkout_view</name></member>
+    <member refid="namespacecheckout_1_1views_1a763b063257d0d03b88ce5c2658e0aa4c" kind="function"><name>payment</name></member>
+    <member refid="namespacecheckout_1_1views_1ac6c399a68d475170dacd31240270617b" kind="function"><name>stripe_conf</name></member>
+    <member refid="namespacecheckout_1_1views_1a86cd74449a6dc3e085bab7d073fa5573" kind="function"><name>create_checkout_session</name></member>
+    <member refid="namespacecheckout_1_1views_1a0194495ea7937034bde192baa20714a0" kind="function"><name>stripe_webhook</name></member>
+    <member refid="namespacecheckout_1_1views_1a91909a8d95c0a79d2597eb1223f7ae5d" kind="function"><name>success</name></member>
+    <member refid="namespacecheckout_1_1views_1ae7f34a2f710ca4b342d0ba9545206914" kind="function"><name>fail</name></member>
+  </compound>
+  <compound refid="namespacedjango__filters" kind="namespace"><name>django_filters</name>
+  </compound>
+  <compound refid="namespaceforms" kind="namespace"><name>forms</name>
+  </compound>
+  <compound refid="namespacegeneric" kind="namespace"><name>generic</name>
+  </compound>
+  <compound refid="namespacehome" kind="namespace"><name>home</name>
+  </compound>
+  <compound refid="namespacehome_1_1apps" kind="namespace"><name>home::apps</name>
+  </compound>
+  <compound refid="namespacehome_1_1forms" kind="namespace"><name>home::forms</name>
+  </compound>
+  <compound refid="namespacehome_1_1tests" kind="namespace"><name>home::tests</name>
+  </compound>
+  <compound refid="namespacehome_1_1urls" kind="namespace"><name>home::urls</name>
+    <member refid="namespacehome_1_1urls_1ab827e9f9f3471e545f9842560ca48c76" kind="variable"><name>app_name</name></member>
+    <member refid="namespacehome_1_1urls_1a7a32da8728aa97f3811ad59693728274" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacehome_1_1views" kind="namespace"><name>home::views</name>
+  </compound>
+  <compound refid="namespacemanage" kind="namespace"><name>manage</name>
+    <member refid="namespacemanage_1a0ac64ea81648f42d6a49d76da894eaf4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="namespacemedical" kind="namespace"><name>medical</name>
+  </compound>
+  <compound refid="namespacemedical_1_1asgi" kind="namespace"><name>medical::asgi</name>
+    <member refid="namespacemedical_1_1asgi_1a1f6f5120d8893360bca3ab645f55c30e" kind="variable"><name>application</name></member>
+  </compound>
+  <compound refid="namespacemedical_1_1dev" kind="namespace"><name>medical::dev</name>
+    <member refid="namespacemedical_1_1dev_1a89f7762951912180414f4160b8deb4e4" kind="variable"><name>DEBUG</name></member>
+    <member refid="namespacemedical_1_1dev_1a78ea4e6302956ba679481bbc6835d77a" kind="variable"><name>ALLOWED_HOSTS</name></member>
+    <member refid="namespacemedical_1_1dev_1ad866ab101ebac9076ab2c6e25b16a4ed" kind="variable"><name>EMAIL_HOST_USER</name></member>
+    <member refid="namespacemedical_1_1dev_1acdb9dad1d4f6599eefe78052eb364e08" kind="variable"><name>EMAIL_HOST_PASSWORD</name></member>
+    <member refid="namespacemedical_1_1dev_1a4d197dee6415a26dd6065bcd7b54c08f" kind="variable"><name>CORS_ORIGIN_ALLOW_ALL</name></member>
+    <member refid="namespacemedical_1_1dev_1afb26d6cfcb1c07c12d54ada2c0612e15" kind="variable"><name>CORS_ALLOW_CREDENTIALS</name></member>
+  </compound>
+  <compound refid="namespacemedical_1_1settings" kind="namespace"><name>medical::settings</name>
+    <member refid="namespacemedical_1_1settings_1aa8c14431af344298471262fb91123310" kind="variable"><name>BASE_DIR</name></member>
+    <member refid="namespacemedical_1_1settings_1a4fa7323b543d63548865e7c79c3bf0bf" kind="variable"><name>SECRET_KEY</name></member>
+    <member refid="namespacemedical_1_1settings_1aa05b2cb9023598c5c6443814dae85141" kind="variable"><name>ACCOUNT_FORMS</name></member>
+    <member refid="namespacemedical_1_1settings_1a4302902b49deab6bbcae5789071d2811" kind="variable"><name>ACCOUNT_EMAIL_VERIFICATION</name></member>
+    <member refid="namespacemedical_1_1settings_1a3e81ac26071899bc555676e34e901c91" kind="variable"><name>CRISPY_TEMPLATE_PACK</name></member>
+    <member refid="namespacemedical_1_1settings_1a6f6b6928945297dc9e78d51f070b3ece" kind="variable"><name>INSTALLED_APPS</name></member>
+    <member refid="namespacemedical_1_1settings_1aba649cb3fd75c579954f3124aec20d22" kind="variable"><name>MIDDLEWARE</name></member>
+    <member refid="namespacemedical_1_1settings_1af6373a3153976f2668b13a750f73a2c2" kind="variable"><name>ROOT_URLCONF</name></member>
+    <member refid="namespacemedical_1_1settings_1a2ea6353e20efac76eb141a995503a484" kind="variable"><name>TEMPLATES</name></member>
+    <member refid="namespacemedical_1_1settings_1a18e0e98e137e1a356b6ab2d58d0ba12a" kind="variable"><name>WSGI_APPLICATION</name></member>
+    <member refid="namespacemedical_1_1settings_1a7bc64f86abb0ffefde97e8b801245be0" kind="variable"><name>DATABASES</name></member>
+    <member refid="namespacemedical_1_1settings_1a302b37983ebc096b247d2517d258fa73" kind="variable"><name>AUTHENTICATION_BACKENDS</name></member>
+    <member refid="namespacemedical_1_1settings_1a2cd62ffacf96fabc5ad9dc7e36b29032" kind="variable"><name>AUTH_PASSWORD_VALIDATORS</name></member>
+    <member refid="namespacemedical_1_1settings_1a2f99ed65fe52b907a4ea02daeff0d5ff" kind="variable"><name>LANGUAGE_CODE</name></member>
+    <member refid="namespacemedical_1_1settings_1a0269b91b045406fd2fec1cd2b89df16f" kind="variable"><name>TIME_ZONE</name></member>
+    <member refid="namespacemedical_1_1settings_1a740efe35ff3d097ec9de9a19e5c29c34" kind="variable"><name>USE_I18N</name></member>
+    <member refid="namespacemedical_1_1settings_1a9d1af45a84952f57f31b1869af7e842a" kind="variable"><name>USE_L10N</name></member>
+    <member refid="namespacemedical_1_1settings_1a0729d8d8d102248094076b3a5961e6c2" kind="variable"><name>USE_TZ</name></member>
+    <member refid="namespacemedical_1_1settings_1aed486632e3987437ea34a38a2ff15f9e" kind="variable"><name>STATIC_URL</name></member>
+    <member refid="namespacemedical_1_1settings_1ab72cf3e00a245d600134e53514f14a3c" kind="variable"><name>SITE_ID</name></member>
+    <member refid="namespacemedical_1_1settings_1a168988caf4f18c016b2771c0a87bc729" kind="variable"><name>LOGIN_REDIRECT_URL</name></member>
+    <member refid="namespacemedical_1_1settings_1aa9ee0f6a9ce0a1a7676701b30a4b28ae" kind="variable"><name>LOGIN_URL</name></member>
+    <member refid="namespacemedical_1_1settings_1a25af291aa87cc96682c2a94ef1b2aea4" kind="variable"><name>STR_PUB</name></member>
+    <member refid="namespacemedical_1_1settings_1a1590172e975edce9402f9808caa86de0" kind="variable"><name>STR_SEC</name></member>
+    <member refid="namespacemedical_1_1settings_1aea457faa0dde02962ad7fe4cf104326e" kind="variable"><name>STRIPE_ENDPOINT_KEY</name></member>
+    <member refid="namespacemedical_1_1settings_1a2dd66368889b345f3fd7f1e01ef0c63f" kind="variable"><name>EMAIL_USE_TLS</name></member>
+    <member refid="namespacemedical_1_1settings_1ae7aa31d636d474f418ba9bfaea5e6cad" kind="variable"><name>EMAIL_HOST</name></member>
+    <member refid="namespacemedical_1_1settings_1a7c864c8f326f7ca794c22d5c2ad2531a" kind="variable"><name>EMAIL_PORT</name></member>
+  </compound>
+  <compound refid="namespacemedical_1_1sitemaps" kind="namespace"><name>medical::sitemaps</name>
+  </compound>
+  <compound refid="namespacemedical_1_1urls" kind="namespace"><name>medical::urls</name>
+    <member refid="namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c" kind="variable"><name>sitemaps</name></member>
+    <member refid="namespacemedical_1_1urls_1af5b4573ec9279eb165362d2f73eed71d" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacemedical_1_1wsgi" kind="namespace"><name>medical::wsgi</name>
+    <member refid="namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e" kind="variable"><name>application</name></member>
+  </compound>
+  <compound refid="namespacemedicines" kind="namespace"><name>medicines</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1admin" kind="namespace"><name>medicines::admin</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1apps" kind="namespace"><name>medicines::apps</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1filters" kind="namespace"><name>medicines::filters</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1forms" kind="namespace"><name>medicines::forms</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1humanize" kind="namespace"><name>medicines::humanize</name>
+    <member refid="namespacemedicines_1_1humanize_1af0066b2dec729ba753d06792b9dcb2fd" kind="function"><name>naturalsize</name></member>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations" kind="namespace"><name>medicines::migrations</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10001__initial" kind="namespace"><name>medicines::migrations::0001_initial</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10002__auto__20200826__1711" kind="namespace"><name>medicines::migrations::0002_auto_20200826_1711</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10003__medicine__slug" kind="namespace"><name>medicines::migrations::0003_medicine_slug</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10004__auto__20200827__1941" kind="namespace"><name>medicines::migrations::0004_auto_20200827_1941</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10005__auto__20200828__0733" kind="namespace"><name>medicines::migrations::0005_auto_20200828_0733</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10006__auto__20200828__0820" kind="namespace"><name>medicines::migrations::0006_auto_20200828_0820</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10007__auto__20200828__1023" kind="namespace"><name>medicines::migrations::0007_auto_20200828_1023</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10008__auto__20200828__1614" kind="namespace"><name>medicines::migrations::0008_auto_20200828_1614</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10009__auto__20200828__1914" kind="namespace"><name>medicines::migrations::0009_auto_20200828_1914</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10010__auto__20200830__1000" kind="namespace"><name>medicines::migrations::0010_auto_20200830_1000</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10011__auto__20200830__1125" kind="namespace"><name>medicines::migrations::0011_auto_20200830_1125</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10012__auto__20200830__1125" kind="namespace"><name>medicines::migrations::0012_auto_20200830_1125</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10013__auto__20200830__1126" kind="namespace"><name>medicines::migrations::0013_auto_20200830_1126</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10014__auto__20200830__1126" kind="namespace"><name>medicines::migrations::0014_auto_20200830_1126</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10015__auto__20200830__1128" kind="namespace"><name>medicines::migrations::0015_auto_20200830_1128</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10016__auto__20200830__1134" kind="namespace"><name>medicines::migrations::0016_auto_20200830_1134</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10017__auto__20200830__1141" kind="namespace"><name>medicines::migrations::0017_auto_20200830_1141</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10018__auto__20200830__1145" kind="namespace"><name>medicines::migrations::0018_auto_20200830_1145</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10019__auto__20200830__1145" kind="namespace"><name>medicines::migrations::0019_auto_20200830_1145</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10020__auto__20200830__1146" kind="namespace"><name>medicines::migrations::0020_auto_20200830_1146</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10021__auto__20200830__1148" kind="namespace"><name>medicines::migrations::0021_auto_20200830_1148</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10022__auto__20200830__1401" kind="namespace"><name>medicines::migrations::0022_auto_20200830_1401</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10023__auto__20200830__1401" kind="namespace"><name>medicines::migrations::0023_auto_20200830_1401</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10024__auto__20200830__1414" kind="namespace"><name>medicines::migrations::0024_auto_20200830_1414</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10025__auto__20200830__1559" kind="namespace"><name>medicines::migrations::0025_auto_20200830_1559</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10026__auto__20200831__1222" kind="namespace"><name>medicines::migrations::0026_auto_20200831_1222</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10027__auto__20200831__1253" kind="namespace"><name>medicines::migrations::0027_auto_20200831_1253</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10028__auto__20200831__1325" kind="namespace"><name>medicines::migrations::0028_auto_20200831_1325</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10029__auto__20200831__1340" kind="namespace"><name>medicines::migrations::0029_auto_20200831_1340</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10030__auto__20200831__1426" kind="namespace"><name>medicines::migrations::0030_auto_20200831_1426</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10031__auto__20200831__1452" kind="namespace"><name>medicines::migrations::0031_auto_20200831_1452</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10032__auto__20200831__1454" kind="namespace"><name>medicines::migrations::0032_auto_20200831_1454</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10033__auto__20200901__1138" kind="namespace"><name>medicines::migrations::0033_auto_20200901_1138</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10034__auto__20200908__1112" kind="namespace"><name>medicines::migrations::0034_auto_20200908_1112</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10035__auto__20200908__1330" kind="namespace"><name>medicines::migrations::0035_auto_20200908_1330</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10036__auto__20200908__1336" kind="namespace"><name>medicines::migrations::0036_auto_20200908_1336</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10037__auto__20200908__1348" kind="namespace"><name>medicines::migrations::0037_auto_20200908_1348</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10038__auto__20200908__1427" kind="namespace"><name>medicines::migrations::0038_auto_20200908_1427</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10039__auto__20200910__1349" kind="namespace"><name>medicines::migrations::0039_auto_20200910_1349</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10040__auto__20200915__0720" kind="namespace"><name>medicines::migrations::0040_auto_20200915_0720</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10041__auto__20210122__2104" kind="namespace"><name>medicines::migrations::0041_auto_20210122_2104</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10042__auto__20210403__0752" kind="namespace"><name>medicines::migrations::0042_auto_20210403_0752</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1migrations_1_10043__auto__20210403__0752" kind="namespace"><name>medicines::migrations::0043_auto_20210403_0752</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1models" kind="namespace"><name>medicines::models</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1owner" kind="namespace"><name>medicines::owner</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1sitemaps" kind="namespace"><name>medicines::sitemaps</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1tests" kind="namespace"><name>medicines::tests</name>
+  </compound>
+  <compound refid="namespacemedicines_1_1urls" kind="namespace"><name>medicines::urls</name>
+    <member refid="namespacemedicines_1_1urls_1aeed16a62b0c51246cd2aa00b3de8dbbb" kind="variable"><name>app_name</name></member>
+    <member refid="namespacemedicines_1_1urls_1a65e772c4d3f40ee044fd5beef9c4ab6b" kind="variable"><name>urlpatterns</name></member>
+  </compound>
+  <compound refid="namespacemedicines_1_1views" kind="namespace"><name>medicines::views</name>
+    <member refid="namespacemedicines_1_1views_1a2b23e78a78349aa0d754130eac79e3aa" kind="function"><name>stream_file</name></member>
+  </compound>
+  <compound refid="namespacemigrations" kind="namespace"><name>migrations</name>
+  </compound>
+  <compound refid="namespacemodels" kind="namespace"><name>models</name>
+  </compound>
+  <compound refid="namespaceprod" kind="namespace"><name>prod</name>
+  </compound>
+  <compound refid="namespacesitemaps" kind="namespace"><name>sitemaps</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="accounts_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="cart_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="medicines_2admin_8py" kind="file"><name>admin.py</name>
+  </compound>
+  <compound refid="0002__auto__20200908__1336_8py" kind="file"><name>0002_auto_20200908_1336.py</name>
+  </compound>
+  <compound refid="decorators_8py" kind="file"><name>decorators.py</name>
+  </compound>
+  <compound refid="test__auth_8py" kind="file"><name>test_auth.py</name>
+  </compound>
+  <compound refid="test__cart_8py" kind="file"><name>test_cart.py</name>
+  </compound>
+  <compound refid="test__checkout_8py" kind="file"><name>test_checkout.py</name>
+  </compound>
+  <compound refid="test__medicine_8py" kind="file"><name>test_medicine.py</name>
+  </compound>
+  <compound refid="test__order_8py" kind="file"><name>test_order.py</name>
+  </compound>
+  <compound refid="utils_8py" kind="file"><name>utils.py</name>
+  </compound>
+  <compound refid="auth_8py" kind="file"><name>auth.py</name>
+  </compound>
+  <compound refid="cart_8py" kind="file"><name>cart.py</name>
+  </compound>
+  <compound refid="checkout_8py" kind="file"><name>checkout.py</name>
+  </compound>
+  <compound refid="medicine_8py" kind="file"><name>medicine.py</name>
+  </compound>
+  <compound refid="order_8py" kind="file"><name>order.py</name>
+  </compound>
+  <compound refid="0002__order__orderdate_8py" kind="file"><name>0002_order_orderdate.py</name>
+  </compound>
+  <compound refid="0003__cartitem__purchased_8py" kind="file"><name>0003_cartitem_purchased.py</name>
+  </compound>
+  <compound refid="0004__cartitem__total_8py" kind="file"><name>0004_cartitem_total.py</name>
+  </compound>
+  <compound refid="0005__auto__20200831__1340_8py" kind="file"><name>0005_auto_20200831_1340.py</name>
+  </compound>
+  <compound refid="0006__order__postorder_8py" kind="file"><name>0006_order_postorder.py</name>
+  </compound>
+  <compound refid="cart__tag_8py" kind="file"><name>cart_tag.py</name>
+  </compound>
+  <compound refid="accounts_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="api_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="cart_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="checkout_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="home_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="medicines_2apps_8py" kind="file"><name>apps.py</name>
+  </compound>
+  <compound refid="accounts_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="checkout_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="home_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="medicines_2forms_8py" kind="file"><name>forms.py</name>
+  </compound>
+  <compound refid="accounts_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="cart_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="checkout_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="medicines_2migrations_20001__initial_8py" kind="file"><name>0001_initial.py</name>
+  </compound>
+  <compound refid="0002__auto__20200828__1023_8py" kind="file"><name>0002_auto_20200828_1023.py</name>
+  </compound>
+  <compound refid="accounts_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="cart_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="checkout_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="medicines_2models_8py" kind="file"><name>models.py</name>
+  </compound>
+  <compound refid="accounts_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="cart_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="checkout_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="home_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="medicines_2tests_8py" kind="file"><name>tests.py</name>
+  </compound>
+  <compound refid="accounts_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="cart_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="checkout_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="home_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="medicines_2views_8py" kind="file"><name>views.py</name>
+  </compound>
+  <compound refid="manage_8py" kind="file"><name>manage.py</name>
+  </compound>
+  <compound refid="accounts_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="accounts_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="api_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="api_2fixtures_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="api_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="api_2tests_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="api_2views_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="cart_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="cart_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="checkout_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="checkout_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="home_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="home_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="medical_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="medicines_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="medicines_2migrations_2____init_____8py" kind="file"><name>__init__.py</name>
+  </compound>
+  <compound refid="asgi_8py" kind="file"><name>asgi.py</name>
+  </compound>
+  <compound refid="dev_8py" kind="file"><name>dev.py</name>
+  </compound>
+  <compound refid="settings_8py" kind="file"><name>settings.py</name>
+  </compound>
+  <compound refid="accounts_2sitemaps_8py" kind="file"><name>sitemaps.py</name>
+  </compound>
+  <compound refid="medical_2sitemaps_8py" kind="file"><name>sitemaps.py</name>
+  </compound>
+  <compound refid="medicines_2sitemaps_8py" kind="file"><name>sitemaps.py</name>
+  </compound>
+  <compound refid="accounts_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="api_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="cart_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="checkout_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="home_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="medical_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="medicines_2urls_8py" kind="file"><name>urls.py</name>
+  </compound>
+  <compound refid="wsgi_8py" kind="file"><name>wsgi.py</name>
+  </compound>
+  <compound refid="filters_8py" kind="file"><name>filters.py</name>
+  </compound>
+  <compound refid="humanize_8py" kind="file"><name>humanize.py</name>
+  </compound>
+  <compound refid="0002__auto__20200826__1711_8py" kind="file"><name>0002_auto_20200826_1711.py</name>
+  </compound>
+  <compound refid="0003__medicine__slug_8py" kind="file"><name>0003_medicine_slug.py</name>
+  </compound>
+  <compound refid="0004__auto__20200827__1941_8py" kind="file"><name>0004_auto_20200827_1941.py</name>
+  </compound>
+  <compound refid="0005__auto__20200828__0733_8py" kind="file"><name>0005_auto_20200828_0733.py</name>
+  </compound>
+  <compound refid="0006__auto__20200828__0820_8py" kind="file"><name>0006_auto_20200828_0820.py</name>
+  </compound>
+  <compound refid="0007__auto__20200828__1023_8py" kind="file"><name>0007_auto_20200828_1023.py</name>
+  </compound>
+  <compound refid="0008__auto__20200828__1614_8py" kind="file"><name>0008_auto_20200828_1614.py</name>
+  </compound>
+  <compound refid="0009__auto__20200828__1914_8py" kind="file"><name>0009_auto_20200828_1914.py</name>
+  </compound>
+  <compound refid="0010__auto__20200830__1000_8py" kind="file"><name>0010_auto_20200830_1000.py</name>
+  </compound>
+  <compound refid="0011__auto__20200830__1125_8py" kind="file"><name>0011_auto_20200830_1125.py</name>
+  </compound>
+  <compound refid="0012__auto__20200830__1125_8py" kind="file"><name>0012_auto_20200830_1125.py</name>
+  </compound>
+  <compound refid="0013__auto__20200830__1126_8py" kind="file"><name>0013_auto_20200830_1126.py</name>
+  </compound>
+  <compound refid="0014__auto__20200830__1126_8py" kind="file"><name>0014_auto_20200830_1126.py</name>
+  </compound>
+  <compound refid="0015__auto__20200830__1128_8py" kind="file"><name>0015_auto_20200830_1128.py</name>
+  </compound>
+  <compound refid="0016__auto__20200830__1134_8py" kind="file"><name>0016_auto_20200830_1134.py</name>
+  </compound>
+  <compound refid="0017__auto__20200830__1141_8py" kind="file"><name>0017_auto_20200830_1141.py</name>
+  </compound>
+  <compound refid="0018__auto__20200830__1145_8py" kind="file"><name>0018_auto_20200830_1145.py</name>
+  </compound>
+  <compound refid="0019__auto__20200830__1145_8py" kind="file"><name>0019_auto_20200830_1145.py</name>
+  </compound>
+  <compound refid="0020__auto__20200830__1146_8py" kind="file"><name>0020_auto_20200830_1146.py</name>
+  </compound>
+  <compound refid="0021__auto__20200830__1148_8py" kind="file"><name>0021_auto_20200830_1148.py</name>
+  </compound>
+  <compound refid="0022__auto__20200830__1401_8py" kind="file"><name>0022_auto_20200830_1401.py</name>
+  </compound>
+  <compound refid="0023__auto__20200830__1401_8py" kind="file"><name>0023_auto_20200830_1401.py</name>
+  </compound>
+  <compound refid="0024__auto__20200830__1414_8py" kind="file"><name>0024_auto_20200830_1414.py</name>
+  </compound>
+  <compound refid="0025__auto__20200830__1559_8py" kind="file"><name>0025_auto_20200830_1559.py</name>
+  </compound>
+  <compound refid="0026__auto__20200831__1222_8py" kind="file"><name>0026_auto_20200831_1222.py</name>
+  </compound>
+  <compound refid="0027__auto__20200831__1253_8py" kind="file"><name>0027_auto_20200831_1253.py</name>
+  </compound>
+  <compound refid="0028__auto__20200831__1325_8py" kind="file"><name>0028_auto_20200831_1325.py</name>
+  </compound>
+  <compound refid="0029__auto__20200831__1340_8py" kind="file"><name>0029_auto_20200831_1340.py</name>
+  </compound>
+  <compound refid="0030__auto__20200831__1426_8py" kind="file"><name>0030_auto_20200831_1426.py</name>
+  </compound>
+  <compound refid="0031__auto__20200831__1452_8py" kind="file"><name>0031_auto_20200831_1452.py</name>
+  </compound>
+  <compound refid="0032__auto__20200831__1454_8py" kind="file"><name>0032_auto_20200831_1454.py</name>
+  </compound>
+  <compound refid="0033__auto__20200901__1138_8py" kind="file"><name>0033_auto_20200901_1138.py</name>
+  </compound>
+  <compound refid="0034__auto__20200908__1112_8py" kind="file"><name>0034_auto_20200908_1112.py</name>
+  </compound>
+  <compound refid="0035__auto__20200908__1330_8py" kind="file"><name>0035_auto_20200908_1330.py</name>
+  </compound>
+  <compound refid="0036__auto__20200908__1336_8py" kind="file"><name>0036_auto_20200908_1336.py</name>
+  </compound>
+  <compound refid="0037__auto__20200908__1348_8py" kind="file"><name>0037_auto_20200908_1348.py</name>
+  </compound>
+  <compound refid="0038__auto__20200908__1427_8py" kind="file"><name>0038_auto_20200908_1427.py</name>
+  </compound>
+  <compound refid="0039__auto__20200910__1349_8py" kind="file"><name>0039_auto_20200910_1349.py</name>
+  </compound>
+  <compound refid="0040__auto__20200915__0720_8py" kind="file"><name>0040_auto_20200915_0720.py</name>
+  </compound>
+  <compound refid="0041__auto__20210122__2104_8py" kind="file"><name>0041_auto_20210122_2104.py</name>
+  </compound>
+  <compound refid="0042__auto__20210403__0752_8py" kind="file"><name>0042_auto_20210403_0752.py</name>
+  </compound>
+  <compound refid="0043__auto__20210403__0752_8py" kind="file"><name>0043_auto_20210403_0752.py</name>
+  </compound>
+  <compound refid="owner_8py" kind="file"><name>owner.py</name>
+  </compound>
+  <compound refid="README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README" kind="page"><name>md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README</name>
+  </compound>
+  <compound refid="dir_3fcb0e743ae70258ff44ba6f4b7d40d1" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts</name>
+  </compound>
+  <compound refid="dir_c68c3ed25597d67eec1c9d2f7a8ef18c" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api</name>
+  </compound>
+  <compound refid="dir_11d0df619bf1ec4bd23477762e08cd7a" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart</name>
+  </compound>
+  <compound refid="dir_6333267df1e60e6968ed7aff20cdb953" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout</name>
+  </compound>
+  <compound refid="dir_2130e4e70f58b767695a6de3a912ecb8" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/fixtures</name>
+  </compound>
+  <compound refid="dir_863fd68b4e796c2d4437b64ec9980fca" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home</name>
+  </compound>
+  <compound refid="dir_617f417d504f020f37da18872da03f47" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical</name>
+  </compound>
+  <compound refid="dir_51904e826723368a6609343bf7490a30" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines</name>
+  </compound>
+  <compound refid="dir_bd6446b077e53d17caec22a13c86fa83" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore</name>
+  </compound>
+  <compound refid="dir_60ee30988a847a46579c60a16c7210b7" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/migrations</name>
+  </compound>
+  <compound refid="dir_59c060d381949ebab674e1ceb84a0c97" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/migrations</name>
+  </compound>
+  <compound refid="dir_01106dbf48aadbbbc6185dd9667a9334" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations</name>
+  </compound>
+  <compound refid="dir_ed0955f5f3fec5b5080cfad2a98b2261" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/migrations</name>
+  </compound>
+  <compound refid="dir_af8b8129a5f2c31a3c01a13a4f302fc1" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/migrations</name>
+  </compound>
+  <compound refid="dir_a254fe3a7bc00fa20f49b221ebe1cd1e" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations</name>
+  </compound>
+  <compound refid="dir_3cb5fabc152f556c51be89dc66c41717" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags</name>
+  </compound>
+  <compound refid="dir_fe794dc4b20f30bb8741495bd3be8b71" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests</name>
+  </compound>
+  <compound refid="dir_091cfd26a58e4603a5a964d3d2aecae1" kind="dir"><name>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views</name>
+  </compound>
+</doxygenindex>

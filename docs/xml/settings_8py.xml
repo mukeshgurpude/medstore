@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="settings_8py" kind="file" language="Python">
+    <compoundname>settings.py</compoundname>
+    <innernamespace refid="namespacemedical">medical</innernamespace>
+    <innernamespace refid="namespacemedical_1_1settings">medical::settings</innernamespace>
+    <innernamespace refid="namespaceprod">prod</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedical_1_1settings" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">Django<sp/>settings<sp/>for<sp/>medical<sp/>project.</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="4"><highlight class="stringliteral">Generated<sp/>by<sp/>&apos;django-admin<sp/>startproject&apos;<sp/>using<sp/>Django<sp/>3.0.8.</highlight></codeline>
+<codeline lineno="5"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="6"><highlight class="stringliteral">For<sp/>more<sp/>information<sp/>on<sp/>this<sp/>file,<sp/>see</highlight></codeline>
+<codeline lineno="7"><highlight class="stringliteral">https://docs.djangoproject.com/en/3.0/topics/settings/</highlight></codeline>
+<codeline lineno="8"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="9"><highlight class="stringliteral">For<sp/>the<sp/>full<sp/>list<sp/>of<sp/>settings<sp/>and<sp/>their<sp/>values,<sp/>see</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral">https://docs.djangoproject.com/en/3.0/ref/settings/</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.dev<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Build<sp/>paths<sp/>inside<sp/>the<sp/>project<sp/>like<sp/>this:<sp/>os.path.join(BASE_DIR,<sp/>...)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespacemedical_1_1settings_1aa8c14431af344298471262fb91123310" refkind="member"><highlight class="normal">BASE_DIR<sp/>=<sp/>os.path.dirname(os.path.dirname(os.path.abspath(__file__)))</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Quick-start<sp/>development<sp/>settings<sp/>-<sp/>unsuitable<sp/>for<sp/>production</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">#<sp/>See<sp/>https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">#<sp/>SECURITY<sp/>WARNING:<sp/>keep<sp/>the<sp/>secret<sp/>key<sp/>used<sp/>in<sp/>production<sp/>secret!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="namespacemedical_1_1settings_1a4fa7323b543d63548865e7c79c3bf0bf" refkind="member"><highlight class="normal">SECRET_KEY<sp/>=<sp/>os.environ.get(</highlight><highlight class="stringliteral">&apos;MEDSTORE_SECRET_KEY&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;g+!ccv7(cweo2*#8^6+%7(x4$na09w-0*+&amp;)18nkt8)=um_+p(&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="namespacemedical_1_1settings_1aa05b2cb9023598c5c6443814dae85141" refkind="member"><highlight class="normal">ACCOUNT_FORMS<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;signup&quot;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&quot;home.forms.UserSignUp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="namespacemedical_1_1settings_1a4302902b49deab6bbcae5789071d2811" refkind="member"><highlight class="normal">ACCOUNT_EMAIL_VERIFICATION<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;none&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="namespacemedical_1_1settings_1a3e81ac26071899bc555676e34e901c91" refkind="member"><highlight class="normal">CRISPY_TEMPLATE_PACK<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;bootstrap4&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Application<sp/>definition</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="namespacemedical_1_1settings_1a6f6b6928945297dc9e78d51f070b3ece" refkind="member"><highlight class="normal">INSTALLED_APPS<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.admin&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.contenttypes&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.sessions&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.messages&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.staticfiles&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.sites&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django_filters&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.sitemaps&apos;</highlight><highlight class="normal">,<sp/><sp/></highlight><highlight class="comment">#<sp/>For<sp/>SiteMap</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>extensions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;crispy_forms&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>apps</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;medicines.apps.MedicinesConfig&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;home.apps.HomeConfig&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;cart&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;checkout&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;accounts&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>For<sp/>Authentication</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;allauth&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;allauth.account&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;allauth.socialaccount&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>To<sp/>whitelist<sp/>frontend</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;corsheaders&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">]</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="namespacemedical_1_1settings_1aba649cb3fd75c579954f3124aec20d22" refkind="member"><highlight class="normal">MIDDLEWARE<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.middleware.security.SecurityMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.sessions.middleware.SessionMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.middleware.common.CommonMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.middleware.csrf.CsrfViewMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.middleware.AuthenticationMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.messages.middleware.MessageMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.middleware.clickjacking.XFrameOptionsMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;corsheaders.middleware.CorsMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;allauth.account.middleware.AccountMiddleware&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">]</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="namespacemedical_1_1settings_1af6373a3153976f2668b13a750f73a2c2" refkind="member"><highlight class="normal">ROOT_URLCONF<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;medical.urls&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="namespacemedical_1_1settings_1a2ea6353e20efac76eb141a995503a484" refkind="member"><highlight class="normal">TEMPLATES<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;BACKEND&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;django.template.backends.django.DjangoTemplates&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;DIRS&apos;</highlight><highlight class="normal">:<sp/>[],</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;APP_DIRS&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;OPTIONS&apos;</highlight><highlight class="normal">:<sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;context_processors&apos;</highlight><highlight class="normal">:<sp/>[</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.template.context_processors.debug&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.template.context_processors.request&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.context_processors.auth&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.messages.context_processors.messages&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">]</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="namespacemedical_1_1settings_1a18e0e98e137e1a356b6ab2d58d0ba12a" refkind="member"><highlight class="normal">WSGI_APPLICATION<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;medical.wsgi.application&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Database</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight><highlight class="comment">#<sp/>https://docs.djangoproject.com/en/3.0/ref/settings/#databases</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="namespacemedical_1_1settings_1a7bc64f86abb0ffefde97e8b801245be0" refkind="member"><highlight class="normal">DATABASES<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;default&apos;</highlight><highlight class="normal">:<sp/>{</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;ENGINE&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;django.db.backends.sqlite3&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;NAME&apos;</highlight><highlight class="normal">:<sp/>os.path.join(BASE_DIR,<sp/></highlight><highlight class="stringliteral">&apos;db.sqlite3&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="namespacemedical_1_1settings_1a302b37983ebc096b247d2517d258fa73" refkind="member"><highlight class="normal">AUTHENTICATION_BACKENDS<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.backends.ModelBackend&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;allauth.account.auth_backends.AuthenticationBackend&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">]</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Password<sp/>validation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">#<sp/>https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="namespacemedical_1_1settings_1a2cd62ffacf96fabc5ad9dc7e36b29032" refkind="member"><highlight class="normal">AUTH_PASSWORD_VALIDATORS<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;NAME&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.password_validation.UserAttributeSimilarityValidator&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;NAME&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.password_validation.MinimumLengthValidator&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;NAME&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.password_validation.CommonPasswordValidator&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;NAME&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;django.contrib.auth.password_validation.NumericPasswordValidator&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">]</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Internationalization</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">#<sp/>https://docs.djangoproject.com/en/3.0/topics/i18n/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="namespacemedical_1_1settings_1a2f99ed65fe52b907a4ea02daeff0d5ff" refkind="member"><highlight class="normal">LANGUAGE_CODE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;en-us&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="namespacemedical_1_1settings_1a0269b91b045406fd2fec1cd2b89df16f" refkind="member"><highlight class="normal">TIME_ZONE<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;Asia/Kolkata&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="namespacemedical_1_1settings_1a740efe35ff3d097ec9de9a19e5c29c34" refkind="member"><highlight class="normal">USE_I18N<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="namespacemedical_1_1settings_1a9d1af45a84952f57f31b1869af7e842a" refkind="member"><highlight class="normal">USE_L10N<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="namespacemedical_1_1settings_1a0729d8d8d102248094076b3a5961e6c2" refkind="member"><highlight class="normal">USE_TZ<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Static<sp/>files<sp/>(CSS,<sp/>JavaScript,<sp/>Images)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">#<sp/>https://docs.djangoproject.com/en/3.0/howto/static-files/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="namespacemedical_1_1settings_1aed486632e3987437ea34a38a2ff15f9e" refkind="member"><highlight class="normal">STATIC_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;/static/&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="namespacemedical_1_1settings_1ab72cf3e00a245d600134e53514f14a3c" refkind="member"><highlight class="normal">SITE_ID<sp/>=<sp/>1</highlight></codeline>
+<codeline lineno="152" refid="namespacemedical_1_1settings_1a168988caf4f18c016b2771c0a87bc729" refkind="member"><highlight class="normal">LOGIN_REDIRECT_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="namespacemedical_1_1settings_1aa9ee0f6a9ce0a1a7676701b30a4b28ae" refkind="member"><highlight class="normal">LOGIN_URL<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;/login/&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>stripe_conf</highlight></codeline>
+<codeline lineno="157" refid="namespacemedical_1_1settings_1a25af291aa87cc96682c2a94ef1b2aea4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>STR_PUB<sp/>=<sp/>stripe_conf.publishable_key</highlight></codeline>
+<codeline lineno="158" refid="namespacemedical_1_1settings_1a1590172e975edce9402f9808caa86de0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>STR_SEC<sp/>=<sp/>stripe_conf.secret_key</highlight></codeline>
+<codeline lineno="159" refid="namespacemedical_1_1settings_1aea457faa0dde02962ad7fe4cf104326e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>STRIPE_ENDPOINT_KEY<sp/>=<sp/>stripe_conf.end_key</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>(ModuleNotFoundError,<sp/>ImportError):</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>STR_PUB<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>STR_SEC<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>STRIPE_ENDPOINT_KEY<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">#<sp/>For<sp/>SMTP<sp/>Email</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="namespacemedical_1_1settings_1a2dd66368889b345f3fd7f1e01ef0c63f" refkind="member"><highlight class="normal">EMAIL_USE_TLS<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="namespacemedical_1_1settings_1ae7aa31d636d474f418ba9bfaea5e6cad" refkind="member"><highlight class="normal">EMAIL_HOST<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;smtp.gmail.com&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="namespacemedical_1_1settings_1a7c864c8f326f7ca794c22d5c2ad2531a" refkind="member"><highlight class="normal">EMAIL_PORT<sp/>=<sp/>587</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Include<sp/>production<sp/>settings</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keywordflow">try</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Check<sp/>if<sp/>there&apos;s<sp/>a<sp/>production<sp/>environment<sp/>file</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.prod<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>*</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>(ModuleNotFoundError,<sp/>ImportError):</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/settings.py"/>
+  </compounddef>
+</doxygen>

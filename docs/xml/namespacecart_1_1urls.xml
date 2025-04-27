@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecart_1_1urls" kind="namespace" language="Python">
+    <compoundname>cart::urls</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacecart_1_1urls_1ae6d35656063cdf7fe6bbd94f2f485d15" prot="public" static="no" mutable="no">
+        <type>str</type>
+        <definition>str cart::urls.app_name</definition>
+        <argsstring></argsstring>
+        <name>app_name</name>
+        <qualifiedname>cart.urls.app_name</qualifiedname>
+        <initializer>=  &quot;cart&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py" line="5" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacecart_1_1urls_1a93b0baeb1fa10af912fde6d9f8bab9a1" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list cart::urls.urlpatterns</definition>
+        <argsstring></argsstring>
+        <name>urlpatterns</name>
+        <qualifiedname>cart.urls.urlpatterns</qualifiedname>
+        <initializer>=  [
+    path(&quot;cart/&quot;, cartview, name=&quot;home&quot;),
+    path(&quot;add/&lt;slug&gt;&quot;, add_to_cart, name=&quot;add&quot;),
+    path(&quot;remove/&lt;slug&gt;&quot;, remove_from_cart, name=&quot;remove&quot;),
+    path(&quot;increase/&lt;slug&gt;&quot;, views.increase_cart_test, name=&quot;increase&quot;),
+    path(&quot;decrease/&lt;slug&gt;&quot;, views.decrease_cart_test, name=&quot;decrease&quot;),
+    path(&quot;orders/&quot;, views.order_view, name=&quot;my_orders&quot;)
+]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

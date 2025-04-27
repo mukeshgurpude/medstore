@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout" xml:lang="en-US">
+<title>api.tests.test_auth.TestLoginLogout Class Reference</title>
+<indexterm><primary>api.tests.test_auth.TestLoginLogout</primary></indexterm>
+Inheritance diagram for api.tests.test_auth.TestLoginLogout:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_auth.TestLoginLogout:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1aa286e4554f994e0877299948c1260407">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a45dc2adbe3f515cdf180c73656cc0c26">test_login</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a6fcb75dff4ab48ce5b650420c9cce1e3">test_logout</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a8c12d0bfb9022a5b858cc28722e99baf">test_register</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a2940006371a359edcd94655225be159a">user</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1aa286e4554f994e0877299948c1260407"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_auth.TestLoginLogout</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestLoginLogout</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_auth.TestLoginLogout.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a45dc2adbe3f515cdf180c73656cc0c26"/><section>
+    <title>test_login()</title>
+<indexterm><primary>test_login</primary><secondary>api.tests.test_auth.TestLoginLogout</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestLoginLogout</primary><secondary>test_login</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestLoginLogout.test_login ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Tests if the user is able to login
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a6fcb75dff4ab48ce5b650420c9cce1e3"/><section>
+    <title>test_logout()</title>
+<indexterm><primary>test_logout</primary><secondary>api.tests.test_auth.TestLoginLogout</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestLoginLogout</primary><secondary>test_logout</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestLoginLogout.test_logout ( self)</computeroutput></para>
+<para><literallayout><computeroutput>Tests the functionality of logging out
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a8c12d0bfb9022a5b858cc28722e99baf"/><section>
+    <title>test_register()</title>
+<indexterm><primary>test_register</primary><secondary>api.tests.test_auth.TestLoginLogout</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestLoginLogout</primary><secondary>test_register</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestLoginLogout.test_register ( self)</computeroutput></para>
+<para><literallayout><computeroutput> Tests signup functionality </computeroutput></literallayout> </para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a2940006371a359edcd94655225be159a"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>api.tests.test_auth.TestLoginLogout</secondary></indexterm>
+<indexterm><primary>api.tests.test_auth.TestLoginLogout</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>api.tests.test_auth.TestLoginLogout.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__auth_8py">test_auth.py</link></section>
+</section>

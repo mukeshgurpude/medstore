@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1tests_1_1test__checkout" kind="namespace" language="Python">
+    <compoundname>api::tests::test_checkout</compoundname>
+    <innerclass refid="classapi_1_1tests_1_1test__checkout_1_1Test" prot="public">api::tests::test_checkout::Test</innerclass>
+    <innerclass refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress" prot="public">api::tests::test_checkout::TestBillingAddress</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_checkout.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

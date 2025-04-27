@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1urls" xml:lang="en-US">
+<title>api.urls Namespace Reference</title>
+<indexterm><primary>api.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceapi_1_1urls_1ae478470e4b65654f35e525ca4c80fa32">app_name</link> = &apos;api&apos;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceapi_1_1urls_1ae1c754cb38c35b590f6a741ace140a07">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceapi_1_1urls_1ae478470e4b65654f35e525ca4c80fa32"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>api.urls</secondary></indexterm>
+<indexterm><primary>api.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str api.urls.app_name = &apos;api&apos;</computeroutput></para></section>
+<anchor xml:id="_namespaceapi_1_1urls_1ae1c754cb38c35b590f6a741ace140a07"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>api.urls</secondary></indexterm>
+<indexterm><primary>api.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list api.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;Medicines</emphasis>
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;&apos;</emphasis>,&#32;views.MedicineView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;APIv1&quot;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;detail/&lt;int:pk&gt;/&apos;</emphasis>,&#32;views.APIDetailView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;medicine_detail&quot;</emphasis>),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;detail/&lt;str:slug&gt;/&apos;</emphasis>,&#32;views.APIDetailView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;medicine_detail&quot;</emphasis>),
+6 
+7 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;Regarding&#32;user&#32;details</emphasis>
+8 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;user/&apos;</emphasis>,&#32;views.get_current_user,&#32;name=<emphasis role="stringliteral">&quot;user&quot;</emphasis>),
+9 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;profile/&apos;</emphasis>,&#32;views.ProfileView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;profile&quot;</emphasis>),
+10 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;login/&apos;</emphasis>,&#32;views.APILoginView.as_view(),&#32;name=<emphasis role="stringliteral">&quot;login&quot;</emphasis>),
+11 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;logout/&apos;</emphasis>,&#32;views.api_logout,&#32;name=<emphasis role="stringliteral">&quot;logout&quot;</emphasis>),
+12 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;register/&apos;</emphasis>,&#32;views.APISignupView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;register&apos;</emphasis>),
+13 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;sell/&apos;</emphasis>,&#32;views.SellerView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;sell&apos;</emphasis>),
+14 
+15 &#32;&#32;&#32;&#32;<emphasis role="comment">#&#32;Cart,&#32;Orders&#32;related&#32;views</emphasis>
+16 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;cart/&apos;</emphasis>,&#32;views.CartView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;cart&apos;</emphasis>),
+17 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;orders/&apos;</emphasis>,&#32;views.OrderView.as_view(),&#32;name=<emphasis role="stringliteral">&apos;orders&apos;</emphasis>),
+18 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;address/&apos;</emphasis>,&#32;views.APIBillingAddress.as_view(),&#32;name=<emphasis role="stringliteral">&apos;orders&apos;</emphasis>),
+19 ]
+</programlisting></section>
+</section>
+</section>

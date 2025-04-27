@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classhome_1_1apps_1_1HomeConfig" xml:lang="en-US">
+<title>home.apps.HomeConfig Class Reference</title>
+<indexterm><primary>home.apps.HomeConfig</primary></indexterm>
+Inheritance diagram for home.apps.HomeConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1apps_1_1HomeConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for home.apps.HomeConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1apps_1_1HomeConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classhome_1_1apps_1_1HomeConfig_1a2ede7dba5e475c9236f80f231225c037">name</link> = &apos;home&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classhome_1_1apps_1_1HomeConfig_1a2ede7dba5e475c9236f80f231225c037"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>home.apps.HomeConfig</secondary></indexterm>
+<indexterm><primary>home.apps.HomeConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str home.apps.HomeConfig.name = &apos;home&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/<link linkend="_home_2apps_8py">apps.py</link></section>
+</section>

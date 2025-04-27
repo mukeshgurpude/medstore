@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1filters_1_1ProductFilter" kind="class" language="Python" prot="public">
+    <compoundname>medicines::filters::ProductFilter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">django_filters.FilterSet</basecompoundref>
+    <innerclass refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta" prot="public">medicines::filters::ProductFilter::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.filters.ProductFilter::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>medicines.filters.ProductFilter.name</qualifiedname>
+        <initializer>=  django_filters.CharFilter(lookup_expr=&apos;icontains&apos;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1models_1_1MedCat_1a576ed8fa4d37359d4e70e39d13cfdc7d" compoundref="medicines_2models_8py" startline="12" endline="14">medicines.models.MedCat.__str__</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a" compoundref="medicines_2models_8py" startline="32" endline="34">medicines.models.Medicine.__str__</referencedby>
+        <referencedby refid="classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919" compoundref="medicines_2models_8py" startline="38" endline="44">medicines.models.Medicine.save</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.filters.ProductFilter::price</definition>
+        <argsstring></argsstring>
+        <name>price</name>
+        <qualifiedname>medicines.filters.ProductFilter.price</qualifiedname>
+        <initializer>=  RangeFilter()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>django_filters::FilterSet</label>
+      </node>
+      <node id="1">
+        <label>medicines.filters.ProductFilter</label>
+        <link refid="classmedicines_1_1filters_1_1ProductFilter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>django_filters::FilterSet</label>
+      </node>
+      <node id="1">
+        <label>medicines.filters.ProductFilter</label>
+        <link refid="classmedicines_1_1filters_1_1ProductFilter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py" bodystart="7" bodyend="14"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" prot="public" virt="non-virtual"><scope>medicines::filters::ProductFilter</scope><name>name</name></member>
+      <member refid="classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2" prot="public" virt="non-virtual"><scope>medicines::filters::ProductFilter</scope><name>price</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

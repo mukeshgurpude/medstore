@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart" xml:lang="en-US">
+<title>api.tests.test_cart.TestCart Class Reference</title>
+<indexterm><primary>api.tests.test_cart.TestCart</primary></indexterm>
+Inheritance diagram for api.tests.test_cart.TestCart:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__cart_1_1TestCart__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_cart.TestCart:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__cart_1_1TestCart__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a9ad15e80fd93dae87db4b2d6f07e2152">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f">test_cart_list</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7">test_cart_increase</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b">test_cart_full_update</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71">test_add_new_to_cart</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a31b6bae7d1af95ca55b06978f32e8196">test_post_request</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a4b584dd2fa2729f2b73609ab72b02877">user</link></para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1aaa327a0a16078c232a25c6bf0be9f22b">credentials</link></para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1aeb65863a86d77f72b032ffbc9019c167">cart_item</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a42a38b7bb87816e346942cbc0b085e1f">fixtures</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a9ad15e80fd93dae87db4b2d6f07e2152"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_cart.TestCart.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71"/><section>
+    <title>test_add_new_to_cart()</title>
+<indexterm><primary>test_add_new_to_cart</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>test_add_new_to_cart</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.test_add_new_to_cart ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b"/><section>
+    <title>test_cart_full_update()</title>
+<indexterm><primary>test_cart_full_update</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>test_cart_full_update</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.test_cart_full_update ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7"/><section>
+    <title>test_cart_increase()</title>
+<indexterm><primary>test_cart_increase</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>test_cart_increase</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.test_cart_increase ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f"/><section>
+    <title>test_cart_list()</title>
+<indexterm><primary>test_cart_list</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>test_cart_list</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.test_cart_list ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a31b6bae7d1af95ca55b06978f32e8196"/><section>
+    <title>test_post_request()</title>
+<indexterm><primary>test_post_request</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>test_post_request</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.test_post_request ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1aeb65863a86d77f72b032ffbc9019c167"/><section>
+    <title>cart_item</title>
+<indexterm><primary>cart_item</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>cart_item</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.cart_item</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1aaa327a0a16078c232a25c6bf0be9f22b"/><section>
+    <title>credentials</title>
+<indexterm><primary>credentials</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>credentials</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.credentials</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a42a38b7bb87816e346942cbc0b085e1f"/><section>
+    <title>fixtures</title>
+<indexterm><primary>fixtures</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>fixtures</secondary></indexterm>
+<para><computeroutput>list api.tests.test_cart.TestCart.fixtures<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[<emphasis role="stringliteral">&quot;api/fixtures/&quot;</emphasis>&#32;+&#32;file&#32;+&#32;<emphasis role="stringliteral">&quot;.json&quot;</emphasis>&#32;<emphasis role="keywordflow">for</emphasis>&#32;file&#32;<emphasis role="keywordflow">in</emphasis>&#32;{<emphasis role="stringliteral">&quot;user&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;cartItem&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;order&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;permissions&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;med&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;medCategory&quot;</emphasis>}]
+</programlisting></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__cart_1_1TestCart_1a4b584dd2fa2729f2b73609ab72b02877"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>api.tests.test_cart.TestCart</secondary></indexterm>
+<indexterm><primary>api.tests.test_cart.TestCart</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>api.tests.test_cart.TestCart.user</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__cart_8py">test_cart.py</link></section>
+</section>

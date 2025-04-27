@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1owner_1_1OwnerDetailView" xml:lang="en-US">
+<title>medicines.owner.OwnerDetailView Class Reference</title>
+<indexterm><primary>medicines.owner.OwnerDetailView</primary></indexterm>
+Inheritance diagram for medicines.owner.OwnerDetailView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerDetailView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.owner.OwnerDetailView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerDetailView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_owner_8py">owner.py</link></section>

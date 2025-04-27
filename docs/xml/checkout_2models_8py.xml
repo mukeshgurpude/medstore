@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="checkout_2models_8py" kind="file" language="Python">
+    <compoundname>models.py</compoundname>
+    <innerclass refid="classcheckout_1_1models_1_1BillingAddress" prot="public">checkout::models::BillingAddress</innerclass>
+    <innernamespace refid="namespacecheckout">checkout</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1models">checkout::models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecheckout_1_1models" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>models</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>get_user_model</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Create<sp/>your<sp/>models<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classcheckout_1_1models_1_1BillingAddress" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcheckout_1_1models_1_1BillingAddress" kindref="compound">BillingAddress</ref>(models.Model):</highlight></codeline>
+<codeline lineno="7" refid="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>user<sp/>=<sp/>models.ForeignKey(get_user_model(),<sp/>on_delete=models.CASCADE)</highlight></codeline>
+<codeline lineno="8" refid="classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>address<sp/>=<sp/>models.CharField(max_length=50,<sp/>)</highlight></codeline>
+<codeline lineno="9" refid="classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pincode<sp/>=<sp/>models.PositiveIntegerField()</highlight></codeline>
+<codeline lineno="10" refid="classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>city<sp/>=<sp/>models.CharField(max_length=20)</highlight></codeline>
+<codeline lineno="11" refid="classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>landmark<sp/>=<sp/>models.CharField(max_length=30,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce" kindref="member">__str__</ref>(self):</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>f</highlight><highlight class="stringliteral">&quot;{self.user.username}<sp/>Billing<sp/>Address&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="preprocessor">@property</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" kindref="member">as_json</ref>(self):</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dict(address=self.<ref refid="classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e" kindref="member">address</ref>,<sp/>pincode=self.<ref refid="classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7" kindref="member">pincode</ref>,<sp/>city=self.<ref refid="classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80" kindref="member">city</ref>,<sp/>landmark=self.<ref refid="classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07" kindref="member">landmark</ref>)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/models.py"/>
+  </compounddef>
+</doxygen>

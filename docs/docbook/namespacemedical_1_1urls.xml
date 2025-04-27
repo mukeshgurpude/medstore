@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical_1_1urls" xml:lang="en-US">
+<title>medical.urls Namespace Reference</title>
+<indexterm><primary>medical.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c">sitemaps</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1urls_1af5b4573ec9279eb165362d2f73eed71d">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c"/><section>
+    <title>sitemaps</title>
+<indexterm><primary>sitemaps</primary><secondary>medical.urls</secondary></indexterm>
+<indexterm><primary>medical.urls</primary><secondary>sitemaps</secondary></indexterm>
+<para><computeroutput>dict medical.urls.sitemaps</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;{
+2 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;accounts&apos;</emphasis>:&#32;AccountSiteMap,
+3 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;medicines&apos;</emphasis>:&#32;MedSiteMap,
+4 &#32;&#32;&#32;&#32;<emphasis role="stringliteral">&apos;other&apos;</emphasis>:&#32;StaticSitemap
+5 }
+</programlisting></section>
+<anchor xml:id="_namespacemedical_1_1urls_1af5b4573ec9279eb165362d2f73eed71d"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>medical.urls</secondary></indexterm>
+<indexterm><primary>medical.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list medical.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;robots.txt&quot;</emphasis>,&#32;TemplateView.as_view(template_name=<emphasis role="stringliteral">&quot;robots.txt&quot;</emphasis>,&#32;content_type=<emphasis role="stringliteral">&quot;text/plain&quot;</emphasis>),&#32;name=<emphasis role="stringliteral">&quot;robots&quot;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;sitemap.xml&quot;</emphasis>,&#32;sitemap,&#32;{<emphasis role="stringliteral">&apos;sitemaps&apos;</emphasis>:&#32;sitemaps},&#32;name=<emphasis role="stringliteral">&quot;sitemap_url&quot;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;home.urls&quot;</emphasis>)),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;cart.urls&quot;</emphasis>)),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;admin/&apos;</emphasis>,&#32;admin.site.urls),
+7 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&apos;medicines/&apos;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;medicines.urls&quot;</emphasis>)),
+8 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;checkout.urls&quot;</emphasis>)),
+9 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;accounts.urls&quot;</emphasis>)),
+10 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;&quot;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;allauth.urls&quot;</emphasis>)),
+11 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;api/v1/&quot;</emphasis>,&#32;include(<emphasis role="stringliteral">&quot;api.urls&quot;</emphasis>)),
+12 ]
+</programlisting></section>
+</section>
+</section>

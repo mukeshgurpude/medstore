@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_ed0955f5f3fec5b5080cfad2a98b2261" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/migrations</compoundname>
+    <innerfile refid="checkout_2migrations_20001__initial_8py">0001_initial.py</innerfile>
+    <innerfile refid="0002__auto__20200828__1023_8py">0002_auto_20200828_1023.py</innerfile>
+    <innerfile refid="checkout_2migrations_2____init_____8py">__init__.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/migrations/"/>
+  </compounddef>
+</doxygen>

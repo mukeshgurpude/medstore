@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1views_1_1cart_1_1CartView" xml:lang="en-US">
+<title>api.views.cart.CartView Class Reference</title>
+<indexterm><primary>api.views.cart.CartView</primary></indexterm>
+Inheritance diagram for api.views.cart.CartView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1cart_1_1CartView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.views.cart.CartView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1cart_1_1CartView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_classapi_1_1views_1_1cart_1_1CartView_1a7960235b70218a1197fa722a57ec7f90">update_item</link> (cls, int pk=None, str action=None, <link linkend="_classcart_1_1models_1_1Order">Order</link> order=None, <link linkend="_namespaceapi_1_1views_1_1cart_1a1b6cb72ce4bec081bf16e595124ff1e1">User</link> user=None)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1views_1_1cart_1_1CartView_1a9bd12379f775f388dfe06970f0efac2d">get</link> (self, HttpRequest request)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1views_1_1cart_1_1CartView_1af1421720e41b08ba32c4c96b7c908465">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1views_1_1cart_1_1CartView_1a9bd12379f775f388dfe06970f0efac2d"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>api.views.cart.CartView</secondary></indexterm>
+<indexterm><primary>api.views.cart.CartView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>api.views.cart.CartView.get ( self, HttpRequest request)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1views_1_1cart_1_1CartView_1af1421720e41b08ba32c4c96b7c908465"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>api.views.cart.CartView</secondary></indexterm>
+<indexterm><primary>api.views.cart.CartView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>api.views.cart.CartView.post ( self,  request)</computeroutput></para>
+<para><literallayout><computeroutput>Request format, {id: Medicine id, action: (increase | decrease)}
+
+:param request: http request
+:type request: HttpRequest
+:return: Info, if the items are updated
+:rtype: JsonResponse
+</computeroutput></literallayout> </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1cart_1_1CartView_af1421720e41b08ba32c4c96b7c908465_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classapi_1_1views_1_1cart_1_1CartView_1a7960235b70218a1197fa722a57ec7f90"/><section>
+    <title>update_item()</title>
+<indexterm><primary>update_item</primary><secondary>api.views.cart.CartView</secondary></indexterm>
+<indexterm><primary>api.views.cart.CartView</primary><secondary>update_item</secondary></indexterm>
+<para><computeroutput> dict api.views.cart.CartView.update_item ( cls, int  pk = <computeroutput>None</computeroutput>
+, str  action = <computeroutput>None</computeroutput>
+, <link linkend="_classcart_1_1models_1_1Order">Order</link>  order = <computeroutput>None</computeroutput>
+, <link linkend="_namespaceapi_1_1views_1_1cart_1a1b6cb72ce4bec081bf16e595124ff1e1">User</link>  user = <computeroutput>None</computeroutput>
+)</computeroutput></para>
+<para><literallayout><computeroutput>Utility function to update the quantity of the cart item
+
+:param pk: ID of the medicine
+:type pk: int
+:param action: Action specifier (increase | decrease)
+:type action: str
+:param order: Order to store the cart items
+:type order: Order
+:param user: User to create an cart item, if not already exists
+:type user: User
+:rtype: dict
+</computeroutput></literallayout> </para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1cart_1_1CartView_a7960235b70218a1197fa722a57ec7f90_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/<link linkend="_cart_8py">cart.py</link></section>
+</section>

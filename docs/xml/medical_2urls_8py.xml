@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="medical_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespacemedical">medical</innernamespace>
+    <innernamespace refid="namespacemedical_1_1urls">medical::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedical_1_1urls" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>admin</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path,<sp/>include</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.sitemaps.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sitemap</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacemedicines_1_1sitemaps" kindref="compound">medicines.sitemaps</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>MedSiteMap</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceaccounts_1_1sitemaps" kindref="compound">accounts.sitemaps</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AccountSiteMap</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.views.generic<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>TemplateView</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.sitemaps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>StaticSitemap</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespacemedical_1_1urls_1a1bcac7cc9be757691b95009d2cbc5b0c" refkind="member"><highlight class="normal">sitemaps<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;accounts&apos;</highlight><highlight class="normal">:<sp/>AccountSiteMap,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;medicines&apos;</highlight><highlight class="normal">:<sp/>MedSiteMap,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&apos;other&apos;</highlight><highlight class="normal">:<sp/>StaticSitemap</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="namespacemedical_1_1urls_1af5b4573ec9279eb165362d2f73eed71d" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;robots.txt&quot;</highlight><highlight class="normal">,<sp/>TemplateView.as_view(template_name=</highlight><highlight class="stringliteral">&quot;robots.txt&quot;</highlight><highlight class="normal">,<sp/>content_type=</highlight><highlight class="stringliteral">&quot;text/plain&quot;</highlight><highlight class="normal">),<sp/>name=</highlight><highlight class="stringliteral">&quot;robots&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;sitemap.xml&quot;</highlight><highlight class="normal">,<sp/>sitemap,<sp/>{</highlight><highlight class="stringliteral">&apos;sitemaps&apos;</highlight><highlight class="normal">:<sp/>sitemaps},<sp/>name=</highlight><highlight class="stringliteral">&quot;sitemap_url&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;home.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;cart.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;admin/&apos;</highlight><highlight class="normal">,<sp/>admin.site.urls),</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&apos;medicines/&apos;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;medicines.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;checkout.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;accounts.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;allauth.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;api/v1/&quot;</highlight><highlight class="normal">,<sp/>include(</highlight><highlight class="stringliteral">&quot;api.urls&quot;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/urls.py"/>
+  </compounddef>
+</doxygen>

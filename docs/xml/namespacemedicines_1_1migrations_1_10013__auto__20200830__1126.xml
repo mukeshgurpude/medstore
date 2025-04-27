@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedicines_1_1migrations_1_10013__auto__20200830__1126" kind="namespace" language="Python">
+    <compoundname>medicines::migrations::0013_auto_20200830_1126</compoundname>
+    <innerclass refid="classmedicines_1_1migrations_1_10013__auto__20200830__1126_1_1Migration" prot="public">medicines::migrations::0013_auto_20200830_1126::Migration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0013_auto_20200830_1126.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration" xml:lang="en-US">
+<title>checkout.migrations.0002_auto_20200828_1023.Migration Class Reference</title>
+<indexterm><primary>checkout.migrations.0002_auto_20200828_1023.Migration</primary></indexterm>
+Inheritance diagram for checkout.migrations.0002_auto_20200828_1023.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for checkout.migrations.0002_auto_20200828_1023.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration_1ac73898e5dae4fdb7cd1ae141781b5643">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration_1aba53423b7dd49c5dcf6db5a29331d054">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration_1ac73898e5dae4fdb7cd1ae141781b5643"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>checkout.migrations.0002_auto_20200828_1023.Migration</secondary></indexterm>
+<indexterm><primary>checkout.migrations.0002_auto_20200828_1023.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list checkout.migrations.0002_auto_20200828_1023.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;checkout&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0001_initial&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration_1aba53423b7dd49c5dcf6db5a29331d054"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>checkout.migrations.0002_auto_20200828_1023.Migration</secondary></indexterm>
+<indexterm><primary>checkout.migrations.0002_auto_20200828_1023.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list checkout.migrations.0002_auto_20200828_1023.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;billingaddress&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;city&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.CharField(max_length=20),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;billingaddress&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;landmark&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.CharField(max_length=30,&#32;null=<emphasis role="keyword">True</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/migrations/<link linkend="_0002__auto__20200828__1023_8py">0002_auto_20200828_1023.py</link></section>
+</section>

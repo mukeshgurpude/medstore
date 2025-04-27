@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_11d0df619bf1ec4bd23477762e08cd7a" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart Directory Reference</primary></indexterm>
+Directory dependency graph for cart:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_11d0df619bf1ec4bd23477762e08cd7a_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_01106dbf48aadbbbc6185dd9667a9334">migrations</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_3cb5fabc152f556c51be89dc66c41717">templatetags</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_cart_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

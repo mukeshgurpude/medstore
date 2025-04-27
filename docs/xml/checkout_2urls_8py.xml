@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="checkout_2urls_8py" kind="file" language="Python">
+    <compoundname>urls.py</compoundname>
+    <innernamespace refid="namespacecheckout">checkout</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1urls">checkout::urls</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecheckout_1_1urls" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>path</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>checkout_view,<sp/>payment,<sp/>create_checkout_session,<sp/>stripe_conf,<sp/>stripe_webhook</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>views</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespacecheckout_1_1urls_1a4b407763ff0e9d21009985b4829bc19b" refkind="member"><highlight class="normal">app_name<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;checkout&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacecheckout_1_1urls_1aa20c5ce33aad306ff2960718d3690f15" refkind="member"><highlight class="normal">urlpatterns<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;order/&quot;</highlight><highlight class="normal">,<sp/>checkout_view,<sp/>name=</highlight><highlight class="stringliteral">&quot;order&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;pay/&quot;</highlight><highlight class="normal">,<sp/>payment,<sp/>name=</highlight><highlight class="stringliteral">&quot;pay&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;new/&quot;</highlight><highlight class="normal">,<sp/>create_checkout_session,<sp/>name=</highlight><highlight class="stringliteral">&quot;test&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;conf/&quot;</highlight><highlight class="normal">,<sp/>stripe_conf,<sp/>name=</highlight><highlight class="stringliteral">&quot;conf&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;hook/&quot;</highlight><highlight class="normal">,<sp/>stripe_webhook,<sp/>name=</highlight><highlight class="stringliteral">&quot;webhook&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;success/&quot;</highlight><highlight class="normal">,<sp/>views.success,<sp/>name=</highlight><highlight class="stringliteral">&quot;success&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>path(</highlight><highlight class="stringliteral">&quot;cancelled/&quot;</highlight><highlight class="normal">,<sp/>views.fail,<sp/>name=</highlight><highlight class="stringliteral">&quot;fail&quot;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/urls.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1models_1_1MedCat_1_1Meta" xml:lang="en-US">
+<title>medicines.models.MedCat.Meta Class Reference</title>
+<indexterm><primary>medicines.models.MedCat.Meta</primary></indexterm>
+Collaboration diagram for medicines.models.MedCat.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1MedCat_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classmedicines_1_1models_1_1MedCat_1_1Meta_1a77d7ecfec222c2cbe5ecac8e156df1e8">verbose_name</link> = &quot;Medicine Category&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1models_1_1MedCat_1_1Meta_1a77d7ecfec222c2cbe5ecac8e156df1e8"/><section>
+    <title>verbose_name</title>
+<indexterm><primary>verbose_name</primary><secondary>medicines.models.MedCat.Meta</secondary></indexterm>
+<indexterm><primary>medicines.models.MedCat.Meta</primary><secondary>verbose_name</secondary></indexterm>
+<para><computeroutput>str medicines.models.MedCat.Meta.verbose_name = &quot;Medicine Category&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2models_8py">models.py</link></section>
+</section>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical_1_1dev" xml:lang="en-US">
+<title>medical.dev Namespace Reference</title>
+<indexterm><primary>medical.dev</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1dev_1a89f7762951912180414f4160b8deb4e4">DEBUG</link> = True</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1dev_1a78ea4e6302956ba679481bbc6835d77a">ALLOWED_HOSTS</link> = [&quot;*&quot;]</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1dev_1ad866ab101ebac9076ab2c6e25b16a4ed">EMAIL_HOST_USER</link> = &apos;&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1dev_1acdb9dad1d4f6599eefe78052eb364e08">EMAIL_HOST_PASSWORD</link> = &apos;&apos;</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1dev_1a4d197dee6415a26dd6065bcd7b54c08f">CORS_ORIGIN_ALLOW_ALL</link> = True</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1dev_1afb26d6cfcb1c07c12d54ada2c0612e15">CORS_ALLOW_CREDENTIALS</link> = True</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemedical_1_1dev_1a78ea4e6302956ba679481bbc6835d77a"/><section>
+    <title>ALLOWED_HOSTS</title>
+<indexterm><primary>ALLOWED_HOSTS</primary><secondary>medical.dev</secondary></indexterm>
+<indexterm><primary>medical.dev</primary><secondary>ALLOWED_HOSTS</secondary></indexterm>
+<para><computeroutput>list medical.dev.ALLOWED_HOSTS = [&quot;*&quot;]</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1dev_1afb26d6cfcb1c07c12d54ada2c0612e15"/><section>
+    <title>CORS_ALLOW_CREDENTIALS</title>
+<indexterm><primary>CORS_ALLOW_CREDENTIALS</primary><secondary>medical.dev</secondary></indexterm>
+<indexterm><primary>medical.dev</primary><secondary>CORS_ALLOW_CREDENTIALS</secondary></indexterm>
+<para><computeroutput>bool medical.dev.CORS_ALLOW_CREDENTIALS = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1dev_1a4d197dee6415a26dd6065bcd7b54c08f"/><section>
+    <title>CORS_ORIGIN_ALLOW_ALL</title>
+<indexterm><primary>CORS_ORIGIN_ALLOW_ALL</primary><secondary>medical.dev</secondary></indexterm>
+<indexterm><primary>medical.dev</primary><secondary>CORS_ORIGIN_ALLOW_ALL</secondary></indexterm>
+<para><computeroutput>bool medical.dev.CORS_ORIGIN_ALLOW_ALL = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1dev_1a89f7762951912180414f4160b8deb4e4"/><section>
+    <title>DEBUG</title>
+<indexterm><primary>DEBUG</primary><secondary>medical.dev</secondary></indexterm>
+<indexterm><primary>medical.dev</primary><secondary>DEBUG</secondary></indexterm>
+<para><computeroutput>bool medical.dev.DEBUG = True</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1dev_1acdb9dad1d4f6599eefe78052eb364e08"/><section>
+    <title>EMAIL_HOST_PASSWORD</title>
+<indexterm><primary>EMAIL_HOST_PASSWORD</primary><secondary>medical.dev</secondary></indexterm>
+<indexterm><primary>medical.dev</primary><secondary>EMAIL_HOST_PASSWORD</secondary></indexterm>
+<para><computeroutput>str medical.dev.EMAIL_HOST_PASSWORD = &apos;&apos;</computeroutput></para></section>
+<anchor xml:id="_namespacemedical_1_1dev_1ad866ab101ebac9076ab2c6e25b16a4ed"/><section>
+    <title>EMAIL_HOST_USER</title>
+<indexterm><primary>EMAIL_HOST_USER</primary><secondary>medical.dev</secondary></indexterm>
+<indexterm><primary>medical.dev</primary><secondary>EMAIL_HOST_USER</secondary></indexterm>
+<para><computeroutput>str medical.dev.EMAIL_HOST_USER = &apos;&apos;</computeroutput></para></section>
+</section>
+</section>

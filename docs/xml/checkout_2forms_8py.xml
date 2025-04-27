@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="checkout_2forms_8py" kind="file" language="Python">
+    <compoundname>forms.py</compoundname>
+    <innerclass refid="classcheckout_1_1forms_1_1BillingForm" prot="public">checkout::forms::BillingForm</innerclass>
+    <innerclass refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta" prot="public">checkout::forms::BillingForm::Meta</innerclass>
+    <innernamespace refid="namespacecheckout">checkout</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1forms">checkout::forms</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecheckout_1_1forms" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>forms</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>BillingAddress</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classcheckout_1_1forms_1_1BillingForm" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcheckout_1_1forms_1_1BillingForm" kindref="compound">BillingForm</ref>(forms.ModelForm):</highlight></codeline>
+<codeline lineno="6" refid="classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>pincode<sp/>=<sp/>forms.IntegerField(min_value=100000,<sp/>max_value=999999)</highlight></codeline>
+<codeline lineno="7" refid="classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>landmark<sp/>=<sp/>forms.CharField(required=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>max_length=30)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="10" refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1add8f3db9e9c1fdaa7bc7bc3662f1e23c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>BillingAddress</highlight></codeline>
+<codeline lineno="11" refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1a68c7b95e5ff1719fa4849a241a1d36ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&quot;address&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;pincode&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;city&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;landmark&quot;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py"/>
+  </compounddef>
+</doxygen>

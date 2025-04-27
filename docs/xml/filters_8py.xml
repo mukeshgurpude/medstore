@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="filters_8py" kind="file" language="Python">
+    <compoundname>filters.py</compoundname>
+    <innerclass refid="classmedicines_1_1filters_1_1ProductFilter" prot="public">medicines::filters::ProductFilter</innerclass>
+    <innerclass refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta" prot="public">medicines::filters::ProductFilter::Meta</innerclass>
+    <innernamespace refid="namespacemedicines">medicines</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1filters">medicines::filters</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedicines_1_1filters" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.<sp/>models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Medicine</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>django_filters</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django_filters.filters<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>RangeFilter</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Creating<sp/>product<sp/>filters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classmedicines_1_1filters_1_1ProductFilter" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1filters_1_1ProductFilter" kindref="compound">ProductFilter</ref>(django_filters.FilterSet):</highlight></codeline>
+<codeline lineno="8" refid="classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>django_filters.CharFilter(lookup_expr=</highlight><highlight class="stringliteral">&apos;icontains&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="9" refid="classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>price<sp/>=<sp/>RangeFilter()</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta" kindref="compound">Meta</ref>:</highlight></codeline>
+<codeline lineno="12" refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1ac694bb9ab64d20d3a242056b5387ac09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>Medicine</highlight></codeline>
+<codeline lineno="13" refid="classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1a934724dd72fd2c0cdec01aa3a0a5f5b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;price&apos;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/filters.py"/>
+  </compounddef>
+</doxygen>

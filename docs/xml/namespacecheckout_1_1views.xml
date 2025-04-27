@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecheckout_1_1views" kind="namespace" language="Python">
+    <compoundname>checkout::views</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacecheckout_1_1views_1a4e9b0af574e6c10b2e609e51f9cf6ba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.checkout_view</definition>
+        <argsstring>(request)</argsstring>
+        <name>checkout_view</name>
+        <qualifiedname>checkout.views.checkout_view</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="19" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecheckout_1_1views_1a763b063257d0d03b88ce5c2658e0aa4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.payment</definition>
+        <argsstring>(request, web=True)</argsstring>
+        <name>payment</name>
+        <qualifiedname>checkout.views.payment</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <param>
+          <type>web</type>
+          <defname>web</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="48" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="48" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecheckout_1_1views_1ac6c399a68d475170dacd31240270617b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.stripe_conf</definition>
+        <argsstring>(request)</argsstring>
+        <name>stripe_conf</name>
+        <qualifiedname>checkout.views.stripe_conf</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="61" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="61" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecheckout_1_1views_1a86cd74449a6dc3e085bab7d073fa5573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.create_checkout_session</definition>
+        <argsstring>(request)</argsstring>
+        <name>create_checkout_session</name>
+        <qualifiedname>checkout.views.create_checkout_session</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="68" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="68" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecheckout_1_1views_1a0194495ea7937034bde192baa20714a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.stripe_webhook</definition>
+        <argsstring>(request)</argsstring>
+        <name>stripe_webhook</name>
+        <qualifiedname>checkout.views.stripe_webhook</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="93" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="93" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecheckout_1_1views_1a91909a8d95c0a79d2597eb1223f7ae5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.success</definition>
+        <argsstring>(request)</argsstring>
+        <name>success</name>
+        <qualifiedname>checkout.views.success</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="131" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="131" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecheckout_1_1views_1ae7f34a2f710ca4b342d0ba9545206914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkout.views.fail</definition>
+        <argsstring>(request)</argsstring>
+        <name>fail</name>
+        <qualifiedname>checkout.views.fail</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="150" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" bodystart="150" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

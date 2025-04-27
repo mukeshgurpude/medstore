@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1views_1_1MedCreateView" xml:lang="en-US">
+<title>medicines.views.MedCreateView Class Reference</title>
+<indexterm><primary>medicines.views.MedCreateView</primary></indexterm>
+Inheritance diagram for medicines.views.MedCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.views.MedCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedCreateView_1ab94ce89be11e25047ccd527b57f8e539">get</link> (self, request)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedCreateView_1aba6db25861ad84387f9eb31e1971b819">template_name</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedCreateView_1a2935e5111bdb972d8325972635625a83">model</link> = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedCreateView_1a0f6f5befc74d31e7a3ad4e7ae98cccbe">permission_required</link> = &apos;medicines.add_medicine&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedCreateView_1a77e74a5ef0b4e87b962f1741a18fe301">permission_denied_message</link> = &quot;No Access&quot;</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedCreateView_1a1f797aca8b478c1f4ba30327f9c6f406">success_url</link> = reverse_lazy(&quot;medicines:all&quot;)</para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedCreateView_1aaaece729377ef9f3dc813f66238c43a1">template_name</link> = &quot;medicines/medicine_add.html&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1ab94ce89be11e25047ccd527b57f8e539"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>medicines.views.MedCreateView.get ( self,  request)</computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1aaf22fdc8b615c4bca4fbe5b839de8ffc"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>medicines.views.MedCreateView.post ( self,  request)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1a2935e5111bdb972d8325972635625a83"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>medicines.views.MedCreateView.model = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1a77e74a5ef0b4e87b962f1741a18fe301"/><section>
+    <title>permission_denied_message</title>
+<indexterm><primary>permission_denied_message</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>permission_denied_message</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedCreateView.permission_denied_message = &quot;No Access&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1a0f6f5befc74d31e7a3ad4e7ae98cccbe"/><section>
+    <title>permission_required</title>
+<indexterm><primary>permission_required</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>permission_required</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedCreateView.permission_required = &apos;medicines.add_medicine&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1a1f797aca8b478c1f4ba30327f9c6f406"/><section>
+    <title>success_url</title>
+<indexterm><primary>success_url</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>success_url</secondary></indexterm>
+<para><computeroutput>medicines.views.MedCreateView.success_url = reverse_lazy(&quot;medicines:all&quot;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1aaaece729377ef9f3dc813f66238c43a1"/><section>
+    <title>template_name<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedCreateView.template_name = &quot;medicines/medicine_add.html&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedCreateView_1aba6db25861ad84387f9eb31e1971b819"/><section>
+    <title>template_name<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedCreateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedCreateView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>medicines.views.MedCreateView.template_name</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2views_8py">views.py</link></section>
+</section>

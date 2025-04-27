@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_test__auth_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_auth.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__auth_1_1ProfileTestCase">api.tests.test_auth.ProfileTestCase</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__auth_1_1TestLoginLogout">api.tests.test_auth.TestLoginLogout</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1tests_1_1test__auth_1_1TestSellerViews">api.tests.test_auth.TestSellerViews</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceapi">api</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests">api.tests</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1tests_1_1test__auth">api.tests.test_auth</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespaceapi_1_1tests_1_1test__auth_1a1f82f789cc5d111d08c952e6a2e211c1">api.tests.test_auth.User</link> = get_user_model()</para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__auth_1a1639fcbd054e8a094769083b62ad9b46">api.tests.test_auth.USER_CREDENTIALS</link></para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__auth_1a27c4fbe4d4072a8142482d86247d9d9b">api.tests.test_auth.UPDATED_CREDENTIALS</link></para>
+</listitem>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1tests_1_1test__auth_1aa26b03aec66735f726ea42bb62e99851">api.tests.test_auth.STORE_DATA</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

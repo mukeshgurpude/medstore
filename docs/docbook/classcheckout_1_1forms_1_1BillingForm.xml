@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcheckout_1_1forms_1_1BillingForm" xml:lang="en-US">
+<title>checkout.forms.BillingForm Class Reference</title>
+<indexterm><primary>checkout.forms.BillingForm</primary></indexterm>
+Inheritance diagram for checkout.forms.BillingForm:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1forms_1_1BillingForm__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for checkout.forms.BillingForm:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1forms_1_1BillingForm__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcheckout_1_1forms_1_1BillingForm_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981">pincode</link> = forms.IntegerField(min_value=100000, max_value=999999)</para>
+</listitem>
+            <listitem><para><link linkend="_classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b">landmark</link> = forms.CharField(required=False, max_length=30)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcheckout_1_1forms_1_1BillingForm_1a34e7c03033abc3bf4c5566cddedfb14b"/><section>
+    <title>landmark</title>
+<indexterm><primary>landmark</primary><secondary>checkout.forms.BillingForm</secondary></indexterm>
+<indexterm><primary>checkout.forms.BillingForm</primary><secondary>landmark</secondary></indexterm>
+<para><computeroutput>checkout.forms.BillingForm.landmark = forms.CharField(required=False, max_length=30)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcheckout_1_1forms_1_1BillingForm_1a11cc5985fb5f6aa8cbe63a135d6ee981"/><section>
+    <title>pincode</title>
+<indexterm><primary>pincode</primary><secondary>checkout.forms.BillingForm</secondary></indexterm>
+<indexterm><primary>checkout.forms.BillingForm</primary><secondary>pincode</secondary></indexterm>
+<para><computeroutput>checkout.forms.BillingForm.pincode = forms.IntegerField(min_value=100000, max_value=999999)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/<link linkend="_checkout_2forms_8py">forms.py</link></section>
+</section>
