@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecart_1_1tests" kind="namespace" language="Python">
+    <compoundname>cart::tests</compoundname>
+    <innerclass refid="classcart_1_1tests_1_1AfterTestPayment" prot="public">cart::tests::AfterTestPayment</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/tests.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

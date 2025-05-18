@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1views_1_1checkout" kind="namespace" language="Python">
+    <compoundname>api::views::checkout</compoundname>
+    <innerclass refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress" prot="public">api::views::checkout::APIBillingAddress</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceapi_1_1views_1_1checkout_1a87404aa38ae5b07c26c292a62d1cdd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.checkout.order_success</definition>
+        <argsstring>(request)</argsstring>
+        <name>order_success</name>
+        <qualifiedname>api.views.checkout.order_success</qualifiedname>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Callback url from stripe
+
+:param request: Callback request from stripe
+:type request: HttpRequest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" line="52" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" bodystart="52" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

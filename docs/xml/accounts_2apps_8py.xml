@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="accounts_2apps_8py" kind="file" language="Python">
+    <compoundname>apps.py</compoundname>
+    <innerclass refid="classaccounts_1_1apps_1_1AccountsConfig" prot="public">accounts::apps::AccountsConfig</innerclass>
+    <innernamespace refid="namespaceaccounts">accounts</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1apps">accounts::apps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceaccounts_1_1apps" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.apps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>AppConfig</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classaccounts_1_1apps_1_1AccountsConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1apps_1_1AccountsConfig" kindref="compound">AccountsConfig</ref>(AppConfig):</highlight></codeline>
+<codeline lineno="5" refid="classaccounts_1_1apps_1_1AccountsConfig_1a9e969d7c54898f8c65335cd71aa1de77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;accounts&apos;</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/apps.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1tests_1_1test__order_1_1TestOrderView" kind="class" language="Python" prot="public">
+    <compoundname>api::tests::test_order::TestOrderView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TestCase</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a40e6797d39b2c01227459b0b5b5aae40" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list api.tests.test_order.TestOrderView::fixtures</definition>
+        <argsstring></argsstring>
+        <name>fixtures</name>
+        <qualifiedname>api.tests.test_order.TestOrderView.fixtures</qualifiedname>
+        <initializer>=  [&quot;api/fixtures/&quot; + file + &quot;.json&quot; for file in {&quot;user&quot;, &quot;ordered_orders&quot;,
+                                                              &quot;permissions&quot;, &quot;med&quot;, &quot;medCategory&quot;}]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api.tests.test_order.TestOrderView::credentials</definition>
+        <argsstring></argsstring>
+        <name>credentials</name>
+        <qualifiedname>api.tests.test_order.TestOrderView.credentials</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" bodystart="14" bodyend="-1"/>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" compoundref="test__cart_8py" startline="26" endline="35">api.tests.test_cart.TestCart.test_cart_list</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" compoundref="test__order_8py" startline="22" endline="27">api.tests.test_order.TestOrderView.test_get</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a31b6bae7d1af95ca55b06978f32e8196" compoundref="test__cart_8py" startline="68" endline="72">api.tests.test_cart.TestCart.test_post_request</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None api.tests.test_order.TestOrderView.setUp</definition>
+        <argsstring>(self)</argsstring>
+        <name>setUp</name>
+        <qualifiedname>api.tests.test_order.TestOrderView.setUp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" bodystart="13" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.tests.test_order.TestOrderView.test_get</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get</name>
+        <qualifiedname>api.tests.test_order.TestOrderView.test_get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" bodystart="22" bodyend="27"/>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1aaa327a0a16078c232a25c6bf0be9f22b" compoundref="test__cart_8py" startline="19">api.tests.test_cart.TestCart.credentials</references>
+        <references refid="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress_1aa9755a8020ae912abcdf792a0edea98c" compoundref="test__checkout_8py" startline="12">api.tests.test_checkout.TestBillingAddress.credentials</references>
+        <references refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" compoundref="test__order_8py" startline="14">api.tests.test_order.TestOrderView.credentials</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.tests.test_order.TestOrderView</label>
+        <link refid="classapi_1_1tests_1_1test__order_1_1TestOrderView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.tests.test_order.TestOrderView</label>
+        <link refid="classapi_1_1tests_1_1test__order_1_1TestOrderView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+fixtures</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>TestCase</label>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_order.py" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164" prot="public" virt="non-virtual"><scope>api::tests::test_order::TestOrderView</scope><name>credentials</name></member>
+      <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a40e6797d39b2c01227459b0b5b5aae40" prot="public" virt="non-virtual"><scope>api::tests::test_order::TestOrderView</scope><name>fixtures</name></member>
+      <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8" prot="public" virt="non-virtual"><scope>api::tests::test_order::TestOrderView</scope><name>setUp</name></member>
+      <member refid="classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914" prot="public" virt="non-virtual"><scope>api::tests::test_order::TestOrderView</scope><name>test_get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

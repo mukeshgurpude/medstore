@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecheckout_1_1urls" xml:lang="en-US">
+<title>checkout.urls Namespace Reference</title>
+<indexterm><primary>checkout.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacecheckout_1_1urls_1a4b407763ff0e9d21009985b4829bc19b">app_name</link> = &quot;checkout&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacecheckout_1_1urls_1aa20c5ce33aad306ff2960718d3690f15">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecheckout_1_1urls_1a4b407763ff0e9d21009985b4829bc19b"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>checkout.urls</secondary></indexterm>
+<indexterm><primary>checkout.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str checkout.urls.app_name = &quot;checkout&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacecheckout_1_1urls_1aa20c5ce33aad306ff2960718d3690f15"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>checkout.urls</secondary></indexterm>
+<indexterm><primary>checkout.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list checkout.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;order/&quot;</emphasis>,&#32;checkout_view,&#32;name=<emphasis role="stringliteral">&quot;order&quot;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;pay/&quot;</emphasis>,&#32;payment,&#32;name=<emphasis role="stringliteral">&quot;pay&quot;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;new/&quot;</emphasis>,&#32;create_checkout_session,&#32;name=<emphasis role="stringliteral">&quot;test&quot;</emphasis>),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;conf/&quot;</emphasis>,&#32;stripe_conf,&#32;name=<emphasis role="stringliteral">&quot;conf&quot;</emphasis>),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;hook/&quot;</emphasis>,&#32;stripe_webhook,&#32;name=<emphasis role="stringliteral">&quot;webhook&quot;</emphasis>),
+7 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;success/&quot;</emphasis>,&#32;views.success,&#32;name=<emphasis role="stringliteral">&quot;success&quot;</emphasis>),
+8 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;cancelled/&quot;</emphasis>,&#32;views.fail,&#32;name=<emphasis role="stringliteral">&quot;fail&quot;</emphasis>),
+9 ]
+</programlisting></section>
+</section>
+</section>

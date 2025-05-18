@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1views_1_1auth_1_1ProfileView" xml:lang="en-US">
+<title>api.views.auth.ProfileView Class Reference</title>
+<indexterm><primary>api.views.auth.ProfileView</primary></indexterm>
+Inheritance diagram for api.views.auth.ProfileView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1auth_1_1ProfileView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.views.auth.ProfileView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1auth_1_1ProfileView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>JsonResponse <link linkend="_classapi_1_1views_1_1auth_1_1ProfileView_1aa3131f169090025ad9485a8a7c6bda43">get</link> (self, HttpRequest request)</para>
+</listitem>
+            <listitem><para>JsonResponse <link linkend="_classapi_1_1views_1_1auth_1_1ProfileView_1a411d6c7a0c24391a5878aaf37c37d0ee">post</link> (self, HttpRequest request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1views_1_1auth_1_1ProfileView_1aa3131f169090025ad9485a8a7c6bda43"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>api.views.auth.ProfileView</secondary></indexterm>
+<indexterm><primary>api.views.auth.ProfileView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput> JsonResponse api.views.auth.ProfileView.get ( self, HttpRequest request)</computeroutput></para>
+<para><literallayout><computeroutput>Return the current profile data, as json
+:param request: GET request to get the profile data
+:type request: HttpRequest
+:return: current profile details for the user
+:rtype: JsonResponse
+</computeroutput></literallayout> </para>
+</section>
+<anchor xml:id="_classapi_1_1views_1_1auth_1_1ProfileView_1a411d6c7a0c24391a5878aaf37c37d0ee"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>api.views.auth.ProfileView</secondary></indexterm>
+<indexterm><primary>api.views.auth.ProfileView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput> JsonResponse api.views.auth.ProfileView.post ( self, HttpRequest request)</computeroutput></para>
+<para><literallayout><computeroutput>Processes the formData to update the profile data in database
+
+:param request: POST data to update the profile
+:type request: HttpRequest
+:return: Responds if the data has been updated, or request failed
+:rtype: JsonResponse
+</computeroutput></literallayout> </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/<link linkend="_auth_8py">auth.py</link></section>
+</section>

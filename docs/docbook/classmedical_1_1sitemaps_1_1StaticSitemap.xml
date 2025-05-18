@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedical_1_1sitemaps_1_1StaticSitemap" xml:lang="en-US">
+<title>medical.sitemaps.StaticSitemap Class Reference</title>
+<indexterm><primary>medical.sitemaps.StaticSitemap</primary></indexterm>
+Inheritance diagram for medical.sitemaps.StaticSitemap:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedical_1_1sitemaps_1_1StaticSitemap__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medical.sitemaps.StaticSitemap:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedical_1_1sitemaps_1_1StaticSitemap__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedical_1_1sitemaps_1_1StaticSitemap_1a2f154156ebe0d87a7e18bf952f28f501">items</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedical_1_1sitemaps_1_1StaticSitemap_1a9a451a5d7b4257c75f7d26939f74af12">location</link> (self, page)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classmedical_1_1sitemaps_1_1StaticSitemap_1acd06c422768b8044c62201df3da715df">changeFreq</link> = &apos;monthly&apos;</para>
+</listitem>
+            <listitem><para>int <link linkend="_classmedical_1_1sitemaps_1_1StaticSitemap_1a162c0849d3df71abd60fbabdd4d4d76f">priority</link> = .8</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>Url paths to static urls
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedical_1_1sitemaps_1_1StaticSitemap_1a2f154156ebe0d87a7e18bf952f28f501"/><section>
+    <title>items()</title>
+<indexterm><primary>items</primary><secondary>medical.sitemaps.StaticSitemap</secondary></indexterm>
+<indexterm><primary>medical.sitemaps.StaticSitemap</primary><secondary>items</secondary></indexterm>
+<para><computeroutput>medical.sitemaps.StaticSitemap.items ( self)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedical_1_1sitemaps_1_1StaticSitemap_a2f154156ebe0d87a7e18bf952f28f501_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classmedical_1_1sitemaps_1_1StaticSitemap_1a9a451a5d7b4257c75f7d26939f74af12"/><section>
+    <title>location()</title>
+<indexterm><primary>location</primary><secondary>medical.sitemaps.StaticSitemap</secondary></indexterm>
+<indexterm><primary>medical.sitemaps.StaticSitemap</primary><secondary>location</secondary></indexterm>
+<para><computeroutput>medical.sitemaps.StaticSitemap.location ( self,  page)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedical_1_1sitemaps_1_1StaticSitemap_1acd06c422768b8044c62201df3da715df"/><section>
+    <title>changeFreq</title>
+<indexterm><primary>changeFreq</primary><secondary>medical.sitemaps.StaticSitemap</secondary></indexterm>
+<indexterm><primary>medical.sitemaps.StaticSitemap</primary><secondary>changeFreq</secondary></indexterm>
+<para><computeroutput>str medical.sitemaps.StaticSitemap.changeFreq = &apos;monthly&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedical_1_1sitemaps_1_1StaticSitemap_1a162c0849d3df71abd60fbabdd4d4d76f"/><section>
+    <title>priority</title>
+<indexterm><primary>priority</primary><secondary>medical.sitemaps.StaticSitemap</secondary></indexterm>
+<indexterm><primary>medical.sitemaps.StaticSitemap</primary><secondary>priority</secondary></indexterm>
+<para><computeroutput>int medical.sitemaps.StaticSitemap.priority = .8<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/<link linkend="_medical_2sitemaps_8py">sitemaps.py</link></section>
+</section>

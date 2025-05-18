@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1filters_1_1ProductFilter_1_1Meta" xml:lang="en-US">
+<title>medicines.filters.ProductFilter.Meta Class Reference</title>
+<indexterm><primary>medicines.filters.ProductFilter.Meta</primary></indexterm>
+Collaboration diagram for medicines.filters.ProductFilter.Meta:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1filters_1_1ProductFilter_1_1Meta__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1ac694bb9ab64d20d3a242056b5387ac09">model</link> = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1a934724dd72fd2c0cdec01aa3a0a5f5b5">fields</link> = [&apos;<link linkend="_classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597">name</link>&apos;, &apos;<link linkend="_classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2">price</link>&apos;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1a934724dd72fd2c0cdec01aa3a0a5f5b5"/><section>
+    <title>fields</title>
+<indexterm><primary>fields</primary><secondary>medicines.filters.ProductFilter.Meta</secondary></indexterm>
+<indexterm><primary>medicines.filters.ProductFilter.Meta</primary><secondary>fields</secondary></indexterm>
+<para><computeroutput>list medicines.filters.ProductFilter.Meta.fields = [&apos;<link linkend="_classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597">name</link>&apos;, &apos;<link linkend="_classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2">price</link>&apos;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1filters_1_1ProductFilter_1_1Meta_1ac694bb9ab64d20d3a242056b5387ac09"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>medicines.filters.ProductFilter.Meta</secondary></indexterm>
+<indexterm><primary>medicines.filters.ProductFilter.Meta</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>medicines.filters.ProductFilter.Meta.model = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_filters_8py">filters.py</link></section>
+</section>

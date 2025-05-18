@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1checkout_1_1APIBillingAddress" kind="class" language="Python" prot="public">
+    <compoundname>api::views::checkout::APIBillingAddress</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Tuple[Dict[Any, Optional[str]], Any]</type>
+        <definition> Tuple[Dict[Any, Optional[str]], Any] api.views.checkout.APIBillingAddress.get_address</definition>
+        <argsstring>(cls, user)</argsstring>
+        <name>get_address</name>
+        <qualifiedname>api.views.checkout.APIBillingAddress.get_address</qualifiedname>
+        <param>
+          <type>cls</type>
+          <defname>cls</defname>
+        </param>
+        <param>
+          <type>user</type>
+          <defname>user</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" bodystart="16" bodyend="21"/>
+        <referencedby refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80" compoundref="checkout_8py" startline="22" endline="31">api.views.checkout.APIBillingAddress.get</referencedby>
+        <referencedby refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198" compoundref="checkout_8py" startline="32" endline="51">api.views.checkout.APIBillingAddress.post</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.checkout.APIBillingAddress.get</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.checkout.APIBillingAddress.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>send the billing address details
+
+:param request: Request to get the billing address details
+:type request: HttpRequest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" bodystart="22" bodyend="31"/>
+        <references refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" compoundref="checkout_8py" startline="16" endline="21">api.views.checkout.APIBillingAddress.get_address</references>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.checkout.APIBillingAddress.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>api.views.checkout.APIBillingAddress.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>request to modify the bill
+
+:param request: Modify address
+:type request: HttpRequest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" bodystart="32" bodyend="51"/>
+        <references refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" compoundref="checkout_8py" startline="16" endline="21">api.views.checkout.APIBillingAddress.get_address</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.checkout.APIBillingAddress</label>
+        <link refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.checkout.APIBillingAddress</label>
+        <link refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/checkout.py" bodystart="13" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80" prot="public" virt="non-virtual"><scope>api::views::checkout::APIBillingAddress</scope><name>get</name></member>
+      <member refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154" prot="public" virt="non-virtual"><scope>api::views::checkout::APIBillingAddress</scope><name>get_address</name></member>
+      <member refid="classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198" prot="public" virt="non-virtual"><scope>api::views::checkout::APIBillingAddress</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

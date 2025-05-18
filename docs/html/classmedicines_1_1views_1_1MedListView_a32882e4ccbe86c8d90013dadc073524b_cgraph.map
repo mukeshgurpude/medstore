@@ -1,0 +1,12 @@
+<map id="medicines.views.MedListView.get_context_data" name="medicines.views.MedListView.get_context_data">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,93,248,133"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="75,94,72,84,80,74,98,69,127,67,159,69,177,77,175,82,158,75,127,72,99,74,83,79,77,85,80,92"/>
+<area shape="rect" id="Node000002" href="$classapi_1_1views_1_1medicine_1_1MedicineView.html#a246b3300c14ea5fc459ab4a06dec1ad1" title=" " alt="" coords="303,5,514,45"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="185,91,295,55,322,47,324,52,297,60,187,96"/>
+<area shape="rect" id="Node000003" href="$classmedicines_1_1owner_1_1OwnerUpdateView.html#afcdeb7526e1d7dc2a7c316c7cd0ab5ab" title=" " alt="" coords="296,93,521,133"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="248,111,282,111,282,116,248,116"/>
+<area shape="rect" id="Node000004" href="$classmedicines_1_1owner_1_1OwnerDeleteView.html#adccdfbc96ef006ef1681aa5c30e96944" title=" " alt="" coords="298,181,519,221"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="193,131,331,174,329,180,191,136"/>
+<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="357,94,354,84,362,74,380,69,409,67,441,69,459,77,457,82,440,75,409,72,381,74,365,79,359,85,362,92"/>
+<area shape="poly" id="edge6_Node000004_Node000004" title=" " alt="" coords="357,182,354,172,362,162,380,157,409,155,441,157,459,165,457,170,440,163,409,160,381,162,365,167,359,173,362,180"/>
+</map>

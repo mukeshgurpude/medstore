@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration" xml:lang="en-US">
+<title>medicines.migrations.0005_auto_20200828_0733.Migration Class Reference</title>
+<indexterm><primary>medicines.migrations.0005_auto_20200828_0733.Migration</primary></indexterm>
+Inheritance diagram for medicines.migrations.0005_auto_20200828_0733.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.migrations.0005_auto_20200828_0733.Migration:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration_1a9bcba2fd8d4165fa5865fd29b1c5366d">dependencies</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration_1a4c1ff054c792901e8bee8c46cf9f751f">operations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration_1a9bcba2fd8d4165fa5865fd29b1c5366d"/><section>
+    <title>dependencies</title>
+<indexterm><primary>dependencies</primary><secondary>medicines.migrations.0005_auto_20200828_0733.Migration</secondary></indexterm>
+<indexterm><primary>medicines.migrations.0005_auto_20200828_0733.Migration</primary><secondary>dependencies</secondary></indexterm>
+<para><computeroutput>list medicines.migrations.0005_auto_20200828_0733.Migration.dependencies<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&apos;medicines&apos;</emphasis>,&#32;<emphasis role="stringliteral">&apos;0004_auto_20200827_1941&apos;</emphasis>),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration_1a4c1ff054c792901e8bee8c46cf9f751f"/><section>
+    <title>operations</title>
+<indexterm><primary>operations</primary><secondary>medicines.migrations.0005_auto_20200828_0733.Migration</secondary></indexterm>
+<indexterm><primary>medicines.migrations.0005_auto_20200828_0733.Migration</primary><secondary>operations</secondary></indexterm>
+<para><computeroutput>list medicines.migrations.0005_auto_20200828_0733.Migration.operations<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;migrations.AlterField(
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;model_name=<emphasis role="stringliteral">&apos;medicine&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;name=<emphasis role="stringliteral">&apos;slug&apos;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;field=models.SlugField(default=<emphasis role="stringliteral">&apos;os.lfnjfNdb&lt;dia&apos;</emphasis>,&#32;unique=<emphasis role="keyword">True</emphasis>),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;),
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/<link linkend="_0005__auto__20200828__0733_8py">0005_auto_20200828_0733.py</link></section>
+</section>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedicines_1_1humanize" xml:lang="en-US">
+<title>medicines.humanize Namespace Reference</title>
+<indexterm><primary>medicines.humanize</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemedicines_1_1humanize_1af0066b2dec729ba753d06792b9dcb2fd">naturalsize</link> (count)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacemedicines_1_1humanize_1af0066b2dec729ba753d06792b9dcb2fd"/><section>
+    <title>naturalsize()</title>
+<indexterm><primary>naturalsize</primary><secondary>medicines.humanize</secondary></indexterm>
+<indexterm><primary>medicines.humanize</primary><secondary>naturalsize</secondary></indexterm>
+<para><computeroutput>medicines.humanize.naturalsize ( count)</computeroutput></para></section>
+</section>
+</section>

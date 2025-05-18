@@ -1,0 +1,9 @@
+<map id="medicines.sitemaps.MedSiteMap.items" name="medicines.sitemaps.MedSiteMap.items">
+<area shape="rect" id="Node000001" title=" " alt="" coords="264,47,475,87"/>
+<area shape="rect" id="Node000002" href="$classcart_1_1models_1_1Order.html#ad8f1226c6c88883e5951e8f460e519a9" title=" " alt="" coords="15,5,206,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,47,177,33,178,28,251,42"/>
+<area shape="rect" id="Node000003" href="$classcart_1_1models_1_1Order.html#a3e3e284681b6f87aa2a69b7b627b1ac0" title=" " alt="" coords="5,55,216,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="250,70,216,70,216,65,250,65"/>
+<area shape="rect" id="Node000004" href="$classcart_1_1models_1_1Order.html#ab1012bf94977246d12aff3ee6eb3b0d8" title=" " alt="" coords="23,105,199,145"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="266,93,199,108,198,103,264,88"/>
+</map>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedical_1_1asgi" kind="namespace" language="Python">
+    <compoundname>medical::asgi</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemedical_1_1asgi_1a1f6f5120d8893360bca3ab645f55c30e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>medical::asgi.application</definition>
+        <argsstring></argsstring>
+        <name>application</name>
+        <qualifiedname>medical.asgi.application</qualifiedname>
+        <initializer>=  get_asgi_application()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/asgi.py" line="16" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/asgi.py" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>ASGI config for medical project.
+
+It exposes the ASGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.0/howto/deployment/asgi/
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/asgi.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

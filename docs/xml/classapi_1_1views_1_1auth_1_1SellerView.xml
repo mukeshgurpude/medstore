@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1auth_1_1SellerView" kind="class" language="Python" prot="public">
+    <compoundname>api::views::auth::SellerView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">LoginRequiredMixin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1auth_1_1SellerView_1ae6360487a413a9cd395c508fa43e66bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.auth.SellerView.get</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.auth.SellerView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="110" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="110" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1auth_1_1SellerView_1aa937e4da1c36983fa96762cd1cecb829" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.auth.SellerView.post</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>post</name>
+        <qualifiedname>api.views.auth.SellerView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="118" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="118" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.auth.SellerView</label>
+        <link refid="classapi_1_1views_1_1auth_1_1SellerView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.auth.SellerView</label>
+        <link refid="classapi_1_1views_1_1auth_1_1SellerView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="108" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="108" bodyend="136"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1auth_1_1SellerView_1ae6360487a413a9cd395c508fa43e66bd" prot="public" virt="non-virtual"><scope>api::views::auth::SellerView</scope><name>get</name></member>
+      <member refid="classapi_1_1views_1_1auth_1_1SellerView_1aa937e4da1c36983fa96762cd1cecb829" prot="public" virt="non-virtual"><scope>api::views::auth::SellerView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

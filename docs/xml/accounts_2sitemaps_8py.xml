@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="accounts_2sitemaps_8py" kind="file" language="Python">
+    <compoundname>sitemaps.py</compoundname>
+    <innerclass refid="classaccounts_1_1sitemaps_1_1AccountSiteMap" prot="public">accounts::sitemaps::AccountSiteMap</innerclass>
+    <innerclass refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap" prot="public">accounts::sitemaps::AllAuthSitemap</innerclass>
+    <innernamespace refid="namespaceaccounts">accounts</innernamespace>
+    <innernamespace refid="namespaceaccounts_1_1sitemaps">accounts::sitemaps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceaccounts_1_1sitemaps" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">Sitemap<sp/>classes<sp/>related<sp/>to<sp/>the<sp/>account<sp/>related<sp/>views</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sitemaps</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classaccounts_1_1sitemaps_1_1AccountSiteMap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1sitemaps_1_1AccountSiteMap" kindref="compound">AccountSiteMap</ref>(sitemaps.Sitemap):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="10"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Urls<sp/>related<sp/>to<sp/>custom<sp/>user<sp/>model</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a1e160d4801d8e8aaa95ad8c84c80aa77" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>.5</highlight></codeline>
+<codeline lineno="13" refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a8ac3e2cf880fa42bf1b9aa2ec190245f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>changeFreq<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;daily&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a62730699fc75f9fb9c2e2c5847a2243f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1a62730699fc75f9fb9c2e2c5847a2243f" kindref="member">items</ref>(self):</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="stringliteral">&apos;profile&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;apply&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1af836c3a5eaf80ff98f0b18f9fa813f89" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1sitemaps_1_1AccountSiteMap_1af836c3a5eaf80ff98f0b18f9fa813f89" kindref="member">location</ref>(self,<sp/>item):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reverse(f</highlight><highlight class="stringliteral">&apos;Account:{item}&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap" kindref="compound">AllAuthSitemap</ref>(sitemaps.Sitemap):</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="24"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Sitemap<sp/>urls<sp/>for<sp/>allauth<sp/>account<sp/>urls</highlight></codeline>
+<codeline lineno="25"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a0b1d391735132523a7715ba34b12467c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>.5</highlight></codeline>
+<codeline lineno="27" refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a7b8430aa8de629a026a323b151c7aeca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>changeFreq<sp/>=<sp/></highlight><highlight class="stringliteral">&apos;monthly&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29" refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1af9bb58614780826c03188c8b0202c8b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1af9bb58614780826c03188c8b0202c8b2" kindref="member">items</ref>(self):</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>[</highlight><highlight class="stringliteral">&apos;login&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;logout&apos;</highlight><highlight class="normal">]</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a73f3f797c277f7058c5d90ff8ec03766" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a73f3f797c277f7058c5d90ff8ec03766" kindref="member">location</ref>(self,<sp/>item):</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reverse(f</highlight><highlight class="stringliteral">&quot;account_{item}&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py"/>
+  </compounddef>
+</doxygen>

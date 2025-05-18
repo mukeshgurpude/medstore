@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1forms_1_1CreateForm_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>medicines::forms::CreateForm::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1forms_1_1CreateForm_1_1Meta_1a1e8fc590a9f34d00c8556dcb92a5f8df" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.forms.CreateForm.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>medicines.forms.CreateForm.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classmedicines_1_1models_1_1Medicine" kindref="compound">Medicine</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1forms_1_1CreateForm_1_1Meta_1a3346c40ca019b49bbd1aca6764beb0bb" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.forms.CreateForm.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>medicines.forms.CreateForm.Meta.fields</qualifiedname>
+        <initializer>=  [&apos;name&apos;, &apos;category&apos;, &apos;description&apos;, &apos;<ref refid="classmedicines_1_1forms_1_1CreateForm_1a43e189cd05c4e6d47768d79ddf65b7f9" kindref="member">thumbnail</ref>&apos;, &apos;quantity&apos;, &apos;price&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="19" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>medicines.forms.CreateForm.Meta</label>
+        <link refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="17" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta_1a3346c40ca019b49bbd1aca6764beb0bb" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm::Meta</scope><name>fields</name></member>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta_1a1e8fc590a9f34d00c8556dcb92a5f8df" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

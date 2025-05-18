@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1forms_1_1CreateForm" kind="class" language="Python" prot="public">
+    <compoundname>medicines::forms::CreateForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">forms.ModelForm</basecompoundref>
+    <innerclass refid="classmedicines_1_1forms_1_1CreateForm_1_1Meta" prot="public">medicines::forms::CreateForm::Meta</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int medicines.forms.CreateForm::max_upload_limit</definition>
+        <argsstring></argsstring>
+        <name>max_upload_limit</name>
+        <qualifiedname>medicines.forms.CreateForm.max_upload_limit</qualifiedname>
+        <initializer>=  2 * 1024 * 1024</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="8" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" compoundref="medicines_2forms_8py" startline="22" endline="29">medicines.forms.CreateForm.clean</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.forms.CreateForm::max_upload_limit_text</definition>
+        <argsstring></argsstring>
+        <name>max_upload_limit_text</name>
+        <qualifiedname>medicines.forms.CreateForm.max_upload_limit_text</qualifiedname>
+        <initializer>=  naturalsize(<ref refid="classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8" kindref="member">max_upload_limit</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="9" bodyend="-1"/>
+        <referencedby refid="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" compoundref="medicines_2forms_8py" startline="22" endline="29">medicines.forms.CreateForm.clean</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1forms_1_1CreateForm_1a43e189cd05c4e6d47768d79ddf65b7f9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>medicines.forms.CreateForm::thumbnail</definition>
+        <argsstring></argsstring>
+        <name>thumbnail</name>
+        <qualifiedname>medicines.forms.CreateForm.thumbnail</qualifiedname>
+        <initializer>=  forms.FileField(required=False, label=&apos;Thumbnail to Upload &lt;= &apos; + <ref refid="classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9" kindref="member">max_upload_limit_text</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1forms_1_1CreateForm_1ace75aa6d7c445e3f0f07666f7245d6c8" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str medicines.forms.CreateForm::upload_field_name</definition>
+        <argsstring></argsstring>
+        <name>upload_field_name</name>
+        <qualifiedname>medicines.forms.CreateForm.upload_field_name</qualifiedname>
+        <initializer>=  &apos;picture&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="15" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.forms.CreateForm.clean</definition>
+        <argsstring>(self)</argsstring>
+        <name>clean</name>
+        <qualifiedname>medicines.forms.CreateForm.clean</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="22" bodyend="29"/>
+        <references refid="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" compoundref="medicines_2forms_8py" startline="22" endline="29">medicines.forms.CreateForm.clean</references>
+        <references refid="classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8" compoundref="medicines_2forms_8py" startline="8">medicines.forms.CreateForm.max_upload_limit</references>
+        <references refid="classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9" compoundref="medicines_2forms_8py" startline="9">medicines.forms.CreateForm.max_upload_limit_text</references>
+        <referencedby refid="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" compoundref="medicines_2forms_8py" startline="22" endline="29">medicines.forms.CreateForm.clean</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>medicines.forms.CreateForm.save</definition>
+        <argsstring>(self, commit=True)</argsstring>
+        <name>save</name>
+        <qualifiedname>medicines.forms.CreateForm.save</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>commit</type>
+          <defname>commit</defname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="31" bodyend="45"/>
+        <references refid="classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14" compoundref="medicines_2forms_8py" startline="31" endline="45">medicines.forms.CreateForm.save</references>
+        <referencedby refid="classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0" compoundref="cart_2models_8py" startline="56" endline="61">cart.models.Order.order_now</referencedby>
+        <referencedby refid="classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14" compoundref="medicines_2forms_8py" startline="31" endline="45">medicines.forms.CreateForm.save</referencedby>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>forms.ModelForm</label>
+      </node>
+      <node id="1">
+        <label>medicines.forms.CreateForm</label>
+        <link refid="classmedicines_1_1forms_1_1CreateForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>forms.ModelForm</label>
+      </node>
+      <node id="3">
+        <label>int</label>
+      </node>
+      <node id="1">
+        <label>medicines.forms.CreateForm</label>
+        <link refid="classmedicines_1_1forms_1_1CreateForm"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+max_upload_limit</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+upload_field_name</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/forms.py" bodystart="7" bodyend="45"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1a06333ec80ec1981fdb048c0cc425627c" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm</scope><name>clean</name></member>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1abbe53aa419d78e5573936d605dde60b8" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm</scope><name>max_upload_limit</name></member>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1aa9c1e227ec9ae35dea85a52c15c2a6f9" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm</scope><name>max_upload_limit_text</name></member>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1aa12f63c5541574a47d4e23b30c78be14" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm</scope><name>save</name></member>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1a43e189cd05c4e6d47768d79ddf65b7f9" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm</scope><name>thumbnail</name></member>
+      <member refid="classmedicines_1_1forms_1_1CreateForm_1ace75aa6d7c445e3f0f07666f7245d6c8" prot="public" virt="non-virtual"><scope>medicines::forms::CreateForm</scope><name>upload_field_name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

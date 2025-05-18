@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_617f417d504f020f37da18872da03f47" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical</compoundname>
+    <innerfile refid="medical_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="asgi_8py">asgi.py</innerfile>
+    <innerfile refid="dev_8py">dev.py</innerfile>
+    <innerfile refid="settings_8py">settings.py</innerfile>
+    <innerfile refid="medical_2sitemaps_8py">sitemaps.py</innerfile>
+    <innerfile refid="medical_2urls_8py">urls.py</innerfile>
+    <innerfile refid="wsgi_8py">wsgi.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/"/>
+  </compounddef>
+</doxygen>

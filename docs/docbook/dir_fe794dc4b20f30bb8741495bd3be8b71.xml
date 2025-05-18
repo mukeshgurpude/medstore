@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_fe794dc4b20f30bb8741495bd3be8b71" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests Directory Reference</primary></indexterm>
+Directory dependency graph for tests:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_fe794dc4b20f30bb8741495bd3be8b71_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_api_2tests_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_test__auth_8py">test_auth.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_test__cart_8py">test_cart.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_test__checkout_8py">test_checkout.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_test__medicine_8py">test_medicine.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_test__order_8py">test_order.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_utils_8py">utils.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

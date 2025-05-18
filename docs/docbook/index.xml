@@ -1,0 +1,384 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>medstore</title>
+    </info>
+    <xi:include href="md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<chapter>
+    <title>Namespace Documentation</title>
+<xi:include href="namespaceaccounts.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1forms.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1migrations_1_10002__auto__20200908__1336.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1sitemaps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceaccounts_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1decorators.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests_1_1test__auth.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests_1_1test__cart.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests_1_1test__checkout.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests_1_1test__medicine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests_1_1test__order.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1tests_1_1utils.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1views_1_1auth.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1views_1_1cart.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1views_1_1checkout.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1views_1_1medicine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespaceapi_1_1views_1_1order.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations_1_10002__order__orderdate.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations_1_10003__cartitem__purchased.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations_1_10004__cartitem__total.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations_1_10005__auto__20200831__1340.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1migrations_1_10006__order__postorder.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecart__tag.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1forms.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1migrations_1_10002__auto__20200828__1023.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacecheckout_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacehome.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacehome_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacehome_1_1forms.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacehome_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacehome_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacehome_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemanage.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical_1_1asgi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical_1_1dev.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical_1_1settings.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical_1_1sitemaps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedical_1_1wsgi.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1admin.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1apps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1filters.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1forms.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1humanize.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10001__initial.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10002__auto__20200826__1711.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10003__medicine__slug.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10004__auto__20200827__1941.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10005__auto__20200828__0733.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10006__auto__20200828__0820.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10007__auto__20200828__1023.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10008__auto__20200828__1614.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10009__auto__20200828__1914.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10010__auto__20200830__1000.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10011__auto__20200830__1125.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10012__auto__20200830__1125.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10013__auto__20200830__1126.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10014__auto__20200830__1126.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10015__auto__20200830__1128.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10016__auto__20200830__1134.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10017__auto__20200830__1141.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10018__auto__20200830__1145.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10019__auto__20200830__1145.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10020__auto__20200830__1146.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10021__auto__20200830__1148.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10022__auto__20200830__1401.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10023__auto__20200830__1401.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10024__auto__20200830__1414.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10025__auto__20200830__1559.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10026__auto__20200831__1222.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10027__auto__20200831__1253.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10028__auto__20200831__1325.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10029__auto__20200831__1340.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10030__auto__20200831__1426.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10031__auto__20200831__1452.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10032__auto__20200831__1454.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10033__auto__20200901__1138.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10034__auto__20200908__1112.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10035__auto__20200908__1330.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10036__auto__20200908__1336.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10037__auto__20200908__1348.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10038__auto__20200908__1427.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10039__auto__20200910__1349.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10040__auto__20200915__0720.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10041__auto__20210122__2104.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10042__auto__20210403__0752.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1migrations_1_10043__auto__20210403__0752.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1models.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1owner.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1sitemaps.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1tests.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1urls.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<xi:include href="namespacemedicines_1_1views.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="classaccounts_1_1apps_1_1AccountsConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1sitemaps_1_1AccountSiteMap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1tests_1_1AfterTestPayment.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1sitemaps_1_1AllAuthSitemap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1checkout_1_1APIBillingAddress.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1apps_1_1ApiConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1medicine_1_1APIDetailView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1auth_1_1APILoginView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1auth_1_1APISignupView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcheckout_1_1models_1_1BillingAddress.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcheckout_1_1forms_1_1BillingForm.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1apps_1_1CartConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1models_1_1CartItem.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1cart_1_1CartView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcheckout_1_1apps_1_1CheckoutConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1forms_1_1CreateForm.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classhome_1_1apps_1_1HomeConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classhome_1_1views_1_1HomeView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1models_1_1MedCat.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1views_1_1MedCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1views_1_1MedDeleteView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1views_1_1MedDetailView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1models_1_1Medicine.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1apps_1_1MedicinesConfig.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1medicine_1_1MedicineView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1views_1_1MedListView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1sitemaps_1_1MedSiteMap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1views_1_1MedUpdateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1forms_1_1ProfileForm_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1forms_1_1SellerForm_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1forms_1_1UserForm_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcheckout_1_1forms_1_1BillingForm_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1filters_1_1ProductFilter_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1forms_1_1CreateForm_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1models_1_1MedCat_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1models_1_1Medicine_1_1Meta.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1migrations_1_10004__cartitem__total_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1migrations_1_10005__auto__20200831__1340_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1migrations_1_10006__order__postorder_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcheckout_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10001__initial_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10002__auto__20200826__1711_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10003__medicine__slug_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10004__auto__20200827__1941_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10006__auto__20200828__0820_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10007__auto__20200828__1023_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10008__auto__20200828__1614_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10009__auto__20200828__1914_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10010__auto__20200830__1000_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10011__auto__20200830__1125_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10012__auto__20200830__1125_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10013__auto__20200830__1126_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10014__auto__20200830__1126_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10015__auto__20200830__1128_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10016__auto__20200830__1134_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10017__auto__20200830__1141_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10018__auto__20200830__1145_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10019__auto__20200830__1145_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10020__auto__20200830__1146_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10022__auto__20200830__1401_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10023__auto__20200830__1401_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10024__auto__20200830__1414_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10025__auto__20200830__1559_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10026__auto__20200831__1222_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10027__auto__20200831__1253_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10028__auto__20200831__1325_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10029__auto__20200831__1340_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10030__auto__20200831__1426_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10031__auto__20200831__1452_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10032__auto__20200831__1454_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10033__auto__20200901__1138_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10034__auto__20200908__1112_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10035__auto__20200908__1330_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10036__auto__20200908__1336_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10037__auto__20200908__1348_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10038__auto__20200908__1427_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10040__auto__20200915__0720_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10041__auto__20210122__2104_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10042__auto__20210403__0752_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1migrations_1_10043__auto__20210403__0752_1_1Migration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classcart_1_1models_1_1Order.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1order_1_1OrderView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1owner_1_1OwnerCreateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1owner_1_1OwnerDeleteView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1owner_1_1OwnerDetailView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1owner_1_1OwnerListView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1owner_1_1OwnerUpdateView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1filters_1_1ProductFilter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1forms_1_1ProfileForm.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1auth_1_1ProfileView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1forms_1_1SellerForm.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1models_1_1SellerProfile.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1views_1_1auth_1_1SellerView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedicines_1_1admin_1_1Setup.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classmedical_1_1sitemaps_1_1StaticSitemap.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__checkout_1_1Test.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__cart_1_1TestCart.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__medicine_1_1TestMedViews.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__order_1_1TestOrderView.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classapi_1_1tests_1_1test__auth_1_1TestSellerViews.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1forms_1_1UserForm.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classaccounts_1_1models_1_1UserProfile.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="classhome_1_1forms_1_1UserSignUp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="accounts_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2admin_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__auto__20200908__1336_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="decorators_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__auth_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__cart_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__checkout_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__medicine_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="test__order_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="utils_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="auth_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicine_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="order_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__order__orderdate_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__cartitem__purchased_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0004__cartitem__total_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0005__auto__20200831__1340_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0006__order__postorder_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart__tag_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2apps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2forms_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2forms_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2forms_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2forms_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2migrations_20001__initial_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__auto__20200828__1023_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2models_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2tests_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2views_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="manage_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2fixtures_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2tests_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2views_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medical_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2migrations_2____init_____8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="asgi_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="dev_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="settings_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2sitemaps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medical_2sitemaps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2sitemaps_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="accounts_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="api_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="cart_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="checkout_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="home_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medical_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="medicines_2urls_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="wsgi_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="filters_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="humanize_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0002__auto__20200826__1711_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0003__medicine__slug_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0004__auto__20200827__1941_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0005__auto__20200828__0733_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0006__auto__20200828__0820_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0007__auto__20200828__1023_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0008__auto__20200828__1614_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0009__auto__20200828__1914_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0010__auto__20200830__1000_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0011__auto__20200830__1125_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0012__auto__20200830__1125_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0013__auto__20200830__1126_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0014__auto__20200830__1126_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0015__auto__20200830__1128_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0016__auto__20200830__1134_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0017__auto__20200830__1141_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0018__auto__20200830__1145_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0019__auto__20200830__1145_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0020__auto__20200830__1146_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0021__auto__20200830__1148_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0022__auto__20200830__1401_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0023__auto__20200830__1401_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0024__auto__20200830__1414_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0025__auto__20200830__1559_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0026__auto__20200831__1222_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0027__auto__20200831__1253_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0028__auto__20200831__1325_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0029__auto__20200831__1340_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0030__auto__20200831__1426_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0031__auto__20200831__1452_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0032__auto__20200831__1454_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0033__auto__20200901__1138_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0034__auto__20200908__1112_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0035__auto__20200908__1330_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0036__auto__20200908__1336_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0037__auto__20200908__1348_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0038__auto__20200908__1427_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0039__auto__20200910__1349_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0040__auto__20200915__0720_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0041__auto__20210122__2104_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0042__auto__20210403__0752_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="0043__auto__20210403__0752_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="owner_8py.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="README_8md.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

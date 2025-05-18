@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_bd6446b077e53d17caec22a13c86fa83" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_3fcb0e743ae70258ff44ba6f4b7d40d1">accounts</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_c68c3ed25597d67eec1c9d2f7a8ef18c">api</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_11d0df619bf1ec4bd23477762e08cd7a">cart</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_6333267df1e60e6968ed7aff20cdb953">checkout</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_863fd68b4e796c2d4437b64ec9980fca">home</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_617f417d504f020f37da18872da03f47">medical</link></para>
+</listitem>
+            <listitem><para>directory <link linkend="_dir_51904e826723368a6609343bf7490a30">medicines</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_manage_8py">manage.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

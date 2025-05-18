@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi_1_1tests_1_1test__cart" kind="namespace" language="Python">
+    <compoundname>api::tests::test_cart</compoundname>
+    <innerclass refid="classapi_1_1tests_1_1test__cart_1_1TestCart" prot="public">api::tests::test_cart::TestCart</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespaceapi_1_1tests_1_1test__cart_1aedba2c80cc192f5c337a0258f6c30be5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>api::tests::test_cart.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <qualifiedname>api.tests.test_cart.User</qualifiedname>
+        <initializer>=  get_user_model()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_cart.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_cart.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/test_cart.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

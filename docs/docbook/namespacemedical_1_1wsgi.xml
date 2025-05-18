@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemedical_1_1wsgi" xml:lang="en-US">
+<title>medical.wsgi Namespace Reference</title>
+<indexterm><primary>medical.wsgi</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e">application</link> = StaticFilesHandler(get_wsgi_application())</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para><literallayout><computeroutput>WSGI config for medical project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
+</computeroutput></literallayout> </para>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e"/><section>
+    <title>application</title>
+<indexterm><primary>application</primary><secondary>medical.wsgi</secondary></indexterm>
+<indexterm><primary>medical.wsgi</primary><secondary>application</secondary></indexterm>
+<para><computeroutput>medical.wsgi.application = StaticFilesHandler(get_wsgi_application())</computeroutput></para></section>
+</section>
+</section>

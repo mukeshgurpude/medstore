@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1admin_1_1Setup" xml:lang="en-US">
+<title>medicines.admin.Setup Class Reference</title>
+<indexterm><primary>medicines.admin.Setup</primary></indexterm>
+Inheritance diagram for medicines.admin.Setup:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1admin_1_1Setup__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.admin.Setup:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1admin_1_1Setup__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classmedicines_1_1admin_1_1Setup_1ade03dd53a01f231149c28af3e9be6919">list_display</link> = [&quot;name&quot;, &quot;price&quot;, &quot;category&quot;]</para>
+</listitem>
+            <listitem><para>list <link linkend="_classmedicines_1_1admin_1_1Setup_1ae52c2f547d8fad4966db8d72df1eb6b8">fieldsets</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_classmedicines_1_1admin_1_1Setup_1a3a31d3a2719e8b3d759a655187ef80ac">search_fields</link> = [&quot;name&quot;, &quot;description&quot;, ]</para>
+</listitem>
+            <listitem><para>list <link linkend="_classmedicines_1_1admin_1_1Setup_1adaed8a26ddc95f993bc2d70d8cfea904">list_filter</link> = [&quot;category&quot;, &quot;owner&quot;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1admin_1_1Setup_1ae52c2f547d8fad4966db8d72df1eb6b8"/><section>
+    <title>fieldsets</title>
+<indexterm><primary>fieldsets</primary><secondary>medicines.admin.Setup</secondary></indexterm>
+<indexterm><primary>medicines.admin.Setup</primary><secondary>fieldsets</secondary></indexterm>
+<para><computeroutput>list medicines.admin.Setup.fieldsets<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&quot;Basic&quot;</emphasis>,&#32;{<emphasis role="stringliteral">&quot;fields&quot;</emphasis>:&#32;[<emphasis role="stringliteral">&quot;name&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;price&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;category&quot;</emphasis>,&#32;]}),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&quot;Quantity&quot;</emphasis>,&#32;{<emphasis role="stringliteral">&quot;fields&quot;</emphasis>:&#32;[<emphasis role="stringliteral">&quot;quantity&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;description&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;owner&quot;</emphasis>]}),
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;(<emphasis role="stringliteral">&quot;View&quot;</emphasis>,&#32;{<emphasis role="stringliteral">&quot;fields&quot;</emphasis>:&#32;[<emphasis role="stringliteral">&quot;thumbnail&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;thumb_content_type&quot;</emphasis>]})
+&#32;&#32;&#32;&#32;]
+</programlisting></section>
+<anchor xml:id="_classmedicines_1_1admin_1_1Setup_1ade03dd53a01f231149c28af3e9be6919"/><section>
+    <title>list_display</title>
+<indexterm><primary>list_display</primary><secondary>medicines.admin.Setup</secondary></indexterm>
+<indexterm><primary>medicines.admin.Setup</primary><secondary>list_display</secondary></indexterm>
+<para><computeroutput>list medicines.admin.Setup.list_display = [&quot;name&quot;, &quot;price&quot;, &quot;category&quot;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1admin_1_1Setup_1adaed8a26ddc95f993bc2d70d8cfea904"/><section>
+    <title>list_filter</title>
+<indexterm><primary>list_filter</primary><secondary>medicines.admin.Setup</secondary></indexterm>
+<indexterm><primary>medicines.admin.Setup</primary><secondary>list_filter</secondary></indexterm>
+<para><computeroutput>list medicines.admin.Setup.list_filter = [&quot;category&quot;, &quot;owner&quot;]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1admin_1_1Setup_1a3a31d3a2719e8b3d759a655187ef80ac"/><section>
+    <title>search_fields</title>
+<indexterm><primary>search_fields</primary><secondary>medicines.admin.Setup</secondary></indexterm>
+<indexterm><primary>medicines.admin.Setup</primary><secondary>search_fields</secondary></indexterm>
+<para><computeroutput>list medicines.admin.Setup.search_fields = [&quot;name&quot;, &quot;description&quot;, ]<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2admin_8py">admin.py</link></section>
+</section>

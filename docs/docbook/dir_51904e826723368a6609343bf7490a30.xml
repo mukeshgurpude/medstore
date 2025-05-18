@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_51904e826723368a6609343bf7490a30" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines Directory Reference</primary></indexterm>
+Directory dependency graph for medicines:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_51904e826723368a6609343bf7490a30_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_a254fe3a7bc00fa20f49b221ebe1cd1e">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_medicines_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2admin_8py">admin.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_filters_8py">filters.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2forms_8py">forms.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_humanize_8py">humanize.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_owner_8py">owner.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2sitemaps_8py">sitemaps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicines_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

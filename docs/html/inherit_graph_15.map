@@ -1,0 +1,109 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,1677,164,1702"/>
+<area shape="rect" id="Node000001" href="$classaccounts_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="234,5,425,45"/>
+<area shape="poly" id="edge39_Node000000_Node000001" title=" " alt="" coords="84,1663,89,1346,107,834,123,569,145,334,158,236,173,155,191,94,210,56,232,38,235,42,214,59,196,95,179,156,164,237,150,335,129,570,113,834,94,1346,89,1663"/>
+<area shape="rect" id="Node000002" href="$classaccounts_1_1migrations_1_10002__auto__20200908__1336_1_1Migration.html" title=" " alt="" coords="212,69,447,109"/>
+<area shape="poly" id="edge40_Node000000_Node000002" title=" " alt="" coords="84,1663,90,1357,109,865,125,612,147,387,160,292,175,214,191,156,210,120,223,108,227,111,214,123,196,158,180,216,165,293,152,387,131,612,114,865,95,1357,89,1663"/>
+<area shape="rect" id="Node000003" href="$classcart_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="251,133,408,173"/>
+<area shape="poly" id="edge41_Node000000_Node000003" title=" " alt="" coords="84,1663,91,1368,111,896,127,654,149,439,162,349,176,274,192,218,210,184,228,168,249,158,252,163,231,173,214,187,197,220,181,276,167,350,154,440,133,655,116,897,96,1368,89,1663"/>
+<area shape="rect" id="Node000004" href="$classcart_1_1migrations_1_10002__order__orderdate_1_1Migration.html" title=" " alt="" coords="230,197,429,237"/>
+<area shape="poly" id="edge42_Node000000_Node000004" title=" " alt="" coords="84,1663,92,1379,113,928,129,697,151,491,163,405,177,334,193,281,210,248,228,232,232,236,214,251,198,283,182,335,168,406,156,492,135,697,118,928,97,1379,89,1663"/>
+<area shape="rect" id="Node000005" href="$classcart_1_1migrations_1_10003__cartitem__purchased_1_1Migration.html" title=" " alt="" coords="217,261,441,301"/>
+<area shape="poly" id="edge43_Node000000_Node000005" title=" " alt="" coords="84,1663,93,1390,115,960,131,739,152,544,178,394,193,343,210,312,223,300,227,304,214,315,198,345,184,395,158,544,137,740,120,960,98,1390,89,1663"/>
+<area shape="rect" id="Node000006" href="$classcart_1_1migrations_1_10004__cartitem__total_1_1Migration.html" title=" " alt="" coords="236,325,423,365"/>
+<area shape="poly" id="edge44_Node000000_Node000006" title=" " alt="" coords="84,1663,94,1402,117,992,133,782,154,596,180,454,194,406,210,376,234,357,237,361,214,379,199,408,185,455,160,597,139,783,122,992,99,1402,89,1663"/>
+<area shape="rect" id="Node000007" href="$classcart_1_1migrations_1_10005__auto__20200831__1340_1_1Migration.html" title=" " alt="" coords="212,389,447,429"/>
+<area shape="poly" id="edge45_Node000000_Node000007" title=" " alt="" coords="84,1663,95,1413,118,1024,135,825,156,648,181,514,195,468,210,440,223,428,227,432,214,443,200,470,186,515,161,649,141,825,124,1024,100,1413,90,1663"/>
+<area shape="rect" id="Node000008" href="$classcart_1_1migrations_1_10006__order__postorder_1_1Migration.html" title=" " alt="" coords="231,453,428,493"/>
+<area shape="poly" id="edge46_Node000000_Node000008" title=" " alt="" coords="84,1663,96,1425,120,1056,137,868,158,701,182,574,195,531,210,504,229,488,232,492,214,507,200,533,187,575,163,702,143,868,126,1056,101,1425,90,1663"/>
+<area shape="rect" id="Node000009" href="$classcheckout_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="234,517,425,557"/>
+<area shape="poly" id="edge47_Node000000_Node000009" title=" " alt="" coords="85,1663,97,1436,122,1088,140,910,160,753,183,634,196,593,210,568,232,550,236,554,214,571,201,595,188,635,165,754,145,911,128,1088,102,1436,90,1663"/>
+<area shape="rect" id="Node000010" href="$classcheckout_1_1migrations_1_10002__auto__20200828__1023_1_1Migration.html" title=" " alt="" coords="212,581,447,621"/>
+<area shape="poly" id="edge48_Node000000_Node000010" title=" " alt="" coords="85,1663,98,1448,124,1120,142,953,162,806,184,694,197,655,210,632,224,619,227,623,214,635,202,658,190,695,167,807,147,954,129,1120,103,1448,90,1663"/>
+<area shape="rect" id="Node000011" href="$classmedicines_1_1migrations_1_10001__initial_1_1Migration.html" title=" " alt="" coords="230,645,429,685"/>
+<area shape="poly" id="edge49_Node000000_Node000011" title=" " alt="" coords="83,1663,84,1473,88,1334,97,1183,112,1031,135,891,149,829,167,775,187,730,210,696,228,681,231,685,214,699,191,733,172,777,154,831,140,892,117,1032,102,1183,93,1335,89,1473,88,1663"/>
+<area shape="rect" id="Node000012" href="$classmedicines_1_1migrations_1_10002__auto__20200826__1711_1_1Migration.html" title=" " alt="" coords="212,709,447,749"/>
+<area shape="poly" id="edge50_Node000000_Node000012" title=" " alt="" coords="83,1663,86,1484,91,1354,100,1213,116,1072,138,941,153,884,169,834,188,792,210,760,224,747,227,751,214,763,193,794,174,835,158,885,143,942,121,1072,106,1213,96,1355,91,1484,88,1663"/>
+<area shape="rect" id="Node000013" href="$classmedicines_1_1migrations_1_10003__medicine__slug_1_1Migration.html" title=" " alt="" coords="230,773,429,813"/>
+<area shape="poly" id="edge51_Node000000_Node000013" title=" " alt="" coords="83,1663,88,1495,94,1374,104,1243,120,1112,142,991,172,892,190,853,210,824,228,809,231,813,214,827,194,856,177,894,147,993,125,1113,109,1243,99,1374,93,1495,89,1663"/>
+<area shape="rect" id="Node000014" href="$classmedicines_1_1migrations_1_10004__auto__20200827__1941_1_1Migration.html" title=" " alt="" coords="212,837,447,877"/>
+<area shape="poly" id="edge52_Node000000_Node000014" title=" " alt="" coords="84,1663,90,1506,108,1274,124,1153,146,1042,174,950,191,915,210,888,224,876,227,880,214,891,196,917,179,952,151,1043,129,1154,113,1274,95,1507,89,1663"/>
+<area shape="rect" id="Node000015" href="$classmedicines_1_1migrations_1_10005__auto__20200828__0733_1_1Migration.html" title=" " alt="" coords="212,901,447,941"/>
+<area shape="poly" id="edge53_Node000000_Node000015" title=" " alt="" coords="84,1663,92,1517,112,1304,128,1194,149,1092,176,1009,192,976,210,952,224,940,227,944,214,955,197,979,181,1011,154,1094,133,1194,117,1304,97,1517,90,1663"/>
+<area shape="rect" id="Node000016" href="$classmedicines_1_1migrations_1_10006__auto__20200828__0820_1_1Migration.html" title=" " alt="" coords="212,965,447,1005"/>
+<area shape="poly" id="edge54_Node000000_Node000016" title=" " alt="" coords="85,1663,94,1528,116,1334,132,1234,153,1143,179,1067,194,1038,210,1016,224,1004,228,1008,214,1019,198,1041,184,1069,158,1144,137,1235,121,1335,99,1529,90,1663"/>
+<area shape="rect" id="Node000017" href="$classmedicines_1_1migrations_1_10007__auto__20200828__1023_1_1Migration.html" title=" " alt="" coords="212,1029,447,1069"/>
+<area shape="poly" id="edge55_Node000000_Node000017" title=" " alt="" coords="85,1662,97,1539,120,1364,137,1275,157,1193,181,1126,195,1100,210,1079,225,1067,228,1071,214,1083,200,1102,186,1128,162,1195,142,1276,125,1365,102,1540,91,1663"/>
+<area shape="rect" id="Node000018" href="$classmedicines_1_1migrations_1_10008__auto__20200828__1614_1_1Migration.html" title=" " alt="" coords="212,1093,447,1133"/>
+<area shape="poly" id="edge56_Node000000_Node000018" title=" " alt="" coords="86,1663,99,1551,124,1396,141,1316,161,1244,184,1184,210,1144,225,1131,228,1136,214,1147,188,1187,166,1246,146,1318,129,1397,104,1552,91,1663"/>
+<area shape="rect" id="Node000019" href="$classmedicines_1_1migrations_1_10009__auto__20200828__1914_1_1Migration.html" title=" " alt="" coords="212,1157,447,1197"/>
+<area shape="poly" id="edge57_Node000000_Node000019" title=" " alt="" coords="87,1662,102,1562,128,1426,145,1357,165,1294,186,1243,210,1208,226,1195,229,1199,214,1211,191,1245,170,1296,150,1359,133,1427,107,1563,92,1663"/>
+<area shape="rect" id="Node000020" href="$classmedicines_1_1migrations_1_10010__auto__20200830__1000_1_1Migration.html" title=" " alt="" coords="212,1221,447,1261"/>
+<area shape="poly" id="edge58_Node000000_Node000020" title=" " alt="" coords="83,1663,87,1587,104,1482,120,1425,142,1369,172,1317,210,1271,226,1259,229,1264,214,1275,176,1320,147,1372,125,1427,110,1483,93,1587,88,1663"/>
+<area shape="rect" id="Node000021" href="$classmedicines_1_1migrations_1_10011__auto__20200830__1125_1_1Migration.html" title=" " alt="" coords="212,1285,447,1325"/>
+<area shape="poly" id="edge59_Node000000_Node000021" title=" " alt="" coords="85,1663,93,1597,113,1509,129,1462,150,1416,177,1373,210,1335,227,1323,230,1328,214,1339,181,1376,155,1418,134,1464,118,1510,98,1598,90,1663"/>
+<area shape="rect" id="Node000022" href="$classmedicines_1_1migrations_1_10012__auto__20200830__1125_1_1Migration.html" title=" " alt="" coords="212,1349,447,1389"/>
+<area shape="poly" id="edge60_Node000000_Node000022" title=" " alt="" coords="87,1662,99,1607,121,1536,138,1499,158,1463,182,1429,210,1399,228,1387,231,1392,214,1403,186,1432,162,1466,142,1501,126,1538,104,1609,92,1663"/>
+<area shape="rect" id="Node000023" href="$classmedicines_1_1migrations_1_10013__auto__20200830__1126_1_1Migration.html" title=" " alt="" coords="212,1413,447,1453"/>
+<area shape="poly" id="edge61_Node000000_Node000023" title=" " alt="" coords="91,1662,106,1619,131,1565,165,1510,186,1485,210,1463,230,1451,233,1456,214,1467,190,1489,169,1513,135,1567,111,1621,96,1664"/>
+<area shape="rect" id="Node000024" href="$classmedicines_1_1migrations_1_10014__auto__20200830__1126_1_1Migration.html" title=" " alt="" coords="212,1477,447,1517"/>
+<area shape="poly" id="edge62_Node000000_Node000024" title=" " alt="" coords="97,1663,141,1595,173,1558,211,1527,233,1515,236,1520,213,1532,177,1562,145,1598,101,1666"/>
+<area shape="rect" id="Node000025" href="$classmedicines_1_1migrations_1_10015__auto__20200830__1128_1_1Migration.html" title=" " alt="" coords="212,1541,447,1581"/>
+<area shape="poly" id="edge63_Node000000_Node000025" title=" " alt="" coords="107,1665,153,1627,211,1591,240,1579,242,1584,213,1596,156,1632,111,1669"/>
+<area shape="rect" id="Node000026" href="$classmedicines_1_1migrations_1_10016__auto__20200830__1134_1_1Migration.html" title=" " alt="" coords="212,1605,447,1645"/>
+<area shape="poly" id="edge64_Node000000_Node000026" title=" " alt="" coords="147,1670,251,1643,253,1648,148,1676"/>
+<area shape="rect" id="Node000027" href="$classmedicines_1_1migrations_1_10017__auto__20200830__1141_1_1Migration.html" title=" " alt="" coords="212,1669,447,1709"/>
+<area shape="poly" id="edge65_Node000000_Node000027" title=" " alt="" coords="178,1687,212,1687,212,1692,178,1692"/>
+<area shape="rect" id="Node000028" href="$classmedicines_1_1migrations_1_10018__auto__20200830__1145_1_1Migration.html" title=" " alt="" coords="212,1733,447,1773"/>
+<area shape="poly" id="edge66_Node000000_Node000028" title=" " alt="" coords="148,1703,253,1731,251,1736,147,1708"/>
+<area shape="rect" id="Node000029" href="$classmedicines_1_1migrations_1_10019__auto__20200830__1145_1_1Migration.html" title=" " alt="" coords="212,1797,447,1837"/>
+<area shape="poly" id="edge67_Node000000_Node000029" title=" " alt="" coords="111,1709,156,1747,213,1783,242,1795,240,1800,211,1788,153,1751,107,1713"/>
+<area shape="rect" id="Node000030" href="$classmedicines_1_1migrations_1_10020__auto__20200830__1146_1_1Migration.html" title=" " alt="" coords="212,1861,447,1901"/>
+<area shape="poly" id="edge68_Node000000_Node000030" title=" " alt="" coords="101,1713,145,1780,177,1817,213,1847,236,1859,233,1864,211,1852,173,1820,141,1784,97,1716"/>
+<area shape="rect" id="Node000031" href="$classmedicines_1_1migrations_1_10021__auto__20200830__1148_1_1Migration.html" title=" " alt="" coords="212,1925,447,1965"/>
+<area shape="poly" id="edge69_Node000000_Node000031" title=" " alt="" coords="96,1715,111,1758,135,1811,169,1865,190,1890,214,1911,233,1923,230,1928,210,1915,186,1894,165,1869,131,1814,106,1760,91,1717"/>
+<area shape="rect" id="Node000032" href="$classmedicines_1_1migrations_1_10022__auto__20200830__1401_1_1Migration.html" title=" " alt="" coords="212,1989,447,2029"/>
+<area shape="poly" id="edge70_Node000000_Node000032" title=" " alt="" coords="92,1715,104,1770,126,1840,142,1877,162,1913,186,1946,214,1975,231,1987,228,1991,210,1979,182,1950,158,1916,138,1880,121,1842,99,1771,87,1716"/>
+<area shape="rect" id="Node000033" href="$classmedicines_1_1migrations_1_10023__auto__20200830__1401_1_1Migration.html" title=" " alt="" coords="212,2053,447,2093"/>
+<area shape="poly" id="edge71_Node000000_Node000033" title=" " alt="" coords="90,1715,98,1781,118,1868,134,1915,155,1960,181,2003,214,2039,230,2051,227,2055,210,2043,177,2006,150,1963,129,1917,113,1870,93,1782,85,1716"/>
+<area shape="rect" id="Node000034" href="$classmedicines_1_1migrations_1_10024__auto__20200830__1414_1_1Migration.html" title=" " alt="" coords="212,2117,447,2157"/>
+<area shape="poly" id="edge72_Node000000_Node000034" title=" " alt="" coords="88,1715,93,1791,110,1896,125,1952,147,2007,176,2058,214,2103,229,2115,226,2119,210,2107,172,2062,142,2009,120,1954,104,1897,87,1792,83,1716"/>
+<area shape="rect" id="Node000035" href="$classmedicines_1_1migrations_1_10025__auto__20200830__1559_1_1Migration.html" title=" " alt="" coords="212,2181,447,2221"/>
+<area shape="poly" id="edge73_Node000000_Node000035" title=" " alt="" coords="92,1716,107,1815,133,1951,150,2020,170,2082,191,2133,214,2168,229,2179,226,2183,210,2171,186,2136,165,2084,145,2021,128,1952,102,1816,87,1716"/>
+<area shape="rect" id="Node000036" href="$classmedicines_1_1migrations_1_10026__auto__20200831__1222_1_1Migration.html" title=" " alt="" coords="212,2245,447,2285"/>
+<area shape="poly" id="edge74_Node000000_Node000036" title=" " alt="" coords="91,1715,104,1827,129,1982,146,2061,166,2133,188,2192,214,2232,228,2243,225,2247,210,2235,184,2194,161,2135,141,2062,124,1983,99,1827,86,1716"/>
+<area shape="rect" id="Node000037" href="$classmedicines_1_1migrations_1_10027__auto__20200831__1253_1_1Migration.html" title=" " alt="" coords="212,2309,447,2349"/>
+<area shape="poly" id="edge75_Node000000_Node000037" title=" " alt="" coords="91,1716,102,1839,125,2013,142,2103,162,2184,186,2251,200,2276,214,2295,228,2307,225,2311,210,2299,195,2279,181,2253,157,2186,137,2104,120,2014,97,1839,85,1716"/>
+<area shape="rect" id="Node000038" href="$classmedicines_1_1migrations_1_10028__auto__20200831__1325_1_1Migration.html" title=" " alt="" coords="212,2373,447,2413"/>
+<area shape="poly" id="edge76_Node000000_Node000038" title=" " alt="" coords="90,1716,99,1850,121,2044,137,2143,158,2235,184,2309,198,2338,214,2360,228,2371,224,2375,210,2363,194,2341,179,2311,153,2236,132,2144,116,2045,94,1851,85,1716"/>
+<area shape="rect" id="Node000039" href="$classmedicines_1_1migrations_1_10029__auto__20200831__1340_1_1Migration.html" title=" " alt="" coords="212,2437,447,2477"/>
+<area shape="poly" id="edge77_Node000000_Node000039" title=" " alt="" coords="90,1715,97,1861,117,2074,133,2184,154,2285,181,2368,197,2400,214,2424,227,2435,224,2439,210,2427,192,2402,176,2370,149,2286,128,2185,112,2075,92,1862,84,1716"/>
+<area shape="rect" id="Node000040" href="$classmedicines_1_1migrations_1_10030__auto__20200831__1426_1_1Migration.html" title=" " alt="" coords="212,2501,447,2541"/>
+<area shape="poly" id="edge78_Node000000_Node000040" title=" " alt="" coords="89,1715,95,1872,113,2104,129,2225,151,2335,179,2426,196,2461,214,2488,227,2499,224,2503,210,2491,191,2464,174,2428,146,2337,124,2226,108,2105,90,1872,84,1716"/>
+<area shape="rect" id="Node000041" href="$classmedicines_1_1migrations_1_10031__auto__20200831__1452_1_1Migration.html" title=" " alt="" coords="212,2565,447,2605"/>
+<area shape="poly" id="edge79_Node000000_Node000041" title=" " alt="" coords="89,1716,93,1884,99,2004,109,2135,125,2266,147,2386,177,2485,194,2523,214,2552,227,2563,224,2567,210,2555,190,2525,172,2487,142,2387,120,2267,104,2136,94,2005,88,1884,83,1716"/>
+<area shape="rect" id="Node000042" href="$classmedicines_1_1migrations_1_10032__auto__20200831__1454_1_1Migration.html" title=" " alt="" coords="212,2629,447,2669"/>
+<area shape="poly" id="edge80_Node000000_Node000042" title=" " alt="" coords="88,1716,91,1895,96,2024,106,2165,121,2306,143,2436,158,2493,174,2543,193,2584,214,2616,227,2627,224,2631,210,2619,188,2587,169,2545,153,2495,138,2437,116,2307,100,2166,91,2024,86,1895,83,1716"/>
+<area shape="rect" id="Node000043" href="$classmedicines_1_1migrations_1_10033__auto__20200901__1138_1_1Migration.html" title=" " alt="" coords="212,2693,447,2733"/>
+<area shape="poly" id="edge81_Node000000_Node000043" title=" " alt="" coords="88,1716,89,1905,93,2044,102,2195,117,2347,140,2487,154,2548,172,2602,191,2646,214,2680,227,2691,224,2695,210,2683,187,2649,167,2604,149,2549,135,2488,112,2348,97,2196,88,2044,84,1905,83,1716"/>
+<area shape="rect" id="Node000044" href="$classmedicines_1_1migrations_1_10034__auto__20200908__1112_1_1Migration.html" title=" " alt="" coords="212,2757,447,2797"/>
+<area shape="poly" id="edge82_Node000000_Node000044" title=" " alt="" coords="90,1715,103,1931,129,2258,147,2425,167,2572,190,2684,202,2721,214,2744,227,2755,224,2759,210,2747,197,2723,184,2685,162,2573,142,2425,124,2259,98,1931,85,1716"/>
+<area shape="rect" id="Node000045" href="$classmedicines_1_1migrations_1_10035__auto__20200908__1330_1_1Migration.html" title=" " alt="" coords="212,2821,447,2861"/>
+<area shape="poly" id="edge83_Node000000_Node000045" title=" " alt="" coords="90,1716,102,1942,128,2290,145,2468,165,2624,188,2744,201,2784,214,2808,227,2819,223,2823,210,2811,196,2786,183,2745,160,2625,140,2468,122,2291,97,1943,85,1716"/>
+<area shape="rect" id="Node000046" href="$classmedicines_1_1migrations_1_10036__auto__20200908__1336_1_1Migration.html" title=" " alt="" coords="212,2885,447,2925"/>
+<area shape="poly" id="edge84_Node000000_Node000046" title=" " alt="" coords="90,1716,101,1954,126,2322,143,2510,163,2677,187,2803,200,2846,214,2872,227,2883,223,2887,210,2875,195,2848,182,2805,158,2678,137,2511,120,2323,96,1954,84,1716"/>
+<area shape="rect" id="Node000047" href="$classmedicines_1_1migrations_1_10037__auto__20200908__1348_1_1Migration.html" title=" " alt="" coords="212,2949,447,2989"/>
+<area shape="poly" id="edge85_Node000000_Node000047" title=" " alt="" coords="90,1716,100,1966,124,2355,141,2554,161,2729,186,2863,200,2909,214,2936,227,2947,223,2951,210,2939,195,2911,181,2865,156,2730,135,2554,118,2355,95,1966,84,1716"/>
+<area shape="rect" id="Node000048" href="$classmedicines_1_1migrations_1_10038__auto__20200908__1427_1_1Migration.html" title=" " alt="" coords="212,3013,447,3053"/>
+<area shape="poly" id="edge86_Node000000_Node000048" title=" " alt="" coords="89,1716,99,1977,122,2386,139,2596,160,2782,185,2923,199,2971,214,3000,227,3011,223,3015,210,3003,194,2973,180,2925,154,2783,133,2596,117,2387,94,1977,84,1716"/>
+<area shape="rect" id="Node000049" href="$classmedicines_1_1migrations_1_10039__auto__20200910__1349_1_1Migration.html" title=" " alt="" coords="212,3077,447,3117"/>
+<area shape="poly" id="edge87_Node000000_Node000049" title=" " alt="" coords="89,1716,98,1988,120,2418,137,2639,158,2834,184,2983,198,3033,214,3064,227,3075,223,3079,210,3067,193,3035,178,2985,152,2835,131,2639,115,2419,93,1988,84,1716"/>
+<area shape="rect" id="Node000050" href="$classmedicines_1_1migrations_1_10040__auto__20200915__0720_1_1Migration.html" title=" " alt="" coords="212,3141,447,3181"/>
+<area shape="poly" id="edge88_Node000000_Node000050" title=" " alt="" coords="89,1716,97,2000,118,2450,135,2682,156,2887,168,2973,182,3043,198,3096,214,3128,227,3139,223,3143,210,3131,193,3098,177,3044,163,2973,151,2887,129,2682,113,2451,92,2000,84,1716"/>
+<area shape="rect" id="Node000051" href="$classmedicines_1_1migrations_1_10041__auto__20210122__2104_1_1Migration.html" title=" " alt="" coords="212,3205,447,3245"/>
+<area shape="poly" id="edge89_Node000000_Node000051" title=" " alt="" coords="89,1716,96,2011,116,2482,133,2724,154,2939,167,3029,181,3103,197,3158,214,3192,227,3203,223,3207,210,3195,192,3160,176,3104,162,3030,149,2940,127,2725,111,2482,91,2011,84,1716"/>
+<area shape="rect" id="Node000052" href="$classmedicines_1_1migrations_1_10042__auto__20210403__0752_1_1Migration.html" title=" " alt="" coords="212,3269,447,3309"/>
+<area shape="poly" id="edge90_Node000000_Node000052" title=" " alt="" coords="89,1716,95,2022,114,2514,131,2767,152,2991,165,3085,180,3163,196,3221,214,3256,227,3267,223,3271,210,3259,191,3223,175,3164,160,3086,147,2992,125,2767,109,2514,90,2022,84,1716"/>
+<area shape="rect" id="Node000053" href="$classmedicines_1_1migrations_1_10043__auto__20210403__0752_1_1Migration.html" title=" " alt="" coords="212,3333,447,3373"/>
+<area shape="poly" id="edge91_Node000000_Node000053" title=" " alt="" coords="89,1716,94,2033,113,2545,129,2809,150,3044,164,3142,179,3223,196,3283,214,3320,227,3331,223,3335,210,3323,191,3285,173,3224,158,3143,145,3044,123,2809,107,2545,89,2033,84,1716"/>
+</map>

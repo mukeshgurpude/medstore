@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceaccounts_1_1urls" xml:lang="en-US">
+<title>accounts.urls Namespace Reference</title>
+<indexterm><primary>accounts.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceaccounts_1_1urls_1a654250d4c7bc852ed5e2bef130a75457">app_name</link> = &quot;Account&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceaccounts_1_1urls_1a926cfc2f9e983f80b090c232436af68d">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespaceaccounts_1_1urls_1a654250d4c7bc852ed5e2bef130a75457"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>accounts.urls</secondary></indexterm>
+<indexterm><primary>accounts.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str accounts.urls.app_name = &quot;Account&quot;</computeroutput></para></section>
+<anchor xml:id="_namespaceaccounts_1_1urls_1a926cfc2f9e983f80b090c232436af68d"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>accounts.urls</secondary></indexterm>
+<indexterm><primary>accounts.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list accounts.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;profile/&quot;</emphasis>,&#32;views.profile,&#32;name=<emphasis role="stringliteral">&quot;profile&quot;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;apply/&quot;</emphasis>,&#32;views.be_seller,&#32;name=<emphasis role="stringliteral">&quot;apply&quot;</emphasis>),
+4 ]
+</programlisting></section>
+</section>
+</section>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecart__tag" xml:lang="en-US">
+<title>cart_tag Namespace Reference</title>
+<indexterm><primary>cart_tag</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecart__tag_1a79c3b46cc39a0a9f98a6c6b547cef82d">cart_total</link> (user)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecart__tag_1ae79793a9d2296178b50a1869d25d32d7">register</link> = template.Library()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacecart__tag_1a79c3b46cc39a0a9f98a6c6b547cef82d"/><section>
+    <title>cart_total()</title>
+<indexterm><primary>cart_total</primary><secondary>cart_tag</secondary></indexterm>
+<indexterm><primary>cart_tag</primary><secondary>cart_total</secondary></indexterm>
+<para><computeroutput>cart_tag.cart_total ( user)</computeroutput></para></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecart__tag_1ae79793a9d2296178b50a1869d25d32d7"/><section>
+    <title>register</title>
+<indexterm><primary>register</primary><secondary>cart_tag</secondary></indexterm>
+<indexterm><primary>cart_tag</primary><secondary>register</secondary></indexterm>
+<para><computeroutput>cart_tag.register = template.Library()</computeroutput></para></section>
+</section>
+</section>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_51904e826723368a6609343bf7490a30" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines</compoundname>
+    <innerdir refid="dir_a254fe3a7bc00fa20f49b221ebe1cd1e">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations</innerdir>
+    <innerfile refid="medicines_2____init_____8py">__init__.py</innerfile>
+    <innerfile refid="medicines_2admin_8py">admin.py</innerfile>
+    <innerfile refid="medicines_2apps_8py">apps.py</innerfile>
+    <innerfile refid="filters_8py">filters.py</innerfile>
+    <innerfile refid="medicines_2forms_8py">forms.py</innerfile>
+    <innerfile refid="humanize_8py">humanize.py</innerfile>
+    <innerfile refid="medicines_2models_8py">models.py</innerfile>
+    <innerfile refid="owner_8py">owner.py</innerfile>
+    <innerfile refid="medicines_2sitemaps_8py">sitemaps.py</innerfile>
+    <innerfile refid="medicines_2tests_8py">tests.py</innerfile>
+    <innerfile refid="medicines_2urls_8py">urls.py</innerfile>
+    <innerfile refid="medicines_2views_8py">views.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="medicines_2sitemaps_8py" kind="file" language="Python">
+    <compoundname>sitemaps.py</compoundname>
+    <innerclass refid="classmedicines_1_1sitemaps_1_1MedSiteMap" prot="public">medicines::sitemaps::MedSiteMap</innerclass>
+    <innernamespace refid="namespacemedicines">medicines</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1sitemaps">medicines::sitemaps</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedicines_1_1sitemaps" refkind="compound"><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="2"><highlight class="stringliteral">Sitemap<sp/>views<sp/>for<sp/>medicines</highlight></codeline>
+<codeline lineno="3"><highlight class="stringliteral">&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.sitemaps<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Sitemap</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.urls<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>reverse</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Medicine</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classmedicines_1_1sitemaps_1_1MedSiteMap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1sitemaps_1_1MedSiteMap" kindref="compound">MedSiteMap</ref>(Sitemap):</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;&quot;&quot;</highlight></codeline>
+<codeline lineno="11"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>Class<sp/>to<sp/>wrap<sp/>up<sp/>dynamic<sp/>urls<sp/>for<sp/>medicines</highlight></codeline>
+<codeline lineno="12"><highlight class="stringliteral"><sp/><sp/><sp/><sp/>&quot;&quot;&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a8b58e26e2a135275ab9f050de494ec0d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>priority<sp/>=<sp/>0.9</highlight></codeline>
+<codeline lineno="14" refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a5b43bd0e3a91a69a7c93c98d4a145315" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>changefreq<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;daily&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1ac52d12ec32b8be8b3648e473426eda59" kindref="member">items</ref>(self):</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Medicine.objects.all()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1sitemaps_1_1MedSiteMap_1a9857d30cc5d5b57a781c72e2a26a9d5e" kindref="member">location</ref>(self,<sp/>obj):</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>reverse(</highlight><highlight class="stringliteral">&quot;medicines:detail&quot;</highlight><highlight class="normal">,<sp/>args=(obj.id,))</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/sitemaps.py"/>
+  </compounddef>
+</doxygen>

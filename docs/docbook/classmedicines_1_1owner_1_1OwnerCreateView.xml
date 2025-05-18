@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1owner_1_1OwnerCreateView" xml:lang="en-US">
+<title>medicines.owner.OwnerCreateView Class Reference</title>
+<indexterm><primary>medicines.owner.OwnerCreateView</primary></indexterm>
+Inheritance diagram for medicines.owner.OwnerCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerCreateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.owner.OwnerCreateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerCreateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1owner_1_1OwnerCreateView_1a8a966a16e46d4de6b4fe303709bda2f2">form_valid</link> (self, form)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1owner_1_1OwnerCreateView_1a8a966a16e46d4de6b4fe303709bda2f2"/><section>
+    <title>form_valid()</title>
+<indexterm><primary>form_valid</primary><secondary>medicines.owner.OwnerCreateView</secondary></indexterm>
+<indexterm><primary>medicines.owner.OwnerCreateView</primary><secondary>form_valid</secondary></indexterm>
+<para><computeroutput>medicines.owner.OwnerCreateView.form_valid ( self,  form)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerCreateView_a8a966a16e46d4de6b4fe303709bda2f2_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1owner_1_1OwnerCreateView_a8a966a16e46d4de6b4fe303709bda2f2_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_owner_8py">owner.py</link></section>
+</section>

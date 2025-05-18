@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1filters_1_1ProductFilter" xml:lang="en-US">
+<title>medicines.filters.ProductFilter Class Reference</title>
+<indexterm><primary>medicines.filters.ProductFilter</primary></indexterm>
+Inheritance diagram for medicines.filters.ProductFilter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1filters_1_1ProductFilter__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.filters.ProductFilter:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1filters_1_1ProductFilter__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1filters_1_1ProductFilter_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597">name</link> = django_filters.CharFilter(lookup_expr=&apos;icontains&apos;)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2">price</link> = RangeFilter()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1filters_1_1ProductFilter_1af35bc9e977cd31af66a20f457417b597"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>medicines.filters.ProductFilter</secondary></indexterm>
+<indexterm><primary>medicines.filters.ProductFilter</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>medicines.filters.ProductFilter.name = django_filters.CharFilter(lookup_expr=&apos;icontains&apos;)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1filters_1_1ProductFilter_1a93cddccb8835b786595ac1c8867c37d2"/><section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>medicines.filters.ProductFilter</secondary></indexterm>
+<indexterm><primary>medicines.filters.ProductFilter</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>medicines.filters.ProductFilter.price = RangeFilter()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_filters_8py">filters.py</link></section>
+</section>

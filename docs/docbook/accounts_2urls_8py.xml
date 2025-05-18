@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_accounts_2urls_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/urls.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceaccounts">accounts</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceaccounts_1_1urls">accounts.urls</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespaceaccounts_1_1urls_1a654250d4c7bc852ed5e2bef130a75457">accounts.urls.app_name</link> = &quot;Account&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespaceaccounts_1_1urls_1a926cfc2f9e983f80b090c232436af68d">accounts.urls.urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

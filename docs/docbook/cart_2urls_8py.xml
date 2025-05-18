@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_cart_2urls_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/urls.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecart">cart</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1urls">cart.urls</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacecart_1_1urls_1ae6d35656063cdf7fe6bbd94f2f485d15">cart.urls.app_name</link> = &quot;cart&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacecart_1_1urls_1a93b0baeb1fa10af912fde6d9f8bab9a1">cart.urls.urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

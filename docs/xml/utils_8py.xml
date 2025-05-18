@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="utils_8py" kind="file" language="Python">
+    <compoundname>utils.py</compoundname>
+    <innernamespace refid="namespaceapi">api</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests">api::tests</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests_1_1utils">api::tests::utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceapi_1_1tests_1_1utils" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.contrib.auth.models<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Group,<sp/>Permission</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespaceapi_1_1tests_1_1utils_1ad156849164eecf6177df1a0b9906dafc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespaceapi_1_1tests_1_1utils_1ad156849164eecf6177df1a0b9906dafc" kindref="member">create_merchant</ref>():</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>g<sp/>=<sp/>Group.objects.create(name=</highlight><highlight class="stringliteral">&apos;Merchant&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>g.permissions.add(Permission.objects.get(codename=</highlight><highlight class="stringliteral">&apos;add_medicine&apos;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>g.save()</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/utils.py"/>
+  </compounddef>
+</doxygen>

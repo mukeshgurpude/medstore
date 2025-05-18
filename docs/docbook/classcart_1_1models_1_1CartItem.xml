@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcart_1_1models_1_1CartItem" xml:lang="en-US">
+<title>cart.models.CartItem Class Reference</title>
+<indexterm><primary>cart.models.CartItem</primary></indexterm>
+Inheritance diagram for cart.models.CartItem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1CartItem__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for cart.models.CartItem:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1models_1_1CartItem__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1aefa4415b8fb545535ab6a3d615b0c58c">__str__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5">total_amount</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1a0618d9c3fc5c98c1cf32312bec2b557d">as_json</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1a1e60b947e0660c8b2aae2f2533a20c2b">id</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1a9610997c28438d09f56604ef4abd181f">objects</link> = models.Manager()</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1">user</link> = models.ForeignKey(user, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1ab2d00491e59e540e77b41cf27e4452fe">item</link> = models.ForeignKey(<link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1a8c2fd79e60110a9025352fe94b60c48f">quantity</link> = models.PositiveIntegerField(default=1)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1a6623ff1633433dc5a1f91c97459bd0af">created</link> = models.DateTimeField(auto_now_add=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1models_1_1CartItem_1a3fef29da7b875a13f4707926bee27034">purchased</link> = models.BooleanField(default=False)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1aefa4415b8fb545535ab6a3d615b0c58c"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.__str__ ( self)</computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1a0618d9c3fc5c98c1cf32312bec2b557d"/><section>
+    <title>as_json()</title>
+<indexterm><primary>as_json</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>as_json</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.as_json ( self)</computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1aee3ffd38727afb89f1e6055e89889be5"/><section>
+    <title>total_amount()</title>
+<indexterm><primary>total_amount</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>total_amount</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.total_amount ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1a6623ff1633433dc5a1f91c97459bd0af"/><section>
+    <title>created</title>
+<indexterm><primary>created</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>created</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.created = models.DateTimeField(auto_now_add=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1a1e60b947e0660c8b2aae2f2533a20c2b"/><section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.id</computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1ab2d00491e59e540e77b41cf27e4452fe"/><section>
+    <title>item</title>
+<indexterm><primary>item</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>item</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.item = models.ForeignKey(<link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1a9610997c28438d09f56604ef4abd181f"/><section>
+    <title>objects</title>
+<indexterm><primary>objects</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>objects</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.objects = models.Manager()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1a3fef29da7b875a13f4707926bee27034"/><section>
+    <title>purchased</title>
+<indexterm><primary>purchased</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>purchased</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.purchased = models.BooleanField(default=False)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1a8c2fd79e60110a9025352fe94b60c48f"/><section>
+    <title>quantity</title>
+<indexterm><primary>quantity</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>quantity</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.quantity = models.PositiveIntegerField(default=1)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>cart.models.CartItem</secondary></indexterm>
+<indexterm><primary>cart.models.CartItem</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>cart.models.CartItem.user = models.ForeignKey(user, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/<link linkend="_cart_2models_8py">models.py</link></section>
+</section>

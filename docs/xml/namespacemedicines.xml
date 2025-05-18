@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedicines" kind="namespace" language="Python">
+    <compoundname>medicines</compoundname>
+    <innernamespace refid="namespacemedicines_1_1admin">medicines::admin</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1apps">medicines::apps</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1filters">medicines::filters</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1forms">medicines::forms</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1humanize">medicines::humanize</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1migrations">medicines::migrations</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1models">medicines::models</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1owner">medicines::owner</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1sitemaps">medicines::sitemaps</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1tests">medicines::tests</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1urls">medicines::urls</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1views">medicines::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

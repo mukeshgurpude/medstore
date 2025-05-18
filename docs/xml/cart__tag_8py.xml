@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="cart__tag_8py" kind="file" language="Python">
+    <compoundname>cart_tag.py</compoundname>
+    <innernamespace refid="namespacecart__tag">cart_tag</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecart__tag" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>template</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacecart_1_1models" kindref="compound">cart.models</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Order</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespacecart__tag_1ae79793a9d2296178b50a1869d25d32d7" refkind="member"><highlight class="normal">register<sp/>=<sp/>template.Library()</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">@register.filter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="namespacecart__tag_1a79c3b46cc39a0a9f98a6c6b547cef82d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacecart__tag_1a79c3b46cc39a0a9f98a6c6b547cef82d" kindref="member">cart_total</ref>(user):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>order<sp/>=<sp/>Order.objects.filter(user=user,<sp/>ordered=</highlight><highlight class="keyword">False</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>order[0].items.count()<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>order.exists()<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>0</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/templatetags/cart_tag.py"/>
+  </compounddef>
+</doxygen>

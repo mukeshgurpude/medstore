@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="medicines_2migrations_20001__initial_8py" kind="file" language="Python">
+    <compoundname>0001_initial.py</compoundname>
+    <innerclass refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration" prot="public">medicines::migrations::0001_initial::Migration</innerclass>
+    <innernamespace refid="namespacemedicines">medicines</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1migrations">medicines::migrations</innernamespace>
+    <innernamespace refid="namespacemedicines_1_1migrations_1_10001__initial">medicines::migrations::0001_initial</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemedicines_1_1migrations" refkind="compound"><highlight class="comment">#<sp/>Generated<sp/>by<sp/>Django<sp/>3.1<sp/>on<sp/>2020-08-22<sp/>03:02</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.conf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>settings</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>migrations,<sp/>models</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>django.db.models.deletion</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration" kindref="compound">Migration</ref>(migrations.Migration):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration_1ac1824abc5effe7d1ffe0d82fa5d47e86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>initial<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration_1a3cf4a3917566077a76392d8ab1b5cd53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>dependencies<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.swappable_dependency(settings.AUTH_USER_MODEL),</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classmedicines_1_1migrations_1_10001__initial_1_1Migration_1a6355449dabd1fc3133332c3f48a203c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>operations<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.CreateModel(</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;MedCat&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields=[</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>models.AutoField(auto_created=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>primary_key=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>serialize=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>verbose_name=</highlight><highlight class="stringliteral">&apos;ID&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">,<sp/>models.CharField(max_length=20)),</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.CreateModel(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;Medicine&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fields=[</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;id&apos;</highlight><highlight class="normal">,<sp/>models.AutoField(auto_created=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>primary_key=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>serialize=</highlight><highlight class="keyword">False</highlight><highlight class="normal">,<sp/>verbose_name=</highlight><highlight class="stringliteral">&apos;ID&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;name&apos;</highlight><highlight class="normal">,<sp/>models.CharField(max_length=20)),</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;price&apos;</highlight><highlight class="normal">,<sp/>models.DecimalField(decimal_places=2,<sp/>max_digits=5)),</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;quantity&apos;</highlight><highlight class="normal">,<sp/>models.IntegerField()),</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;thumbnail&apos;</highlight><highlight class="normal">,<sp/>models.BinaryField(blank=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>editable=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;thumb_content_type&apos;</highlight><highlight class="normal">,<sp/>models.CharField(blank=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>help_text=</highlight><highlight class="stringliteral">&apos;MIMEType<sp/>for<sp/>thumbnail&apos;</highlight><highlight class="normal">,<sp/>max_length=256,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;description&apos;</highlight><highlight class="normal">,<sp/>models.TextField()),</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;category&apos;</highlight><highlight class="normal">,<sp/>models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,<sp/>to=</highlight><highlight class="stringliteral">&apos;medicines.medcat&apos;</highlight><highlight class="normal">)),</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;owner&apos;</highlight><highlight class="normal">,<sp/>models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,<sp/>to=settings.AUTH_USER_MODEL)),</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>],</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0001_initial.py"/>
+  </compounddef>
+</doxygen>

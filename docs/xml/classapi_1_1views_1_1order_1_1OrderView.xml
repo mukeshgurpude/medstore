@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1order_1_1OrderView" kind="class" language="Python" prot="public">
+    <compoundname>api::views::order::OrderView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1order_1_1OrderView_1a081f4c4cbdc1fba80d0c81cbd4f627c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>api.views.order.OrderView.get</definition>
+        <argsstring>(self, request)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.order.OrderView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>request</type>
+          <defname>request</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>View to get the order details of user
+
+:param request: a simple HTTP GET request
+:type request: HttpRequest
+:return: orders by the logged in user
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/order.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/order.py" bodystart="8" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.order.OrderView</label>
+        <link refid="classapi_1_1views_1_1order_1_1OrderView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.order.OrderView</label>
+        <link refid="classapi_1_1views_1_1order_1_1OrderView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/order.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/order.py" bodystart="6" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1order_1_1OrderView_1a081f4c4cbdc1fba80d0c81cbd4f627c8" prot="public" virt="non-virtual"><scope>api::views::order::OrderView</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

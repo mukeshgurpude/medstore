@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1views_1_1auth_1_1SellerView" xml:lang="en-US">
+<title>api.views.auth.SellerView Class Reference</title>
+<indexterm><primary>api.views.auth.SellerView</primary></indexterm>
+Inheritance diagram for api.views.auth.SellerView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1auth_1_1SellerView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.views.auth.SellerView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1auth_1_1SellerView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1views_1_1auth_1_1SellerView_1ae6360487a413a9cd395c508fa43e66bd">get</link> (self, request)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1views_1_1auth_1_1SellerView_1aa937e4da1c36983fa96762cd1cecb829">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1views_1_1auth_1_1SellerView_1ae6360487a413a9cd395c508fa43e66bd"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>api.views.auth.SellerView</secondary></indexterm>
+<indexterm><primary>api.views.auth.SellerView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>api.views.auth.SellerView.get ( self,  request)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1views_1_1auth_1_1SellerView_1aa937e4da1c36983fa96762cd1cecb829"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>api.views.auth.SellerView</secondary></indexterm>
+<indexterm><primary>api.views.auth.SellerView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>api.views.auth.SellerView.post ( self,  request)</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/<link linkend="_auth_8py">auth.py</link></section>
+</section>

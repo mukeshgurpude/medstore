@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classapi_1_1views_1_1auth_1_1ProfileView" kind="class" language="Python" prot="public">
+    <compoundname>api::views::auth::ProfileView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">LoginRequiredMixin</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">View</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classapi_1_1views_1_1auth_1_1ProfileView_1aa3131f169090025ad9485a8a7c6bda43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.auth.ProfileView.get</definition>
+        <argsstring>(self, HttpRequest request)</argsstring>
+        <name>get</name>
+        <qualifiedname>api.views.auth.ProfileView.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the current profile data, as json
+:param request: GET request to get the profile data
+:type request: HttpRequest
+:return: current profile details for the user
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="46" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="46" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classapi_1_1views_1_1auth_1_1ProfileView_1a411d6c7a0c24391a5878aaf37c37d0ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>JsonResponse</type>
+        <definition> JsonResponse api.views.auth.ProfileView.post</definition>
+        <argsstring>(self, HttpRequest request)</argsstring>
+        <name>post</name>
+        <qualifiedname>api.views.auth.ProfileView.post</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>HttpRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Processes the formData to update the profile data in database
+
+:param request: POST data to update the profile
+:type request: HttpRequest
+:return: Responds if the data has been updated, or request failed
+:rtype: JsonResponse
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="75" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="75" bodyend="107"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>api.views.auth.ProfileView</label>
+        <link refid="classapi_1_1views_1_1auth_1_1ProfileView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>View</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>api.views.auth.ProfileView</label>
+        <link refid="classapi_1_1views_1_1auth_1_1ProfileView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>LoginRequiredMixin</label>
+      </node>
+      <node id="3">
+        <label>View</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" line="44" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py" bodystart="44" bodyend="107"/>
+    <listofallmembers>
+      <member refid="classapi_1_1views_1_1auth_1_1ProfileView_1aa3131f169090025ad9485a8a7c6bda43" prot="public" virt="non-virtual"><scope>api::views::auth::ProfileView</scope><name>get</name></member>
+      <member refid="classapi_1_1views_1_1auth_1_1ProfileView_1a411d6c7a0c24391a5878aaf37c37d0ee" prot="public" virt="non-virtual"><scope>api::views::auth::ProfileView</scope><name>post</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

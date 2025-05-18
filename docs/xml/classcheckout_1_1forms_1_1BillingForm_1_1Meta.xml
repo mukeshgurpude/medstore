@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcheckout_1_1forms_1_1BillingForm_1_1Meta" kind="class" language="Python" prot="public">
+    <compoundname>checkout::forms::BillingForm::Meta</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1add8f3db9e9c1fdaa7bc7bc3662f1e23c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>checkout.forms.BillingForm.Meta::model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <qualifiedname>checkout.forms.BillingForm.Meta.model</qualifiedname>
+        <initializer>=  <ref refid="classcheckout_1_1models_1_1BillingAddress" kindref="compound">BillingAddress</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1a68c7b95e5ff1719fa4849a241a1d36ad" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list checkout.forms.BillingForm.Meta::fields</definition>
+        <argsstring></argsstring>
+        <name>fields</name>
+        <qualifiedname>checkout.forms.BillingForm.Meta.fields</qualifiedname>
+        <initializer>=  [&quot;address&quot;, &quot;pincode&quot;, &quot;city&quot;, &quot;landmark&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" line="11" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>checkout.forms.BillingForm.Meta</label>
+        <link refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>+fields</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>list</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" line="9" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/forms.py" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1a68c7b95e5ff1719fa4849a241a1d36ad" prot="public" virt="non-virtual"><scope>checkout::forms::BillingForm::Meta</scope><name>fields</name></member>
+      <member refid="classcheckout_1_1forms_1_1BillingForm_1_1Meta_1add8f3db9e9c1fdaa7bc7bc3662f1e23c" prot="public" virt="non-virtual"><scope>checkout::forms::BillingForm::Meta</scope><name>model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

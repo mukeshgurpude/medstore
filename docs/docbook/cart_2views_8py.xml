@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_cart_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/views.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecart">cart</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1views">cart.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a3ee8d59cc468d360b51f5f695d8aa012">cart.views.cartview</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1ac00843a95e203cd4cb060210153b7052">cart.views.add_to_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a3021e91e344805a0cfdc9c5d1300d3f3">cart.views.remove_from_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a1a5f351a2da2473b3f280bb0b014dbe5">cart.views.increase_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1ab665251cdfc3340aea5abf9e3fe3e9bc">cart.views.decrease_cart</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a2f62b4ee07f22f10d1c1aaf29443f4ef">cart.views.order_view</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1a8a71758da0a44e7da80fe8ec26bd3ed2">cart.views.increase_cart_test</link> (request, slug)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecart_1_1views_1ad036d70c844f486cb0e96e904e1ac0d3">cart.views.decrease_cart_test</link> (request, slug)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

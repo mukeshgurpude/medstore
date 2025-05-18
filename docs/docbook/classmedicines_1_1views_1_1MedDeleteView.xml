@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1views_1_1MedDeleteView" xml:lang="en-US">
+<title>medicines.views.MedDeleteView Class Reference</title>
+<indexterm><primary>medicines.views.MedDeleteView</primary></indexterm>
+Inheritance diagram for medicines.views.MedDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedDeleteView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.views.MedDeleteView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedDeleteView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedDeleteView_1a1574db3802fb4ae6c8de9d33f9e8a3c8">model</link> = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedDeleteView_1adeb1c4738309380ab938836db6a4d68d">template_name</link> = &quot;medicines/medicine_delete.html&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Additional Inherited Members    </title>
+Public Member Functions inherited from <link linkend="_classmedicines_1_1owner_1_1OwnerDeleteView">medicines.owner.OwnerDeleteView</link>        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1owner_1_1OwnerDeleteView_1adccdfbc96ef006ef1681aa5c30e96944">get_queryset</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedDeleteView_1a1574db3802fb4ae6c8de9d33f9e8a3c8"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>medicines.views.MedDeleteView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedDeleteView</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>medicines.views.MedDeleteView.model = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedDeleteView_1adeb1c4738309380ab938836db6a4d68d"/><section>
+    <title>template_name</title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedDeleteView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedDeleteView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedDeleteView.template_name = &quot;medicines/medicine_delete.html&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2views_8py">views.py</link></section>
+</section>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcheckout_1_1apps_1_1CheckoutConfig" xml:lang="en-US">
+<title>checkout.apps.CheckoutConfig Class Reference</title>
+<indexterm><primary>checkout.apps.CheckoutConfig</primary></indexterm>
+Inheritance diagram for checkout.apps.CheckoutConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1apps_1_1CheckoutConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for checkout.apps.CheckoutConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1apps_1_1CheckoutConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classcheckout_1_1apps_1_1CheckoutConfig_1ac952a16a89929e5dd18d7f40e579e0c1">name</link> = &apos;checkout&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcheckout_1_1apps_1_1CheckoutConfig_1ac952a16a89929e5dd18d7f40e579e0c1"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>checkout.apps.CheckoutConfig</secondary></indexterm>
+<indexterm><primary>checkout.apps.CheckoutConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str checkout.apps.CheckoutConfig.name = &apos;checkout&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/<link linkend="_checkout_2apps_8py">apps.py</link></section>
+</section>

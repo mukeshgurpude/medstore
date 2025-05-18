@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1sitemaps_1_1AllAuthSitemap" kind="class" language="Python" prot="public">
+    <compoundname>accounts::sitemaps::AllAuthSitemap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">sitemaps.Sitemap</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a0b1d391735132523a7715ba34b12467c" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int accounts.sitemaps.AllAuthSitemap::priority</definition>
+        <argsstring></argsstring>
+        <name>priority</name>
+        <qualifiedname>accounts.sitemaps.AllAuthSitemap.priority</qualifiedname>
+        <initializer>=  .5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a7b8430aa8de629a026a323b151c7aeca" prot="public" static="yes" mutable="no">
+        <type>str</type>
+        <definition>str accounts.sitemaps.AllAuthSitemap::changeFreq</definition>
+        <argsstring></argsstring>
+        <name>changeFreq</name>
+        <qualifiedname>accounts.sitemaps.AllAuthSitemap.changeFreq</qualifiedname>
+        <initializer>=  &apos;monthly&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" bodystart="27" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1af9bb58614780826c03188c8b0202c8b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accounts.sitemaps.AllAuthSitemap.items</definition>
+        <argsstring>(self)</argsstring>
+        <name>items</name>
+        <qualifiedname>accounts.sitemaps.AllAuthSitemap.items</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" line="29" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" bodystart="29" bodyend="31"/>
+        <referencedby refid="classcart_1_1models_1_1Order_1ad8f1226c6c88883e5951e8f460e519a9" compoundref="cart_2models_8py" startline="51" endline="55">cart.models.Order.as_json</referencedby>
+        <referencedby refid="classcart_1_1models_1_1Order_1a3e3e284681b6f87aa2a69b7b627b1ac0" compoundref="cart_2models_8py" startline="56" endline="61">cart.models.Order.order_now</referencedby>
+        <referencedby refid="classcart_1_1models_1_1Order_1ab1012bf94977246d12aff3ee6eb3b0d8" compoundref="cart_2models_8py" startline="45" endline="49">cart.models.Order.order_total</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a73f3f797c277f7058c5d90ff8ec03766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accounts.sitemaps.AllAuthSitemap.location</definition>
+        <argsstring>(self, item)</argsstring>
+        <name>location</name>
+        <qualifiedname>accounts.sitemaps.AllAuthSitemap.location</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>item</type>
+          <defname>item</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" line="32" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" bodystart="32" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Sitemap urls for allauth account urls
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>accounts.sitemaps.AllAuthSitemap</label>
+        <link refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sitemaps.Sitemap</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.sitemaps.AllAuthSitemap</label>
+        <link refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+priority</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+changeFreq</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>int</label>
+      </node>
+      <node id="2">
+        <label>sitemaps.Sitemap</label>
+      </node>
+      <node id="4">
+        <label>str</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" line="22" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/sitemaps.py" bodystart="22" bodyend="34"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a7b8430aa8de629a026a323b151c7aeca" prot="public" virt="non-virtual"><scope>accounts::sitemaps::AllAuthSitemap</scope><name>changeFreq</name></member>
+      <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1af9bb58614780826c03188c8b0202c8b2" prot="public" virt="non-virtual"><scope>accounts::sitemaps::AllAuthSitemap</scope><name>items</name></member>
+      <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a73f3f797c277f7058c5d90ff8ec03766" prot="public" virt="non-virtual"><scope>accounts::sitemaps::AllAuthSitemap</scope><name>location</name></member>
+      <member refid="classaccounts_1_1sitemaps_1_1AllAuthSitemap_1a0b1d391735132523a7715ba34b12467c" prot="public" virt="non-virtual"><scope>accounts::sitemaps::AllAuthSitemap</scope><name>priority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

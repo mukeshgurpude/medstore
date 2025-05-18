@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1tests_1_1test__order_1_1TestOrderView" xml:lang="en-US">
+<title>api.tests.test_order.TestOrderView Class Reference</title>
+<indexterm><primary>api.tests.test_order.TestOrderView</primary></indexterm>
+Inheritance diagram for api.tests.test_order.TestOrderView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__order_1_1TestOrderView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.tests.test_order.TestOrderView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1tests_1_1test__order_1_1TestOrderView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>None <link linkend="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8">setUp</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914">test_get</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164">credentials</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1a40e6797d39b2c01227459b0b5b5aae40">fixtures</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1af37946279b7cbc6bf766d18dc927b9c8"/><section>
+    <title>setUp()</title>
+<indexterm><primary>setUp</primary><secondary>api.tests.test_order.TestOrderView</secondary></indexterm>
+<indexterm><primary>api.tests.test_order.TestOrderView</primary><secondary>setUp</secondary></indexterm>
+<para><computeroutput> None api.tests.test_order.TestOrderView.setUp ( self)</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1a77671b72151eaf446ee46360b0060914"/><section>
+    <title>test_get()</title>
+<indexterm><primary>test_get</primary><secondary>api.tests.test_order.TestOrderView</secondary></indexterm>
+<indexterm><primary>api.tests.test_order.TestOrderView</primary><secondary>test_get</secondary></indexterm>
+<para><computeroutput>api.tests.test_order.TestOrderView.test_get ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1ad578334be94d381827d1fdf68ef81164"/><section>
+    <title>credentials</title>
+<indexterm><primary>credentials</primary><secondary>api.tests.test_order.TestOrderView</secondary></indexterm>
+<indexterm><primary>api.tests.test_order.TestOrderView</primary><secondary>credentials</secondary></indexterm>
+<para><computeroutput>api.tests.test_order.TestOrderView.credentials</computeroutput></para></section>
+<anchor xml:id="_classapi_1_1tests_1_1test__order_1_1TestOrderView_1a40e6797d39b2c01227459b0b5b5aae40"/><section>
+    <title>fixtures</title>
+<indexterm><primary>fixtures</primary><secondary>api.tests.test_order.TestOrderView</secondary></indexterm>
+<indexterm><primary>api.tests.test_order.TestOrderView</primary><secondary>fixtures</secondary></indexterm>
+<para><computeroutput>list api.tests.test_order.TestOrderView.fixtures<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;[<emphasis role="stringliteral">&quot;api/fixtures/&quot;</emphasis>&#32;+&#32;file&#32;+&#32;<emphasis role="stringliteral">&quot;.json&quot;</emphasis>&#32;<emphasis role="keywordflow">for</emphasis>&#32;file&#32;<emphasis role="keywordflow">in</emphasis>&#32;{<emphasis role="stringliteral">&quot;user&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;ordered_orders&quot;</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="stringliteral">&quot;permissions&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;med&quot;</emphasis>,&#32;<emphasis role="stringliteral">&quot;medCategory&quot;</emphasis>}]
+</programlisting></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<link linkend="_test__order_8py">test_order.py</link></section>
+</section>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1owner_1_1OwnerDetailView" kind="class" language="Python" prot="public">
+    <compoundname>medicines::owner::OwnerDetailView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">generic.DetailView</basecompoundref>
+    <derivedcompoundref refid="classmedicines_1_1views_1_1MedDetailView" prot="public" virt="non-virtual">medicines.views.MedDetailView</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>generic::DetailView</label>
+      </node>
+      <node id="1">
+        <label>medicines.owner.OwnerDetailView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerDetailView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>medicines.views.MedDetailView</label>
+        <link refid="classmedicines_1_1views_1_1MedDetailView"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>generic::DetailView</label>
+      </node>
+      <node id="1">
+        <label>medicines.owner.OwnerDetailView</label>
+        <link refid="classmedicines_1_1owner_1_1OwnerDetailView"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/owner.py" bodystart="18" bodyend="21"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README" xml:lang="en-US">
+<title>Medstore</title>
+<indexterm><primary>Medstore</primary></indexterm>
+
+<para><link xlink:href="https://gitpod.io/#https://github.com/mukeshgurpude/medstore"></link>  <link xlink:href="https://www.codefactor.io/repository/github/mukeshgurpude/medstore"></link>  </para>
+
+<para>Medstore is a Medical store alike website, built as the submission for the Minor project in the college.</para>
+<section xml:id="_md__2tmp_2github__repos__arch__doc__gen_2mukeshgurpude_2medstore_2README_1autotoc_md0">
+<title><title>How to run Locally</title></title>
+
+<para><itemizedlist>
+<listitem>
+<para>Clone this repository <literallayout><computeroutput>git&#32;clone&#32;https://github.com/mukeshgurpude/medstore.git
+</computeroutput></literallayout></para>
+</listitem><listitem>
+<para>Alternatively you can <link xlink:href="https://github.com/mukeshgurpude/medstore/archive/master.zip">download</link> this repository as <computeroutput>zip</computeroutput>, and extract it.</para>
+</listitem><listitem>
+<para>Switch to the project directory and create a superuser <literallayout><computeroutput>cd&#32;medstore
+python3&#32;manage.py&#32;createsuperuser
+</computeroutput></literallayout>  <emphasis role="bold">Note</emphasis>: Depending on the system, python3 above should be replaced by <computeroutput>python</computeroutput> or <computeroutput>py</computeroutput>(in windows) </para>
+</listitem><listitem>
+<para>Initialize database <literallayout><computeroutput>python3&#32;manage.py&#32;makemigrations
+python3&#32;manage.py&#32;migrate
+</computeroutput></literallayout></para>
+</listitem><listitem>
+<para>Run the server <literallayout><computeroutput>python3&#32;manage.py&#32;runserver
+</computeroutput></literallayout> This will start a local server on <computeroutput>port 8000</computeroutput>.</para>
+</listitem><listitem>
+<para>Open <link xlink:href="http://localhost:8000">http://localhost:8000</link> or <link xlink:href="http://127.0.0.1:8000">http://127.0.0.1:8000</link>, in the browser to view the website</para>
+</listitem></itemizedlist>
+</para>
+
+<para> </para>
+</section>
+</section>

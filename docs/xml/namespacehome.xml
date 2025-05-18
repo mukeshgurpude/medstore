@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacehome" kind="namespace" language="Python">
+    <compoundname>home</compoundname>
+    <innernamespace refid="namespacehome_1_1apps">home::apps</innernamespace>
+    <innernamespace refid="namespacehome_1_1forms">home::forms</innernamespace>
+    <innernamespace refid="namespacehome_1_1tests">home::tests</innernamespace>
+    <innernamespace refid="namespacehome_1_1urls">home::urls</innernamespace>
+    <innernamespace refid="namespacehome_1_1views">home::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/apps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

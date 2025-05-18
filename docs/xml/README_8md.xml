@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="README_8md" kind="file" language="Markdown">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">Medstore</highlight></codeline>
+<codeline><highlight class="normal">===</highlight></codeline>
+<codeline><highlight class="normal">[![Gitpod<sp/>Ready-to-Code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/mukeshgurpude/medstore)</highlight></codeline>
+<codeline><highlight class="normal">![W3C<sp/>Validation](https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Fmedstore.pythonanywhere.com)</highlight></codeline>
+<codeline><highlight class="normal">[![CodeFactor](https://www.codefactor.io/repository/github/mukeshgurpude/medstore/badge)](https://www.codefactor.io/repository/github/mukeshgurpude/medstore)</highlight></codeline>
+<codeline><highlight class="normal">![GitHub](https://img.shields.io/github/license/mukeshgurpude/medstore?style=flat-square)</highlight></codeline>
+<codeline><highlight class="normal">![code<sp/>quality](https://img.shields.io/scrutinizer/quality/g/mukeshgurpude/medstore?style=flat-square)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Medstore<sp/>is<sp/>a<sp/>Medical<sp/>store<sp/>alike<sp/>website,<sp/>built<sp/>as<sp/>the<sp/>submission<sp/>for<sp/>the<sp/>Minor<sp/>project<sp/>in<sp/>the<sp/>college.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">##<sp/>How<sp/>to<sp/>run<sp/>Locally</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Clone<sp/>this<sp/>repository</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```bash</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>git<sp/>clone<sp/>https://github.com/mukeshgurpude/medstore.git</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Alternatively<sp/>you<sp/>can<sp/>[download](https://github.com/mukeshgurpude/medstore/archive/master.zip)<sp/>this<sp/>repository<sp/>as<sp/>`zip`,<sp/>and<sp/>extract<sp/>it.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Switch<sp/>to<sp/>the<sp/>project<sp/>directory<sp/>and<sp/>create<sp/>a<sp/>&lt;span<sp/>title=&quot;To<sp/>access<sp/>admin<sp/>panel&quot;&gt;superuser&lt;/span&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```bash</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>cd<sp/>medstore</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>python3<sp/>manage.py<sp/>createsuperuser</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;div<sp/>style=&quot;border:<sp/>3px<sp/>ridge<sp/>#f44;<sp/>padding:<sp/>2px<sp/>5px;&quot;&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;strong&gt;Note&lt;/strong&gt;:<sp/>Depending<sp/>on<sp/>the<sp/>system,<sp/>python3<sp/>above<sp/>should<sp/>be<sp/>replaced<sp/>by<sp/>&lt;code&gt;python&lt;/code&gt;<sp/>or<sp/>&lt;code&gt;py&lt;/code&gt;(in<sp/>windows)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/div&gt;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Initialize<sp/>database</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```bash</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>python3<sp/>manage.py<sp/>makemigrations</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>python3<sp/>manage.py<sp/>migrate</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Run<sp/>the<sp/>server</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>```bash</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>python3<sp/>manage.py<sp/>runserver</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>```</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>This<sp/>will<sp/>start<sp/>a<sp/>local<sp/>server<sp/>on<sp/>`port<sp/>8000`.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Open<sp/>http://localhost:8000<sp/>or<sp/>http://127.0.0.1:8000,<sp/>in<sp/>the<sp/>browser<sp/>to<sp/>view<sp/>the<sp/>website</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcart_1_1tests_1_1AfterTestPayment" xml:lang="en-US">
+<title>cart.tests.AfterTestPayment Class Reference</title>
+<indexterm><primary>cart.tests.AfterTestPayment</primary></indexterm>
+Inheritance diagram for cart.tests.AfterTestPayment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for cart.tests.AfterTestPayment:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf">test_create_test_user</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144">test_create_med</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70">test_create_cart_item</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953">test_create_order</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a">test_after_pay</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8">test_user</link> = None</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1ad6a713ed64fdb68d2a22d4d9cb314684">medcat</link> = None</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d">med</link> = None</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce">cart_item</link> = None</para>
+</listitem>
+            <listitem><para><link linkend="_classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136">order</link> = None</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a31b58504bc403b3b4f9887333a6e9b1a"/><section>
+    <title>test_after_pay()</title>
+<indexterm><primary>test_after_pay</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>test_after_pay</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.test_after_pay ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_a31b58504bc403b3b4f9887333a6e9b1a_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a7a9dbb2429ed932276233488c5476d70"/><section>
+    <title>test_create_cart_item()</title>
+<indexterm><primary>test_create_cart_item</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>test_create_cart_item</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.test_create_cart_item ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_a7a9dbb2429ed932276233488c5476d70_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_a7a9dbb2429ed932276233488c5476d70_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1aa453d1fd31d125709df4d1af1b989144"/><section>
+    <title>test_create_med()</title>
+<indexterm><primary>test_create_med</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>test_create_med</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.test_create_med ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_aa453d1fd31d125709df4d1af1b989144_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_aa453d1fd31d125709df4d1af1b989144_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a209b8e92ec9c85cb8b6a18610c8f4953"/><section>
+    <title>test_create_order()</title>
+<indexterm><primary>test_create_order</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>test_create_order</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.test_create_order ( self)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_a209b8e92ec9c85cb8b6a18610c8f4953_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_a209b8e92ec9c85cb8b6a18610c8f4953_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a3c02dd370860dc3df34b951b065ac4cf"/><section>
+    <title>test_create_test_user()</title>
+<indexterm><primary>test_create_test_user</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>test_create_test_user</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.test_create_test_user ( self)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcart_1_1tests_1_1AfterTestPayment_a3c02dd370860dc3df34b951b065ac4cf_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a3fa253616483fba346bd299fd03824ce"/><section>
+    <title>cart_item</title>
+<indexterm><primary>cart_item</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>cart_item</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.cart_item = None<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a84ab8ee894bab224694624546db2392d"/><section>
+    <title>med</title>
+<indexterm><primary>med</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>med</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.med = None<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1ad6a713ed64fdb68d2a22d4d9cb314684"/><section>
+    <title>medcat</title>
+<indexterm><primary>medcat</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>medcat</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.medcat = None<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1a21c76399efd093201f03fcf085a1d136"/><section>
+    <title>order</title>
+<indexterm><primary>order</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>order</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.order = None<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcart_1_1tests_1_1AfterTestPayment_1aa4cc4dcdf7a2cd53de1c2ca7a209b7b8"/><section>
+    <title>test_user</title>
+<indexterm><primary>test_user</primary><secondary>cart.tests.AfterTestPayment</secondary></indexterm>
+<indexterm><primary>cart.tests.AfterTestPayment</primary><secondary>test_user</secondary></indexterm>
+<para><computeroutput>cart.tests.AfterTestPayment.test_user = None<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/<link linkend="_cart_2tests_8py">tests.py</link></section>
+</section>

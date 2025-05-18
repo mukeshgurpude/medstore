@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1views_1_1MedUpdateView" xml:lang="en-US">
+<title>medicines.views.MedUpdateView Class Reference</title>
+<indexterm><primary>medicines.views.MedUpdateView</primary></indexterm>
+Inheritance diagram for medicines.views.MedUpdateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedUpdateView__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.views.MedUpdateView:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1views_1_1MedUpdateView__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedUpdateView_1a4c4733619745ad82d76f8e31aff0fea2">get</link> (self, request, pk)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b">post</link> (self, request, pk)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedUpdateView_1a2ddd39e32ff5ec4584ea295760e17035">template_name</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedUpdateView_1ad1def37502e73eae23f8291ac973bd05">success_url</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1views_1_1MedUpdateView_1a60f09d205da52f66f92fdeda420602e4">model</link> = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link></para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedUpdateView_1a3821d75623d3f197d6a4ea757b2b7fe0">success_url</link> = &quot;medicines:all&quot;</para>
+</listitem>
+            <listitem><para>str <link linkend="_classmedicines_1_1views_1_1MedUpdateView_1a924f5ed69fb71cd6485a1a0e8d1a9bc0">template_name</link> = &quot;medicines/medicine_add.html&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1a4c4733619745ad82d76f8e31aff0fea2"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>medicines.views.MedUpdateView.get ( self,  request,  pk)</computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1ad209c17e86c5ef2d7e8d6c2852c8224b"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>medicines.views.MedUpdateView.post ( self,  request,  pk)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1a60f09d205da52f66f92fdeda420602e4"/><section>
+    <title>model</title>
+<indexterm><primary>model</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>model</secondary></indexterm>
+<para><computeroutput>medicines.views.MedUpdateView.model = <link linkend="_classmedicines_1_1models_1_1Medicine">Medicine</link><computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1a3821d75623d3f197d6a4ea757b2b7fe0"/><section>
+    <title>success_url<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>success_url</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>success_url</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedUpdateView.success_url = &quot;medicines:all&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1ad1def37502e73eae23f8291ac973bd05"/><section>
+    <title>success_url<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>success_url</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>success_url</secondary></indexterm>
+<para><computeroutput>medicines.views.MedUpdateView.success_url</computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1a924f5ed69fb71cd6485a1a0e8d1a9bc0"/><section>
+    <title>template_name<computeroutput>[1/2]</computeroutput></title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>str medicines.views.MedUpdateView.template_name = &quot;medicines/medicine_add.html&quot;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1views_1_1MedUpdateView_1a2ddd39e32ff5ec4584ea295760e17035"/><section>
+    <title>template_name<computeroutput>[2/2]</computeroutput></title>
+<indexterm><primary>template_name</primary><secondary>medicines.views.MedUpdateView</secondary></indexterm>
+<indexterm><primary>medicines.views.MedUpdateView</primary><secondary>template_name</secondary></indexterm>
+<para><computeroutput>medicines.views.MedUpdateView.template_name</computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2views_8py">views.py</link></section>
+</section>

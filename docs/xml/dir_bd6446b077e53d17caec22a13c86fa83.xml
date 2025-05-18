@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_bd6446b077e53d17caec22a13c86fa83" kind="dir">
+    <compoundname>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore</compoundname>
+    <innerdir refid="dir_3fcb0e743ae70258ff44ba6f4b7d40d1">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts</innerdir>
+    <innerdir refid="dir_c68c3ed25597d67eec1c9d2f7a8ef18c">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api</innerdir>
+    <innerdir refid="dir_11d0df619bf1ec4bd23477762e08cd7a">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart</innerdir>
+    <innerdir refid="dir_6333267df1e60e6968ed7aff20cdb953">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout</innerdir>
+    <innerdir refid="dir_863fd68b4e796c2d4437b64ec9980fca">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home</innerdir>
+    <innerdir refid="dir_617f417d504f020f37da18872da03f47">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical</innerdir>
+    <innerdir refid="dir_51904e826723368a6609343bf7490a30">/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines</innerdir>
+    <innerfile refid="manage_8py">manage.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/"/>
+  </compounddef>
+</doxygen>

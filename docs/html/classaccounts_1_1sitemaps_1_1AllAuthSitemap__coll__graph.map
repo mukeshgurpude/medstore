@@ -1,0 +1,9 @@
+<map id="accounts.sitemaps.AllAuthSitemap" name="accounts.sitemaps.AllAuthSitemap">
+<area shape="rect" id="Node000001" title=" " alt="" coords="83,133,270,233"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,137,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,80,143,131,138,135,100,83"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="161,5,192,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="179,71,179,117,174,117,174,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="255,5,285,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="262,72,243,111,235,122,231,119,238,108,257,70"/>
+</map>

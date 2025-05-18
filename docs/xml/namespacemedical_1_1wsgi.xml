@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacemedical_1_1wsgi" kind="namespace" language="Python">
+    <compoundname>medical::wsgi</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemedical_1_1wsgi_1adf16fbc1ee0e0602d785f65462ef8a4e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>medical::wsgi.application</definition>
+        <argsstring></argsstring>
+        <name>application</name>
+        <qualifiedname>medical.wsgi.application</qualifiedname>
+        <initializer>=  StaticFilesHandler(get_wsgi_application())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/wsgi.py" line="18" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/wsgi.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>WSGI config for medical project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/wsgi.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

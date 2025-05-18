@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_6333267df1e60e6968ed7aff20cdb953" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout Directory Reference</primary></indexterm>
+Directory dependency graph for checkout:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_6333267df1e60e6968ed7aff20cdb953_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_ed0955f5f3fec5b5080cfad2a98b2261">migrations</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_checkout_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_2apps_8py">apps.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_2forms_8py">forms.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_2models_8py">models.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_2tests_8py">tests.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_2urls_8py">urls.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_2views_8py">views.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

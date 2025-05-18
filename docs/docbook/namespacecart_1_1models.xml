@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecart_1_1models" xml:lang="en-US">
+<title>cart.models Namespace Reference</title>
+<indexterm><primary>cart.models</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classcart_1_1models_1_1CartItem">CartItem</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classcart_1_1models_1_1Order">Order</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecart_1_1models_1a77b653b18b6a1b966a6f96cd4ac3f5ea">user</link> = get_user_model()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecart_1_1models_1a77b653b18b6a1b966a6f96cd4ac3f5ea"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>cart.models</secondary></indexterm>
+<indexterm><primary>cart.models</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>cart.models.user = get_user_model()</computeroutput></para></section>
+</section>
+</section>
