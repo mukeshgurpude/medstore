@@ -42,3 +42,9 @@ def check_response(path="/", login_required=True, method="GET", post_data=None) 
             return function(*args, **kwargs)
         return run
     return wrapper
+
+
+def decorator(function: func):
+    def run(*args, **kwargs):
+        return function(*args)
+    return run
