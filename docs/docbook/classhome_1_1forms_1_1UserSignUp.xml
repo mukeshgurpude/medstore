@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classhome_1_1forms_1_1UserSignUp" xml:lang="en-US">
+<title>home.forms.UserSignUp Class Reference</title>
+<indexterm><primary>home.forms.UserSignUp</primary></indexterm>
+Inheritance diagram for home.forms.UserSignUp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1forms_1_1UserSignUp__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for home.forms.UserSignUp:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classhome_1_1forms_1_1UserSignUp__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classhome_1_1forms_1_1UserSignUp_1ad766acfc0999f97e2057a2cb956bd523">signup</link> (self, user)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classhome_1_1forms_1_1UserSignUp_1a3bfac324ff8f6721bff0c793917322cf">first_name</link> = forms.CharField(max_length=10)</para>
+</listitem>
+            <listitem><para><link linkend="_classhome_1_1forms_1_1UserSignUp_1a379d9ff4f8036636b8937cd3b8ba1e11">last_name</link> = forms.CharField(max_length=15)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classhome_1_1forms_1_1UserSignUp_1ad766acfc0999f97e2057a2cb956bd523"/><section>
+    <title>signup()</title>
+<indexterm><primary>signup</primary><secondary>home.forms.UserSignUp</secondary></indexterm>
+<indexterm><primary>home.forms.UserSignUp</primary><secondary>signup</secondary></indexterm>
+<para><computeroutput>home.forms.UserSignUp.signup ( self,  user)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classhome_1_1forms_1_1UserSignUp_1a3bfac324ff8f6721bff0c793917322cf"/><section>
+    <title>first_name</title>
+<indexterm><primary>first_name</primary><secondary>home.forms.UserSignUp</secondary></indexterm>
+<indexterm><primary>home.forms.UserSignUp</primary><secondary>first_name</secondary></indexterm>
+<para><computeroutput>home.forms.UserSignUp.first_name = forms.CharField(max_length=10)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classhome_1_1forms_1_1UserSignUp_1a379d9ff4f8036636b8937cd3b8ba1e11"/><section>
+    <title>last_name</title>
+<indexterm><primary>last_name</primary><secondary>home.forms.UserSignUp</secondary></indexterm>
+<indexterm><primary>home.forms.UserSignUp</primary><secondary>last_name</secondary></indexterm>
+<para><computeroutput>home.forms.UserSignUp.last_name = forms.CharField(max_length=15)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/<link linkend="_home_2forms_8py">forms.py</link></section>
+</section>

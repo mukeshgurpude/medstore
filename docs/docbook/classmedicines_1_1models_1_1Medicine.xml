@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1models_1_1Medicine" xml:lang="en-US">
+<title>medicines.models.Medicine Class Reference</title>
+<indexterm><primary>medicines.models.Medicine</primary></indexterm>
+Inheritance diagram for medicines.models.Medicine:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1Medicine__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.models.Medicine:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1Medicine__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1models_1_1Medicine_1_1Meta">Meta</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a">__str__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919">save</link> (self, *args, **kwargs)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a909bcb7629b48b23ff0cd3801f3e92cb">as_json</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a7282c3308edb3b7430777be52a60c888">id</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a8460c508d9e57885f16fe6a3e8b54787">objects</link> = models.Manager()</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4">name</link> = models.CharField(max_length=20)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1aef9a3d5ca2d752fc9180436d4c93f0c8">category</link> = models.ForeignKey(<link linkend="_classmedicines_1_1models_1_1MedCat">MedCat</link>, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a71d924c863cd6aac41338c186c87533d">price</link> = models.DecimalField(decimal_places=2, max_digits=5)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a93503a3fcbb8337f341f4f8b5ce1bda6">quantity</link> = models.PositiveBigIntegerField()</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1ab72b65c16c665106cb4062bce97faf1f">thumbnail</link> = models.BinaryField(null=True, editable=True, blank=True)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1a7ff942bbfeedebcc5a6948f5c73716f2">thumb_content_type</link></para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1aae2d2df2bddcf3f785d6e3dd12498a3e">description</link> = models.TextField()</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1ae7cb7a5159ae2cf633f7067bc433dae2">owner</link> = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classmedicines_1_1models_1_1Medicine_1afbb5fbd3a7b0fc89159c717bf6a64089">slug</link> = models.SlugField(unique=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a19ee19802fca703b74d6942313dd192a"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.__str__ ( self)</computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a909bcb7629b48b23ff0cd3801f3e92cb"/><section>
+    <title>as_json()</title>
+<indexterm><primary>as_json</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>as_json</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.as_json ( self)</computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a6823ec0a9686dd02f46c67a93df23919"/><section>
+    <title>save()</title>
+<indexterm><primary>save</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>save</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.save ( self, * args, ** kwargs)</computeroutput></para>Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1Medicine_a6823ec0a9686dd02f46c67a93df23919_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1models_1_1Medicine_a6823ec0a9686dd02f46c67a93df23919_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1aef9a3d5ca2d752fc9180436d4c93f0c8"/><section>
+    <title>category</title>
+<indexterm><primary>category</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>category</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.category = models.ForeignKey(<link linkend="_classmedicines_1_1models_1_1MedCat">MedCat</link>, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1aae2d2df2bddcf3f785d6e3dd12498a3e"/><section>
+    <title>description</title>
+<indexterm><primary>description</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>description</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.description = models.TextField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a7282c3308edb3b7430777be52a60c888"/><section>
+    <title>id</title>
+<indexterm><primary>id</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>id</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.id</computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1aa229e889e9b66a59c1bfeda4b86a7dc4"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.name = models.CharField(max_length=20)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a8460c508d9e57885f16fe6a3e8b54787"/><section>
+    <title>objects</title>
+<indexterm><primary>objects</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>objects</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.objects = models.Manager()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1ae7cb7a5159ae2cf633f7067bc433dae2"/><section>
+    <title>owner</title>
+<indexterm><primary>owner</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>owner</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.owner = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a71d924c863cd6aac41338c186c87533d"/><section>
+    <title>price</title>
+<indexterm><primary>price</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>price</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.price = models.DecimalField(decimal_places=2, max_digits=5)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a93503a3fcbb8337f341f4f8b5ce1bda6"/><section>
+    <title>quantity</title>
+<indexterm><primary>quantity</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>quantity</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.quantity = models.PositiveBigIntegerField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1afbb5fbd3a7b0fc89159c717bf6a64089"/><section>
+    <title>slug</title>
+<indexterm><primary>slug</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>slug</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.slug = models.SlugField(unique=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1a7ff942bbfeedebcc5a6948f5c73716f2"/><section>
+    <title>thumb_content_type</title>
+<indexterm><primary>thumb_content_type</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>thumb_content_type</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.thumb_content_type<computeroutput>[static]</computeroutput></computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">=&#32;&#32;models.CharField(max_length=256,&#32;default=<emphasis role="stringliteral">&apos;image/png&apos;</emphasis>,&#32;null=<emphasis role="keyword">True</emphasis>,
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;blank=<emphasis role="keyword">True</emphasis>,&#32;help_text=<emphasis role="stringliteral">&quot;MIMEType&#32;for&#32;thumbnail&quot;</emphasis>)
+</programlisting></section>
+<anchor xml:id="_classmedicines_1_1models_1_1Medicine_1ab72b65c16c665106cb4062bce97faf1f"/><section>
+    <title>thumbnail</title>
+<indexterm><primary>thumbnail</primary><secondary>medicines.models.Medicine</secondary></indexterm>
+<indexterm><primary>medicines.models.Medicine</primary><secondary>thumbnail</secondary></indexterm>
+<para><computeroutput>medicines.models.Medicine.thumbnail = models.BinaryField(null=True, editable=True, blank=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2models_8py">models.py</link></section>
+</section>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="home_2views_8py" kind="file" language="Python">
+    <compoundname>views.py</compoundname>
+    <innerclass refid="classhome_1_1views_1_1HomeView" prot="public">home::views::HomeView</innerclass>
+    <innernamespace refid="namespacehome">home</innernamespace>
+    <innernamespace refid="namespacehome_1_1views">home::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacehome_1_1views" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.shortcuts<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>render</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.views<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>View</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.conf<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>settings</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Create<sp/>your<sp/>views<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="classhome_1_1views_1_1HomeView" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classhome_1_1views_1_1HomeView" kindref="compound">HomeView</ref>(View):</highlight></codeline>
+<codeline lineno="8" refid="classhome_1_1views_1_1HomeView_1a5009c649b4a4eeb1cc7fac76681f2442" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classhome_1_1views_1_1HomeView_1a5009c649b4a4eeb1cc7fac76681f2442" kindref="member">__init__</ref>(self,<sp/>*args,<sp/>**kwargs):</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>super().<ref refid="classhome_1_1views_1_1HomeView_1a5009c649b4a4eeb1cc7fac76681f2442" kindref="member">__init__</ref>(*args,<sp/>**kwargs)</highlight></codeline>
+<codeline lineno="10" refid="classhome_1_1views_1_1HomeView_1ad6fbf4aba9e28c5135d013b222fcafa5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classhome_1_1views_1_1HomeView_1ad6fbf4aba9e28c5135d013b222fcafa5" kindref="member">dev_env</ref><sp/>=<sp/>settings.DEBUG</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classhome_1_1views_1_1HomeView_1a28ae2fab7a4f8ecbc57904f43600dc48" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classhome_1_1views_1_1HomeView_1a28ae2fab7a4f8ecbc57904f43600dc48" kindref="member">get</ref>(self,<sp/>request,<sp/>):</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ctx<sp/>=<sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Dev_Env&quot;</highlight><highlight class="normal">:<sp/>self.<ref refid="classhome_1_1views_1_1HomeView_1ad6fbf4aba9e28c5135d013b222fcafa5" kindref="member">dev_env</ref>,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>render(request,<sp/></highlight><highlight class="stringliteral">&quot;home/main.html&quot;</highlight><highlight class="normal">,<sp/>ctx)</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/home/views.py"/>
+  </compounddef>
+</doxygen>

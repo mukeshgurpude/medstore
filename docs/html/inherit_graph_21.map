@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,247,85,273"/>
+<area shape="rect" id="Node000001" href="$classapi_1_1tests_1_1test__auth_1_1ProfileTestCase.html" title=" " alt="" coords="141,5,329,45"/>
+<area shape="poly" id="edge107_Node000000_Node000001" title=" " alt="" coords="48,233,57,194,73,146,97,98,132,55,148,43,151,48,135,59,102,100,78,148,62,195,53,234"/>
+<area shape="rect" id="Node000002" href="$classapi_1_1tests_1_1test__auth_1_1TestLoginLogout.html" title=" " alt="" coords="148,69,321,109"/>
+<area shape="poly" id="edge108_Node000000_Node000002" title=" " alt="" coords="54,233,83,176,105,146,132,119,151,107,154,112,135,123,109,149,87,179,59,236"/>
+<area shape="rect" id="Node000003" href="$classapi_1_1tests_1_1test__auth_1_1TestSellerViews.html" title=" " alt="" coords="148,133,321,173"/>
+<area shape="poly" id="edge109_Node000000_Node000003" title=" " alt="" coords="66,235,96,208,132,183,158,171,160,176,135,188,99,212,70,239"/>
+<area shape="rect" id="Node000004" href="$classapi_1_1tests_1_1test__cart_1_1TestCart.html" title=" " alt="" coords="137,198,333,223"/>
+<area shape="poly" id="edge110_Node000000_Node000004" title=" " alt="" coords="98,242,133,232,178,221,179,226,134,237,99,247"/>
+<area shape="rect" id="Node000005" href="$classapi_1_1tests_1_1test__checkout_1_1Test.html" title=" " alt="" coords="133,247,336,273"/>
+<area shape="poly" id="edge111_Node000000_Node000005" title=" " alt="" coords="99,257,133,257,133,263,99,263"/>
+<area shape="rect" id="Node000006" href="$classapi_1_1tests_1_1test__checkout_1_1TestBillingAddress.html" title=" " alt="" coords="147,297,323,337"/>
+<area shape="poly" id="edge112_Node000000_Node000006" title=" " alt="" coords="99,273,169,295,167,300,97,278"/>
+<area shape="rect" id="Node000007" href="$classapi_1_1tests_1_1test__medicine_1_1TestMedViews.html" title=" " alt="" coords="145,361,324,401"/>
+<area shape="poly" id="edge113_Node000000_Node000007" title=" " alt="" coords="66,282,96,316,135,347,158,359,156,364,132,352,92,319,62,285"/>
+<area shape="rect" id="Node000008" href="$classapi_1_1tests_1_1test__order_1_1TestOrderView.html" title=" " alt="" coords="146,425,323,465"/>
+<area shape="poly" id="edge114_Node000000_Node000008" title=" " alt="" coords="57,285,85,348,107,382,135,411,153,423,151,428,132,415,103,386,80,351,52,287"/>
+<area shape="rect" id="Node000009" href="$classcart_1_1tests_1_1AfterTestPayment.html" title=" " alt="" coords="134,490,335,515"/>
+<area shape="poly" id="edge115_Node000000_Node000009" title=" " alt="" coords="52,286,60,328,75,379,99,431,116,455,135,475,154,488,151,492,132,479,111,458,95,434,70,381,55,329,47,287"/>
+</map>

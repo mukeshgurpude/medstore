@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classmedicines_1_1admin_1_1Setup" kind="class" language="Python" prot="public">
+    <compoundname>medicines::admin::Setup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">admin.ModelAdmin</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmedicines_1_1admin_1_1Setup_1ade03dd53a01f231149c28af3e9be6919" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.admin.Setup::list_display</definition>
+        <argsstring></argsstring>
+        <name>list_display</name>
+        <qualifiedname>medicines.admin.Setup.list_display</qualifiedname>
+        <initializer>=  [&quot;name&quot;, &quot;price&quot;, &quot;category&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" line="7" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1admin_1_1Setup_1ae52c2f547d8fad4966db8d72df1eb6b8" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.admin.Setup::fieldsets</definition>
+        <argsstring></argsstring>
+        <name>fieldsets</name>
+        <qualifiedname>medicines.admin.Setup.fieldsets</qualifiedname>
+        <initializer>=  [
+        (&quot;Basic&quot;, {&quot;fields&quot;: [&quot;name&quot;, &quot;price&quot;, &quot;category&quot;, ]}),
+        (&quot;Quantity&quot;, {&quot;fields&quot;: [&quot;quantity&quot;, &quot;description&quot;, &quot;owner&quot;]}),
+        (&quot;View&quot;, {&quot;fields&quot;: [&quot;thumbnail&quot;, &quot;thumb_content_type&quot;]})
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1admin_1_1Setup_1a3a31d3a2719e8b3d759a655187ef80ac" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.admin.Setup::search_fields</definition>
+        <argsstring></argsstring>
+        <name>search_fields</name>
+        <qualifiedname>medicines.admin.Setup.search_fields</qualifiedname>
+        <initializer>=  [&quot;name&quot;, &quot;description&quot;, ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" line="13" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmedicines_1_1admin_1_1Setup_1adaed8a26ddc95f993bc2d70d8cfea904" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list medicines.admin.Setup::list_filter</definition>
+        <argsstring></argsstring>
+        <name>list_filter</name>
+        <qualifiedname>medicines.admin.Setup.list_filter</qualifiedname>
+        <initializer>=  [&quot;category&quot;, &quot;owner&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" line="14" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>admin::ModelAdmin</label>
+      </node>
+      <node id="1">
+        <label>medicines.admin.Setup</label>
+        <link refid="classmedicines_1_1admin_1_1Setup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>admin::ModelAdmin</label>
+      </node>
+      <node id="3">
+        <label>list</label>
+      </node>
+      <node id="1">
+        <label>medicines.admin.Setup</label>
+        <link refid="classmedicines_1_1admin_1_1Setup"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+fieldsets</edgelabel>
+          <edgelabel>+list_display</edgelabel>
+          <edgelabel>+list_filter</edgelabel>
+          <edgelabel>+search_fields</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" line="6" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/admin.py" bodystart="6" bodyend="19"/>
+    <listofallmembers>
+      <member refid="classmedicines_1_1admin_1_1Setup_1ae52c2f547d8fad4966db8d72df1eb6b8" prot="public" virt="non-virtual"><scope>medicines::admin::Setup</scope><name>fieldsets</name></member>
+      <member refid="classmedicines_1_1admin_1_1Setup_1ade03dd53a01f231149c28af3e9be6919" prot="public" virt="non-virtual"><scope>medicines::admin::Setup</scope><name>list_display</name></member>
+      <member refid="classmedicines_1_1admin_1_1Setup_1adaed8a26ddc95f993bc2d70d8cfea904" prot="public" virt="non-virtual"><scope>medicines::admin::Setup</scope><name>list_filter</name></member>
+      <member refid="classmedicines_1_1admin_1_1Setup_1a3a31d3a2719e8b3d759a655187ef80ac" prot="public" virt="non-virtual"><scope>medicines::admin::Setup</scope><name>search_fields</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

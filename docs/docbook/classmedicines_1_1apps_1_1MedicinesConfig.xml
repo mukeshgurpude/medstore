@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classmedicines_1_1apps_1_1MedicinesConfig" xml:lang="en-US">
+<title>medicines.apps.MedicinesConfig Class Reference</title>
+<indexterm><primary>medicines.apps.MedicinesConfig</primary></indexterm>
+Inheritance diagram for medicines.apps.MedicinesConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1apps_1_1MedicinesConfig__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for medicines.apps.MedicinesConfig:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classmedicines_1_1apps_1_1MedicinesConfig__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947">name</link> = &apos;medicines&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classmedicines_1_1apps_1_1MedicinesConfig_1a7e9f09450c8fb2b810a5cfc495bb4947"/><section>
+    <title>name</title>
+<indexterm><primary>name</primary><secondary>medicines.apps.MedicinesConfig</secondary></indexterm>
+<indexterm><primary>medicines.apps.MedicinesConfig</primary><secondary>name</secondary></indexterm>
+<para><computeroutput>str medicines.apps.MedicinesConfig.name = &apos;medicines&apos;<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/<link linkend="_medicines_2apps_8py">apps.py</link></section>
+</section>

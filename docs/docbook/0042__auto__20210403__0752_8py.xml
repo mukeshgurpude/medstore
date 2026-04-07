@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_0042__auto__20210403__0752_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0042_auto_20210403_0752.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medicines/migrations/0042_auto_20210403_0752.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classmedicines_1_1migrations_1_10042__auto__20210403__0752_1_1Migration">medicines.migrations.0042_auto_20210403_0752.Migration</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedicines">medicines</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedicines_1_1migrations">medicines.migrations</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedicines_1_1migrations_1_10042__auto__20210403__0752">medicines.migrations.0042_auto_20210403_0752</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

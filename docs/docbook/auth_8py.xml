@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_auth_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/auth.py</primary></indexterm>
+<simplesect>
+    <title>Classes    </title>
+        <itemizedlist>
+            <listitem><para>class <link linkend="_classapi_1_1views_1_1auth_1_1ProfileView">api.views.auth.ProfileView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1views_1_1auth_1_1SellerView">api.views.auth.SellerView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1views_1_1auth_1_1APILoginView">api.views.auth.APILoginView</link></para>
+</listitem>
+            <listitem><para>class <link linkend="_classapi_1_1views_1_1auth_1_1APISignupView">api.views.auth.APISignupView</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespaceapi">api</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views">api.views</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespaceapi_1_1views_1_1auth">api.views.auth</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>JsonResponse <link linkend="_namespaceapi_1_1views_1_1auth_1a6741b9225b9dd9ab0f33a3ab25f7c474">api.views.auth.get_current_user</link> (HttpRequest request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespaceapi_1_1views_1_1auth_1ac648108b8d1beb29493dd55f667759c4">api.views.auth.api_logout</link> (HttpRequest request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>dict <link linkend="_namespaceapi_1_1views_1_1auth_1ae95fb867bb929cc9c87278107e4bdc1a">api.views.auth.NotLoggedIn</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

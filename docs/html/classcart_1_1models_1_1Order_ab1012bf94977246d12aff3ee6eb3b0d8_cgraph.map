@@ -1,0 +1,11 @@
+<map id="cart.models.Order.order_total" name="cart.models.Order.order_total">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,99,181,139"/>
+<area shape="rect" id="Node000002" href="$classaccounts_1_1sitemaps_1_1AccountSiteMap.html#a62730699fc75f9fb9c2e2c5847a2243f" title=" " alt="" coords="267,5,467,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,96,178,75,228,55,255,46,257,52,230,60,180,80,134,101"/>
+<area shape="rect" id="Node000003" href="$classaccounts_1_1sitemaps_1_1AllAuthSitemap.html#af9bb58614780826c03188c8b0202c8b2" title=" " alt="" coords="269,69,464,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,107,255,99,256,104,182,112"/>
+<area shape="rect" id="Node000004" href="$classmedical_1_1sitemaps_1_1StaticSitemap.html#a2f154156ebe0d87a7e18bf952f28f501" title=" " alt="" coords="229,134,504,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,125,229,130,229,135,181,130"/>
+<area shape="rect" id="Node000005" href="$classmedicines_1_1sitemaps_1_1MedSiteMap.html#ac52d12ec32b8be8b3648e473426eda59" title=" " alt="" coords="261,184,472,224"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="143,136,230,168,264,178,263,183,229,173,141,141"/>
+</map>

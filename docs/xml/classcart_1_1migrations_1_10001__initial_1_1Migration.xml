@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcart_1_1migrations_1_10001__initial_1_1Migration" kind="class" language="Python" prot="public">
+    <compoundname>cart::migrations::0001_initial::Migration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">migrations.Migration</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classcart_1_1migrations_1_10001__initial_1_1Migration_1aed266a811d0182f270469bb45d6eca47" prot="public" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool cart.migrations.0001_initial.Migration::initial</definition>
+        <argsstring></argsstring>
+        <name>initial</name>
+        <qualifiedname>cart.migrations.0001_initial.Migration.initial</qualifiedname>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" line="10" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1migrations_1_10001__initial_1_1Migration_1a10d4e1ba20d409939c04c3ce0674b216" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list cart.migrations.0001_initial.Migration::dependencies</definition>
+        <argsstring></argsstring>
+        <name>dependencies</name>
+        <qualifiedname>cart.migrations.0001_initial.Migration.dependencies</qualifiedname>
+        <initializer>=  [
+        migrations.swappable_dependency(settings.AUTH_USER_MODEL),
+        (&apos;medicines&apos;, &apos;0002_auto_20200826_1711&apos;),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" line="12" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcart_1_1migrations_1_10001__initial_1_1Migration_1aecaa7428eb22558fe89064834723a499" prot="public" static="yes" mutable="no">
+        <type>list</type>
+        <definition>list cart.migrations.0001_initial.Migration::operations</definition>
+        <argsstring></argsstring>
+        <name>operations</name>
+        <qualifiedname>cart.migrations.0001_initial.Migration.operations</qualifiedname>
+        <initializer>=  [
+        migrations.CreateModel(
+            name=&apos;CartItem&apos;,
+            fields=[
+                (&apos;id&apos;, models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name=&apos;ID&apos;)),
+                (&apos;quantity&apos;, models.PositiveIntegerField(default=1)),
+                (&apos;created&apos;, models.DateTimeField(auto_now_add=True)),
+                (&apos;item&apos;, models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=&apos;medicines.medicine&apos;)),
+                (&apos;user&apos;, models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+            ],
+        ),
+        migrations.CreateModel(
+            name=&apos;Order&apos;,
+            fields=[
+                (&apos;id&apos;, models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name=&apos;ID&apos;)),
+                (&apos;ordered&apos;, models.BooleanField(default=False)),
+                (&apos;created&apos;, models.DateTimeField(auto_now_add=True)),
+                (&apos;orderID&apos;, models.CharField(max_length=16, null=True)),
+                (&apos;paymentID&apos;, models.CharField(max_length=50, null=True)),
+                (&apos;items&apos;, models.ManyToManyField(to=&apos;cart.CartItem&apos;)),
+                (&apos;user&apos;, models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+            ],
+        ),
+    ]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" line="17" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>cart.migrations.0001_initial.Migration</label>
+        <link refid="classcart_1_1migrations_1_10001__initial_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>bool</label>
+      </node>
+      <node id="1">
+        <label>cart.migrations.0001_initial.Migration</label>
+        <link refid="classcart_1_1migrations_1_10001__initial_1_1Migration"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>+initial</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>+dependencies</edgelabel>
+          <edgelabel>+operations</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>list</label>
+      </node>
+      <node id="2">
+        <label>migrations.Migration</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" line="8" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0001_initial.py" bodystart="8" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classcart_1_1migrations_1_10001__initial_1_1Migration_1a10d4e1ba20d409939c04c3ce0674b216" prot="public" virt="non-virtual"><scope>cart::migrations::0001_initial::Migration</scope><name>dependencies</name></member>
+      <member refid="classcart_1_1migrations_1_10001__initial_1_1Migration_1aed266a811d0182f270469bb45d6eca47" prot="public" virt="non-virtual"><scope>cart::migrations::0001_initial::Migration</scope><name>initial</name></member>
+      <member refid="classcart_1_1migrations_1_10001__initial_1_1Migration_1aecaa7428eb22558fe89064834723a499" prot="public" virt="non-virtual"><scope>cart::migrations::0001_initial::Migration</scope><name>operations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

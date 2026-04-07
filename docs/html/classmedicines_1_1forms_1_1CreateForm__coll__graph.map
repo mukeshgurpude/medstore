@@ -1,0 +1,9 @@
+<map id="medicines.forms.CreateForm" name="medicines.forms.CreateForm">
+<area shape="rect" id="Node000001" title=" " alt="" coords="73,133,275,239"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,135,71"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,81,139,132,135,135,98,84"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="159,5,189,71"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,71,177,117,171,117,171,71"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="323,5,353,71"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="332,72,324,92,311,111,291,130,287,126,307,108,319,90,327,70"/>
+</map>

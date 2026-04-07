@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_checkout_2views_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/views.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecheckout">checkout</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecheckout_1_1views">checkout.views</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a4e9b0af574e6c10b2e609e51f9cf6ba3">checkout.views.checkout_view</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a763b063257d0d03b88ce5c2658e0aa4c">checkout.views.payment</link> (request, web=True)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1ac6c399a68d475170dacd31240270617b">checkout.views.stripe_conf</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a86cd74449a6dc3e085bab7d073fa5573">checkout.views.create_checkout_session</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a0194495ea7937034bde192baa20714a0">checkout.views.stripe_webhook</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1a91909a8d95c0a79d2597eb1223f7ae5d">checkout.views.success</link> (request)</para>
+</listitem>
+            <listitem><para><link linkend="_namespacecheckout_1_1views_1ae7f34a2f710ca4b342d0ba9545206914">checkout.views.fail</link> (request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

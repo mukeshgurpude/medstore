@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="0002__order__orderdate_8py" kind="file" language="Python">
+    <compoundname>0002_order_orderdate.py</compoundname>
+    <innerclass refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration" prot="public">cart::migrations::0002_order_orderdate::Migration</innerclass>
+    <innernamespace refid="namespacecart">cart</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations">cart::migrations</innernamespace>
+    <innernamespace refid="namespacecart_1_1migrations_1_10002__order__orderdate">cart::migrations::0002_order_orderdate</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacecart_1_1migrations_1_10002__order__orderdate" refkind="compound"><highlight class="comment">#<sp/>Generated<sp/>by<sp/>Django<sp/>3.1<sp/>on<sp/>2020-08-30<sp/>08:31</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/>django.db<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>migrations,<sp/>models</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration" kindref="compound">Migration</ref>(migrations.Migration):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration_1a45a85693eda2b9ebe77473ec84685e42" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>dependencies<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="stringliteral">&apos;cart&apos;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&apos;0001_initial&apos;</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="classcart_1_1migrations_1_10002__order__orderdate_1_1Migration_1a36fc5a7c0d5a72ab4252bb7830abd154" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>operations<sp/>=<sp/>[</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>migrations.AddField(</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>model_name=</highlight><highlight class="stringliteral">&apos;order&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name=</highlight><highlight class="stringliteral">&apos;orderDate&apos;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>field=models.DateTimeField(auto_now=</highlight><highlight class="keyword">True</highlight><highlight class="normal">,<sp/>null=</highlight><highlight class="keyword">True</highlight><highlight class="normal">),</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>),</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>]</highlight></codeline>
+    </programlisting>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/cart/migrations/0002_order_orderdate.py"/>
+  </compounddef>
+</doxygen>

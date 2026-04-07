@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_checkout_2urls_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/urls.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/urls.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecheckout">checkout</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecheckout_1_1urls">checkout.urls</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacecheckout_1_1urls_1a4b407763ff0e9d21009985b4829bc19b">checkout.urls.app_name</link> = &quot;checkout&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacecheckout_1_1urls_1aa20c5ce33aad306ff2960718d3690f15">checkout.urls.urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

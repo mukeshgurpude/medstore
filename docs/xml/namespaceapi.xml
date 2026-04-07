@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceapi" kind="namespace" language="Python">
+    <compoundname>api</compoundname>
+    <innernamespace refid="namespaceapi_1_1apps">api::apps</innernamespace>
+    <innernamespace refid="namespaceapi_1_1decorators">api::decorators</innernamespace>
+    <innernamespace refid="namespaceapi_1_1tests">api::tests</innernamespace>
+    <innernamespace refid="namespaceapi_1_1urls">api::urls</innernamespace>
+    <innernamespace refid="namespaceapi_1_1views">api::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/apps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

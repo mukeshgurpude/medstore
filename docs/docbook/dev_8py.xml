@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dev_8py" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py File Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/medical/dev.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacemedical">medical</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacemedical_1_1dev">medical.dev</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1dev_1a89f7762951912180414f4160b8deb4e4">medical.dev.DEBUG</link> = True</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacemedical_1_1dev_1a78ea4e6302956ba679481bbc6835d77a">medical.dev.ALLOWED_HOSTS</link> = [&quot;*&quot;]</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1dev_1ad866ab101ebac9076ab2c6e25b16a4ed">medical.dev.EMAIL_HOST_USER</link> = &apos;&apos;</para>
+</listitem>
+            <listitem><para>str <link linkend="_namespacemedical_1_1dev_1acdb9dad1d4f6599eefe78052eb364e08">medical.dev.EMAIL_HOST_PASSWORD</link> = &apos;&apos;</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1dev_1a4d197dee6415a26dd6065bcd7b54c08f">medical.dev.CORS_ORIGIN_ALLOW_ALL</link> = True</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespacemedical_1_1dev_1afb26d6cfcb1c07c12d54ada2c0612e15">medical.dev.CORS_ALLOW_CREDENTIALS</link> = True</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_091cfd26a58e4603a5a964d3d2aecae1" xml:lang="en-US">
+<title>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views Directory Reference</title>
+<indexterm><primary>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views Directory Reference</primary></indexterm>
+Directory dependency graph for views:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="dir_091cfd26a58e4603a5a964d3d2aecae1_dep.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_api_2views_2____init_____8py">__init__.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_auth_8py">auth.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_cart_8py">cart.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_checkout_8py">checkout.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_medicine_8py">medicine.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_order_8py">order.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

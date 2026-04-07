@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classapi_1_1views_1_1checkout_1_1APIBillingAddress" xml:lang="en-US">
+<title>api.views.checkout.APIBillingAddress Class Reference</title>
+<indexterm><primary>api.views.checkout.APIBillingAddress</primary></indexterm>
+Inheritance diagram for api.views.checkout.APIBillingAddress:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1checkout_1_1APIBillingAddress__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for api.views.checkout.APIBillingAddress:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1checkout_1_1APIBillingAddress__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>Tuple[Dict[Any, Optional[str]], Any] <link linkend="_classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154">get_address</link> (cls, user)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80">get</link> (self, request)</para>
+</listitem>
+            <listitem><para><link linkend="_classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198">post</link> (self, request)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a211aad638a18bc6937a63af036e67a80"/><section>
+    <title>get()</title>
+<indexterm><primary>get</primary><secondary>api.views.checkout.APIBillingAddress</secondary></indexterm>
+<indexterm><primary>api.views.checkout.APIBillingAddress</primary><secondary>get</secondary></indexterm>
+<para><computeroutput>api.views.checkout.APIBillingAddress.get ( self,  request)</computeroutput></para>
+<para><literallayout><computeroutput>send the billing address details
+
+:param request: Request to get the billing address details
+:type request: HttpRequest
+</computeroutput></literallayout> </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1checkout_1_1APIBillingAddress_a211aad638a18bc6937a63af036e67a80_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a2a14edeb9aac227d9a19099c40fc4154"/><section>
+    <title>get_address()</title>
+<indexterm><primary>get_address</primary><secondary>api.views.checkout.APIBillingAddress</secondary></indexterm>
+<indexterm><primary>api.views.checkout.APIBillingAddress</primary><secondary>get_address</secondary></indexterm>
+<para><computeroutput> Tuple[Dict[Any, Optional[str]], Any] api.views.checkout.APIBillingAddress.get_address ( cls,  user)</computeroutput></para>Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1checkout_1_1APIBillingAddress_a2a14edeb9aac227d9a19099c40fc4154_icgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_classapi_1_1views_1_1checkout_1_1APIBillingAddress_1a8e36be8d0df36f7f441ba84dccef7198"/><section>
+    <title>post()</title>
+<indexterm><primary>post</primary><secondary>api.views.checkout.APIBillingAddress</secondary></indexterm>
+<indexterm><primary>api.views.checkout.APIBillingAddress</primary><secondary>post</secondary></indexterm>
+<para><computeroutput>api.views.checkout.APIBillingAddress.post ( self,  request)</computeroutput></para>
+<para><literallayout><computeroutput>request to modify the bill
+
+:param request: Modify address
+:type request: HttpRequest
+</computeroutput></literallayout> </para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classapi_1_1views_1_1checkout_1_1APIBillingAddress_a8e36be8d0df36f7f441ba84dccef7198_cgraph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/views/<link linkend="_checkout_8py">checkout.py</link></section>
+</section>

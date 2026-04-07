@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_classcheckout_1_1models_1_1BillingAddress" xml:lang="en-US">
+<title>checkout.models.BillingAddress Class Reference</title>
+<indexterm><primary>checkout.models.BillingAddress</primary></indexterm>
+Inheritance diagram for checkout.models.BillingAddress:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1models_1_1BillingAddress__inherit__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+Collaboration diagram for checkout.models.BillingAddress:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="classcheckout_1_1models_1_1BillingAddress__coll__graph.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce">__str__</link> (self)</para>
+</listitem>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe">as_json</link> (self)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Static Public Attributes    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a">user</link> = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)</para>
+</listitem>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e">address</link> = models.CharField(max_length=50, )</para>
+</listitem>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7">pincode</link> = models.PositiveIntegerField()</para>
+</listitem>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80">city</link> = models.CharField(max_length=20)</para>
+</listitem>
+            <listitem><para><link linkend="_classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07">landmark</link> = models.CharField(max_length=30, null=True)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1a97c686ff6a56004b62223d160c0c7bce"/><section>
+    <title>__str__()</title>
+<indexterm><primary>__str__</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>__str__</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.__str__ ( self)</computeroutput></para></section>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe"/><section>
+    <title>as_json()</title>
+<indexterm><primary>as_json</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>as_json</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.as_json ( self)</computeroutput></para></section>
+</section>
+<section>
+<title>Member Data Documentation</title>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1a4e503519be85d0b3ab437c9cf34c4a9e"/><section>
+    <title>address</title>
+<indexterm><primary>address</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>address</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.address = models.CharField(max_length=50, )<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1ab25d4b1252c93587e73767edd53faf80"/><section>
+    <title>city</title>
+<indexterm><primary>city</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>city</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.city = models.CharField(max_length=20)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1a9fbb9e41c4959c0a5f1db7ffd2bf5b07"/><section>
+    <title>landmark</title>
+<indexterm><primary>landmark</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>landmark</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.landmark = models.CharField(max_length=30, null=True)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1a72edd64ff219111ba11c1b532399e1e7"/><section>
+    <title>pincode</title>
+<indexterm><primary>pincode</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>pincode</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.pincode = models.PositiveIntegerField()<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<anchor xml:id="_classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a"/><section>
+    <title>user</title>
+<indexterm><primary>user</primary><secondary>checkout.models.BillingAddress</secondary></indexterm>
+<indexterm><primary>checkout.models.BillingAddress</primary><secondary>user</secondary></indexterm>
+<para><computeroutput>checkout.models.BillingAddress.user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)<computeroutput>[static]</computeroutput></computeroutput></para></section>
+<para>
+The documentation for this class was generated from the following file:</para>
+/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/<link linkend="_checkout_2models_8py">models.py</link></section>
+</section>

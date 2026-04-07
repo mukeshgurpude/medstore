@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecart_1_1migrations" xml:lang="en-US">
+<title>cart.migrations Namespace Reference</title>
+<indexterm><primary>cart.migrations</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1migrations_1_10001__initial">0001_initial</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1migrations_1_10002__order__orderdate">0002_order_orderdate</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1migrations_1_10003__cartitem__purchased">0003_cartitem_purchased</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1migrations_1_10004__cartitem__total">0004_cartitem_total</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1migrations_1_10005__auto__20200831__1340">0005_auto_20200831_1340</link></para>
+</listitem>
+            <listitem><para>namespace <link linkend="_namespacecart_1_1migrations_1_10006__order__postorder">0006_order_postorder</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

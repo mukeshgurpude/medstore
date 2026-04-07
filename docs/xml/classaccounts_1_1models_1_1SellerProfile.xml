@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classaccounts_1_1models_1_1SellerProfile" kind="class" language="Python" prot="public">
+    <compoundname>accounts::models::SellerProfile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">models.Model</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.models.SellerProfile::user</definition>
+        <argsstring></argsstring>
+        <name>user</name>
+        <qualifiedname>accounts.models.SellerProfile.user</qualifiedname>
+        <initializer>=  models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" line="27" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" bodystart="27" bodyend="-1"/>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a73802e57a4f13ea325f5cfd860fe04e6" compoundref="accounts_2models_8py" startline="14" endline="16">accounts.models.UserProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" compoundref="accounts_2models_8py" startline="33" endline="35">accounts.models.SellerProfile.__str__</referencedby>
+        <referencedby refid="classaccounts_1_1models_1_1UserProfile_1a01d31419092ee992eff4cfbc23d8506b" compoundref="accounts_2models_8py" startline="17" endline="25">accounts.models.UserProfile.full_name</referencedby>
+        <referencedby refid="classapi_1_1views_1_1auth_1_1APISignupView_1a5def6e2e1a27685b2afa199e47c7acea" compoundref="auth_8py" startline="182" endline="200">api.views.auth.APISignupView.post</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1ae6af49be2574bb3f223d3a7c79ed63ba" compoundref="test__auth_8py" startline="149" endline="152">api.tests.test_auth.TestSellerViews.setUp</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a77c511142ec09ff1e28c153817e33a71" compoundref="test__cart_8py" startline="64" endline="67">api.tests.test_cart.TestCart.test_add_new_to_cart</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a36c1042bc2fba678d9303a6b26dc056b" compoundref="test__cart_8py" startline="43" endline="63">api.tests.test_cart.TestCart.test_cart_full_update</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a71aae0df54fe6b1370ae763584d4d7f7" compoundref="test__cart_8py" startline="36" endline="42">api.tests.test_cart.TestCart.test_cart_increase</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1ae12aed7b2a1e63d55f9a93e998084d8f" compoundref="test__cart_8py" startline="26" endline="35">api.tests.test_cart.TestCart.test_cart_list</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a809a1d64c4af9a3fed953d3db7b47c09" compoundref="test__auth_8py" startline="43" endline="54">api.tests.test_auth.ProfileTestCase.test_get_user</referencedby>
+        <referencedby refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1a947f1bd8950b16a0d8b2803a92ed0703" compoundref="test__auth_8py" startline="70" endline="89">api.tests.test_auth.ProfileTestCase.test_post_output</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1models_1_1SellerProfile_1affcdefeaa21ea022201b33c287ca823c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.models.SellerProfile::store_name</definition>
+        <argsstring></argsstring>
+        <name>store_name</name>
+        <qualifiedname>accounts.models.SellerProfile.store_name</qualifiedname>
+        <initializer>=  models.CharField(max_length=20, help_text=&quot;Your store name&quot;,
+                                  verbose_name=&quot;Store Name&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" line="28" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1models_1_1SellerProfile_1aed59567742abc68623322b6b5fb16188" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.models.SellerProfile::address</definition>
+        <argsstring></argsstring>
+        <name>address</name>
+        <qualifiedname>accounts.models.SellerProfile.address</qualifiedname>
+        <initializer>=  models.TextField(max_length=40, help_text=&quot;Your store address&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" line="30" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" bodystart="30" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classaccounts_1_1models_1_1SellerProfile_1a7d2e6e6c81ceeeaf65a26556a5a6b35a" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>accounts.models.SellerProfile::pincode</definition>
+        <argsstring></argsstring>
+        <name>pincode</name>
+        <qualifiedname>accounts.models.SellerProfile.pincode</qualifiedname>
+        <initializer>=  models.IntegerField()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" line="31" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" bodystart="31" bodyend="-1"/>
+        <referencedby refid="classcheckout_1_1models_1_1BillingAddress_1a72ee66450b4d06f208bb62fca9b363fe" compoundref="checkout_2models_8py" startline="17" endline="19">checkout.models.BillingAddress.as_json</referencedby>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>accounts.models.SellerProfile.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>accounts.models.SellerProfile.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" line="33" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" bodystart="33" bodyend="35"/>
+        <references refid="classaccounts_1_1models_1_1UserProfile_1aa816d168487d05f0f8597b8993e0ee28" compoundref="accounts_2models_8py" startline="7">accounts.models.UserProfile.user</references>
+        <references refid="classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439" compoundref="accounts_2models_8py" startline="27">accounts.models.SellerProfile.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_1aa1f3fa793da5bfd4db96861b65c67db8" compoundref="test__auth_8py" startline="39">api.tests.test_auth.ProfileTestCase.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1TestLoginLogout_1a2940006371a359edcd94655225be159a" compoundref="test__auth_8py" startline="92">api.tests.test_auth.TestLoginLogout.user</references>
+        <references refid="classapi_1_1tests_1_1test__auth_1_1TestSellerViews_1aa234f44033cc28ab8a256fb9a5db073e" compoundref="test__auth_8py" startline="180">api.tests.test_auth.TestSellerViews.user</references>
+        <references refid="classapi_1_1tests_1_1test__cart_1_1TestCart_1a4b584dd2fa2729f2b73609ab72b02877" compoundref="test__cart_8py" startline="17">api.tests.test_cart.TestCart.user</references>
+        <references refid="classapi_1_1tests_1_1test__medicine_1_1TestMedViews_1a99846d5a24048e86eb268dc4e805fff1" compoundref="test__medicine_8py" startline="24">api.tests.test_medicine.TestMedViews.user</references>
+        <references refid="classapi_1_1views_1_1auth_1_1APISignupView_1a6786b950bfa8b2b56a961dc84d124e0c" compoundref="auth_8py" startline="175">api.views.auth.APISignupView.user</references>
+        <references refid="classapi_1_1views_1_1medicine_1_1APIDetailView_1ad2e4bf09a75526d5a744e554e2e59210" compoundref="medicine_8py" startline="93">api.views.medicine.APIDetailView.user</references>
+        <references refid="classcart_1_1models_1_1CartItem_1ac343675eaa2225ae46f65c0105aa8af1" compoundref="cart_2models_8py" startline="12">cart.models.CartItem.user</references>
+        <references refid="classcart_1_1models_1_1Order_1a289bd0f28892db5ad74d0fc64e95981c" compoundref="cart_2models_8py" startline="32">cart.models.Order.user</references>
+        <references refid="classcheckout_1_1models_1_1BillingAddress_1a8fd24756ce57371aea9ff98f0e07e70a" compoundref="checkout_2models_8py" startline="7">checkout.models.BillingAddress.user</references>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>accounts.models.SellerProfile</label>
+        <link refid="classaccounts_1_1models_1_1SellerProfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models::Model</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>accounts.models.SellerProfile</label>
+        <link refid="classaccounts_1_1models_1_1SellerProfile"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>models::Model</label>
+      </node>
+    </collaborationgraph>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" line="26" column="1" bodyfile="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/accounts/models.py" bodystart="26" bodyend="35"/>
+    <listofallmembers>
+      <member refid="classaccounts_1_1models_1_1SellerProfile_1aeea556860ecb9c9deb633ee50d4b2ad6" prot="public" virt="non-virtual"><scope>accounts::models::SellerProfile</scope><name>__str__</name></member>
+      <member refid="classaccounts_1_1models_1_1SellerProfile_1aed59567742abc68623322b6b5fb16188" prot="public" virt="non-virtual"><scope>accounts::models::SellerProfile</scope><name>address</name></member>
+      <member refid="classaccounts_1_1models_1_1SellerProfile_1a7d2e6e6c81ceeeaf65a26556a5a6b35a" prot="public" virt="non-virtual"><scope>accounts::models::SellerProfile</scope><name>pincode</name></member>
+      <member refid="classaccounts_1_1models_1_1SellerProfile_1affcdefeaa21ea022201b33c287ca823c" prot="public" virt="non-virtual"><scope>accounts::models::SellerProfile</scope><name>store_name</name></member>
+      <member refid="classaccounts_1_1models_1_1SellerProfile_1a3e1801c5dc7c05097708c623a9c6a439" prot="public" virt="non-virtual"><scope>accounts::models::SellerProfile</scope><name>user</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

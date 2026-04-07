@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacecart_1_1urls" xml:lang="en-US">
+<title>cart.urls Namespace Reference</title>
+<indexterm><primary>cart.urls</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>str <link linkend="_namespacecart_1_1urls_1ae6d35656063cdf7fe6bbd94f2f485d15">app_name</link> = &quot;cart&quot;</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespacecart_1_1urls_1a93b0baeb1fa10af912fde6d9f8bab9a1">urlpatterns</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacecart_1_1urls_1ae6d35656063cdf7fe6bbd94f2f485d15"/><section>
+    <title>app_name</title>
+<indexterm><primary>app_name</primary><secondary>cart.urls</secondary></indexterm>
+<indexterm><primary>cart.urls</primary><secondary>app_name</secondary></indexterm>
+<para><computeroutput>str cart.urls.app_name = &quot;cart&quot;</computeroutput></para></section>
+<anchor xml:id="_namespacecart_1_1urls_1a93b0baeb1fa10af912fde6d9f8bab9a1"/><section>
+    <title>urlpatterns</title>
+<indexterm><primary>urlpatterns</primary><secondary>cart.urls</secondary></indexterm>
+<indexterm><primary>cart.urls</primary><secondary>urlpatterns</secondary></indexterm>
+<para><computeroutput>list cart.urls.urlpatterns</computeroutput></para><emphasis role="strong">Initial value:</emphasis><programlisting linenumbering="unnumbered">1 =&#32;&#32;[
+2 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;cart/&quot;</emphasis>,&#32;cartview,&#32;name=<emphasis role="stringliteral">&quot;home&quot;</emphasis>),
+3 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;add/&lt;slug&gt;&quot;</emphasis>,&#32;add_to_cart,&#32;name=<emphasis role="stringliteral">&quot;add&quot;</emphasis>),
+4 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;remove/&lt;slug&gt;&quot;</emphasis>,&#32;remove_from_cart,&#32;name=<emphasis role="stringliteral">&quot;remove&quot;</emphasis>),
+5 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;increase/&lt;slug&gt;&quot;</emphasis>,&#32;views.increase_cart_test,&#32;name=<emphasis role="stringliteral">&quot;increase&quot;</emphasis>),
+6 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;decrease/&lt;slug&gt;&quot;</emphasis>,&#32;views.decrease_cart_test,&#32;name=<emphasis role="stringliteral">&quot;decrease&quot;</emphasis>),
+7 &#32;&#32;&#32;&#32;path(<emphasis role="stringliteral">&quot;orders/&quot;</emphasis>,&#32;views.order_view,&#32;name=<emphasis role="stringliteral">&quot;my_orders&quot;</emphasis>)
+8 ]
+</programlisting></section>
+</section>
+</section>

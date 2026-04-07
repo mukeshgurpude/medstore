@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<!-- BEGIN opengraph metadata -->
+<meta property="og:title" content="Doxygen Awesome" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta property="og:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<meta property="og:url" content="https://jothepro.github.io/doxygen-awesome-css/" />
+<!-- END opengraph metadata -->
+<!-- BEGIN twitter metadata -->
+<meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/348492097/4f16df80-88fb-11eb-9d31-4015ff22c452" />
+<meta name="twitter:title" content="Doxygen Awesome" />
+<meta name="twitter:description" content="Custom CSS theme for doxygen html-documentation with lots of customization parameters." />
+<!-- END twitter metadata -->
+<title>medstore: api.tests.test_auth.ProfileTestCase Class Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<link rel="icon" type="image/svg+xml" href="logo.drawio.svg"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="doxygen-awesome-darkmode-toggle.js"></script>
+<script type="text/javascript" src="doxygen-awesome-fragment-copy-button.js"></script>
+<script type="text/javascript" src="doxygen-awesome-paragraph-link.js"></script>
+<script type="text/javascript" src="doxygen-awesome-interactive-toc.js"></script>
+<script type="text/javascript" src="doxygen-awesome-tabs.js"></script>
+<script type="text/javascript" src="toggle-alternative-theme.js"></script>
+<script type="text/javascript">
+    DoxygenAwesomeFragmentCopyButton.init()
+    DoxygenAwesomeDarkModeToggle.init()
+    DoxygenAwesomeParagraphLink.init()
+    DoxygenAwesomeInteractiveToc.init()
+    DoxygenAwesomeTabs.init()
+</script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
+<link href="doxygen-awesome-sidebar-only-darkmode-toggle.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<!-- https://tholman.com/github-corners/ -->
+<a href="https://github.com/jothepro/doxygen-awesome-css" class="github-corner" title="View source on GitHub" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 250 250" width="40" height="40" style="position: absolute; top: 0; border: 0; right: 0; z-index: 99;" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">medstore
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part --><!-- Generated by Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Search');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('classapi_1_1tests_1_1test__auth_1_1ProfileTestCase.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Loading...</div>
+<div class="SRStatus" id="Searching">Searching...</div>
+<div class="SRStatus" id="NoMatches">No Matches</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase-members.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">api.tests.test_auth.ProfileTestCase Class Reference</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Inheritance diagram for api.tests.test_auth.ProfileTestCase:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase__inherit__graph.svg" width="191" height="344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Collaboration diagram for api.tests.test_auth.ProfileTestCase:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase__coll__graph.svg" width="191" height="344"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:adf535cae078dbbd897b863a5b1a23ad3" id="r_adf535cae078dbbd897b863a5b1a23ad3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf535cae078dbbd897b863a5b1a23ad3">__init__</a> (self, *args, **kwargs)</td></tr>
+<tr class="separator:adf535cae078dbbd897b863a5b1a23ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a316293bd13b94fb94c1596702c4b7584" id="r_a316293bd13b94fb94c1596702c4b7584"><td class="memItemLeft" align="right" valign="top">None&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a316293bd13b94fb94c1596702c4b7584">setUp</a> (self)</td></tr>
+<tr class="separator:a316293bd13b94fb94c1596702c4b7584"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a809a1d64c4af9a3fed953d3db7b47c09" id="r_a809a1d64c4af9a3fed953d3db7b47c09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a809a1d64c4af9a3fed953d3db7b47c09">test_get_user</a> (self)</td></tr>
+<tr class="separator:a809a1d64c4af9a3fed953d3db7b47c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711dcae02e93bff28caec1a3d7d10b55" id="r_a711dcae02e93bff28caec1a3d7d10b55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a711dcae02e93bff28caec1a3d7d10b55">test_get_output</a> (self)</td></tr>
+<tr class="separator:a711dcae02e93bff28caec1a3d7d10b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947f1bd8950b16a0d8b2803a92ed0703" id="r_a947f1bd8950b16a0d8b2803a92ed0703"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a947f1bd8950b16a0d8b2803a92ed0703">test_post_output</a> (self)</td></tr>
+<tr class="separator:a947f1bd8950b16a0d8b2803a92ed0703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aea8f091fb8f0336d547f7fb4d3b8da13" id="r_aea8f091fb8f0336d547f7fb4d3b8da13"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea8f091fb8f0336d547f7fb4d3b8da13">failureException</a></td></tr>
+<tr class="separator:aea8f091fb8f0336d547f7fb4d3b8da13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc1be88c7733a72f9e7df4acec0b21f9" id="r_acc1be88c7733a72f9e7df4acec0b21f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acc1be88c7733a72f9e7df4acec0b21f9">longMessage</a></td></tr>
+<tr class="separator:acc1be88c7733a72f9e7df4acec0b21f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1440e9c26c304f73ef759713f420fac" id="r_af1440e9c26c304f73ef759713f420fac"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af1440e9c26c304f73ef759713f420fac">res</a></td></tr>
+<tr class="separator:af1440e9c26c304f73ef759713f420fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f3fa793da5bfd4db96861b65c67db8" id="r_aa1f3fa793da5bfd4db96861b65c67db8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1f3fa793da5bfd4db96861b65c67db8">user</a></td></tr>
+<tr class="separator:aa1f3fa793da5bfd4db96861b65c67db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="adf535cae078dbbd897b863a5b1a23ad3" name="adf535cae078dbbd897b863a5b1a23ad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf535cae078dbbd897b863a5b1a23ad3">&#9670;&#160;</a></span>__init__()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.__init__ </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">*</td>          <td class="paramname"><span class="paramname"><em>args</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">**</td>          <td class="paramname"><span class="paramname"><em>kwargs</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_adf535cae078dbbd897b863a5b1a23ad3_cgraph.svg" width="199" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><iframe scrolling="no" frameborder="0" src="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase_adf535cae078dbbd897b863a5b1a23ad3_icgraph.svg" width="199" height="75"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a316293bd13b94fb94c1596702c4b7584" name="a316293bd13b94fb94c1596702c4b7584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a316293bd13b94fb94c1596702c4b7584">&#9670;&#160;</a></span>setUp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> None api.tests.test_auth.ProfileTestCase.setUp </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">    Setup the test user, and log in with the test user to access the profile page
+</pre> 
+</div>
+</div>
+<a id="a711dcae02e93bff28caec1a3d7d10b55" name="a711dcae02e93bff28caec1a3d7d10b55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a711dcae02e93bff28caec1a3d7d10b55">&#9670;&#160;</a></span>test_get_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.test_get_output </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">    Tests if the GET requests to profile are working and also returning the correct response
+</pre> 
+</div>
+</div>
+<a id="a809a1d64c4af9a3fed953d3db7b47c09" name="a809a1d64c4af9a3fed953d3db7b47c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a809a1d64c4af9a3fed953d3db7b47c09">&#9670;&#160;</a></span>test_get_user()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.test_get_user </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">tests if logged in user is returned
+</pre> 
+</div>
+</div>
+<a id="a947f1bd8950b16a0d8b2803a92ed0703" name="a947f1bd8950b16a0d8b2803a92ed0703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a947f1bd8950b16a0d8b2803a92ed0703">&#9670;&#160;</a></span>test_post_output()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.test_post_output </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Tests if the POST requests to profile are working and also returning the correct response
+</pre> 
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aea8f091fb8f0336d547f7fb4d3b8da13" name="aea8f091fb8f0336d547f7fb4d3b8da13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea8f091fb8f0336d547f7fb4d3b8da13">&#9670;&#160;</a></span>failureException</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.failureException</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acc1be88c7733a72f9e7df4acec0b21f9" name="acc1be88c7733a72f9e7df4acec0b21f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc1be88c7733a72f9e7df4acec0b21f9">&#9670;&#160;</a></span>longMessage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.longMessage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af1440e9c26c304f73ef759713f420fac" name="af1440e9c26c304f73ef759713f420fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1440e9c26c304f73ef759713f420fac">&#9670;&#160;</a></span>res</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.res</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1f3fa793da5bfd4db96861b65c67db8" name="aa1f3fa793da5bfd4db96861b65c67db8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f3fa793da5bfd4db96861b65c67db8">&#9670;&#160;</a></span>user</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">api.tests.test_auth.ProfileTestCase.user</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/api/tests/<a class="el" href="test__auth_8py.html">test_auth.py</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- HTML footer for doxygen 1.10.0-->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespaceapi.html">api</a></li><li class="navelem"><a class="el" href="namespaceapi_1_1tests.html">tests</a></li><li class="navelem"><a class="el" href="namespaceapi_1_1tests_1_1test__auth.html">test_auth</a></li><li class="navelem"><a class="el" href="classapi_1_1tests_1_1test__auth_1_1ProfileTestCase.html">ProfileTestCase</a></li>
+    <li class="footer">Generated by <a href="https://penify.dev/"><img class="footer" src="https://www.penify.dev/_next/static/media/snorkell-dark-logo.9fa414f5.svg" width="104" height="31" alt="doxygen"/></a> </li>
+  </ul>
+</div>
+</body>
+</html>

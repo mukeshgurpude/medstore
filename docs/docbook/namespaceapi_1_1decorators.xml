@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespaceapi_1_1decorators" xml:lang="en-US">
+<title>api.decorators Namespace Reference</title>
+<indexterm><primary>api.decorators</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>func <link linkend="_namespaceapi_1_1decorators_1a5b660d5c1d4201518c45dd925a857674">check_response</link> (path=&quot;/&quot;, login_required=True, method=&quot;GET&quot;, post_data=None)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespaceapi_1_1decorators_1a5b660d5c1d4201518c45dd925a857674"/><section>
+    <title>check_response()</title>
+<indexterm><primary>check_response</primary><secondary>api.decorators</secondary></indexterm>
+<indexterm><primary>api.decorators</primary><secondary>check_response</secondary></indexterm>
+<para><computeroutput> func api.decorators.check_response ( path = <computeroutput>&quot;/&quot;</computeroutput>
+,  login_required = <computeroutput>True</computeroutput>
+,  method = <computeroutput>&quot;GET&quot;</computeroutput>
+,  post_data = <computeroutput>None</computeroutput>
+)</computeroutput></para>
+<para><literallayout><computeroutput>Checks if response is returned and is json
+
+:param path: URL path to the destination
+:type path: str
+
+:param login_required: Specifies if login is required for the data
+:type login_required: bool
+
+:param method: HTTP method to check for the given url
+:type method: str
+
+:param post_data: Data for the POST request if the method is POST
+:type post_data: dict
+
+:rtype: func
+</computeroutput></literallayout> </para>
+</section>
+</section>
+</section>

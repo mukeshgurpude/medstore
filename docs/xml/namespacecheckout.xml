@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecheckout" kind="namespace" language="Python">
+    <compoundname>checkout</compoundname>
+    <innernamespace refid="namespacecheckout_1_1apps">checkout::apps</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1forms">checkout::forms</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1migrations">checkout::migrations</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1models">checkout::models</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1tests">checkout::tests</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1urls">checkout::urls</innernamespace>
+    <innernamespace refid="namespacecheckout_1_1views">checkout::views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/tmp/github_repos_arch_doc_gen/mukeshgurpude/medstore/checkout/apps.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>
